@@ -1,0 +1,10 @@
+
+@function vw($value) {
+	$result: $value * 100 / 1440;
+	@return $result * 1vw;
+}
+
+@function spvw($value) {
+	$result: $value * 100 / 375;
+	@return $result * 1vw;
+}

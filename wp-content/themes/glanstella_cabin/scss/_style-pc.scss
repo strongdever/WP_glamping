@@ -1,0 +1,942 @@
+/*****************************************
+ * SPのみのコンテンツ非表示
+ *****************************************/
+.sp {
+    display: none !important;
+}
+
+
+/*****************************************
+ * コンテンツ領域
+ *****************************************/
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .content {
+        width: 1140px;
+    }
+    .content-wide {
+        width: 1280px;
+    }
+    .content-full {
+        width: 100%;
+    }
+}
+
+
+
+/*****************************************
+ * ボタン設定
+ *****************************************/
+.button-arrow {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 148px;
+    height: 42px;
+    padding-left: 20px;
+    font-size: 20px;
+
+    &:after {
+        position: absolute;
+        right: 22px;
+        width: 40px;
+        height: 10px;
+    }
+}
+.button-gmap {
+    width: 168px;
+    padding: 0;
+}
+.button-book {
+    width: 228px;
+    height: 62px;
+    font-family: var(--font-serif);
+    font-size: 18px;
+    color: var(--color-white);
+    background-color: var(--color-button-book_bg);
+    transition: color 1.0s, background-color 1.0s;
+
+    &:hover {
+        color: var(--color-button-book_bg);
+        background-color: var(--color-white);
+    }
+}
+
+
+/*****************************************
+ * イメージピッカー設定
+ *****************************************/
+ .image-picker {
+    img {
+        cursor: pointer;
+    }
+}
+
+
+/*****************************************
+ * lightbox設定
+ *****************************************/
+#lightbox {
+    width: 100vw;
+    height: 100vh;
+
+    img {
+        width: 700px;
+        height: 700px;
+    }
+}
+
+
+/*****************************************
+ * ヘッダー領域
+ *****************************************/
+#site-header-pc {
+    position: fixed;
+    z-index: 100;
+    margin: 0 auto;
+    top: 0;
+    width: 100%;
+    height: 64px;
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        transition: opacity 1.0s;
+        background-color: var(--color-header_bg);
+        opacity: 1.0;
+    }
+    .content-wrapper {
+        position: relative;
+
+        .content-wide {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+
+            h1 {
+                margin: 0;
+            }
+            #site-navigation-pc {
+                display: flex;
+                align-items: center;
+
+                a {
+                    color: var(--color-black);
+                    font-family: var(--font-tallys);
+                    font-size: 18px;
+
+                    &:not(:last-child) {
+                        margin-right: 20px;
+                    }
+                    &.instagram {
+                        margin-left: 20px;
+                        color: var(--color-instagram);
+                        font-size: 20px;
+                    }
+                    &#button-book-pc {
+                        display: inline-flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 180px;
+                        height: 46px;
+                        font-family: var(--font-tallys);
+                        font-size: 18px;
+                        color: var(--color-white);
+                        background-color: var(--color-button-book_bg);
+                        transition: color 1.0s, background-color 1.0s;
+
+                        &:hover {
+                            color: var(--color-button-book_bg);
+                            background-color: var(--color-white);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * フッター領域
+ *****************************************/
+#site-footer {
+    padding: 30px 0 20px;
+    width: 100%;
+    height: 480px;
+
+    .content-wide {
+        .logo {
+            margin-bottom: 50px;
+            width: 160px;
+            height: auto;
+        }
+        .info {
+            margin-bottom: 50px;
+
+            .address,
+            .email,
+            .instagram {
+                font-size: 12px;
+                line-height: 2;
+
+                a {
+                    font-size: 12px;
+                    line-height: 2;
+                }
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .menu {
+            margin-bottom: 100px;
+
+            a {
+                padding: 0 10px;
+                font-size: 14px;
+
+                &:not(:last-child) {
+                    border-right: 1px solid var(--color-footer_fg);
+                }
+            }
+        }
+        .copyright {
+            font-size: 12px;
+        }
+    }
+}
+
+
+/*****************************************
+ * coming soonページ
+ *****************************************/
+#page-coming-soon {
+    font-size: 27px;
+}
+
+
+/*****************************************
+ * フロントページ
+ *****************************************/
+#front-page {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+        .background {
+            left: 0;
+            top: 0;
+        }
+        .foreground {
+            left: 0;
+            top: 0;
+            width: 1140px;
+            height: 600px;
+
+            .text1 {
+                top: 170px;
+                font-size: 18px;
+            }
+            .text2 {
+                top: 500px;
+                font-size: 12px;
+            }
+            .scroll_bar1 {
+                left: 50%;
+                bottom: 0;
+                width: 0px;
+                height: 70px;
+            }
+        }
+        .scroll_bar2 {
+            margin: 0 auto 40px;
+            height: 90px;
+        }
+        .logo {
+            margin: 0 auto 40px;
+        }
+        .text3 {
+            margin: 0 auto 50px;
+            font-size: 13px;
+        }
+        .photos {
+            margin-bottom: 90px;
+
+            img {
+                margin: 10px;
+                height: 240px;
+            }
+        }
+    }
+    #section2 {
+        .text1 {
+            margin-top: 50px;
+            margin-bottom: 40px;
+            font-size: 30px;
+        }
+        .text2 {
+            margin-bottom: 40px;
+            font-size: 13px;
+        }
+        .photos {
+            margin-bottom: 115px;
+
+            img {
+                margin: 8px;
+                height: 300px;
+            }
+        }
+    }
+    #section3 {
+        .text1 {
+            margin-top: 120px;
+            margin-bottom: 45px;
+            font-size: 30px;
+        }
+        .activities {
+            margin-bottom: 120px;
+            justify-content: center;
+
+            .activity {
+                position: relative;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                img {
+                    margin-bottom: 20px;
+                    height: 360px;
+                }
+                .text2 {
+                    margin-bottom: 10px;
+                    width: 360px;
+
+                    .text2-1 {
+                        font-size: 22px;
+                    }
+                    .text2-2 {
+                        font-size: 10px;
+                    }
+                }
+                .text3 {
+                    margin-bottom: 20px;
+                    font-size: 12px;
+                }
+                .button {
+                    position: absolute;
+                    bottom: -40px;
+                }
+            }
+        }
+    }
+    #section4 {
+        background-color: var(--color-main3_bg);
+
+        .properties {
+            margin-top: 120px;
+            margin-bottom: 120px;
+
+            .property {
+                &:not(:last-child) {
+                    margin-bottom: 180px;
+                }
+                &:nth-child(2n) {
+                    flex-direction: row-reverse;
+                }
+                .texts {
+                    width: 400px;
+
+                    .text1 {
+                        margin-top: 20px;
+                        margin-bottom: 40px;
+                        font-size: 22px;
+                    }
+                    .text2 {
+                        margin-bottom: 40px;
+                        font-size: 12px;
+                    }
+                }
+                .photos {
+                    .pickup {
+                        margin-bottom: 20px;
+
+                        img {
+                            width: 320px;
+                            height: 320px;
+
+                            &:not(:last-child) {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .thumbnails {
+                        img {
+                            width: 60px;
+                            height: 60px;
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section5 {
+        #access {
+            top: -100px;
+        }
+        .place {
+            margin-top: 120px;
+            margin-bottom: 180px;
+            display: flex;
+            justify-content: space-between;
+
+            .photos {
+                img {
+                    width: 640px;
+                    height: 300px;
+                }
+            }
+            .texts {
+                width: 420px;
+
+                .text1 {
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-size: 24px;
+                }
+                .text2 {
+                    margin-bottom: 40px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * Activityページ
+ *****************************************/
+#page-activity {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+
+        .background {
+        }
+        .foreground {
+            width: 1140px;
+            height: 300px;
+
+            .text {
+                font-size: 72px;
+            }
+        }
+    }
+    #section2 {
+        .text1 {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            font-size: 27px;
+        }
+        .text2 {
+            margin: 0 auto 120px;
+            width: fit-content;
+            max-width: 560px;
+            font-size: 13px;
+        }
+    }
+    #section3,
+    #section4,
+    #section5 {
+        #sports,
+        #amusement,
+        #spa {
+            top: -100px;
+        }
+        .activities {
+            .activity {
+                margin-bottom: 120px;
+                display: flex;
+                justify-content: space-between;
+
+                .photos {
+                    .pickup {
+                        margin-bottom: 20px;
+
+                        img {
+                            width: 320px;
+                            height: 320px;
+
+                            &:not(:last-child) {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .thumbnails {
+                        img {
+                            width: 60px;
+                            height: 60px;
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .texts {
+                    width: 400px;
+
+                    .text1 {
+                        margin-bottom: 20px;
+                        display: flex;
+                        align-items: baseline;
+
+                        .text1-1 {
+                            font-size: 22px;
+                        }
+                        .text1-2 {
+                            font-size: 10px;
+                        }
+                    }
+                    .text2 {
+                        margin-bottom: 20px;
+                        font-size: 12px;
+
+                        .text2-1 {
+                        }
+                        .text2-2 {
+
+                        }
+                        .text2-3 {
+
+                        }
+                        .text2-4 {
+                            a {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * Roomページ
+ *****************************************/
+#page-room {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+        .background {
+        }
+        .foreground {
+            width: 1140px;
+            height: 300px;
+
+            .text {
+                font-size: 72px;
+            }
+        }
+    }
+    #section2 {
+        .text1 {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            font-size: 27px;
+        }
+        .text2 {
+            margin: 0 auto 120px;
+            width: fit-content;
+            max-width: 560px;
+            font-size: 13px;
+        }
+    }
+    .section-room {
+        .rooms {
+            margin-bottom: 120px;
+
+            .room {
+                display: flex;
+                justify-content: space-between;
+
+                .photos {
+                    .pickup {
+                        margin-bottom: 20px;
+
+                        img {
+                            width: 320px;
+                            height: 320px;
+
+                            &:not(:last-child) {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .thumbnails {
+                        img {
+                            width: 60px;
+                            height: 60px;
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .texts {
+                    width: 400px;
+
+                    .text1 {
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+
+                        .text1-1 {
+                            font-size: 14px;
+                        }
+                        .text1-2 {
+                            font-size: 18px;
+                        }
+                    }
+                    .text2 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+                    .text3 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+
+                        a {
+                            text-decoration: underline;
+                        }
+                    }
+                    .text4 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+
+                        a {
+                            text-decoration: underline;
+                        }
+                    }
+                    .text5 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+
+                        a {
+                            text-decoration: underline;
+                        }
+                    }
+                    .button-book {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * FAQページ
+ *****************************************/
+#archive-faq {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+        margin-bottom: 90px;
+
+        .background {
+        }
+        .foreground {
+            width: 1140px;
+            height: 300px;
+
+            .text {
+                font-size: 72px;
+            }
+        }
+    }
+    #section2 .content {
+        display: flex;
+        justify-content: center;
+
+        .section-categories {
+            width: 200px;
+
+            .category {
+                font-size: 12px;
+                line-height: 2;
+
+                a {
+                    font-size: 12px;
+                    line-height: 2;
+                }
+            }
+        }
+        .section-faq {
+            margin-bottom: 120px;
+            width: 680px;
+
+            .faq {
+                padding: 20px 18px;
+
+                .question {
+                    position: relative;
+                    font-size: 12px;
+                    font-weight: bold;
+                    line-height: 1.6;
+                    padding-right: 40px;
+
+                    &::after {
+                        font-size: 20px;
+                    }
+                }
+                .answer {
+                    font-size: 12px;
+                    line-height: 2;
+                    text-align: justify;
+                    padding-right: 40px;
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * Foodページ
+ *****************************************/
+#page-food {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+        .background {
+        }
+        .foreground {
+            width: 1140px;
+            height: 300px;
+
+            .text {
+                font-size: 72px;
+            }
+        }
+    }
+    #section2 {
+        .text1 {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            font-size: 27px;
+        }
+        .text2 {
+            margin: 0 auto 120px;
+            width: fit-content;
+            max-width: 560px;
+            font-size: 13px;
+        }
+    }
+    .section-food {
+        .foods {
+            margin-bottom: 120px;
+
+            .food {
+                display: flex;
+                justify-content: space-between;
+
+                .photos {
+                    .pickup {
+                        margin-bottom: 20px;
+
+                        img {
+                            width: 320px;
+                            height: 320px;
+
+                            &:not(:last-child) {
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .thumbnails {
+                        img {
+                            width: 60px;
+                            height: 60px;
+
+                            &:not(:last-child) {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+                .texts {
+                    width: 400px;
+
+                    .text1 {
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+
+                        .text1-1 {
+                            font-size: 14px;
+                        }
+                        .text1-2 {
+                            font-size: 18px;
+                        }
+                    }
+                    .text2 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+                    .text3 {
+                        margin-bottom: 15px;
+                        font-size: 12px;
+                    }
+                    .text4 {
+                        font-size: 12px;
+                    }
+                    .button-book {
+                        position: absolute;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*****************************************
+ * Galleryページ
+ *****************************************/
+#page-gallery {
+    margin-top: 64px;
+    padding-top: 40px;
+
+    .first-view {
+        .background {
+        }
+        .foreground {
+            width: 1140px;
+            height: 300px;
+
+            .text {
+                font-size: 72px;
+            }
+        }
+    }
+    #section2 {
+        .text1 {
+            margin-top: 80px;
+            margin-bottom: 50px;
+            font-size: 27px;
+        }
+        .text2 {
+            margin: 0 auto 80px;
+            width: fit-content;
+            max-width: 560px;
+            font-size: 13px;
+        }
+    }
+    #section3 {
+        margin-bottom: 30px;
+
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .buttonTile, .buttonSingle {
+            margin: 0 5px;
+            padding: 4px;
+            background-color: transparent;
+        }
+        .gridTile, .gridSingle {
+            display: grid;
+            width: 28px;
+            height: 28px;
+        }
+        .gridTile {
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1px;
+        }
+        .gridSingle {
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr;
+        }
+        .grid-item {
+        }
+    }
+    .galleries {
+        .gallery {
+            height: 1500px;
+            width: 100%;
+            flex-wrap: wrap;
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+
+            img {
+                width: 100%;
+                height: 100%;
+
+                &:nth-child(1) {
+                    grid-column: 1 / 2;
+                    grid-row: 1 / 4;
+                }
+                &:nth-child(4) {
+                    grid-column: 1 / 2;
+                    grid-row: 4 / 7;
+                }
+                &:nth-child(7) {
+                    grid-column: 1 / 2;
+                    grid-row: 7 / 11;
+                }
+
+                &:nth-child(2) {
+                    grid-column: 2 / 3;
+                    grid-row: 1 / 3;
+                }
+                &:nth-child(5) {
+                    grid-column: 2 / 3;
+                    grid-row: 3 / 6;
+                }
+                &:nth-child(8) {
+                    grid-column: 2 / 3;
+                    grid-row: 6 / 9;
+                }
+                &:nth-child(9) {
+                    grid-column: 2 / 3;
+                    grid-row: 9 / 11;
+                }
+
+                &:nth-child(3) {
+                    grid-column: 3 / 4;
+                    grid-row: 1 / 5;
+                }
+                &:nth-child(6) {
+                    grid-column: 3 / 4;
+                    grid-row: 5 / 7;
+                }
+                &:nth-child(10) {
+                    grid-column: 3 / 4;
+                    grid-row: 7 / 11;
+                }
+            }
+        }
+    }
+    #sectionGalleryController {
+        margin-bottom: 240px;
+    }
+}

@@ -1,0 +1,2273 @@
+# Translation of Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-22 15:41:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release)\n"
+
+#: includes/helpers.php:1971
+msgid "Samoa"
+msgstr "サモア"
+
+#: includes/admin/routes.php:1192
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: includes/admin/notifications/notification-to-setup-affiliate-links.php:48
+msgid "Read More"
+msgstr "続きを読む"
+
+#: includes/helpers.php:1968
+msgid "St Lucia"
+msgstr "セントルシア"
+
+#: languages/vue.php:2203
+msgid "Icon"
+msgstr "アイコン"
+
+#: languages/vue.php:2910
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: languages/vue.php:2916
+msgid "Copy Shortcode"
+msgstr "ショートコードをコピー"
+
+#: languages/vue.php:2188
+msgid "Size"
+msgstr "サイズ"
+
+#: languages/vue.php:2067
+msgid "Custom"
+msgstr "カスタム"
+
+#: languages/vue.php:2185
+msgid "Color"
+msgstr "色"
+
+#: languages/vue.php:2079
+msgid "Close"
+msgstr "閉じる"
+
+#: languages/vue.php:2191
+msgid "Title"
+msgstr "タイトル"
+
+#: languages/vue.php:3107
+msgid "Comments"
+msgstr "コメント"
+
+#: languages/vue.php:2200
+msgid "Border"
+msgstr "枠線"
+
+#: languages/vue.php:2197
+msgid "Background"
+msgstr "背景"
+
+#: languages/vue.php:2194
+msgid "Label"
+msgstr "ラベル"
+
+#: languages/vue.php:3048
+msgid "Narrow"
+msgstr "幅狭"
+
+#: languages/vue.php:3045
+msgid "Wide"
+msgstr "幅広"
+
+#: languages/gutenberg.php:74
+msgid "Theme"
+msgstr "テーマ"
+
+#: languages/vue.php:420
+msgid "Inbox"
+msgstr "受信箱"
+
+#: languages/gutenberg.php:10
+msgid "Posts"
+msgstr "投稿"
+
+#: languages/vue.php:1288
+msgid "Insert After"
+msgstr "後に挿入"
+
+#: languages/gutenberg.php:57
+msgid "Background Color"
+msgstr "背景色"
+
+#: languages/gutenberg.php:140 languages/vue.php:3101
+msgid "Display Date"
+msgstr "日付を表示"
+
+#: languages/gutenberg.php:110
+msgid "Choose Layout"
+msgstr "レイアウトオプションを選択"
+
+#: languages/gutenberg.php:53
+msgid "Border Settings"
+msgstr "枠線設定"
+
+#: languages/gutenberg.php:122 languages/vue.php:3092
+msgid "Display Options"
+msgstr "表示オプション"
+
+#: languages/gutenberg.php:49
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: languages/gutenberg.php:137 languages/vue.php:3098
+msgid "Display Author"
+msgstr "投稿者を表示"
+
+#: languages/gutenberg.php:143 languages/vue.php:3104
+msgid "Display Comments"
+msgstr "コメントを表示"
+
+#: languages/gutenberg.php:64
+msgid "Icon Color"
+msgstr "アイコンの色"
+
+#: languages/gutenberg.php:33
+msgid "Label Color"
+msgstr "ラベルの色"
+
+#: languages/gutenberg.php:6
+msgid "Popular"
+msgstr "人気"
+
+#: includes/admin/admin.php:51 languages/gutenberg.php:83 languages/vue.php:670
+msgid "Popular Posts"
+msgstr "人気の投稿"
+
+#: languages/vue.php:1091
+msgid "Sort By"
+msgstr "並び替え"
+
+#: languages/gutenberg.php:131 languages/vue.php:1100
+msgid "Widget Title"
+msgstr "ウィジェット名"
+
+#: languages/gutenberg.php:89
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: languages/vue.php:1282
+msgid "Placement"
+msgstr "配置"
+
+#: languages/gutenberg.php:21
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:886
+msgid "and"
+msgstr "と"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:892
+msgid "at"
+msgstr "@"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:859
+msgid "download"
+msgstr "ダウンロード"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:965
+msgid "here"
+msgstr "こちら"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:899
+msgid "in"
+msgstr "in (インチ)"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:1015
+msgid "more"
+msgstr "詳細"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:920
+msgid "of"
+msgstr "/"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:990
+msgid "photos"
+msgstr "写真"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:700
+msgid "professional"
+msgstr "仕事関係"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:934
+msgid "the"
+msgstr "the"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:917
+msgid "to"
+msgstr "to"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:574
+msgid "to the"
+msgstr "to the"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:851
+msgid "value"
+msgstr "値"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:975
+msgid "video"
+msgstr "動画"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:999
+msgid "year"
+msgstr "年"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:1003
+msgid "years"
+msgstr "年"
+
+#: includes/admin/licensing/autoupdate.php:64
+msgid "Manage auto-updates"
+msgstr "自動更新を管理"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:898
+msgid "by"
+msgstr "by"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:757
+msgid "approved"
+msgstr "承認済み"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:274
+msgid "List"
+msgstr "リスト"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:229
+msgid "Perfect"
+msgstr "最高"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:311
+msgid "Question"
+msgstr "問題"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:285
+#: includes/gutenberg/headline-tool/headline-tool.php:302
+#: includes/gutenberg/headline-tool/headline-tool.php:883
+msgid "has"
+msgstr "含む"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:269
+msgid "thousand"
+msgstr "千"
+
+#: languages/gutenberg.php:317
+msgid "Word Count"
+msgstr "単語数"
+
+#: languages/gutenberg.php:248
+msgid "Neutral"
+msgstr "普通"
+
+#: languages/gutenberg.php:198
+msgid "Good"
+msgstr "良好"
+
+#: languages/vue.php:234
+msgid "Last 7 days"
+msgstr "過去1週間"
+
+#: languages/vue.php:222
+msgid "Today"
+msgstr "今日"
+
+#: languages/gutenberg.php:149 languages/vue.php:225
+#: lite/includes/admin/metaboxes.php:51
+msgid "Yesterday"
+msgstr "昨日"
+
+#: languages/vue.php:228
+msgid "Last Week"
+msgstr "先週"
+
+#: languages/vue.php:8
+msgid "2"
+msgstr "2"
+
+#: languages/vue.php:1519
+msgid "install"
+msgstr "インストール"
+
+#: languages/vue.php:1515
+msgid "activate"
+msgstr "有効化"
+
+#. Translators: Number of visitors.
+#: languages/vue.php:2854
+msgid "%s Visitors"
+msgstr "%s人の訪問者"
+
+#: languages/vue.php:2791
+msgid "July"
+msgstr "7月"
+
+#: languages/vue.php:2788
+msgid "June"
+msgstr "6月"
+
+#: languages/vue.php:2785
+msgid "May"
+msgstr "5月"
+
+#: languages/vue.php:2806
+msgid "December"
+msgstr "12月"
+
+#: languages/vue.php:2803
+msgid "November"
+msgstr "11月"
+
+#: languages/vue.php:2800
+msgid "October"
+msgstr "10月"
+
+#: languages/vue.php:2797
+msgid "September"
+msgstr "9月"
+
+#: languages/vue.php:2794
+msgid "August"
+msgstr "8月"
+
+#: languages/vue.php:2782
+msgid "April"
+msgstr "4月"
+
+#: languages/vue.php:2779
+msgid "March"
+msgstr "3月"
+
+#: languages/vue.php:2776
+msgid "February"
+msgstr "2月"
+
+#: languages/vue.php:2773
+msgid "January"
+msgstr "1月"
+
+#: languages/vue.php:2746
+msgid "Facebook Group"
+msgstr "Facebook グループ"
+
+#: languages/vue.php:2659
+msgid "Female"
+msgstr "女性"
+
+#: languages/vue.php:2656
+msgid "Gender"
+msgstr "性別"
+
+#: languages/vue.php:2665
+msgid "Male"
+msgstr "男性"
+
+#: languages/vue.php:2680
+msgid "minutes"
+msgstr "分"
+
+#: languages/vue.php:2617
+msgid "Back to Overview Report"
+msgstr "概要レポートへ戻る"
+
+#: languages/vue.php:1505
+msgid "Dismiss"
+msgstr "非表示"
+
+#: languages/vue.php:1508
+msgid "Redirecting"
+msgstr "リダイレクト中"
+
+#: languages/vue.php:2237
+msgid "Yes, hide it!"
+msgstr "はい、非表示にします。"
+
+#: languages/vue.php:1908
+msgid "Easy Digital Downloads"
+msgstr "Easy Digital Downloads"
+
+#: languages/vue.php:1905
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: languages/vue.php:406
+msgid "Congratulations!"
+msgstr "おめでとうございます !"
+
+#: languages/vue.php:1854
+msgid "Testimonials"
+msgstr "推薦文"
+
+#: languages/vue.php:1851
+msgid "per year"
+msgstr "1年あたり"
+
+#. translators: Category archive title. %s: Category name
+#: includes/helpers.php:1218
+msgid "Category: %s"
+msgstr "カテゴリー: %s"
+
+#. translators: Tag archive title. %s: Tag name
+#: includes/helpers.php:1221
+msgid "Tag: %s"
+msgstr "タグ: %s"
+
+#: includes/helpers.php:1236
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "アサイド"
+
+#. translators: Daily archive title. %s: Date
+#: includes/helpers.php:1233
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#. translators: Monthly archive title. %s: Month name and year
+#: includes/helpers.php:1230
+msgid "Month: %s"
+msgstr "月別: %s"
+
+#: includes/helpers.php:1240
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "画像"
+
+#: includes/helpers.php:1238
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: includes/helpers.php:1244
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "引用"
+
+#: includes/helpers.php:1242
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "動画"
+
+#: includes/helpers.php:1246
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "リンク"
+
+#: includes/helpers.php:1248
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "ステータス"
+
+#: includes/helpers.php:1252
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "チャット"
+
+#: includes/helpers.php:1250
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "音声"
+
+#. translators: Post type archive title. %s: Post type name
+#: includes/helpers.php:1256
+msgid "Archives: %s"
+msgstr "アーカイブ: %s"
+
+#. translators: Monthly archive title. %s: Month name and year
+#: includes/helpers.php:1230
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#. translators: Yearly archive title. %s: Year
+#: includes/helpers.php:1227
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: includes/helpers.php:1214
+msgid "Archives"
+msgstr "アーカイブ"
+
+#. translators: Author archive title. %s: Author name
+#: includes/helpers.php:1224
+msgid "Author: %s"
+msgstr "投稿者: %s"
+
+#. translators: Daily archive title. %s: Date
+#: includes/helpers.php:1233
+msgid "Day: %s"
+msgstr "日: %s"
+
+#. translators: Yearly archive title. %s: Year
+#: includes/helpers.php:1227
+msgid "Year: %s"
+msgstr "年: %s"
+
+#: includes/admin/admin.php:71 includes/admin/admin.php:147
+msgid "About Us:"
+msgstr "私たちについて: "
+
+#: languages/vue.php:691
+msgid "Complete Custom Dimensions Tracking"
+msgstr "カスタム・ディメンジョン・トラッキングを完成してください"
+
+#: languages/vue.php:734
+msgid "Advanced Tracking"
+msgstr "より進んだトラッキング"
+
+#: languages/vue.php:655
+msgid "Included"
+msgstr "含まれる"
+
+#: languages/vue.php:625
+msgid "Overview Reports for the last 30 days."
+msgstr "過去30日間の概要レポート。"
+
+#: languages/vue.php:616
+msgid "WPForms, Ninja Forms, Contact Form 7, Gravity Forms and any other WordPress form plugin"
+msgstr "WPForms、Ninja Forms、Contact Form 7、Gravity Forms、その他の WordPress フォームプラグイン"
+
+#: languages/vue.php:5
+msgid "1"
+msgstr "1"
+
+#: lite/includes/admin/onboarding-wizard.php:182
+msgid "Return to Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: includes/admin/review.php:124
+msgid "Yes"
+msgstr "はい"
+
+#: includes/admin/review.php:135
+msgid "No thanks"
+msgstr "結構です"
+
+#: languages/vue.php:703
+msgid "Priority Support"
+msgstr "優先サポート"
+
+#: languages/vue.php:1622
+msgid "Your Website"
+msgstr "あなたのサイト"
+
+#. Translators: The status of the addon (installed/active/inactive).
+#: languages/vue.php:1820
+msgid "Status: %s"
+msgstr "ステータス: %s"
+
+#: languages/vue.php:277
+msgid "Getting Started"
+msgstr "はじめてみよう"
+
+#: languages/vue.php:1798
+msgid "Active"
+msgstr "有効"
+
+#: languages/vue.php:1792
+msgid "Not Installed"
+msgstr "未インストール"
+
+#: languages/vue.php:1780
+msgid "This password will not be stored on the server."
+msgstr "このパスワードはサーバー上に保存されません。"
+
+#: languages/vue.php:1774
+msgid "FTP Username"
+msgstr "FTP ユーザー名"
+
+#: languages/vue.php:1777
+msgid "FTP Password"
+msgstr "FTP パスワード"
+
+#: languages/vue.php:1783
+msgid "Connection Type"
+msgstr "接続形式"
+
+#: languages/vue.php:1771
+msgid "Hostname"
+msgstr "ホスト名"
+
+#: languages/vue.php:1765
+msgid "Connection Information"
+msgstr "接続情報"
+
+#. Translators: Number of days.
+#: languages/vue.php:2256
+msgid "vs. Previous Day"
+msgstr "対前日比"
+
+#: languages/vue.php:709
+msgid "Feature"
+msgstr "おすすめ"
+
+#: languages/vue.php:688
+msgid "Not Available"
+msgstr "利用できません"
+
+#: languages/vue.php:1801
+msgid "Inactive"
+msgstr "無効"
+
+#: languages/vue.php:715
+msgid "Pro"
+msgstr "プロ版"
+
+#: languages/vue.php:1625
+msgid "Avg. Duration"
+msgstr "平均継続時間"
+
+#: languages/vue.php:1476
+msgid "Additional Information"
+msgstr "追加情報"
+
+#: languages/vue.php:2057
+msgid "Days"
+msgstr "日"
+
+#: languages/vue.php:41
+msgid "Please wait..."
+msgstr "お待ちください…"
+
+#: languages/vue.php:15
+msgid "Please try again."
+msgstr "もう一度お試しください。"
+
+#: languages/vue.php:265
+msgid "Overview Report"
+msgstr "概要レポート"
+
+#: languages/vue.php:1539
+msgid "Show Overview Reports"
+msgstr "概要レポートを表示"
+
+#: languages/vue.php:2346
+msgid "Page"
+msgstr "固定ページ"
+
+#: languages/vue.php:2315
+msgid "Right Now"
+msgstr "現在の状況"
+
+#: languages/vue.php:183
+msgid "Pageviews Per Minute"
+msgstr "1分毎のページビュー"
+
+#: languages/vue.php:1752
+msgid "Learn more about updating PHP"
+msgstr "PHP の更新についてさらに詳しく"
+
+#: languages/vue.php:3244
+msgid "Ecommerce"
+msgstr "eコマース"
+
+#: includes/admin/admin.php:338 includes/admin/common.php:912
+#: includes/admin/common.php:938 includes/admin/common.php:971
+#: includes/admin/notifications/notification-audience.php:45
+#: includes/admin/notifications/notification-bounce-rate.php:47
+#: includes/admin/notifications/notification-headline-analyzer.php:39
+#: includes/admin/notifications/notification-mobile-device-low-traffic.php:41
+#: includes/admin/notifications/notification-returning-visitors.php:43
+#: includes/admin/notifications/notification-traffic-dropping.php:43
+#: languages/vue.php:391
+msgid "Learn More"
+msgstr "さらに詳しく"
+
+#: includes/admin/admin.php:76
+#: includes/admin/notifications/notification-upgrade-to-pro-high-traffic.php:41
+#: includes/admin/notifications/notification-upgrade-to-pro.php:33
+#: languages/vue.php:1182
+msgid "Upgrade to Pro"
+msgstr "プロ版にアップグレード"
+
+#: languages/vue.php:569
+msgid "Setup Wizard"
+msgstr "設定ウィザード"
+
+#: languages/vue.php:560
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: languages/vue.php:353
+msgid "Ok"
+msgstr "OK"
+
+#: languages/vue.php:3025
+msgid "Usage Tracking"
+msgstr "使用状況の追跡"
+
+#: lite/includes/admin/reports/report-realtime.php:22
+msgid "Real Time"
+msgstr "リアルタイム"
+
+#: includes/helpers.php:561
+msgid "Macedonia (FYROM)"
+msgstr "マケドニア (FYROM)"
+
+#: languages/vue.php:1523
+msgid "Visit addons page"
+msgstr "アドオンページを訪問"
+
+#. Plugin URI of the plugin
+msgid "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+msgstr "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+
+#: includes/admin/review.php:148
+msgid "Nope, maybe later"
+msgstr "まだです。また後で"
+
+#: includes/admin/review.php:150
+msgid "I already did"
+msgstr "すでにしました"
+
+#: includes/admin/review.php:141
+msgid "~ Syed Balkhi<br>Co-Founder of MonsterInsights"
+msgstr "~ Syed Balkhi<br>MonsterInsights 共同創始者"
+
+#: languages/vue.php:1581
+msgid "Sessions"
+msgstr "セッション"
+
+#: languages/vue.php:451 lite/includes/admin/reports/report-dimensions.php:22
+msgid "Dimensions"
+msgstr "サイズ"
+
+#: languages/vue.php:2249
+msgid "Show"
+msgstr "表示"
+
+#: languages/vue.php:1946
+msgid "Mobile"
+msgstr "モバイル"
+
+#: languages/vue.php:1943
+msgid "Tablet"
+msgstr "タブレット"
+
+#: languages/vue.php:1940
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: languages/vue.php:1934
+msgid "New"
+msgstr "新着"
+
+#: languages/vue.php:1588
+msgid "Pageviews"
+msgstr "ページビュー"
+
+#: languages/vue.php:1610
+msgid "Avg. Session Duration"
+msgstr "平均セッション継続時間"
+
+#: languages/vue.php:1937
+msgid "Returning"
+msgstr "リピート"
+
+#: languages/vue.php:3267
+msgid "Success"
+msgstr "成功"
+
+#: includes/admin/reports/abstract-report.php:128
+msgid "No data found"
+msgstr "データが見つかりません"
+
+#: languages/vue.php:984
+msgid "Automatic Updates"
+msgstr "自動更新"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:279
+msgid "I couldn't get the plugin to work"
+msgstr "プラグインが動作しなかった"
+
+#. Translators: Placeholder for the plugin name.
+#: assets/lib/pandora/class-am-deactivation-survey.php:298
+msgid "If you have a moment, please share why you are deactivating %s:"
+msgstr "よろしければ、%s を無効化する理由を教えてください。"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:282
+msgid "It's a temporary deactivation"
+msgstr "一時的な無効化"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:285
+msgid "Other"
+msgstr "その他"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:136
+msgid "Please select an option"
+msgstr "オプションを選択してください"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:286
+msgid "Please share the reason"
+msgstr "理由をご記入ください"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:276
+msgid "Please share which plugin"
+msgstr "どのプラグインですか ?"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:294
+msgid "Quick Feedback"
+msgstr "クイックフィードバック"
+
+#. Translators: Adds an ampersand.
+#: assets/lib/pandora/class-am-deactivation-survey.php:332
+msgid "Skip %s Deactivate"
+msgstr "スキップ %s 無効化"
+
+#. Translators: Adds an ampersand.
+#: assets/lib/pandora/class-am-deactivation-survey.php:326
+msgid "Submit %s Deactivate"
+msgstr "送信 %s 無効化"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:275
+msgid "I'm switching to a different plugin"
+msgstr "他のプラグインに切り替える"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:272
+msgid "I no longer need the plugin"
+msgstr "プラグインが必要がなくなった"
+
+#: languages/vue.php:1029
+msgid "Link Attribution"
+msgstr "リンク属性"
+
+#: languages/vue.php:1731
+msgid "Google AMP"
+msgstr "Google AMP"
+
+#: languages/vue.php:861
+msgid "Google Optimize"
+msgstr "Google Optimize"
+
+#: languages/vue.php:864
+msgid "Use Google Optimize to retarget your website visitors and perform A/B split tests with ease."
+msgstr "Google Optimize を使ってサイトの訪問者をリターゲティングし、A/B スプリットテストを簡単に実行しませんか。"
+
+#: lite/includes/admin/tools.php:11
+msgid "By upgrading to MonsterInsights Pro, you can unlock the MonsterInsights URL builder that helps you better track your advertising and email marketing campaigns."
+msgstr "MonsterInsights Pro にアップグレードすると、広告とメールマーケティングキャンペーンのトラッキングに役立つ MonsterInsights URL ビルダーを利用できるようになります。"
+
+#: lite/includes/admin/tools.php:13
+msgid "Click here to Upgrade"
+msgstr "アップグレードするにはここをクリック"
+
+#: lite/includes/admin/tools.php:10
+msgid "Want even more fine tuned control over your website analytics?"
+msgstr "サイトアナリティクスをさらに細かく制御しませんか。"
+
+#: languages/vue.php:2413
+msgid "Import/Export"
+msgstr "インポート/エクスポート"
+
+#: includes/helpers.php:490
+msgid "Czechia"
+msgstr "チェチア"
+
+#: includes/admin/routes.php:844
+msgid "Please upload a valid .json file"
+msgstr "有効な .json ファイルをアップロードしてください"
+
+#: languages/vue.php:1473
+msgid "AdWords Auto-Tagging"
+msgstr "AdWords 自動タグ"
+
+#: languages/vue.php:1470
+msgid "About Traffic Source Dimensions"
+msgstr "トラフィックソースのディメンションについて"
+
+#: languages/vue.php:1467
+msgid "About the Referral Traffic Report"
+msgstr "トラフィックリファラーレポートについて"
+
+#: languages/vue.php:1461
+msgid "About Custom Campaigns"
+msgstr "カスタムキャンペーンについて"
+
+#: languages/vue.php:1458
+msgid "About Campaigns"
+msgstr "キャンペーンについて"
+
+#: languages/vue.php:1389
+msgid "Use Fragment"
+msgstr "フラグメントを使用"
+
+#: languages/vue.php:1386
+msgid "Enter something to differentiate ads"
+msgstr "広告を区別するために何か入力してください"
+
+#: languages/vue.php:1444
+msgid "Campaign Content"
+msgstr "キャンペーンの内容"
+
+#: languages/vue.php:1383
+msgid "Enter the paid keyword"
+msgstr "有料キーワードを入力してください"
+
+#: languages/vue.php:1438
+msgid "Campaign Term"
+msgstr "キャンペーン期間"
+
+#: languages/vue.php:1432
+msgid "Campaign Name"
+msgstr "キャンペーン名"
+
+#: languages/vue.php:1426
+msgid "Campaign Medium"
+msgstr "キャンペーン媒体"
+
+#. Translators: Marks the field as required.
+#: languages/vue.php:1368
+msgid "Campaign Source %s"
+msgstr "キャンペーンソース %s"
+
+#: languages/vue.php:2428
+msgid "Import Settings"
+msgstr "設定のインポート"
+
+#: languages/vue.php:2422
+msgid "Export"
+msgstr "エクスポート"
+
+#: languages/vue.php:2431
+msgid "Export Settings"
+msgstr "設定のエクスポート"
+
+#: languages/vue.php:326
+msgid "URL Builder"
+msgstr "URL ビルダー"
+
+#: languages/vue.php:2416
+msgid "Import"
+msgstr "インポート"
+
+#: languages/vue.php:1402
+msgid "Copy to Clipboard"
+msgstr "クリップボードにコピー"
+
+#: includes/admin/admin.php:62
+msgid "Tools"
+msgstr "ツール"
+
+#: includes/admin/admin.php:62
+msgid "Tools:"
+msgstr "ツール:"
+
+#: includes/admin/routes.php:676
+msgid "Invalid UA code"
+msgstr "無効な UA コード"
+
+#. Plugin Name of the plugin
+msgid "Google Analytics for WordPress by MonsterInsights"
+msgstr "Google Analytics for WordPress by MonsterInsights"
+
+#. Description of the plugin
+msgid "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back."
+msgstr "WordPress のための最高な Google アナリティクスプラグイン。訪問者がサイトをどのように見つけ、使用しているかを確認することで、彼らが再訪してくれるようにしましょう。"
+
+#: includes/helpers.php:433
+msgid "&#197;land Islands"
+msgstr "オーランド諸島"
+
+#: includes/helpers.php:432
+msgid "Afghanistan"
+msgstr "アフガニスタン"
+
+#: includes/helpers.php:434
+msgid "Albania"
+msgstr "アルバニア"
+
+#: includes/helpers.php:435
+msgid "Algeria"
+msgstr "アルジェリア"
+
+#: includes/helpers.php:437
+msgid "Andorra"
+msgstr "アンドラ"
+
+#: includes/helpers.php:438
+msgid "Angola"
+msgstr "アンゴラ"
+
+#: includes/helpers.php:442
+msgid "Argentina"
+msgstr "アルゼンチン"
+
+#: includes/helpers.php:444
+msgid "Aruba"
+msgstr "アルバ"
+
+#: includes/helpers.php:445 includes/helpers.php:1932
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: includes/helpers.php:446
+msgid "Austria"
+msgstr "オーストリア"
+
+#: includes/helpers.php:447
+msgid "Azerbaijan"
+msgstr "アゼルバイジャン"
+
+#: includes/helpers.php:448
+msgid "Bahamas"
+msgstr "バハマ"
+
+#: includes/helpers.php:449
+msgid "Bahrain"
+msgstr "バーレーン"
+
+#: includes/helpers.php:450
+msgid "Bangladesh"
+msgstr "バングラデシュ"
+
+#: includes/helpers.php:451 includes/helpers.php:1933
+msgid "Barbados"
+msgstr "バルバドス"
+
+#: includes/helpers.php:452
+msgid "Belarus"
+msgstr "ベラルーシ"
+
+#: includes/helpers.php:453
+msgid "Belgium"
+msgstr "ベルギー"
+
+#: includes/helpers.php:454 includes/helpers.php:1934
+msgid "Belize"
+msgstr "ベリーズ"
+
+#: includes/helpers.php:457
+msgid "Bhutan"
+msgstr "ブータン"
+
+#: includes/helpers.php:458
+msgid "Bolivia"
+msgstr "ボリビア"
+
+#: includes/helpers.php:460
+msgid "Bosnia and Herzegovina"
+msgstr "ボスニア・ヘルツェゴビナ"
+
+#: includes/helpers.php:461 includes/helpers.php:1935
+msgid "Botswana"
+msgstr "ボツワナ"
+
+#: includes/helpers.php:462
+msgid "Bouvet Island"
+msgstr "ブーベ島"
+
+#: includes/helpers.php:463
+msgid "Brazil"
+msgstr "ブラジル"
+
+#: includes/helpers.php:464
+msgid "British Indian Ocean Territory"
+msgstr "イギリス領インド洋地域"
+
+#: includes/helpers.php:466
+msgid "Bulgaria"
+msgstr "ブルガリア"
+
+#: includes/helpers.php:467
+msgid "Burkina Faso"
+msgstr "ブルキナファソ"
+
+#: includes/helpers.php:468 includes/helpers.php:1936
+msgid "Burundi"
+msgstr "ブルンジ"
+
+#: includes/helpers.php:469
+msgid "Cambodia"
+msgstr "カンボジア"
+
+#: includes/helpers.php:470 includes/helpers.php:1937
+msgid "Cameroon"
+msgstr "カメルーン"
+
+#: includes/helpers.php:430 includes/helpers.php:1938
+msgid "Canada"
+msgstr "カナダ"
+
+#: includes/helpers.php:472
+msgid "Cayman Islands"
+msgstr "ケイマン諸島"
+
+#: includes/helpers.php:473
+msgid "Central African Republic"
+msgstr "中央アフリカ共和国"
+
+#: includes/helpers.php:474
+msgid "Chad"
+msgstr "チャド"
+
+#: includes/helpers.php:475
+msgid "Chile"
+msgstr "チリ"
+
+#: includes/helpers.php:476
+msgid "China"
+msgstr "中国"
+
+#: includes/helpers.php:477
+msgid "Christmas Island"
+msgstr "クリスマス島"
+
+#: includes/helpers.php:479
+msgid "Colombia"
+msgstr "コロンビア"
+
+#: includes/helpers.php:480
+msgid "Comoros"
+msgstr "コモロ"
+
+#: includes/helpers.php:483
+msgid "Cook Islands"
+msgstr "クック諸島"
+
+#: includes/helpers.php:484
+msgid "Costa Rica"
+msgstr "コスタリカ"
+
+#: includes/helpers.php:487
+msgid "Cuba"
+msgstr "キューバ"
+
+#: includes/helpers.php:489
+msgid "Cyprus"
+msgstr "キプロス"
+
+#: includes/helpers.php:491
+msgid "Denmark"
+msgstr "デンマーク"
+
+#: includes/helpers.php:492
+msgid "Djibouti"
+msgstr "ジブチ"
+
+#: includes/helpers.php:493 includes/helpers.php:1939
+msgid "Dominica"
+msgstr "ドミニカ"
+
+#: includes/helpers.php:494
+msgid "Dominican Republic"
+msgstr "ドミニカ共和国"
+
+#: includes/helpers.php:496
+msgid "Ecuador"
+msgstr "エクアドル"
+
+#: includes/helpers.php:497
+msgid "Egypt"
+msgstr "エジプト"
+
+#: includes/helpers.php:499
+msgid "El Salvador"
+msgstr "エルサルバドル"
+
+#: includes/helpers.php:500
+msgid "Eritrea"
+msgstr "エリトリア"
+
+#: includes/helpers.php:501
+msgid "Estonia"
+msgstr "エストニア"
+
+#: includes/helpers.php:502
+msgid "Ethiopia"
+msgstr "エチオピア"
+
+#: includes/helpers.php:503
+msgid "Falkland Islands"
+msgstr "フォークランド諸島"
+
+#: includes/helpers.php:504
+msgid "Faroe Islands"
+msgstr "フェロー諸島"
+
+#: includes/helpers.php:505 includes/helpers.php:1940
+msgid "Fiji"
+msgstr "フィジー"
+
+#: includes/helpers.php:506
+msgid "Finland"
+msgstr "フィンランド"
+
+#: includes/helpers.php:507
+msgid "France"
+msgstr "フランス"
+
+#: includes/helpers.php:509
+msgid "French Polynesia"
+msgstr "フランス領ポリネシア"
+
+#: includes/helpers.php:511
+msgid "Gabon"
+msgstr "ガボン"
+
+#: includes/helpers.php:512 includes/helpers.php:1943
+msgid "Gambia"
+msgstr "ガンビア"
+
+#: includes/helpers.php:513
+msgid "Georgia"
+msgstr "ジョージア"
+
+#: includes/helpers.php:514
+msgid "Germany"
+msgstr "ドイツ"
+
+#: includes/helpers.php:516 includes/helpers.php:1944
+msgid "Ghana"
+msgstr "ガーナ"
+
+#: includes/helpers.php:517
+msgid "Gibraltar"
+msgstr "ジブラルタル"
+
+#: includes/helpers.php:515
+msgid "Greece"
+msgstr "ギリシャ"
+
+#: includes/helpers.php:518
+msgid "Greenland"
+msgstr "グリーンランド"
+
+#: includes/helpers.php:519 includes/helpers.php:1941
+msgid "Grenada"
+msgstr "グレナダ"
+
+#: includes/helpers.php:521
+msgid "Guam"
+msgstr "グアム"
+
+#: includes/helpers.php:522
+msgid "Guatemala"
+msgstr "グアテマラ"
+
+#: includes/helpers.php:523
+msgid "Guernsey"
+msgstr "ガーンジー"
+
+#: includes/helpers.php:524
+msgid "Guinea"
+msgstr "ギニア"
+
+#: includes/helpers.php:525
+msgid "Guinea-Bissau"
+msgstr "ギニアビサウ"
+
+#: includes/helpers.php:526 includes/helpers.php:1942
+msgid "Guyana"
+msgstr "ガイアナ"
+
+#: includes/helpers.php:527
+msgid "Haiti"
+msgstr "ハイチ"
+
+#: includes/helpers.php:530
+msgid "Honduras"
+msgstr "ホンジュラス"
+
+#: includes/helpers.php:531
+msgid "Hong Kong"
+msgstr "香港"
+
+#: includes/helpers.php:532
+msgid "Hungary"
+msgstr "ハンガリー"
+
+#: includes/helpers.php:533
+msgid "Iceland"
+msgstr "アイスランド"
+
+#: includes/helpers.php:534 includes/helpers.php:1946
+msgid "India"
+msgstr "インド"
+
+#: includes/helpers.php:535
+msgid "Indonesia"
+msgstr "インドネシア"
+
+#: includes/helpers.php:536
+msgid "Iran"
+msgstr "イラン"
+
+#: includes/helpers.php:537
+msgid "Iraq"
+msgstr "イラク"
+
+#: includes/helpers.php:539
+msgid "Isle of Man"
+msgstr "マン島"
+
+#: includes/helpers.php:540
+msgid "Israel"
+msgstr "イスラエル"
+
+#: includes/helpers.php:541
+msgid "Italy"
+msgstr "イタリア"
+
+#: includes/helpers.php:542 includes/helpers.php:1947
+msgid "Jamaica"
+msgstr "ジャマイカ"
+
+#: includes/helpers.php:543
+msgid "Japan"
+msgstr "日本"
+
+#: includes/helpers.php:545
+msgid "Jordan"
+msgstr "ヨルダン"
+
+#: includes/helpers.php:546
+msgid "Kazakhstan"
+msgstr "カザフスタン"
+
+#: includes/helpers.php:547 includes/helpers.php:1948
+msgid "Kenya"
+msgstr "ケニア"
+
+#: includes/helpers.php:548 includes/helpers.php:1949
+msgid "Kiribati"
+msgstr "キリバス"
+
+#: includes/helpers.php:549
+msgid "Kuwait"
+msgstr "クウェート"
+
+#: includes/helpers.php:550
+msgid "Kyrgyzstan"
+msgstr "キルギスタン"
+
+#: includes/helpers.php:552
+msgid "Latvia"
+msgstr "ラトビア"
+
+#: includes/helpers.php:553
+msgid "Lebanon"
+msgstr "レバノン"
+
+#: includes/helpers.php:554 includes/helpers.php:1950
+msgid "Lesotho"
+msgstr "レソト"
+
+#: includes/helpers.php:555 includes/helpers.php:1951
+msgid "Liberia"
+msgstr "リベリア"
+
+#: includes/helpers.php:557
+msgid "Liechtenstein"
+msgstr "リヒテンシュタイン"
+
+#: includes/helpers.php:558
+msgid "Lithuania"
+msgstr "リトアニア"
+
+#: includes/helpers.php:559
+msgid "Luxembourg"
+msgstr "ルクセンブルク"
+
+#: includes/helpers.php:562
+msgid "Madagascar"
+msgstr "マダガスカル"
+
+#: includes/helpers.php:563 includes/helpers.php:1952
+msgid "Malawi"
+msgstr "マラウイ"
+
+#: includes/helpers.php:564
+msgid "Malaysia"
+msgstr "マレーシア"
+
+#: includes/helpers.php:565
+msgid "Maldives"
+msgstr "モルディブ"
+
+#: includes/helpers.php:566
+msgid "Mali"
+msgstr "マリ"
+
+#: includes/helpers.php:567 includes/helpers.php:1953
+msgid "Malta"
+msgstr "マルタ"
+
+#: includes/helpers.php:568 includes/helpers.php:1954
+msgid "Marshall Islands"
+msgstr "マーシャル諸島"
+
+#: includes/helpers.php:570
+msgid "Mauritania"
+msgstr "モーリタニア"
+
+#: includes/helpers.php:571 includes/helpers.php:1955
+msgid "Mauritius"
+msgstr "モーリシャス"
+
+#: includes/helpers.php:573
+msgid "Mexico"
+msgstr "メキシコ"
+
+#: includes/helpers.php:574 includes/helpers.php:1956
+msgid "Micronesia"
+msgstr "ミクロネシア"
+
+#: includes/helpers.php:576
+msgid "Monaco"
+msgstr "モナコ"
+
+#: includes/helpers.php:577
+msgid "Mongolia"
+msgstr "モンゴル"
+
+#: includes/helpers.php:578
+msgid "Montenegro"
+msgstr "モンテネグロ"
+
+#: includes/helpers.php:580
+msgid "Morocco"
+msgstr "モロッコ"
+
+#: includes/helpers.php:581
+msgid "Mozambique"
+msgstr "モザンビーク"
+
+#: includes/helpers.php:582
+msgid "Myanmar"
+msgstr "ミャンマー"
+
+#: includes/helpers.php:583 includes/helpers.php:1958
+msgid "Namibia"
+msgstr "ナミビア"
+
+#: includes/helpers.php:584 includes/helpers.php:1959
+msgid "Nauru"
+msgstr "ナウル"
+
+#: includes/helpers.php:585
+msgid "Nepal"
+msgstr "ネパール"
+
+#: includes/helpers.php:586
+msgid "Netherlands"
+msgstr "オランダ"
+
+#: includes/helpers.php:588
+msgid "New Caledonia"
+msgstr "ニューカレドニア"
+
+#: includes/helpers.php:589 includes/helpers.php:1957
+msgid "New Zealand"
+msgstr "ニュージーランド"
+
+#: includes/helpers.php:590
+msgid "Nicaragua"
+msgstr "ニカラグア"
+
+#: includes/helpers.php:591
+msgid "Niger"
+msgstr "ニジェール"
+
+#: includes/helpers.php:592 includes/helpers.php:1960
+msgid "Nigeria"
+msgstr "ナイジェリア"
+
+#: includes/helpers.php:593
+msgid "Niue"
+msgstr "ニウエ"
+
+#: includes/helpers.php:594
+msgid "Norfolk Island"
+msgstr "ノーフォーク島"
+
+#: includes/helpers.php:595
+msgid "North Korea"
+msgstr "北朝鮮"
+
+#: includes/helpers.php:597
+msgid "Norway"
+msgstr "ノルウェー"
+
+#: includes/helpers.php:598
+msgid "Oman"
+msgstr "オマーン"
+
+#: includes/helpers.php:599 includes/helpers.php:1961
+msgid "Pakistan"
+msgstr "パキスタン"
+
+#: includes/helpers.php:602
+msgid "Panama"
+msgstr "パナマ"
+
+#: includes/helpers.php:603 includes/helpers.php:1963
+msgid "Papua New Guinea"
+msgstr "パプアニューギニア"
+
+#: includes/helpers.php:604
+msgid "Paraguay"
+msgstr "パラグアイ"
+
+#: includes/helpers.php:605
+msgid "Peru"
+msgstr "ペルー"
+
+#: includes/helpers.php:606 includes/helpers.php:1964
+msgid "Philippines"
+msgstr "フィリピン"
+
+#: includes/helpers.php:608
+msgid "Poland"
+msgstr "ポーランド"
+
+#: includes/helpers.php:609
+msgid "Portugal"
+msgstr "ポルトガル"
+
+#: includes/helpers.php:610
+msgid "Puerto Rico"
+msgstr "プエルトリコ"
+
+#: includes/helpers.php:611
+msgid "Qatar"
+msgstr "カタール"
+
+#: includes/helpers.php:614
+msgid "Romania"
+msgstr "ルーマニア"
+
+#: includes/helpers.php:616 includes/helpers.php:1965
+msgid "Rwanda"
+msgstr "ルワンダ"
+
+#: includes/helpers.php:626
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+msgstr "サントメ・プリンシペ"
+
+#: includes/helpers.php:617
+msgid "Saint Barth&eacute;lemy"
+msgstr "セントバーツ"
+
+#: includes/helpers.php:619
+msgid "Saint Kitts and Nevis"
+msgstr "セントクリストファー・ネイビス"
+
+#: includes/helpers.php:620
+msgid "Saint Lucia"
+msgstr "セントルシア"
+
+#: includes/helpers.php:623
+msgid "Saint Pierre and Miquelon"
+msgstr "サンピエール・ミクロン島"
+
+#: includes/helpers.php:627
+msgid "Saudi Arabia"
+msgstr "サウジアラビア"
+
+#: includes/helpers.php:628
+msgid "Senegal"
+msgstr "セネガル"
+
+#: includes/helpers.php:629
+msgid "Serbia"
+msgstr "セルビア"
+
+#: includes/helpers.php:630 includes/helpers.php:1972
+msgid "Seychelles"
+msgstr "セイシェル"
+
+#: includes/helpers.php:631 includes/helpers.php:1973
+msgid "Sierra Leone"
+msgstr "シエラレオネ"
+
+#: includes/helpers.php:632 includes/helpers.php:1966
+msgid "Singapore"
+msgstr "シンガポール"
+
+#: includes/helpers.php:634
+msgid "Slovenia"
+msgstr "スロベニア"
+
+#: includes/helpers.php:635 includes/helpers.php:1974
+msgid "Solomon Islands"
+msgstr "ソロモン諸島"
+
+#: includes/helpers.php:636
+msgid "Somalia"
+msgstr "ソマリア"
+
+#: includes/helpers.php:637 includes/helpers.php:1975
+msgid "South Africa"
+msgstr "南アフリカ"
+
+#: includes/helpers.php:639
+msgid "South Korea"
+msgstr "韓国"
+
+#: includes/helpers.php:640 includes/helpers.php:1976
+msgid "South Sudan"
+msgstr "南スーダン"
+
+#: includes/helpers.php:641
+msgid "Spain"
+msgstr "スペイン"
+
+#: includes/helpers.php:642
+msgid "Sri Lanka"
+msgstr "スリランカ"
+
+#: includes/helpers.php:643 includes/helpers.php:1977
+msgid "Sudan"
+msgstr "スーダン"
+
+#: includes/helpers.php:644
+msgid "Suriname"
+msgstr "スリナム"
+
+#: includes/helpers.php:646 includes/helpers.php:1970
+msgid "Swaziland"
+msgstr "スワジランド"
+
+#: includes/helpers.php:647
+msgid "Sweden"
+msgstr "スウェーデン"
+
+#: includes/helpers.php:648
+msgid "Switzerland"
+msgstr "スイス"
+
+#: includes/helpers.php:650
+msgid "Taiwan"
+msgstr "台湾"
+
+#: includes/helpers.php:651
+msgid "Tajikistan"
+msgstr "タジキスタン"
+
+#: includes/helpers.php:652 includes/helpers.php:1980
+msgid "Tanzania"
+msgstr "タンザニア"
+
+#: includes/helpers.php:653
+msgid "Thailand"
+msgstr "タイ"
+
+#: includes/helpers.php:654
+msgid "Timor-Leste"
+msgstr "東ティモール"
+
+#: includes/helpers.php:655
+msgid "Togo"
+msgstr "トーゴ"
+
+#: includes/helpers.php:656
+msgid "Tokelau"
+msgstr "トケラウ"
+
+#: includes/helpers.php:657 includes/helpers.php:1981
+msgid "Tonga"
+msgstr "トンガ"
+
+#: includes/helpers.php:658 includes/helpers.php:1978
+msgid "Trinidad and Tobago"
+msgstr "トリニダード・トバゴ"
+
+#: includes/helpers.php:659
+msgid "Tunisia"
+msgstr "チュニジア"
+
+#: includes/helpers.php:660
+msgid "Turkey"
+msgstr "トルコ"
+
+#: includes/helpers.php:661
+msgid "Turkmenistan"
+msgstr "トルクメニスタン"
+
+#: includes/helpers.php:662
+msgid "Turks and Caicos Islands"
+msgstr "タークス・カイコス諸島"
+
+#: includes/helpers.php:663 includes/helpers.php:1982
+msgid "Tuvalu"
+msgstr "ツバル"
+
+#: includes/helpers.php:664 includes/helpers.php:1985
+msgid "Uganda"
+msgstr "ウガンダ"
+
+#: includes/helpers.php:665
+msgid "Ukraine"
+msgstr "ウクライナ"
+
+#: includes/helpers.php:666
+msgid "United Arab Emirates"
+msgstr "アラブ首長国連邦"
+
+#: includes/helpers.php:667
+msgid "Uruguay"
+msgstr "ウルグアイ"
+
+#: includes/helpers.php:669
+msgid "Uzbekistan"
+msgstr "ウズベキスタン"
+
+#: includes/helpers.php:670 includes/helpers.php:1986
+msgid "Vanuatu"
+msgstr "バヌアツ"
+
+#: includes/helpers.php:671
+msgid "Venezuela"
+msgstr "ベネズエラ"
+
+#: includes/helpers.php:672
+msgid "Vietnam"
+msgstr "ベトナム"
+
+#: includes/helpers.php:676
+msgid "Western Sahara"
+msgstr "西サハラ"
+
+#: includes/helpers.php:678
+msgid "Yemen"
+msgstr "イエメン"
+
+#: includes/helpers.php:679 includes/helpers.php:1987
+msgid "Zambia"
+msgstr "ザンビア"
+
+#: includes/helpers.php:680 includes/helpers.php:1988
+msgid "Zimbabwe"
+msgstr "ジンバブエ"
+
+#: includes/helpers.php:677
+msgid "Western Samoa"
+msgstr "西サモア"
+
+#: includes/helpers.php:622
+msgid "Saint Martin (Dutch)"
+msgstr "セント・マーチン（オランダ）"
+
+#: includes/helpers.php:621
+msgid "Saint Martin (French)"
+msgstr "サンマルタン（フランス）"
+
+#: includes/helpers.php:615
+msgid "Russian Federation"
+msgstr "ロシア連邦"
+
+#: includes/helpers.php:612
+msgid "Republic of Kosovo"
+msgstr "コソボ共和国"
+
+#: includes/helpers.php:601
+msgid "Palestinian Territories"
+msgstr "パレスチナ領"
+
+#: includes/helpers.php:587
+msgid "Netherlands Antilles"
+msgstr "オランダ領アンティル"
+
+#: includes/helpers.php:575
+msgid "Moldova, Republic of"
+msgstr "モルドバ共和国"
+
+#: includes/helpers.php:560
+msgid "Macau"
+msgstr "マカオ"
+
+#: includes/helpers.php:551
+msgid "Lao People's Democratic Republic"
+msgstr "ラオス人民民主共和国"
+
+#: includes/helpers.php:538 includes/helpers.php:1945
+msgid "Ireland"
+msgstr "アイルランド"
+
+#: includes/helpers.php:528
+msgid "Heard and McDonald Islands"
+msgstr "ハード島とマクドナルド諸島"
+
+#: includes/helpers.php:495
+msgid "East Timor"
+msgstr "東チモール"
+
+#: includes/helpers.php:482
+msgid "Congo, Republic of"
+msgstr "コンゴ共和国"
+
+#: includes/helpers.php:481
+msgid "Congo, Democratic People's Republic"
+msgstr "コンゴ民主人民共和国"
+
+#: includes/helpers.php:478
+msgid "Cocos Islands"
+msgstr "ココス諸島"
+
+#: includes/helpers.php:465
+msgid "Brunei Darrussalam"
+msgstr "ブルネイダルサラーム"
+
+#: includes/helpers.php:431 includes/helpers.php:1983
+msgid "United Kingdom"
+msgstr "イギリス"
+
+#: includes/admin/exclude-page-metabox.php:144 languages/gutenberg.php:179
+#: languages/vue.php:1919
+#: lite/includes/admin/user-journey/providers/class-abstract-lite-metabox.php:115
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#: includes/admin/tracking.php:263
+msgid "Once Weekly"
+msgstr "週1回"
+
+#: includes/helpers.php:486
+msgid "Croatia/Hrvatska"
+msgstr "クロアチア/フルバツカ"
+
+#: languages/vue.php:3137
+msgid "Allow Usage Tracking"
+msgstr "使用状況トラッキングを許可"
+
+#: includes/helpers.php:625
+msgid "San Marino"
+msgstr "サンマリノ"
+
+#: includes/helpers.php:443
+msgid "Armenia"
+msgstr "アルメニア"
+
+#: includes/helpers.php:436
+msgid "American Samoa"
+msgstr "アメリカ領サモア"
+
+#. Translators: Placeholders add the hook name, plugin version and bold text.
+#: includes/deprecated.php:189
+msgid "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s."
+msgstr "MonsterInsights バージョン%2$s以降から%1$s は %3$s非推奨%4$sです。"
+
+#. Translators: Placeholders add the hook name, plugin version and bold text.
+#: includes/deprecated.php:132
+msgid "%1$s is %3$sdeprecated%4$s since MonsterInsights version %2$s!"
+msgstr "MonsterInsights バージョン%2$s以降から%1$s は %3$s非推奨%4$sです。"
+
+#: includes/frontend/tracking/class-tracking-preview.php:77
+msgid "You are currently in a preview window. MonsterInsights doesn't track preview window traffic to avoid false visit reports."
+msgstr "現在プレビューウィンドウを表示しています。MonsterInsights は、誤った訪問レポートを避けるために、プレビューウィンドウのトラフィックを追跡しません。"
+
+#: includes/helpers.php:556
+msgid "Libyan Arab Jamahiriya"
+msgstr "リビア・アラブ・ジャマヒリーヤ"
+
+#: includes/helpers.php:485
+msgid "Cote d'Ivoire"
+msgstr "コートジボワール"
+
+#: includes/helpers.php:675
+msgid "Wallis and Futuna Islands"
+msgstr "ウォリス・フツナ諸島"
+
+#: includes/helpers.php:674
+msgid "Virgin Islands (USA)"
+msgstr "バージン諸島 (米領)"
+
+#: includes/helpers.php:673
+msgid "Virgin Islands (British)"
+msgstr "バージン諸島 (英領)"
+
+#: includes/helpers.php:668
+msgid "US Minor Outlying Islands"
+msgstr "米国領有小離島"
+
+#: includes/helpers.php:429
+msgid "United States"
+msgstr "アメリカ合衆国"
+
+#: includes/helpers.php:645
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "スヴァールバル諸島およびヤンマイエン島"
+
+#: includes/helpers.php:638
+msgid "South Georgia"
+msgstr "サウスジョージア"
+
+#: includes/helpers.php:633
+msgid "Slovak Republic"
+msgstr "スロバキア"
+
+#: includes/helpers.php:624
+msgid "Saint Vincent and the Grenadines"
+msgstr "セントビンセントとグレナディーン"
+
+#: includes/helpers.php:618
+msgid "Saint Helena"
+msgstr "セントヘレナ島"
+
+#: includes/helpers.php:613
+msgid "Reunion Island"
+msgstr "レユニオン"
+
+#: includes/helpers.php:607
+msgid "Pitcairn Island"
+msgstr "ピトケアン島"
+
+#: includes/helpers.php:600 includes/helpers.php:1962
+msgid "Palau"
+msgstr "パラウ"
+
+#: includes/helpers.php:596
+msgid "Northern Mariana Islands"
+msgstr "北マリアナ諸島"
+
+#: includes/helpers.php:579
+msgid "Montserrat"
+msgstr "モントセラート"
+
+#: includes/helpers.php:572
+msgid "Mayotte"
+msgstr "マヨット"
+
+#: includes/helpers.php:569
+msgid "Martinique"
+msgstr "マルティニーク"
+
+#: includes/helpers.php:544
+msgid "Jersey"
+msgstr "ジャージー島"
+
+#: includes/helpers.php:529
+msgid "Holy See (City Vatican State)"
+msgstr "ホーリーシー (バチカン市国)"
+
+#: includes/helpers.php:520
+msgid "Guadeloupe"
+msgstr "グアドループ"
+
+#: includes/helpers.php:510
+msgid "French Southern Territories"
+msgstr "フランス領南方・南極地域"
+
+#: includes/helpers.php:508
+msgid "French Guiana"
+msgstr "フランス領ギアナ"
+
+#: includes/helpers.php:498
+msgid "Equatorial Guinea"
+msgstr "赤道ギニア"
+
+#: includes/helpers.php:471
+msgid "Cape Verde"
+msgstr "カーボベルデ"
+
+#: includes/helpers.php:456
+msgid "Bermuda"
+msgstr "バミューダ島"
+
+#: includes/helpers.php:455
+msgid "Benin"
+msgstr "ベニン"
+
+#: includes/helpers.php:441 includes/helpers.php:1931
+msgid "Antigua and Barbuda"
+msgstr "アンティグア・バーブーダ"
+
+#: includes/helpers.php:440
+msgid "Antarctica"
+msgstr "南極"
+
+#: includes/helpers.php:439
+msgid "Anguilla"
+msgstr "アンギラ"
+
+#: includes/helpers.php:649
+msgid "Syrian Arab Republic"
+msgstr "シリア・アラブ共和国"
+
+#: languages/vue.php:3028
+msgid "By allowing us to track usage data we can better help you because we know with which WordPress configurations, themes and plugins we should test."
+msgstr "使用データを追跡できるようにすることで、どの WordPress の設定、テーマ、プラグインをテストすべきかを知ることができるので、より適切にサポートできます。"
+
+#: includes/helpers.php:459
+msgid "Bonaire, Saint Eustatius and Saba"
+msgstr "ボネール、シント・ユースタティウスおよびサバ"
+
+#: includes/helpers.php:488
+msgid "Cura&Ccedil;ao"
+msgstr "キュラソー"
+
+#: languages/vue.php:551
+msgid "Google Authentication"
+msgstr "Google 認証"
+
+#: languages/vue.php:3013
+msgid "Deauthenticating"
+msgstr "認証解除"
+
+#: languages/vue.php:969
+msgid "Users that have at least one of these roles will be able to view and save the settings panel, along with any user with the manage_options capability."
+msgstr "これらの権限グループのうち少なくとも1つに属するユーザーは、manage_options 権限を持つユーザーと共に、設定パネルを表示して保存することができます。"
+
+#: languages/vue.php:1026
+msgid "Anonymize IP Addresses"
+msgstr "IP アドレスの匿名化"
+
+#: languages/vue.php:1032
+msgid "Enable Enhanced Link Attribution"
+msgstr "拡張リンク属性を有効化"
+
+#: languages/vue.php:1786
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:1009
+msgid "media"
+msgstr "メディア"
+
+#: languages/vue.php:454 lite/includes/admin/reports/report-forms.php:22
+msgid "Forms"
+msgstr "フォーム"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:1013
+msgid "social"
+msgstr "ソーシャル"
+
+#: languages/vue.php:916
+msgid "Affiliate Links"
+msgstr "アフェリエイトリンク"
+
+#: languages/vue.php:1047
+msgid "File Downloads"
+msgstr "ファイルダウンロード"
+
+#: languages/vue.php:978
+msgid "Performance"
+msgstr "パフォーマンス"
+
+#: languages/vue.php:12
+msgid "Error"
+msgstr "エラー"
+
+#: includes/admin/notifications/notification-ga4-upgrade.php:31
+#: includes/admin/notifications/notification-upgrade-for-form-conversion.php:31
+#: includes/admin/notifications/notification-upgrade-for-search-console.php:32
+#: includes/admin/reports/abstract-report.php:459 languages/vue.php:595
+msgid "Upgrade Now"
+msgstr "今すぐアップグレード"
+
+#: languages/vue.php:310
+msgid "Engagement"
+msgstr "エンゲージメント"
+
+#: languages/vue.php:584
+msgid "Refresh Addons"
+msgstr "アドオンを更新"
+
+#: languages/vue.php:1020
+msgid "Demographics"
+msgstr "デモグラフィック"
+
+#: languages/vue.php:394
+msgid "MonsterInsights Addons"
+msgstr "MonsterInsights アドオン"
+
+#: languages/vue.php:975
+msgid "Users that have at least one of these roles will not be tracked into Google Analytics."
+msgstr "これらの権限グループのうち少なくとも1つに所属するユーザーは、Google アナリティクスにトラッキングされません。"
+
+#. Translators: Placeholders add a link to the settings panel.
+#: includes/admin/reports/abstract-report.php:63
+msgid "Please %1$senable the dashboard%2$s to see report data."
+msgstr "レポートデータを表示するには、%1$sダッシュボード%2$sを有効化してください。"
+
+#: languages/vue.php:314 lite/includes/admin/reports/report-ecommerce.php:22
+msgid "eCommerce"
+msgstr "eコマース"
+
+#: languages/vue.php:951
+msgid "Permissions"
+msgstr "権限"
+
+#: languages/vue.php:578
+msgid "There was an issue retrieving the addons for this site. Please click on the button below the refresh the addons data."
+msgstr "このサイトのアドオンを取得する際に問題が発生しました。下のボタンをクリックしてアドオンデータを更新してください。"
+
+#: includes/admin/notice.php:238
+msgid "Dismiss this notice"
+msgstr "この通知を非表示"
+
+#: languages/vue.php:429
+msgid "Notifications"
+msgstr "通知"
+
+#: googleanalytics.php:282 googleanalytics.php:296
+msgid "Cheatin&#8217; huh?"
+msgstr "間違えましたか ?"
+
+#: languages/vue.php:384
+msgid "Install"
+msgstr "インストール"
+
+#: languages/vue.php:1812
+msgid "Installing..."
+msgstr "インストール中..."
+
+#: includes/admin/admin.php:220 includes/admin/admin.php:223
+#: languages/vue.php:697
+msgid "Support"
+msgstr "サポート"
+
+#: includes/admin/admin.php:67 includes/admin/admin.php:142
+msgid "Addons"
+msgstr "アドオン"
+
+#: includes/admin/admin.php:67 includes/admin/admin.php:142
+msgid "Addons:"
+msgstr "アドオン:"
+
+#: includes/admin/admin.php:215
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: languages/vue.php:1808
+msgid "Deactivating..."
+msgstr "無効化中…"
+
+#: languages/vue.php:1804
+msgid "Activating..."
+msgstr "有効化中…"
+
+#: languages/vue.php:387
+msgid "Activate"
+msgstr "有効化"
+
+#: includes/admin/admin.php:237
+#: includes/admin/notifications/notification-upgrade-eu-traffic.php:86
+#: includes/admin/notifications/notification-upgrade-for-custom-dimensions.php:31
+#: includes/admin/notifications/notification-upgrade-for-email-summaries.php:32
+#: includes/admin/notifications/notification-upgrade-for-events-reporting.php:31
+#: includes/admin/notifications/notification-upgrade-for-google-optimize.php:32
+#: includes/admin/notifications/notification-upgrade-for-post-templates.php:31
+#: includes/admin/reports/abstract-report.php:462 languages/vue.php:1179
+msgid "Get MonsterInsights Pro"
+msgstr "MonsterInsights Pro を入手"
+
+#: languages/vue.php:1816
+msgid "Deactivate"
+msgstr "無効化"
+
+#: includes/admin/admin.php:129 includes/admin/admin.php:228
+msgid "Network Settings"
+msgstr "サイトネットワーク設定"
+
+#: languages/vue.php:1795
+msgid "Network Active"
+msgstr "サイトネットワークで有効"
+
+#: languages/vue.php:1789
+msgid "Proceed"
+msgstr "続行"
+
+#. Author of the plugin
+#: includes/admin/admin.php:31 includes/admin/admin.php:34
+#: includes/admin/admin.php:42 includes/admin/wp-site-health.php:35
+#: includes/emails/class-emails.php:255
+#: lite/includes/admin/dashboard-widget.php:99
+#: lite/includes/admin/wp-site-health.php:249
+#: lite/includes/admin/wp-site-health.php:301
+#: lite/includes/admin/wp-site-health.php:328
+#: lite/includes/admin/wp-site-health.php:366
+#: lite/includes/admin/wp-site-health.php:393
+#: lite/includes/admin/wp-site-health.php:420
+#: lite/includes/admin/wp-site-health.php:445
+#: lite/includes/admin/wp-site-health.php:484
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/admin/admin.php:31 includes/admin/admin.php:37
+#: includes/admin/admin.php:45 includes/admin/admin.php:90
+#: includes/admin/admin.php:93 includes/admin/admin.php:127
+#: languages/vue.php:261
+msgid "Insights"
+msgstr "インサイト"
+
+#: languages/vue.php:544
+msgid "License Key"
+msgstr "ライセンスキー"
+
+#: languages/vue.php:3343
+msgid "Enhanced Link Attribution"
+msgstr "拡張リンク属性"
+
+#: languages/vue.php:1023
+msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
+msgstr "リマーケティングと広告用にユーザー属性・ユーザーインタレストのレポートを有効化"
+
+#: languages/vue.php:2400
+msgid "Paste your license key here"
+msgstr "ここにライセンスキーを貼り付けてください"
+
+#: languages/vue.php:1050
+msgid "Extensions of Files to Track as Downloads"
+msgstr "ダウンロードを追跡するファイルの拡張子"
+
+#: languages/gutenberg.php:152 languages/vue.php:1613
+#: lite/includes/admin/metaboxes.php:65 lite/includes/admin/metaboxes.php:127
+msgid "Bounce Rate"
+msgstr "バウンスレート"
+
+#: languages/vue.php:685
+msgid "Custom Dimensions"
+msgstr "カスタムサイズ"
+
+#: languages/vue.php:231
+msgid "Last Month"
+msgstr "先月"
+
+#: languages/vue.php:2962
+msgid "Manually enter your UA code"
+msgstr "UA コードを手動入力"
+
+#: includes/admin/reports/overview.php:34 languages/vue.php:441
+msgid "Overview"
+msgstr "概要"
+
+#: includes/admin/admin.php:39 includes/admin/admin.php:131
+#: languages/vue.php:981
+msgid "Reports"
+msgstr "レポート"
+
+#: languages/vue.php:371
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/admin/admin.php:230 languages/vue.php:301
+msgid "Settings"
+msgstr "設定"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:318 languages/vue.php:307
+msgid "General"
+msgstr "一般"
+
+#: languages/vue.php:758
+msgid "eCommerce Tracking"
+msgstr "eコマーストラッキング"
+
+#: languages/vue.php:323
+msgid "Advanced"
+msgstr "高度な設定"

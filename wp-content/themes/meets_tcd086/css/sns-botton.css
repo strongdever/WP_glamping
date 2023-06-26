@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+
+/* ----------------------- Share button -------------------------- */
+
+
+@font-face {
+    font-family: 'design_plus';
+    src: url('../fonts/design_plus.eot?v=1.5');
+    src: url('../fonts/design_plus.eot?v=1.5#iefix') format('embedded-opentype'),
+         url('../fonts/design_plus.woff?v=1.5') format('woff'),
+         url('../fonts/design_plus.ttf?v=1.5') format('truetype'),
+         url('../fonts/design_plus.svg?v=1.5#design_plus') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "design_plus" !important;
+  line-height: 1; font-style: normal; font-variant: normal; font-weight: normal; speak: none; text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-feedly:before { content: "\e907"; }
+.icon-hatebu:before { content: "\e908"; }
+.icon-line:before { content: "\e909"; }
+.icon-pocket:before { content: "\e90a"; }
+.icon-google-plus:before { content: "\e900"; }
+.icon-google-plus2:before { content: "\e901"; }
+.icon-facebook:before { content: "\e902"; }
+.icon-facebook2:before { content: "\e903"; }
+.icon-twitter:before { content: "\e904"; }
+.icon-rss:before { content: "\e90b"; }
+.icon-rss2:before { content: "\e906"; }
+.icon-pinterest:before { content: "\e905"; }
+
+
+/*--------------------------------
+Share Buttons
+---------------------------------*/
+.share-top { 
+	margin-bottom: 30px; 
+}
+.share-btm { margin-bottom: 50px; }
+
+
+/*--------------------------------
+share_top1（Style1）
+---------------------------------*/
+.share-type1 { width: 100%; }
+.share-type1 h2 { color: #666666; font-weight: 400; }
+.share-type1 ul { list-style: none; margin: 0; padding: 0; }
+.share-type1 li { display: inline-block; padding: 0; text-align: center; }
+.share-type1 li > a:hover { -webkit-transform: translate3d(0, 1px, 0); transform: translate3d(0, 1px, 0); }
+.share-type1 a { min-width: 27px; text-decoration: none; display: inline-block; margin: 0 5px 5px 0; font-size: 12px; font-weight: 400; color: #fff !important; background: #fafafa; border-radius: 2px; box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03); text-shadow: none; text-align: center; line-height: 25px; padding: 1px 5px 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.share-type1 i { position: relative; top: 3px; color: #fff; font-size: 1.3em; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1); }
+.share-type1 .ttl { margin: 0 3px 0 2px; text-align: center; line-height: 20px; }
+.share-type1 .share-count { display: inline; font-size: 9px; color: #fff; padding: 0; line-height: 25px; margin: 0; border-radius: 0 1px 1px 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+
+@media screen and (max-width: 767px) {
+  .share-type1 { width: 100%; }
+  .share-type1 ul { margin-bottom: 15px; }
+  .share-type1 li > a span { display: none; }
+  .share-type1 a { margin-right: 2px; }
+  .share-type1 i { left: 1px; }
+  .share-type1 .share-count { margin-left: 3px; }
+}
+
+
+/*--------------------------------
+share_btm1（Style3）
+---------------------------------*/
+.share-type3 .sns { margin: 0; text-align: center; }
+.share-type3 ul { margin: 0 -3% 3% 0; list-style: none; }
+.share-type3 li { float: left; width: 47%; margin: 0 3% 1.5% 0; cursor: pointer; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.post .share-type3 ul li { list-style: none; background-image: none; padding: 0; }
+.share-type3 ul li a { position: relative; display: block; top: 3px; font-size: 13px; padding: 10px 2px; color: #fff; border-radius: 2px; text-align: center; text-decoration: none; vertical-align: middle; }
+.share-type3 ul li a i { position: relative; top: 3px; font-size: 140%; }
+.share-type3 ul li a .ttl { margin: 0 3px 0 4px; display: inline-block; text-align: center; font-size: 12px; }
+.share-type3 ul li a .share-count { position: absolute; bottom: -2px; right: 8px; font-size: 10px; padding: 0; line-height: 25px; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.share-type3 ul li a:hover { -webkit-transform: translate3d(0px, 2px, 1px); -moz-transform: translate3d(0px, 2px, 1px); transform: translate3d(0px, 2px, 1px); }
+
+@media only screen and (min-width: 480px) {
+  .share-type3 { width:auto; margin: 20px 0 15px; }
+  .share-type3 ul { margin-right: -1%; list-style: none; overflow: hidden; }
+  .share-type3 li { width: 24%; margin: 0 1% 2% 0; }
+  .share-type3 li a { font-size: 12px; padding: 10px 2px; }
+  .share-type3 li:nth-child(4n) { margin-right: 0; }
+}
+
+
+/*------------- share_top1 & share_btm1 button_color -------------*/
+/* Twitter */
+.share-type1 .twitter a, .share-type3 .twitter a { background-color: #55acee; }
+.share-type1 .twitter a:hover, .share-type3 .twitter a:hover { background-color: #468ec5; }
+
+/* Facebook */
+/*
+.share-type1 ul li.twitter a, .share-type3 ul li.twitter a { color:#fff; background-color:#55acee; }
+*/
+.share-type1 ul li.facebook a, .share-type3 ul li.facebook a { background-color: #35629a; }
+.share-type1 ul li.facebook a:hover, .share-type3 ul li.facebook a:hover { background-color: #1f3669; }
+
+/* Google+ */
+.share-type1 ul li.googleplus a, .share-type3 ul li.googleplus a { background-color: #dd4b39; }
+.share-type1 ul li.googleplus a:hover, .share-type3 ul li.googleplus a:hover { background-color: #b94031; }
+.share-type1 ul li.googleplus a i { top: 4px; }
+
+/* Hatena */
+.share-type1 ul li.hatebu > a, .share-type3 ul li.hatebu a { background-color: #3c7dd1; }
+.share-type1 ul li.hatebu > a:hover, .share-type3 ul li.hatebu a:hover { background-color: #0270ac; }
+
+/* Pocket */
+.share-type1 ul li.pocket a, .share-type3 ul li.pocket a { background-color: #ee4056; }
+.share-type1 ul li.pocket a:hover, .share-type3 ul li.pocket a:hover { background-color: #c53648; }
+
+/* rss */
+.share-type1 ul li.rss a, .share-type3 ul li.rss a { background-color: #ffb53c; }
+.share-type1 ul li.rss a:hover, .share-type3 ul li.rss a:hover { background-color: #e09900; }
+
+/* Feedly */
+.share-type1 ul li.feedly a, .share-type3 ul li.feedly a { background-color: #6cc655; }
+.share-type1 ul li.feedly > a:hover, .share-type3 ul li.feedly > a:hover { background-color: #5ca449; }
+
+/* Pinterest */
+.share-type1 ul li.pinterest a, .share-type3 ul li.pinterest a { background-color: #d4121c; }
+.share-type1 ul li.pinterest a:hover, .share-type3 ul li.pinterest a:hover { background-color: #a42f35; }
+
+
+/*--------------------------------
+share_top2（Style2）
+---------------------------------*/
+.share-type2 { width: auto; /*margin:30px 0 15px;*/ }
+.share-type2 h2 { color: #444; font-weight: 400; }
+.share-type2 ul.type2 { margin: 0; padding: 0; list-style: none; }
+.share-type2 ul.type2 li { display: inline-block; padding: 0; text-align: center; }
+.share-type2 ul.type2 li a { text-decoration: none; display: inline-block; margin: 0 5px 5px 0; font-size: 12px; font-weight: 400; border-radius: 2px; color: #222 !important; text-align: center; background: #fafafa !important; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03); text-shadow: none; line-height: 25px; padding: 1px 4px 0; }
+.share-type2 ul.type2 li a i { position: relative; top: 3px; color: #222; font-size: 1.3em; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1); }
+.share-type2 ul.type2 li a .ttl { margin: 0 3px 0 2px; text-align: center; line-height: 20px; }
+.share-type2 ul.type2 li a .share-count { color: #444; font-size: 9px; padding: 0; line-height: 25px; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.share-type2 ul.type2 li a:hover, .share-type2 ul.type2 li a:hover i, .share-type2 ul.type2 li a:hover .share-count { color: #fff !important; }
+.share-type2 ul.type2 li a:hover { border-color: rgba(255, 255, 255, 0.1); }
+
+@media screen and (max-width: 480px) {
+  .share-type2 { width: auto; margin: 0; }
+  .share-type2 ul.type2 { margin-bottom: 15px; }
+  .share-type2 ul.type2 li a { margin-right: 1px; }
+  .share-type2 ul.type2 li a i { left: 1px; }
+  .share-type2 ul.type2 li > a span.ttl { display: none; }
+  .share-type2 ul.type2 li a .share-count { margin-left: 3px; }
+}
+
+
+/*--------------------------------
+share_btm2（Style4）
+---------------------------------*/
+.share-type4 { text-align: center; }
+.share-type4 .sns { margin: 0; }
+.share-type4 ul.type4 { margin: 0 -3% 2% 0; list-style: none; }
+.share-type4 ul.type4 li { float: left; width: 47%; margin: 0 3% 3% 0; cursor: pointer; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+.post .share-type4 ul li { list-style: none; background-image: none; padding: 0; }
+.share-type4 ul.type4 li a { position: relative; display: block; top: 5px; font-size: 13px; padding: 10px 2px; text-decoration: none; border-radius: 2px; color: #222 !important; text-align: center; background: #fafafa !important; border: 1px solid rgba(0, 0, 0, 0.1); box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03); text-shadow: none; }
+.share-type4 ul.type4 li a i { position: relative; top: 3px; font-size: 140%; color: #222 !important; }
+.share-type4 ul.type4 li a .ttl { margin: 0 3px 0 4px; display: inline-block; text-align: center; font-size: 12px; }
+.share-type4 ul.type4 li a .share-count {  position: absolute; bottom: -2px; right: 8px; font-size: 10px; padding: 0; line-height: 25px; margin: 0; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -o-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; color: #222 !important; }
+.share-type4 ul.type4 li a:hover, .share-type4 ul.type4 li a:hover i, .share-type4 ul.type4 li a:hover .share-count { color: #fff !important; }
+
+@media only screen and (min-width: 480px) {
+  .share-type4 { width: auto; margin: 20px 0 15px; }
+  .share-type4 ul.type4 { margin-right: -1%; list-style: none; overflow: hidden; }
+  .share-type4 ul.type4 li { width: 24%; margin: 0 1% 2% 0; }
+  .share-type4 ul.type4 li a { font-size: 12px; padding: 10px 2px; }
+  .share-type4 ul.type4 li:nth-child(4n) { margin-right: 0; }
+}
+
+
+/*------------- share_top2 & share_btm4 button_color -------------*/
+/* Twitter */
+.share-type2 ul.type2 li.twitter a, .share-type4 ul.type4 li.twitter a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.twitter a:hover, .share-type4 ul.type4 li.twitter a:hover { color: #fff !important; background-color: #55acee !important; }
+
+/* Facebook */
+.share-type2 ul.type2 li.facebook a, .share-type4 ul.type4 li.facebook a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.facebook a:hover, .share-type4 ul.type4 li.facebook a:hover { color: #fff !important; background-color: #35629a !important; }
+
+/* Google+ */
+.share-type2 ul.type2 li.googleplus a, .share-type4 ul.type4 li.googleplus a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.googleplus a:hover, .share-type4 ul.type4 li.googleplus a:hover { color: #fff !important; background-color: #dd4b39 !important; }
+.share-type2 ul.type2 li.googleplus a i, .share-type4 ul.type4 li.googleplus a i { top: 4px; }
+
+/* Hatena */
+.share-type2 ul.type2 li.hatebu a, .share-type4 ul.type4 li.hatebu a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.hatebu a:hover, .share-type4 ul.type4 li.hatebu a:hover { color: #fff !important; background-color: #3c7dd1 !important; }
+
+/* Pocket */
+.share-type2 ul.type2 li.pocket a, .share-type4 ul.type4 li.pocket a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.pocket a:hover, .share-type4 ul.type4 li.pocket a:hover { color: #fff !important; background-color: #ee4056 !important; }
+
+/* rss */
+.share-type2 ul.type2 li.rss a, .share-type4 ul.type4 li.rss a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.rss a:hover, .share-type4 ul.type4 li.rss a:hover { color: #fff !important; background-color: #ff8c00 !important; }
+
+/* Feedly */
+.share-type2 ul.type2 li.feedly a, .share-type4 ul.type4 li.feedly a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.feedly a:hover, .share-type4 ul.type4 li.feedly a:hover { color: #fff !important; background-color: #6cc655 !important; }
+
+/* Pinterest */
+.share-type2 ul.type2 li.pinterest a, .share-type4 ul.type4 li.pinterest a { color: #222 !important; background-color: #fafafa !important; }
+.share-type2 ul.type2 li.pinterest a:hover, .share-type4 ul.type4 li.pinterest a:hover { color: #fff !important; background-color: #d4121c !important; }
+
+
+/*--------------------------------
+share_top5（公式ボタン）
+---------------------------------*/
+.sns_default_top { padding: 0; overflow: hidden; list-style: none; }
+.sns_default_top ul li { display: inline-block; margin: 0 5px 3px 0; line-height: 1 !important; overflow: hidden; vertical-align: top; }
+.sns_default_top ul li.twitter_button { width: 74px; }
+.sns_default_top ul li.fbshare_button:hover { text-decoration: none; }
+.sns_default_top ul li.google_button { width: 58px; }
+.sns_default_top ul li.pocket_button { width: 88px; }
+
+@media only screen and (max-width: 480px) {
+  .sns_default_top ul li { margin-bottom: 6px; }
+  .sns_default_top ul li.twitter_button { margin-left: 0; }
+}
+
+

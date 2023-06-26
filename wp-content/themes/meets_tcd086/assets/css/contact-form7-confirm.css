@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*
+ * Copyright (c) 2012 takashi shinohara
+ * this Library is licensed. http://aulta.jp/library/
+ * http://aulta.jp/library/wordpress/contactForm7Confirm.html
+ * last update: 2012-02-15, 0.0.1.
+ */
+
+/*
+ * 入力時に付加するclass
+ */
+form.wpcf7-form-mode-edit{
+	
+}
+
+/*
+ * 確認時に付加するclass
+ */
+form.wpcf7-form-mode-confirm{
+	
+}
+form.wpcf7-form-mode-confirm th{	/* 問い合わせページのプレビューで、<TH>の幅が広がりすぎるので  */
+	width:180px;
+}
+
+/*
+ * 「確認へ」を押したときの入力チェックでひっかかった時に表示するメッセージ
+ */
+form.wpcf7-form ul.error-messages{
+	color:#DC0003;
+}
+form.wpcf7-form ul.error-messages li::before {
+    background: #DC0003;
+}
+form.wpcf7-form ul.error-messages li{
+	margin:0;
+	
+}
+
+/*
+ * 入力チェックに引っかかったときに tr.addClass('error')
+ */
+form.wpcf7-form table tr td .error input,
+form.wpcf7-form table tr td .error select{
+	background-color:#FFC2C2;
+}
+
+/*
+ * プレビュー時のテキスト
+ */
+form.wpcf7-form table td span.wpcf7-form-control-wrap-confirm,{
+	color:#333;
+}
+
+/*
+ * ボタンエリア、確認へ
+ */
+form.wpcf7-form p.buttons-area-confirm,
+form.wpcf7-form p.buttons-area{
+	padding:20px;
+	text-align:center;
+}
+
+/*
+ * ボタンエリア、書き直す、送信（「書き直す」が加わるため位置調整）
+ */
+form.wpcf7-form p.buttons-area .button-rewrite{
+	margin-right:20px;
+}
+form.wpcf7-form p.buttons-area .wpcf7-submit{
+	margin-left:20px;
+}
+
+

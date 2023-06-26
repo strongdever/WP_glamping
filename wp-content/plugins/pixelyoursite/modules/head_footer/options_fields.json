@@ -1,0 +1,16 @@
+{
+  "enabled": "checkbox",
+  "head_any": "textarea",
+  "head_desktop": "textarea",
+  "head_mobile": "textarea",
+  "footer_any": "textarea",
+  "footer_desktop": "textarea",
+  "footer_mobile": "textarea",
+  "woo_order_received_disable_global": "checkbox",
+  "woo_order_received_head_any": "textarea",
+  "woo_order_received_head_desktop": "textarea",
+  "woo_order_received_head_mobile": "textarea",
+  "woo_order_received_footer_any": "textarea",
+  "woo_order_received_footer_desktop": "textarea",
+  "woo_order_received_footer_mobile": "textarea"
+}

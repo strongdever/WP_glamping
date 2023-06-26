@@ -1,0 +1,216 @@
+# Translation of Plugins - ImageMagick Engine - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - ImageMagick Engine - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-02-24 11:13:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - ImageMagick Engine - Stable (latest release)\n"
+
+#: imagemagick-engine.php:1073
+msgid "No valid ImageMagick mode found!"
+msgstr "ImageMagick の有効な実行種別が見つかりません !"
+
+#: imagemagick-engine.php:349
+msgid "The current image editor cannot process this file type."
+msgstr "現在の画像エディターはこの種類のファイルを処理できません。"
+
+#: imagemagick-engine.php:1193
+msgid "Adds interlace option to ImageMagick when images are processed."
+msgstr "ImageMagick で画像を処理する際にインターレースを追加するオプションです。"
+
+#: imagemagick-engine.php:1186
+msgid "Image interlace?"
+msgstr "画像のインターレース ?"
+
+#: imagemagick-engine.php:148
+msgid "Medium Large"
+msgstr "中 - 大"
+
+#. Author URI of the plugin
+msgid "https://orangelab.com/"
+msgstr "https://orangelab.com/"
+
+#. Author of the plugin
+msgid "Orangelab"
+msgstr "Orangelab"
+
+#. Description of the plugin
+msgid "Improve the quality of re-sized images by replacing standard GD library with ImageMagick"
+msgstr "標準のGDライブラリを ImageMagick に置き換えて、リサイズした画像の品質を向上させます。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/imagemagick-engine/"
+msgstr "https://ja.wordpress.org/plugins/imagemagick-engine/"
+
+#. Plugin Name of the plugin
+msgid "ImageMagick Engine"
+msgstr "ImageMagick エンジン"
+
+#: imagemagick-engine.php:1234
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: imagemagick-engine.php:1203
+msgid "None (use WP instead)"
+msgstr "なし (代わりに WP を使用)"
+
+#: imagemagick-engine.php:1202
+msgid "Size"
+msgstr "サイズ"
+
+#: imagemagick-engine.php:1201
+msgid "Quality"
+msgstr "品質"
+
+#: imagemagick-engine.php:1200
+msgid "Optimize for"
+msgstr "最適化の対象"
+
+#: imagemagick-engine.php:1182
+msgid "Set to 0-100. Higher value gives better image quality but larger file size. Leave empty for default value, computed dynamically."
+msgstr "0-100 に設定します。大きな値の方が画像の品質がより良いですが、ファイルサイズが巨大化します。空にすると、動的に算出された初期値になります。"
+
+#: imagemagick-engine.php:1181
+msgid "Optimize for size"
+msgstr "サイズ用の最適化設定"
+
+#: imagemagick-engine.php:1180
+msgid "Optimize for quality"
+msgstr "品質用の最適化設定"
+
+#: imagemagick-engine.php:1178
+msgid "ImageMagick quality"
+msgstr "ImageMagick の品質"
+
+#: imagemagick-engine.php:1173
+msgid "Test path"
+msgstr "テストパス"
+
+#: imagemagick-engine.php:1171
+msgid "Testing command..."
+msgstr "コマンドの試験中..."
+
+#: imagemagick-engine.php:1170
+msgid "Command not found"
+msgstr "コマンドが見つかりません"
+
+#: imagemagick-engine.php:1167
+msgid "ImageMagick path"
+msgstr "ImageMagick のパス"
+
+#: imagemagick-engine.php:1163
+msgid "Imagick PHP module not found"
+msgstr "Imagick PHP モジュールが見つかりません"
+
+#: imagemagick-engine.php:1163
+msgid "Imagick PHP module found"
+msgstr "Imagick PHP モジュールは存在します"
+
+#: imagemagick-engine.php:1144
+msgid "Image engine"
+msgstr "画像エンジン"
+
+#: imagemagick-engine.php:1133
+msgid "Enable enhanced image engine"
+msgstr "画像エンジンの強化を有効化"
+
+#: imagemagick-engine.php:1085
+msgid "You must enable Javascript in order to proceed!"
+msgstr "続けるには JavaScript を有効化する必要があります。"
+
+#: imagemagick-engine.php:1084 imagemagick-engine.php:1086
+msgid "Regenerating images"
+msgstr "画像の再生成中"
+
+#: imagemagick-engine.php:1120
+msgid "(this can take a long time)"
+msgstr "(この処理は時間がかかります)"
+
+#: imagemagick-engine.php:1119
+msgid "Regenerate"
+msgstr "再生成"
+
+#: imagemagick-engine.php:1116
+msgid "Resize will use standard WordPress functions."
+msgstr "標準の WordPress の機能をリサイズに使います。"
+
+#: imagemagick-engine.php:1112
+msgid "ImageMagick images too"
+msgstr "ImageMagick による画像も再生成"
+
+#: imagemagick-engine.php:1102
+msgid "Sizes"
+msgstr "サイズ"
+
+#: imagemagick-engine.php:1097
+msgid "Regenerate Images"
+msgstr "画像の再生成"
+
+#: imagemagick-engine.php:1083
+msgid "ImageMagick Engine Settings"
+msgstr "ImageMagick Engine 設定"
+
+#: imagemagick-engine.php:1077
+msgid "ImageMagick Engine is not enabled."
+msgstr "ImageMagick Engine は有効ではありません。"
+
+#: imagemagick-engine.php:1021
+msgid "Settings updated"
+msgstr "設定を更新しました"
+
+#: imagemagick-engine.php:911
+msgid "Resize using ImageMagick Engine"
+msgstr "ImageMagick Engine を使ってリサイズ"
+
+#: imagemagick-engine.php:907
+msgid "Resize image"
+msgstr "画像をリサイズ"
+
+#: imagemagick-engine.php:861 imagemagick-engine.php:1129
+msgid "Settings"
+msgstr "設定"
+
+#: imagemagick-engine.php:846 imagemagick-engine.php:906
+msgid "Resized using ImageMagick Engine"
+msgstr "リサイズに ImageMagick を使用"
+
+#: imagemagick-engine.php:845
+msgid "Failed to resize image!"
+msgstr "画像リサイズに失敗しました。"
+
+#: imagemagick-engine.php:844
+msgid "Processed %d images"
+msgstr "%d 枚の画像を処理しました"
+
+#: imagemagick-engine.php:843
+msgid "All done!"
+msgstr "すべて完了しました。"
+
+#: imagemagick-engine.php:842
+msgid "You dont have any images to regenerate"
+msgstr "再生成用の画像がありません"
+
+#: imagemagick-engine.php:149
+msgid "Large"
+msgstr "大"
+
+#: imagemagick-engine.php:147
+msgid "Medium"
+msgstr "中"
+
+#: imagemagick-engine.php:146
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: imagemagick-engine.php:67
+msgid "ImageMagick command-line"
+msgstr "ImageMagick コマンドライン"
+
+#: imagemagick-engine.php:66 imagemagick-engine.php:1160
+msgid "Imagick PHP module"
+msgstr "Imagick PHP モジュール"

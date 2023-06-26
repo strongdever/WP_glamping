@@ -1,0 +1,70 @@
+.tcd_ad_widget_box_wrap { margin-bottom:15px; }
+.tcd_ad_widget_headline { border:1px solid #ccc; height:40px; line-height:40px; padding:0 15px; background:#eee; font-size:100%; margin:15px 0 -1px 0; position:relative; }
+.tcd_ad_widget_headline:after { content:''; height:5px; width:9px; background:url(arrow.gif) no-repeat left top; display:block; margin:0; position:absolute; top:19px; right:15px; }
+.tcd_ad_widget_headline:hover { cursor:pointer; background-color:#def2f8; }
+.tcd_ad_widget_headline.active { background-color:#def2f8; }
+.tcd_ad_widget_box { border:1px solid #ccc; padding:15px 15px 0; }
+.tcd_ad_widget_box { display:none; }
+.tcd_ad_widget_box.open { display:block; }
+.tcd_ad_widget_box h5 { font-size:100%; border-bottom:1px dotted #aaa; margin:0 0 10px 0; padding:0 0 10px 0; }
+.tcd_ad_widget_box_inner { margin:0 0 20px 0; }
+.tcd_ad_widget_box .preview_field { text-align:center; }
+.tcd_ad_widget_box .preview_field img { max-width:150px; height:auto; display:block; margin:0 auto 15px; }
+
+.widget_notice { margin:0 0 20px 0; background:#def2f8; padding:15px; position:relative; }
+.widget_notice:after { content:''; height:0px; width:0px; border:10px solid #eef0f2; border-color:transparent; border-top-color:#def2f8; display:block; margin:0 auto 0; position:absolute; right:0; left:0; bottom:-17px; }
+
+.widget_headline { font-size:100%; line-height:160%; border-bottom:1px dotted #aaa; margin:0 0 10px 0; padding:0 0 10px 0; }
+
+.widget_media_upload { margin:0 0 15px 0; }
+.widget_media_upload .preview_field { }
+.widget_media_upload .preview_field img { max-width:150px; height:auto; display:block; margin:0 0 15px; background:#ccc; }
+
+.ranking_list_widget { padding:5px 0 0 0; }
+.ranking_list_widget li { margin:0 0 10px 0; padding:15px 0 0 0; border-top:1px dotted #ccc; }
+.ranking_list_widget li input { margin-bottom:10px; }
+
+.tcd_widget_headline { font-weight:bold; font-size:15px; padding:0 0 12px 0; border-bottom:1px solid #ccc; margin:0 0 10px 0; }
+.tcd_widget_headline:before { content:''; display:block; float:left; width:5px; height:20px; background:#1763a3; margin:0px 8px 0 0; border-radius:1px; }
+.tcd_widget_content { margin:0 0 30px 0; }
+.tcd_widget_content:first-child { margin-top:15px; }
+
+
+.tcd_ad_widget_box_wrap { margin-bottom:15px; }
+.tcd_ad_widget_headline { border:1px solid #ccc; height:40px; line-height:40px; padding:0 15px; background:#eee; font-size:100%; margin:15px 0 -1px 0; position:relative; }
+.tcd_ad_widget_headline:after { content:''; height:5px; width:9px; background:url(arrow.gif) no-repeat left top; display:block; margin:0; position:absolute; top:19px; right:15px; }
+.tcd_ad_widget_headline:hover { cursor:pointer; background-color:#def2f8; }
+.tcd_ad_widget_headline.active { background-color:#def2f8; }
+.tcd_ad_widget_box { border:1px solid #ccc; padding:15px 15px 0; }
+.tcd_ad_widget_box { display:none; }
+.tcd_ad_widget_box.open { display:block; }
+.tcd_ad_widget_box h5 { font-size:100%; border-bottom:1px dotted #aaa; margin:0 0 10px 0; padding:0 0 10px 0; }
+.tcd_ad_widget_box_inner { margin:0 0 20px 0; }
+.tcd_ad_widget_box .preview_field { text-align:center; }
+.tcd_ad_widget_box .preview_field img { max-width:150px; height:auto; display:block; margin:0 auto 15px; }
+
+.widget_notice { margin:0 0 20px 0; background:#def2f8; padding:15px; position:relative; }
+.widget_notice:after { content:''; height:0px; width:0px; border:10px solid #eef0f2; border-color:transparent; border-top-color:#def2f8; display:block; margin:0 auto 0; position:absolute; right:0; left:0; bottom:-17px; }
+
+.widget_headline { font-size:100%; line-height:160%; border-bottom:1px dotted #aaa; margin:0 0 10px 0; padding:0 0 10px 0; }
+
+.widget_media_upload { margin:0 0 15px 0; }
+.widget_media_upload .preview_field { }
+.widget_media_upload .preview_field img { max-width:150px; height:auto; display:block; margin:0 0 15px; background:#ccc; }
+
+.ranking_list_widget { padding:5px 0 0 0; }
+.ranking_list_widget li { margin:0 0 10px 0; padding:15px 0 0 0; border-top:1px dotted #ccc; }
+.ranking_list_widget li input { margin-bottom:10px; }
+
+.tcd_widget_headline { font-weight:bold; font-size:15px; padding:0 0 12px 0; border-bottom:1px solid #ccc; margin:0 0 10px 0; }
+.tcd_widget_headline:before { content:''; display:block; float:left; width:5px; height:20px; background:#1763a3; margin:0px 8px 0 0; border-radius:1px; }
+.tcd_widget_content { margin:0 0 30px 0; }
+.tcd_widget_content:first-child { margin-top:15px; }
+
+
+/* tab post list widget */
+.tab_list_widget_input_area { border:1px solid #ccc; padding:15px; margin:0 0 20px 0; }
+.tab_list_widget_headline { margin:-15px -15px 20px; background:#f2f2f2; padding:20px 15px; font-size:15px; }
+
+
+

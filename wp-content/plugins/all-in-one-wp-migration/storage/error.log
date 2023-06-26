@@ -1,0 +1,6 @@
+Jun 25 2023 17:19:45
+{"type":2,"message":"dns_get_record(): DNS Query failed","file":"C:\\xampp\\htdocs\\glamping\\wp-content\\plugins\\wordfence\\lib\\wfUtils.php","line":998}
+
+Jun 25 2023 17:19:58
+{"type":2,"message":"dns_get_record(): DNS Query failed","file":"C:\\xampp\\htdocs\\glamping\\wp-content\\plugins\\wordfence\\lib\\wfUtils.php","line":998}
+

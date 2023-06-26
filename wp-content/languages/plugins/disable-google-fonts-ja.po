@@ -1,0 +1,44 @@
+# Translation of Plugins - Disable Google Fonts - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Disable Google Fonts - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-09-10 14:02:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Disable Google Fonts - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://blog.milandinic.com/"
+msgstr "http://blog.milandinic.com/"
+
+#. Author of the plugin/theme
+msgid "Milan Dinić"
+msgstr "Milan Dinić"
+
+#. Description of the plugin/theme
+msgid "Disable enqueuing of Open Sans and other fonts used by WordPress from Google."
+msgstr "WordPress にて使われる Google からの Open Sans や他のフォントのエンキューイングを無効にします。"
+
+#. Plugin URI of the plugin/theme
+msgid "http://blog.milandinic.com/wordpress/plugins/disable-google-fonts/"
+msgstr "http://blog.milandinic.com/wordpress/plugins/disable-google-fonts/"
+
+#. Plugin Name of the plugin/theme
+msgid "Disable Google Fonts"
+msgstr "Disable Google Fonts"
+
+#: disable-google-fonts.php:68
+msgid "Premium WordPress Plugins"
+msgstr "プレミアム WordPress プラグイン"
+
+#: disable-google-fonts.php:67
+msgid "WordPress Developer"
+msgstr "WordPress 開発者"
+
+#: disable-google-fonts.php:66
+msgid "Donate"
+msgstr "カンパ"

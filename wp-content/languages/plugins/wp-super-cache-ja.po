@@ -1,0 +1,2039 @@
+# Translation of Plugins - WP Super Cache - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Super Cache - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-14 05:57:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Super Cache - Stable (latest release)\n"
+
+#: wp-cache.php:393
+msgid "An image showing a web site with a photo of a time-lapsed watch face. In the foreground is a graph showing a speed score for mobile and desktop in yellow and green with an overall score of B"
+msgstr "タイムラプスで撮影された時計の写真が付いたサイトの画像。前面のグラフはモバイルとデスクトップの速度スコアを黄色と緑で示し、全体スコアは B を示しています"
+
+#: wp-cache.php:392
+msgid "Check how your web site performance scores for desktop and mobile."
+msgstr "デスクトップとモバイルでのサイトのパフォーマンススコアを確認しましょう。"
+
+#: wp-cache.php:374
+msgid "Caching is a great start, but there is more to maximize your site speed. Find out how much your cache speeds up your site and make it blazing fast with Jetpack Boost, the easiest WordPress speed optimization plugin developed by Super Cache engineers."
+msgstr "キャッシュは良いスタートですが、サイトの高速化にはもっと方法があります。キャッシュの効果確認とスピードアップに Jetpack Boost をどうぞ。Super Cache のエンジニアが開発した、最も使いやすい WordPress の速度最適化プラグインです。"
+
+#: wp-cache.php:369
+msgid "Find out how much Super Cache speeds up your site"
+msgstr "Super Cache がサイトをどれだけスピードアップしたかご確認ください"
+
+#: wp-cache.php:359 js/admin.js:76
+msgid "Install Jetpack Boost"
+msgstr "Jetpack Boost をインストール"
+
+#: wp-cache.php:359 js/admin.js:73
+msgid "Activate Jetpack Boost"
+msgstr "Jetpack Boost を有効化"
+
+#: wp-cache.php:1279
+msgid "Boost your page speed scores"
+msgstr "ページのスピードスコアを向上"
+
+#. translators: %s: Link URL for Jetpack Boost.
+#: partials/easy.php:135
+msgid "<a href=\"%s\">Jetpack Boost</a> helps speed up your website by generating critical CSS, defering Javascript and much more."
+msgstr "<a href=\"%s\">Jetpack Boost</a> はクリティカル CSS の生成、Javascript の遅延読み込みなどでサイトの高速化を支援します。"
+
+#: partials/easy.php:162
+msgid "* The links above (apart from Jetpack) go to websites outside the author's control. Caution is advised when testing any new software."
+msgstr "上記のリンク(Jetpack を除く)は、管理外のウェブサイトへ移動します。新しいソフトウェアをテストする場合は、ご注意ください。"
+
+#: partials/easy.php:158
+msgid "<a href=\"%s\">commonWP</a> does the same job as \"Use Google Libraries\" and offloads some commonly used static files to an external CDN."
+msgstr "<a href=\"%s\">commonWP</a> は「Use Google Libraries」プラグインと同じ処理を行い、よく使われる静的ファイルを外部 CDN にオフロードします。"
+
+#: partials/advanced.php:307
+msgid "Always Cache Filenames"
+msgstr "常にキャッシュするファイル名"
+
+#: partials/advanced.php:283
+msgid "Rejected URL Strings"
+msgstr "除外する URL 文字列"
+
+#: partials/advanced.php:297
+msgid "Do not cache pages when these cookies are set. Add the cookie names here, one per line. Matches on fragments, so \"test\" will match \"WordPress_test_cookie\". (Simple caching only)"
+msgstr "これらの Cookie が設定されているときは、ページをキャッシュしません。Cookie 名を1行に1つずつ追加してください。bフラグメントにマッチするので、”test\" は “WordPress_test_cookie\" にマッチします。(シンプルキャッシングのみ)"
+
+#: partials/advanced.php:295
+msgid "Rejected Cookies"
+msgstr "除外する Cookie"
+
+#: partials/tracking_parameters.php:4
+msgid "Tracking parameters to ignore when caching. Visitors from Facebook, Twitter and elsewhere to your website will go to a URL with tracking parameters added. This setting allows the plugin to ignore those parameters and show an already cached page. Any actual tracking by Google Analytics or other Javascript based code should still work as the URL of the page is not modified."
+msgstr "キャッシュ時に無視するトラッキングパラメータです。Facebook や Twitter などからあなたの Web サイトへの訪問者は、トラッキングパラメータが付加された URL へ移動します。この設定により、プラグインはトラッキングパラメータを無視し、キャッシュ済みのページを表示できます。Google Analytics や他の Javascript ベースのコードによる実際のトラッキングは、ページの URL が変更されないため、動作するはずです。"
+
+#: partials/tracking_parameters.php:2
+msgid "Tracking Parameters"
+msgstr "トラッキングパラメータ"
+
+#: partials/advanced.php:126
+msgid "The location of the plugin configuration file can be changed by defining the WPCACHECONFIGPATH constant in wp-config.php. If not defined it will be set to WP_CONTENT_DIR."
+msgstr "プラグイン設定ファイルの場所は、wp-config.php で WPCACHECONFIGPATH 定数を定義することによって変更できます。定義されていない場合は、WP_CONTENT_DIR に設定されます。"
+
+#: partials/advanced.php:95
+msgid "Warning: do not use a shared directory like /tmp/ where other users on this server can modify files. Your cache files could be modified to deface your website."
+msgstr "警告: このサーバーの他のユーザーがファイルを変更できる /tmp/ のような共有ディレクトリを使用しないでください。キャッシュファイルが変更され、あなたのウェブサイトが改ざんされる可能性があります。"
+
+#: wp-cache-phase2.php:1368
+msgid "WARNING: attempt to intercept updating of config file."
+msgstr "警告: 設定ファイルの更新を妨害しようとしました。"
+
+#: wp-cache.php:2272
+msgid "%s/advanced-cache.php</em> cannot be updated."
+msgstr "%s/advanced-cache.php</em> を更新できません。"
+
+#: wp-cache.php:2269
+msgid "If you need support for this problem contact your hosting provider."
+msgstr "この問題のサポートが必要でしたらホスティングプロバイダーへご連絡ください。"
+
+#: wp-cache.php:2266
+msgid "If it was created by another caching plugin please uninstall that plugin first before activating WP Super Cache. If the file is not removed by that action you should delete the file manually."
+msgstr "別のキャッシュプラグインが生成したものだった場合、そのプラグインをアンインストールした後に WP Super Cache を有効化してください。この方法でファイルが削除されない場合、ファイルを手動で削除してください。"
+
+#: wp-cache.php:2261
+msgid "The file %s was created by another plugin or by your system administrator. Please examine the file carefully by FTP or SSH and consult your hosting documentation. "
+msgstr "ファイル %s は別のプラグインまたはシステム管理者が作成したものでした。FTP や SSH でファイルを慎重に調べて、ホスティング説明書をご確認ください。"
+
+#: wp-cache.php:2258
+msgid "Warning! You may not be allowed to use this plugin on your site."
+msgstr "警告 ! このサイトでこのプラグインの利用が許可されていません。"
+
+#: wp-cache.php:2518
+msgid "WP-Cached"
+msgstr "WP-Cache 適用"
+
+#: wp-cache.php:2518
+msgid "WP-Super-Cached"
+msgstr "WP-Super-Cache 適用"
+
+#: wp-cache.php:1282
+msgid "Add Surveys and Polls to your site"
+msgstr "サイトにアンケートと投票を追加"
+
+#: wp-cache.php:1276
+msgid "Other Site Tools"
+msgstr "他のサイトツール"
+
+#: partials/easy.php:25
+msgid "These settings can be modified on the Advanced Settings page."
+msgstr "これらの設定は、詳細設定ページで変更できます。"
+
+#: partials/easy.php:23
+msgid "Interval garbage collection every 10 minutes with a cache lifetime of 30 minutes (if not configured already)."
+msgstr "ガベージコレクションは10分間隔で行い、キャッシュの有効期限は30分間です (まだ設定されていない場合)。"
+
+#: partials/easy.php:22
+msgid "Cache Rebuild."
+msgstr "キャッシュを再構築しました。"
+
+#: partials/easy.php:21
+msgid "Simple caching."
+msgstr "シンプルなキャッシング。"
+
+#: partials/easy.php:20
+msgid "Caching disabled for logged in visitors."
+msgstr "ログイン中のユーザーにはキャッシュが無効化されています。"
+
+#: partials/easy.php:18
+msgid "The following recommended settings will be enabled:"
+msgstr "以下の推奨設定が有効になります。"
+
+#: partials/advanced.php:57
+msgid "304 Browser caching. Improves site performance by checking if the page has changed since the browser last requested it."
+msgstr "304 ブラウザーキャッシング。ブラウザーが最後にリクエストして以来ページが変更されたかどうかを確認することで、サイトのパフォーマンスを向上させます。"
+
+#: partials/advanced.php:53
+msgid "Warning! The following settings are disabled because Expert caching is enabled."
+msgstr "警告: エキスパートキャッシングが有効になっているため、以下の設定は無効になっています。"
+
+#: wp-cache-phase2.php:1434
+msgid "Caching disabled. Page not cached."
+msgstr "キャッシュが無効になっています。ページはキャッシュされていません。"
+
+#: partials/advanced.php:40
+msgid "Disable caching for logged in visitors."
+msgstr "ログイン中のユーザーに対してはキャッシュを無効化する。"
+
+#: partials/advanced.php:39
+msgid "Disable caching for visitors who have a cookie set in their browser."
+msgstr "ブラウザーに cookie をセットした訪問者にはキャッシュを無効化する。"
+
+#: partials/advanced.php:38
+msgid "Enable caching for all visitors."
+msgstr "すべてのユーザーに対してキャッシュを有効化する。"
+
+#: partials/advanced.php:37
+msgid "Cache Restrictions"
+msgstr "キャッシュ制限"
+
+#: ossdl-cdn.php:316
+msgid "Simple CDN"
+msgstr "Simple CDN"
+
+#: ossdl-cdn.php:306
+msgid "%1$sJetpack%2$s was not found on your site but %3$syou can install it%2$s. The Site Accelerator feature is free to use on any WordPress site and offers the same benefit as other CDN services. You should give it a try!"
+msgstr "サイトに %1$sJetpack%2$s がありませんが %3$sインストールできます%2$s。サイトアクセラレーター機能はどの WordPress サイトでも無料で使えて、他の CDN サービスと同じ利点があります。お試しください !"
+
+#: ossdl-cdn.php:298
+msgid "You already have Jetpack installed but %1$sSite Accelerator%2$s is disabled on this blog. Enable it on the %3$sJetpack settings page%2$s."
+msgstr "Jetpack をインストール済みですが%1$sサイトアクセラレーター%2$sが無効です。%3$sJetpack 設定ページ%2$sで有効化できます。"
+
+#: ossdl-cdn.php:292
+msgid "You already have Jetpack installed and %1$sSite Accelerator%2$s enabled on this blog. The CDN here is disabled to avoid conflicts with Jetpack."
+msgstr "Jetpack をインストール済みで%1$sサイトアクセラレーター%2$sが有効です。こちらの CDN は Jetpack との競合を避けるために無効化しています。"
+
+#: ossdl-cdn.php:283
+msgid "The free %1$sJetpack plugin%2$s has a %3$sSite Accelerator%2$s feature that is easier to use than the CDN functionality in this plugin. However files will be cached \"forever\" and will not update if you update the local file. Files will need to be renamed to refresh them. The %3$sJetpack documentation%2$s explains more about this."
+msgstr "無料の %1$sJetpack プラグイン%2$s には、このプラグインの CDN より簡単に使える%3$sサイトアクセラレーター%2$s機能があります。ただし、ファイルは「永久に」キャッシュされ、ローカルファイルを更新しても更新されません。更新するにはファイル名を変える必要があります。%3$sJetpack のドキュメント%2$sで詳細が説明されています。"
+
+#: ossdl-cdn.php:281
+msgid "Jetpack CDN"
+msgstr "Jetpack CDN"
+
+#: inc/delete-cache-button.php:36
+msgid "Delete Super Cache cached files"
+msgstr "Super Cache のキャッシュファイルを削除"
+
+#: wp-cache.php:439
+msgid "The WordPress CRON jobs system is disabled. This means the garbage collection system will not work unless you run the CRON system manually."
+msgstr "WordPress CRON ジョブシステムは停止しています。ガベージコレクションシステムは手動で CRON システムを動かさない限り動作しません。"
+
+#: wp-cache.php:438
+msgid "CRON System Disabled"
+msgstr "CRON システムは停止中"
+
+#: wp-cache.php:3431
+msgid "WP Super Cache: could not delete files"
+msgstr "WP Super Cache: ファイルを削除できませんでした"
+
+#: wp-cache.php:3428
+msgid ""
+"You should delete these files manually.\n"
+"You may need to change the permissions of the files or parent directory.\n"
+"You can read more about this in the Codex at\n"
+"%s\n"
+"\n"
+"Thank you."
+msgstr ""
+"これらのファイルは手動で削除してください。\n"
+"ファイルや親ディレクトリの権限の変更が必要な場合があります。\n"
+"詳細については以下のドキュメントを参照してください。\n"
+"%s"
+
+#: wp-cache.php:3423
+msgid ""
+"Dear User,\n"
+"\n"
+"WP Super Cache was removed from your blog or deactivated but some files could\n"
+"not be deleted.\n"
+"\n"
+msgstr ""
+" WP Super Cache ユーザーへ\n"
+"\n"
+"WP Super Cache はブログから削除、または無効化されましたが、一部のファイルは\n"
+"削除されませんでした。\n"
+"\n"
+
+#: wp-cache.php:2009
+msgid "Error: Configuration file %s is missing. Please reload the page."
+msgstr "エラー : 構成ファイル %s が見つかりません。ページをリロードしてください。"
+
+#: wp-cache.php:2006
+msgid "Error: Configuration file %s could not be loaded. Please reload the page."
+msgstr "エラー : 構成ファイル %s をロードできませんでした。ページをリロードしてください。 "
+
+#: wp-cache.php:2003
+msgid "Error: The directory containing the configuration file %s is read only. Please make sure it is writeable by the webserver."
+msgstr "エラー : 構成ファイル %s のあるディレクトリは読み取り専用です。Web サーバーから書き込みできるように設定してください。"
+
+#: wp-cache.php:2000
+msgid "Error: Configuration file is read only. Please make sure %s is writeable by the webserver."
+msgstr "エラー : 構成ファイルは読み取り専用です。Web サーバーから %s に書き込みできるように設定してください。"
+
+#: wp-cache.php:1997
+msgid "Error: Could not rename temporary file to configuration file. Please make sure %s is writeable by the webserver."
+msgstr "エラー : 一時ファイルの名前を構成ファイルの名前に変更できませんでした。Web サーバーから %s に書き込みできるように設定してください。"
+
+#: partials/easy.php:156
+msgid "<a href=\"%s\">Yahoo! Yslow</a> analyzes web pages and suggests ways to improve their performance based on a set of rules for high performance web pages. Also try the performance tools online at <a href=\"%s\">GTMetrix</a>."
+msgstr "<a href=\"%s\">Yahoo! Yslow</a> は Web ページを解析し、ルールベースでパフォーマンスの改良方法を提案します。またオンラインパフォーマンスツール <a href=\"%s\">GTMetrix</a> も試してみてください。"
+
+#: partials/advanced.php:279 partials/debug.php:61 partials/preload.php:71
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: plugins/badbehaviour.php:77
+msgid "disable"
+msgstr "無効化"
+
+#: wp-cache.php:3376
+msgid "Warning! WP Super Cache preload was interrupted but has been restarted."
+msgstr "警告 ! WP Super Cache プリロードは中断されましたが、再スタートしました。"
+
+#: partials/advanced.php:27
+msgid "Nginx rules can be found <a href=\"%s\">here</a> but are not officially supported."
+msgstr "Nginx のルールは<a href=\"%s\">こちら</a>にありますが、正式にはサポートされません。"
+
+#: wp-cache.php:484
+msgid "Warning! You must set WP_CACHE and WPCACHEHOME in your wp-config.php for this plugin to work correctly:"
+msgstr "警告 ! このプラグインが正常に動作するには wp-config.php 内で WP_CACHE と WPCACHEHOME の設定が必要です。"
+
+#: wp-cache.php:2191
+msgid "Not allowed to edit %s per configuration."
+msgstr "構成ごとには %s を編集できません。"
+
+#: wp-cache.php:1328
+msgid "<strong>Warning</strong>! Due to the way WordPress upgrades plugins, the ones you upload to the WP Super Cache folder (wp-super-cache/plugins/) will be deleted when you upgrade WP Super Cache. To avoid this loss, load your cache plugins from a different location. When you set <strong>$wp_cache_plugins_dir</strong> to the new location in wp-config.php, WP Super Cache will look there instead. <br />You can find additional details in the <a href=\"%s\">developer documentation</a>."
+msgstr "<strong>警告</strong> ! プラグイン更新における WordPress の仕様により、WP Super Cache フォルダー (wp-super-cache/plugins/) 内にアップロードされたファイルは WP Super Cache 更新時に削除されます。これを避けるには別の場所からキャッシュプラグインをロードしてください。wp-config.php 内で <strong>$wp_cache_plugins_dir</strong> に新しい場所を指定すると、WP Super Cache はそちらを探しに行きます。<br />詳細については<a href=\"%s\">開発者用ドキュメント</a>を参照してください。"
+
+#: wp-cache.php:1327
+msgid "Keep in mind that cache plugins are for advanced users only. To create and manage them, you'll need extensive knowledge of both PHP and WordPress actions."
+msgstr "キャッシュプラグインは上級者向けであることに注意してください。その作成や管理には、PHP および WordPress 操作における豊富な知識が必要です。"
+
+#: wp-cache.php:1326
+msgid "Cache plugins are PHP scripts you'll find in a dedicated folder inside the WP Super Cache folder (wp-super-cache/plugins/). They load at the same time as WP Super Cache, and before regular WordPress plugins."
+msgstr "キャッシュプラグインは WP Super Cache フォルダー 内部の専用フォルダー (wp-super-cache/plugins/) に配置された PHP スクリプトです。通常の WordPress プラグインよりも前に、WP Super Cache と同時にロードされます。"
+
+#: plugins/wptouch.php:139
+msgid "Provides support for WPTouch mobile theme and plugin."
+msgstr "WPTouch モバイルテーマおよびプラグインのサポート"
+
+#: plugins/jetpack.php:92
+msgid "Provides support for the Jetpack mobile theme and plugin. PHP caching mode and mobile support will be enabled too."
+msgstr "Jetpack モバイルテーマおよびプラグインのサポート。PHP キャッシュモードとモバイルサポートも有効化されます。"
+
+#: plugins/domain-mapping.php:133
+msgid "Provides support for Domain Mapping plugin to map multiple domains to a blog."
+msgstr "Domain Mapping プラグインのサポート。ブログに複数のドメインをマップします。"
+
+#: plugins/badbehaviour.php:99
+msgid "Support for Bad Behavior. (Only WPCache caching supported, disabled compression and requires Bad Behavior in \"%s/plugins/bad-behavior/\") "
+msgstr "Bad Behavior サポート (WPCache のキャッシュのみをサポートします。圧縮は解除し、Bad Behavior を %s/plugins/bad-behavior/ にインストールする必要があります)"
+
+#: wp-cache.php:1029
+msgid "Preload Active"
+msgstr "プリロード有効"
+
+#: ossdl-cdn.php:337
+msgid "The URL of your site. No trailing <code>/</code> please."
+msgstr "サイトの URL。末尾に「<code>/</code>」を付けないでください。"
+
+#: ossdl-cdn.php:334
+msgid "Site URL"
+msgstr "サイト URL"
+
+#: partials/easy.php:37
+msgid "Note: if you use Cloudflare or other transparent front-end proxy service this test may fail.<ol><li> If you have Cloudflare minification enabled this plugin may detect differences in the pages and report an error.</li><li> Try using the development mode of Cloudflare to perform the test. You can disable development mode afterwards if the test succeeds.</li></ol>"
+msgstr "注意 : このテストは Cloudflare などのトランスペアレントフロントエンドプロキシーサービス環境で失敗する可能性があります。<ol><li> これはプラグインが Cloudflare 圧縮をページの差異として検知し、エラーを報告するためです。</li><li> 一時的に Cloudflare の開発モードを使用してテストを実行してください。テスト完了後は開発モードを無効化できます。</li></ol>"
+
+#: ossdl-cdn.php:321
+msgid "<strong style=\"color: red\">WARNING:</strong> Your siteurl and homeurl are different. The plugin is using %s as the homepage URL of your site but if that is wrong please use the filter \"ossdl_off_blog_url\" to fix it."
+msgstr "<strong style=\"color: red\">警告 :</strong> サイト URL とホーム URL が異なります。このプラグインはサイトのホームページ URL として %s を使用しますが、間違っている場合はフィルター「ossdl_off_blog_url」を使用して修正してください。"
+
+#: wp-cache.php:2555
+msgid "Preload mode is enabled. Supercache files will never be expired."
+msgstr "プリロードモードが有効です。キャッシュファイルは期限切れになりません。"
+
+#: wp-cache.php:2525
+msgid "Files"
+msgstr "ファイル"
+
+#: wp-cache.php:2524
+msgid "%s %s Files"
+msgstr "%s %s ファイル"
+
+#: wp-cache.php:2434
+msgid "Warning! You are not allowed to delete that file"
+msgstr "警告 ! そのファイルを削除する権限がありません"
+
+#: partials/debug.php:32
+msgid "Disable Logging"
+msgstr "ログ記録の無効化"
+
+#: partials/debug.php:29
+msgid "Enable Logging"
+msgstr "ログを有効化"
+
+#: partials/debug.php:19
+msgid "Username/Password: %s"
+msgstr "ユーザー名/パスワード: %s"
+
+#: partials/debug.php:17
+msgid "Last Logged to: %s"
+msgstr "最終ログ記録: %s"
+
+#: partials/advanced.php:255
+msgid "Checking for and deleting expired files is expensive, but it&#8217;s expensive leaving them there too. On a very busy site, you should set the expiry time to <em>600 seconds</em>. Experiment with different values and visit this page to see how many expired files remain at different times during the day."
+msgstr "期限切れファイルの検出と削除には負荷がかかりますが、期限切れファイルをそのまま残しておくことにもまた負荷がかかります。非常にアクセス数の多いサイトではまず有効期限を<strong>600 秒</strong>に設定してください。次に時間帯を変えながら異なる値を設定し、このページで期限切れファイルがどれくらい残るかを調べてください。"
+
+#: partials/advanced.php:176
+msgid "New Rules"
+msgstr "新ルール"
+
+#: partials/advanced.php:176
+msgid "Current Rules"
+msgstr "現在のルール"
+
+#: partials/advanced.php:176
+msgid "Rewrite Rules"
+msgstr "リライトルール"
+
+#: partials/advanced.php:161
+msgid "The plugin could not update %1$s.htaccess file: %2$s.<br /> The new rules go above the regular WordPress rules as shown in the code below:"
+msgstr "プラグインは %1$s.htaccess ファイルを更新できませんでした: %2$s。<br /> 以下のコードのように新しいルールは通常の WordPress ルールに優先します:"
+
+#: partials/advanced.php:138
+msgid "When Expert cache delivery is enabled a file called <em>.htaccess</em> is modified. It should probably be in the same directory as your wp-config.php. This file has special rules that serve the cached files very quickly to visitors without ever executing PHP. The .htaccess file can be updated automatically, but if that fails, the rules will be displayed here and it can be edited by you. You will not need to update the rules unless a warning shows here."
+msgstr "エキスパートキャッシュ配信が有効化されると <strong>.htaccess</strong> が変更されます。このファイルは通常 wp-config.php と同じディレクトリにあり、訪問者に対して PHP を実行せずにキャッシュしたファイルを迅速に返す特別なルールが設定されます。.htaccess は自動で更新されますが、失敗した場合はここに表示されるルールで変更してください。警告が表示されない場合はルールを更新する必要はありません。"
+
+#: wp-cache.php:1292
+msgid "Please <a href=\"%s\">rate us</a> and give feedback."
+msgstr "プラグインを<a href=\"%s\">評価</a>し、フィードバックをお送りください。"
+
+#: wp-cache.php:1289
+msgid "Try out the <a href=\"%1$s\">development version</a> for the latest fixes (<a href=\"%2$s\">changelog</a>)."
+msgstr "最新の修正が適用された<a href=\"%1$s\">開発バージョン</a>を試す (<a href=\"%2$s\">変更履歴</a>)。"
+
+#: wp-cache.php:1288
+msgid "Visit the <a href=\"%1$s\">plugin homepage</a>."
+msgstr "<a href=\"%1$s\">プラグインのホームページ</a>へ移動。"
+
+#: wp-cache.php:1287
+msgid "Check out the <a href=\"%1$s\">support forum</a> and <a href=\"%2$s\">FAQ</a>."
+msgstr "<a href=\"%1$s\">サポートフォーラム</a>と <a href=\"%2$s\">FAQ</a> をご利用ください。"
+
+#: wp-cache.php:1286
+msgid "Use the <a href=\"%1$s\">Debug tab</a> for diagnostics."
+msgstr "診断には<a href=\"%1$s\">デバッグタブ</a>を使用してください。"
+
+#: wp-cache.php:1281
+msgid "Fast video hosting (paid)"
+msgstr "高速動画ホスティング (有料)"
+
+#: wp-cache.php:1280
+msgid "Speed up images and photos (free)"
+msgstr "画像と写真のスピードアップ (無料)"
+
+#. translators: %s: Link URL for Jetpack.
+#: partials/easy.php:148
+msgid "<a href=\"%s\">Jetpack</a> provides everything you need to build a successful WordPress website including an image/photo CDN (free) and a video hosting service (paid)."
+msgstr "<a href=\"%s\">Jetpack</a> は、画像/写真 CDN (無料)と動画ホスティングサービス (有料) を含む、WordPress サイトを適切に構築するために必要なすべてのものを提供します。"
+
+#: partials/easy.php:101
+msgid "<strong>Warning!</strong> Cache comments are currently disabled. Please go to the Debug page and enable Cache Status Messages there. You should clear the cache before testing."
+msgstr "<strong>警告:</strong> キャッシュコメントは現在無効になっています。デバッグページに移動し、キャッシュのステータスメッセージを有効化してください。テスト前にキャッシュをクリアする必要があります。"
+
+#: partials/easy.php:68
+msgid "<strong>Errors:</strong> %s"
+msgstr "<strong>エラー:</strong> %s"
+
+#: partials/advanced.php:82
+msgid "Late init. Display cached files after WordPress has loaded."
+msgstr "遅延初期化。WordPress のロード後にキャッシュファイルを表示します。"
+
+#: partials/advanced.php:56
+msgid "Cache HTTP headers with page content."
+msgstr "ページのコンテンツと共に HTTP ヘッダーをキャッシュ。"
+
+#: partials/advanced.php:25
+msgid "Expert caching requires changes to important server files and may require manual intervention if enabled."
+msgstr "エキスパートキャッシングでは重要なサーバーファイルの変更が必要です。また有効化すると、手動の操作が必要な場合があります。"
+
+#: partials/advanced.php:24
+msgid "<acronym title=\"Use mod_rewrite to serve cached files\">Expert</acronym>"
+msgstr "<acronym title=\"mod_rewrite を使ってキャッシュファイルを提供\">エキスパート</acronym>"
+
+#: partials/advanced.php:23
+msgid "<acronym title=\"Use PHP to serve cached files\">Simple</acronym>"
+msgstr "<acronym title=\"PHP を使ってキャッシュファイルを提供\">シンプル</acronym>"
+
+#: partials/advanced.php:20
+msgid "Cache Delivery Method"
+msgstr "キャッシュ配信方法"
+
+#: partials/advanced.php:15
+msgid "Enable Caching"
+msgstr "キャッシュを有効化"
+
+#: partials/preload.php:4
+msgid "Preloading of cache disabled. Please make sure simple or expert mode is enabled or talk to your host administrator."
+msgstr "キャッシュのプリロードが無効です。シンプルモードまたはエキスパートモードが有効化されていることを確認するか、管理者に相談してください。"
+
+#: partials/preload.php:62
+msgid "No Emails"
+msgstr "メールなし"
+
+#: partials/preload.php:54
+msgid "Preload mode (garbage collection disabled. Recommended.)"
+msgstr "プリロードモード (ガベージコレクションを無効化。推奨)"
+
+#: partials/preload.php:17
+msgid "In &#8217;Preload Mode&#8217; regular garbage collection will be disabled so that old cache files are not deleted. This is a recommended setting when the cache is preloaded."
+msgstr "&#8217;プリロードモード&#8217;では通常のガーベジコレクションは無効のため古いキャッシュファイルは削除されません。この設定はキャッシュをプリロードする場合の推奨設定です。"
+
+#: rest/class.wp-super-cache-rest-update-settings.php:313
+msgid "You attempted to enable compression but `zlib.output_compression` is enabled. See #21 in the Troubleshooting section of the readme file."
+msgstr "圧縮を有効化しようとしましたが、「zlib.output_compression」が有効化されています。readme ファイルのトラブルシューティング #21 を参照してください。"
+
+#: rest/class.wp-super-cache-rest-test-cache.php:66
+msgid "Timestamps do not match"
+msgstr "タイムスタンプが一致しません"
+
+#: rest/class.wp-super-cache-rest-test-cache.php:46
+msgid "Timestamps not found"
+msgstr "タイムスタンプが見つかりません"
+
+#: partials/advanced.php:80
+msgid "Coarse file locking. You do not need this as it will slow down your website."
+msgstr "粗いファイルロック。サイトを遅くするので、これは必要ありません。"
+
+#: wp-cache.php:1965
+msgid "Logout"
+msgstr "ログアウト"
+
+#: wp-cache.php:1961
+msgid "The logout link will log out all WordPress users on this site except you. Your authentication cookie will be updated, but you will not be logged out."
+msgstr "「ログアウト」リンクをクリックすると、あなたを除くすべての WordPress ユーザーがログアウトされます。あなたの認証クッキーも更新されますが、ログアウトする必要はありません。"
+
+#: wp-cache.php:1959
+msgid "Your site is using a very old version of WordPress. When you update to the latest version everyone will be logged out and cookie information updated."
+msgstr "このサイトでは非常に古いバージョンの WordPress を使用しています。最新のバージョンにアップデートすると、現在ログインしているすべてのユーザーはログアウトされ、クッキー情報が更新されます。"
+
+#: wp-cache.php:1956
+msgid "If you just installed WP Super Cache for the first time, you can dismiss this message. Otherwise, you should probably refresh the login cookies of all logged in WordPress users here by clicking the logout link below."
+msgstr "WP Super Cache の最初のインストール後にこのメッセージが表示されている場合は無視してください。そうでない場合、このサイトに現在ログインしている WordPress ユーザーのログインクッキーを更新する必要があります。以下の「ログアウト」リンクをクリックしてください。"
+
+#: wp-cache.php:1954
+msgid "Your server is configured to show files and directories, which may expose sensitive data such as login cookies to attackers in the cache directories. That has been fixed by adding a file named index.html to each directory. If you use simple caching, consider moving the location of the cache directory on the Advanced Settings page."
+msgstr "現在のサーバー構成ではファイルやディレクトリが表示され、キャッシュディレクトリ内のログインクッキーなどの重要なデータが外部の攻撃者に公開されます。修正するには各ディレクトリに「index.html」ファイルを追加してください。シンプルキャッシュを使用している場合は「高度な設定」ページでキャッシュディレクトリの位置を移動してください。"
+
+#: wp-cache.php:1948
+msgid "All users of this site have been logged out to refresh their login cookies."
+msgstr "ログインクッキーの更新のため、このサイトのすべてのユーザーをログアウトしました。"
+
+#: wp-cache.php:1947 wp-cache.php:1953
+msgid "WP Super Cache Warning!"
+msgstr "WP Super Cache 警告"
+
+#: wp-cache.php:1472
+msgid "Cannot delete directory"
+msgstr "ディレクトリを削除できません"
+
+#: partials/advanced.php:113
+msgid "Since you are using mod_rewrite to serve cache files, you must choose a directory in your web root which is <q>%s</q> and update the mod_rewrite rules in the .htaccess file."
+msgstr "現在キャッシュファイルに mod_rewrite を使用しています。このため Web ルート <q>%s</q> のディレクトリを選択し、.htaccess ファイル内の mod_rewrite ルールを更新する必要があります。"
+
+#: partials/advanced.php:106
+msgid "index.html files have been added in key directories, but unless directory indexes are disabled, it is probably better to store the cache files outside of the web root of %s"
+msgstr "キーディレクトリにindex.html ファイルを追加しましたが、ディレクトリインデックスを無効化しない場合は、Web ルート %s の外にキャッシュファイルを 保存してください。"
+
+#: partials/advanced.php:104
+msgid "You are using expert mode to serve cache files so the plugin has added <q>Options -Indexes</q> to the .htaccess file in the cache directory to disable indexes. However, if that does not work, you should contact your system administrator or support and ask for them to be disabled, or use simple mode and move the cache outside of the web root."
+msgstr "エキスパートモードを使用してキャッシュファイルを提供しているため、プラグインはキャッシュディレクトリの .htaccess ファイルに <q>Options -Indexes</q> を追加してインデックスを無効にしていす。ただし、それでもうまくいかない場合は、システム管理者またはサポート担当者に連絡して無効化するか、簡易モードを使用してキャッシュを Web ルートの外側に移動する必要があります。"
+
+#: partials/advanced.php:102
+msgid "The plugin detected a bare directory index in your cache directory, which would let visitors see your cache files directly and might expose private posts."
+msgstr "プラグインはキャッシュディレクトリ内に、暗号化されていないディレクトリインデックスを発見しました。サイトの訪問者が直接キャッシュファイルを読み出したり、非公開の投稿を参照できる可能性があります。"
+
+#: partials/advanced.php:99
+msgid "Submit a blank entry to set it to the default directory, WP_CONTENT_DIR . /cache/."
+msgstr "デフォルトのディレクトリ「WP_CONTENT_DIR . /cache/」に戻すには、空の入力を送信してください。"
+
+#: partials/advanced.php:98
+msgid "If the new cache directory does not exist, it will be created and the contents of the old cache directory will be moved there. Otherwise, the old cache directory will be left where it is."
+msgstr "新しいキャッシュディレクトリが存在しなければ作成し、古いキャッシュディレクトリの内容を移動します。新しいキャッシュディレクトリがあれば、古いキャッシュディレクトリはそのまま残します。"
+
+#: partials/advanced.php:97
+msgid "If the directory does not exist, it will be created. Please make sure your web server user has write access to the parent directory. The parent directory must exist."
+msgstr "ディレクトリが存在しなければ作成します。Web サーバーユーザーに親ディレクトリに対する書き込み権限があることを確認してください。親ディレクトリはあらかじめ存在している必要があります。"
+
+#: partials/advanced.php:96
+msgid "You must give the full path to the directory."
+msgstr "ディレクトリにはフルパスを指定する必要があります。"
+
+#: partials/advanced.php:93
+msgid "Change the location of your cache files. The default is WP_CONTENT_DIR . /cache/ which translates to %s."
+msgstr "キャッシュファイルの場所を変更します。デフォルトは「WP_CONTENT_DIR . /cache/」で、現在の値は「%s」です。"
+
+#: partials/advanced.php:88
+msgid "Cache Location"
+msgstr "キャッシュの場所"
+
+#. Author URI of the plugin
+msgid "https://automattic.com/"
+msgstr "https://automattic.com/"
+
+#. Author of the plugin
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Description of the plugin
+msgid "Very fast caching plugin for WordPress."
+msgstr "WordPress 用のとても高速なキャッシュプラグイン。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/wp-super-cache/"
+msgstr "https://ja.wordpress.org/plugins/wp-super-cache/"
+
+#. Plugin Name of the plugin
+msgid "WP Super Cache"
+msgstr "WP Super Cache"
+
+#: inc/delete-cache-button.php:26
+msgid "Delete cache of the current page"
+msgstr "現在のページのキャッシュを削除"
+
+#: wp-cache.php:3438
+msgid ""
+"Dear User,\n"
+"\n"
+"WP Super Cache was removed from your blog but the mod_rewrite rules\n"
+"in your .htaccess were not.\n"
+"\n"
+"Please edit the following file and remove the code\n"
+"between 'BEGIN WPSuperCache' and 'END WPSuperCache'. Please backup the file first!\n"
+"\n"
+"%s\n"
+"\n"
+"Regards,\n"
+"WP Super Cache Plugin\n"
+"https://wordpress.org/plugins/wp-super-cache/"
+msgstr ""
+" WP Super Cache ユーザーへ\n"
+"\n"
+"WP Super Cache はブログから削除されましたが、.htaccess ファイル内の\n"
+"mod_rewrite ルールは削除されていません。\n"
+"\n"
+"以下のファイルを編集し、「BEGIN WPSuperCache」と\n"
+"「END WPSuperCache」の間のコードを削除してください。\n"
+"編集前にはまずファイルをバックアップしてください。\n"
+"\n"
+"%s\n"
+"\n"
+"WP Super Cache プラグイン\n"
+"https://ja.wordpress.org/plugins/wp-super-cache/"
+
+#: wp-cache.php:3438
+msgid "Supercache Uninstall Problems"
+msgstr "Super Cache アンインストール時の問題"
+
+#: wp-cache.php:3360
+msgid ""
+"Preload has been restarted.\n"
+"%s"
+msgstr ""
+"プリロードを再スタートしました。\n"
+"%s"
+
+#: wp-cache.php:3360
+msgid "[%s] Preload may have stalled."
+msgstr "[%s] プリロードは停滞しています。"
+
+#: wp-cache.php:3315
+msgid "Cleaning up old supercache files."
+msgstr "古いキャッシュファイルを片付けています。"
+
+#: wp-cache.php:3315
+msgid "[%s] Cache Preload Completed"
+msgstr "[%s] キャッシュのプリロードを完了"
+
+#: wp-cache.php:3304
+msgid "Scheduling next preload refresh in %d minutes."
+msgstr "次のプリロード更新を%d分後に予約しています。"
+
+#: wp-cache.php:3293
+msgid "Refreshed the following posts:"
+msgstr "以下の投稿がリフレッシュされました:"
+
+#: wp-cache.php:3293
+msgid "[%1$s] %2$d posts refreshed"
+msgstr "[%1$s] %2$d の投稿をリフレッシュ"
+
+#: wp-cache.php:3224 wp-cache.php:3283
+msgid "[%1$s] Cache Preload Stopped"
+msgstr "[%1$s] キャッシュプリロード停止"
+
+#: wp-cache.php:3257
+msgid "[%1$s] Refreshing posts from %2$d to %3$d"
+msgstr "[%1$s] %2$d から %3$d の投稿をリフレッシュ中"
+
+#: wp-cache.php:3200
+msgid "[%1$s] Refreshing %2$s taxonomy from %3$d to %4$d"
+msgstr "[%1$s] %3$d から %4$d の%2$s タクソノミーをリフレッシュ中 "
+
+#: wp-cache.php:3170
+msgid "[%1$s] Cache Preload Started"
+msgstr "[%1$s] キャッシュのプリロードが開始されました"
+
+#: wp-cache.php:2955
+msgid "Update Mod_Rewrite Rules"
+msgstr "Mod_Rewrite ルールを更新"
+
+#: wp-cache.php:2943
+msgid " Make sure they appear before any existing WordPress rules. "
+msgstr "かならず WordPress の既存のルールの前に入れてください。"
+
+#: wp-cache.php:2942
+msgid "You can edit the file yourself. Add the following rules."
+msgstr "ファイルを編集できます。次のルールに従ってください。"
+
+#: wp-cache.php:2941
+msgid "To serve static html files your server must have the correct mod_rewrite rules added to a file called <code>%s.htaccess</code>"
+msgstr "静的 html ファイルを利用できるようにするには、お使いのサーバーで <code>%s.htaccess</code> と呼ばれるファイルに正しい mod_rewrite ルールが追加されている必要があります。"
+
+#: wp-cache.php:2937
+msgid "Alternatively, you can edit your <code>%s.htaccess</code> file manually and add the following code (before any WordPress rules):"
+msgstr "もしくは、<code>%s.htaccess</code> ファイルを手動で編集して次のコードを追加してください (WordPress のルールの前に):"
+
+#: wp-cache.php:2937
+msgid "Refresh this page when the file permissions have been modified."
+msgstr "ファイルのパーミッションを変更したらこのページを再読込みしてください。"
+
+#: wp-cache.php:2937
+msgid "The file <code>%s.htaccess</code> cannot be modified by the web server. Please correct this using the chmod command or your ftp client."
+msgstr "<code>%s.htaccess</code>ファイルがウェブサーバーによって変更できません。chmod コマンドや ftp クライアントで修正してください。"
+
+#: wp-cache.php:2937
+msgid "Cannot update .htaccess"
+msgstr ".htaccess を更新できません"
+
+#: wp-cache.php:2899
+msgid "WP Super Cache has checked the front page of your blog. Please visit %s if you would like to disable this."
+msgstr "WP Super Cache はあなたのブログのフロントページをチェックしました。この機能の使用を停止するには %s を開いてください。"
+
+#: wp-cache.php:2899
+msgid "[%s] Front page check!"
+msgstr "[%s] フロントページチェック"
+
+#: wp-cache.php:2894
+msgid "The cache on your blog has been cleared because the front page of your site is missing the text \"%2$s\". Please visit %1$s to verify the cache has been cleared."
+msgstr "フロントページにテキスト \"%2$s\" が見つからなかったのでブログのキャッシュをクリアしました。%1$s を開いてキャッシュがクリアされたことを確認してください。"
+
+#: wp-cache.php:2894
+msgid "[%s] Front page is not correct! Cache Cleared!"
+msgstr "[%s] フロントページが不正です。キャッシュをクリアしました。"
+
+#: wp-cache.php:2891
+msgid "Please visit %1$s to clear the cache as the front page of your site is not correct and missing the text, \"%2$s\"!"
+msgstr "フロントページが不正でテキスト \"%2$s\" が見つからないため、%1$s を開いてキャッシュをクリアしてください。"
+
+#: wp-cache.php:2891
+msgid "[%s] Front page is not correct! Please clear cache!"
+msgstr "[%s] フロントページが不正です ! キャッシュをクリアしてください !"
+
+#: wp-cache.php:2884
+msgid "The cache on your blog has been cleared because the front page of your site is now downloading. Please visit %s to verify the cache has been cleared."
+msgstr "フロントページがダウンロードされる状態だったのでブログのキャッシュをクリアしました。%s を開いてキャッシュがクリアされたことを確認してください。"
+
+#: wp-cache.php:2884
+msgid "[%s] Front page is gzipped! Cache Cleared!"
+msgstr "[%s] フロントページが gzip 圧縮されました ! キャッシュがクリアされました !"
+
+#: wp-cache.php:2881
+msgid "Please visit %s to clear the cache as the front page of your site is now downloading!"
+msgstr "フロントページがダウンロードされる状態なので、%s を開いてキャッシュをクリアしてください !"
+
+#: wp-cache.php:2881
+msgid "[%s] Front page is gzipped! Please clear cache!"
+msgstr "[%s] フロントページが gzip で圧縮されました ! キャッシュをクリアしてください !"
+
+#: wp-cache.php:2860
+msgid "Warning! WP Super Cache caching <strong>was</strong> broken but has been <strong>fixed</strong>! The script advanced-cache.php could not load wp-cache-phase1.php.<br /><br />The file %1$s/advanced-cache.php has been recreated and WPCACHEHOME fixed in your wp-config.php. Reload to hide this message."
+msgstr "警告: WP Super Cache のキャッシュが<strong>壊れた</strong>ため、<strong>修正</strong>しました。スクリプト advanced-cache.php は wp-cache-phase1.php をロードできませんでした。<br /><br />ファイル %1$s/advanced-cache.php を再作成し、wp-config.php で WPCACHEHOME を修正しました。このメッセージを非表示にするにはリロードを行ってください。"
+
+#: wp-cache.php:2856
+msgid "WP Super Cache is disabled. Please go to the <a href=\"%s\">plugin admin page</a> to enable caching."
+msgstr "WP Super Cache は停止中です。<a href=\"%s\">プラグイン管理ページ</a>を開いてキャッシングを有効にしてください。"
+
+#: wp-cache.php:2846
+msgid "Settings"
+msgstr "設定"
+
+#: wp-cache.php:2840
+msgid "WP Super Cache must be configured. Go to <a href=\"%s\">the admin page</a> to enable and configure the plugin."
+msgstr "WP Super Cache の設定が必要です。<a href=\"%s\">管理ページ</a>を開いてこのプラグインの有効化と設定を行なってください。"
+
+#: wp-cache.php:2597
+msgid "Delete Super Cache cached files (opens in new window)"
+msgstr "Super Cache のキャッシュファイルを削除する (新しいウインドウで開きます)"
+
+#: wp-cache.php:2568
+msgid "Delete Expired"
+msgstr "期限切れキャッシュを削除"
+
+#: wp-cache.php:2553
+msgid "Expired files are files older than %s seconds. They are still used by the plugin and are deleted periodically."
+msgstr "期限切れファイルとは %s 秒より古くなったファイルです。こうしたファイルはこのプラグインによってまだ使用されますが、定期的に削除されます。"
+
+#: wp-cache.php:2550
+msgid "List all cached files"
+msgstr "すべてのキャッシュファイルを表示"
+
+#: wp-cache.php:2548
+msgid "Too many cached files, no listing possible."
+msgstr "キャッシュファイルが多すぎるため一覧表示できません。"
+
+#: wp-cache.php:2546
+msgid "Hide file list"
+msgstr "ファイルリストを隠す"
+
+#: partials/debug.php:24 wp-cache.php:2525
+msgid "Delete"
+msgstr "削除"
+
+#: wp-cache.php:2525
+msgid "Age"
+msgstr "経過時間"
+
+#: wp-cache.php:2525
+msgid "URI"
+msgstr "URI"
+
+#: wp-cache.php:2509
+msgid "WP-Super-Cache"
+msgstr "WP-Super-Cache"
+
+#: wp-cache.php:2503 wp-cache.php:2515
+msgid "%s Expired Pages"
+msgstr "期限切れページ数: %s"
+
+#: wp-cache.php:2502 wp-cache.php:2510
+msgid "%s Cached Pages"
+msgstr "キャッシュページ数: %s"
+
+#: wp-cache.php:2501
+msgid "WP-Cache"
+msgstr "WP-Cache"
+
+#: wp-cache.php:2494
+msgid "Cache stats last generated: %s minutes ago."
+msgstr "キャッシュ統計値が最後に生成されたのは %s 分前です。"
+
+#: wp-cache.php:2492
+msgid "Regenerate cache stats"
+msgstr "キャッシュ状況データを再生成"
+
+#: wp-cache.php:2491
+msgid "Cache stats are not automatically generated. You must click the link below to regenerate the stats on this page."
+msgstr "キャッシュ統計値は自動的には生成されません。再生成するには下のリンクをクリックしてください。"
+
+#: wp-cache.php:2452
+msgid "Deleting wp-cache file: <strong>%s</strong><br />"
+msgstr "wp-cache ファイルを削除しています: <strong>%s</strong><br />"
+
+#: wp-cache.php:2429
+msgid "Deleting supercache file: <strong>%s</strong><br />"
+msgstr "キャッシュファイルを削除しています: <strong>%s</strong><br />"
+
+#: wp-cache.php:2410
+msgid "Cache Contents"
+msgstr "キャッシュコンテンツ"
+
+#: wp-cache.php:2316
+msgid "<h4>WP_CACHE constant added to wp-config.php</h4><p>If you continue to see this warning message please see point 5 of the <a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">Troubleshooting Guide</a>. The WP_CACHE line must be moved up."
+msgstr "<h4>WP_CACHE 定数が wp-config.php に追加されました</h4><p>この警告メッセージが続くようであれば、<a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">トラブルシューティングガイド</a>の5番目を参照してください。WP_CACHE の行を上に移動する必要があります。"
+
+#: wp-cache.php:2312
+msgid "Edit <code>%s</code> and add the following line:<br /> <code>define('WP_CACHE', true);</code><br />Otherwise, <strong>WP-Cache will not be executed</strong> by WordPress core. "
+msgstr "<code>%s</code> を編集して次の行を追加してください:<br /> <code>define('WP_CACHE', true);</code><br />追加しないと WordPress コアによる <strong>WP-Cache の実行ができません</strong>。"
+
+#: wp-cache.php:2311
+msgid "<strong>Error: WP_CACHE is not enabled</strong> in your <code>wp-config.php</code> file and I couldn&#8217;t modify it."
+msgstr "<strong>エラー: <code>wp-config.php</code> ファイルの WP_CACHE が有効になっていません</strong>。このプラグインから修正はできません。"
+
+#: wp-cache.php:2309
+msgid "<h4>WP_CACHE constant set to false</h4><p>The WP_CACHE constant is used by WordPress to load the code that serves cached pages. Unfortunately, it is set to false. Please edit your wp-config.php and add or edit the following line above the final require_once command:<br /><br /><code>define('WP_CACHE', true);</code></p>"
+msgstr "<h4>WP_CACHE 定数が false に設定されています</h4><p>WordPress はキャッシュページ用のコードをロードする際に WP_CACHE 定数を使用しますが、現在この値は false に設定されています。wp-config.php を編集し、最後の require_once コマンドの直前に次のコードを追加するか編集してください:<br /><br /><code>define('WP_CACHE', true);</code></p>"
+
+#: wp-cache.php:2281
+msgid "If that doesn&#8217;t work, make sure the file <em>%s/advanced-cache.php</em> doesn&#8217;t exist:"
+msgstr "もし動作しなければ <em>%s/advanced-cache.php</em> ファイルが存在するか確認してください:"
+
+#: wp-cache.php:2280
+msgid "Refresh this page to update <em>%s/advanced-cache.php</em>"
+msgstr "このページを再読込みして <em>%s/advanced-cache.php</em> を更新します。"
+
+#: wp-cache.php:2276
+msgid "Make %1$s writable using the chmod command through your ftp or server software. (<em>chmod 777 %1$s</em>) and refresh this page. This is only a temporary measure and you&#8217;ll have to make it read only afterwards again. (Change 777 to 755 in the previous command)"
+msgstr "ftp やサーバーソフトウェアで chmod コマンドを使用して %1$s を書き込み可能にし (<em>chmod 777 %1$s</em>)、次にこのページを再読込みします。これは一時的な処理で、この後、再度読み込みのみの設定 に戻す必要があります (前述のコマンドで 777 を 755 に変更します)。"
+
+#: wp-cache.php:2212
+msgid "Could not update %s!</em> WPCACHEHOME must be set in config file."
+msgstr "%s を更新できません!</em> 構成ファイルで WPCACHEHOME を設定する必要があります。"
+
+#: wp-cache.php:2153
+msgid "Sample WP-Cache config file (<strong>%s</strong>) does not exist. Verify your installation."
+msgstr "サンプルの WP-Cache 構成ファイル (<strong>%s</strong>) がありません。インストールを確認してください。"
+
+#: wp-cache.php:2147
+msgid "Configuration file missing and %1$s  directory (<strong>%2$s</strong>) is not writable by the web server. Check its permissions."
+msgstr "構成ファイルが存在せず、%1$s ディレクトリ (<strong>%2$s</strong>) は Web サーバーから書込みできません。権限を確認してください。"
+
+#: wp-cache.php:2142
+msgid "Your WP-Cache config file (<strong>%s</strong>) is out of date and not writable by the Web server. Please delete it and refresh this page."
+msgstr "WP-Cache 構成ファイル (<strong>%s</strong>) が古く、Web サーバーから書き込みできません。構成ファイルを削除し、このページをリロードしてください。"
+
+#: wp-cache.php:2108
+msgid "Your cache directory (<strong>%1$s</strong>) or <strong>%2$s</strong> need to be writable for this plugin to work. Double-check it."
+msgstr "このプラグインを動作させるにはキャッシュディレクトリ (<strong>%1$s</strong>) もしくは <strong>%2$s</strong> に書き込める必要があります。よく確認してください。"
+
+#: wp-cache.php:2103
+msgid "Your cache directory (<strong>%1$s</strong>) did not exist and couldn&#8217;t be created by the web server. Check %1$s permissions."
+msgstr "キャッシュディレクトリー (<strong>%1$s</strong>) が存在せず、Web サーバーからも作成できませんでした。%1$s 権限を確認してください。"
+
+#: wp-cache.php:2103 wp-cache.php:2108 wp-cache.php:2142 wp-cache.php:2147
+#: wp-cache.php:2153
+msgid "Error"
+msgstr "エラー"
+
+#: wp-cache.php:1887
+msgid "GZIP compression is enabled in WordPress, wp-cache will be bypassed until you disable gzip compression."
+msgstr "WordPress の GZIP 圧縮が有効です。GZIP 圧縮が無効にされるまで wp-cache はバイパスされます。"
+
+#: wp-cache.php:1887 wp-cache.php:2191 wp-cache.php:2212 wp-cache.php:2272
+msgid "Warning"
+msgstr "警告"
+
+#: partials/debug.php:57
+msgid "Email the blog admin when checks are made. (useful for testing)"
+msgstr "確認時にブログ管理者にメールを送る。(テスト時に有益)"
+
+#: partials/debug.php:56
+msgid "Clear cache on error."
+msgstr "エラー発生時にキャッシュをクリアする。"
+
+#: partials/debug.php:55
+msgid "Text to search for on your front page. If this text is missing, the cache will be cleared. Leave blank to disable."
+msgstr "フロントページで検索されるテキスト。テキストが見つからなければキャッシュをクリアします。無効化するには空白のままにしてください。"
+
+#: partials/debug.php:55
+msgid "Front page text"
+msgstr "フロントページテキスト"
+
+#: partials/debug.php:54
+msgid "Check front page every 5 minutes."
+msgstr "5分ごとにフロントページをチェックする。"
+
+#: partials/debug.php:52
+msgid "I&#8217;m 99% certain that they aren&#8217;t bugs in WP Super Cache and they only happen in very rare cases but you can run a simple check once every 5 minutes to verify that your site is ok if you&#8217;re worried. You will be emailed if there is a problem."
+msgstr "WP Super Cache のバグではないと 99% 思いますし、発生するのはごくごく稀ですが、もし心配なら 5 分ごとにサイトが問題ないか確認するよう簡単なチェックができます。もし問題が発生すればメールが届きます。"
+
+#: partials/debug.php:51
+msgid "In very rare cases two problems may arise on some blogs:<ol><li> The front page may start downloading as a zip file.</li><li> The wrong page is occasionally cached as the front page if your blog uses a static front page and the permalink structure is <em>/%category%/%postname%/</em>.</li></ol>"
+msgstr "とてもまれなケースですが、2 つの問題が発生することがあります:<ol><li>フロントページが zip ファイルとしてダウンロードされることがある</li><li>静的なフロントページを使用していてパーマリンク構造が <em>/%category%/%postname%/</em> の場合にフロントページとして誤ったページがキャッシュされてしまう</li></ol>"
+
+#: partials/debug.php:45
+msgid "Display comments at the end of every page like this:"
+msgstr "各ページの末尾に次のようなコメントを表示します:"
+
+#: partials/debug.php:44
+msgid "Cache Status Messages"
+msgstr "キャッシュのステータスメッセージ"
+
+#: partials/debug.php:43
+msgid "(only log requests from this IP address. Your IP is %s)"
+msgstr "(この IP アドレスからのリクエストだけを記録します。あなたの IP アドレスは %s です)"
+
+#: partials/debug.php:43
+msgid "IP Address"
+msgstr "IP アドレス"
+
+#: partials/debug.php:7
+msgid "Fix problems with the plugin by debugging it here. It will log to a file in your cache directory."
+msgstr "ここでプラグインの問題をデバッグし修正できます。ログがキャッシュディレクトリのファイルに記録されます。"
+
+#: partials/debug.php:15
+msgid "Currently logging to: %s"
+msgstr "現在ログ取得中: %s"
+
+#: partials/advanced.php:315
+msgid "Save Files"
+msgstr "ファイルを保存"
+
+#: partials/advanced.php:309
+msgid "Add here those filenames that can be cached, even if they match one of the rejected substring specified above."
+msgstr "上で指定した除外文字列に一致した場合でもキャッシュするファイル名をここに追加してください。"
+
+#: partials/advanced.php:291
+msgid "Save Strings"
+msgstr "文字列を保存"
+
+#: partials/advanced.php:285
+msgid "Add here strings (not a filename) that forces a page not to be cached. For example, if your URLs include year and you dont want to cache last year posts, it&#8217;s enough to specify the year, i.e. &#8217;/2004/&#8217;. WP-Cache will search if that string is part of the URI and if so, it will not cache that page."
+msgstr "ここにキャッシュしないようにするページの文字列 (ファイル名ではなく) を追加します。例えば、URL に「西暦」を含んでいて昨年の投稿をキャッシュしたくない場合は西暦 &#8217;/2004/&#8217; だけを入力すれば十分です。WP-Chache は URI にその文字列が含まれているか検索し、含まれていた場合はそのページをキャッシュしません。"
+
+#: partials/advanced.php:303 partials/tracking_parameters.php:11
+msgid "Save"
+msgstr "保存"
+
+#: partials/advanced.php:277
+msgid "Author Pages"
+msgstr "投稿者ページ"
+
+#: partials/advanced.php:276
+msgid "Search Pages"
+msgstr "固定ページを検索"
+
+#: partials/advanced.php:275
+msgid "Feeds"
+msgstr "フィード"
+
+#: partials/advanced.php:274
+msgid "Category"
+msgstr "カテゴリー"
+
+#: partials/advanced.php:273
+msgid "Tags"
+msgstr "タグ"
+
+#: partials/advanced.php:272
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: partials/advanced.php:271
+msgid "Home"
+msgstr "ホーム"
+
+#: partials/advanced.php:270
+msgid "Front Page"
+msgstr "フロントページ"
+
+#: partials/advanced.php:269
+msgid "Pages"
+msgstr "固定ページ"
+
+#: partials/advanced.php:268
+msgid "Single Posts"
+msgstr "個別投稿"
+
+#: partials/advanced.php:265
+msgid "Do not cache the following page types. See the <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> documentation for a complete discussion on each type."
+msgstr "次のページタイプはキャッシュしません。各タイプについての詳細は <a href=\"https://codex.wordpress.org/Conditional_Tags\">Conditional Tags</a> を参照してください。"
+
+#: partials/rejected_user_agents.php:10
+msgid "Save UA Strings"
+msgstr "UA 文字列を保存"
+
+#: partials/rejected_user_agents.php:3
+msgid "Strings in the HTTP &#8217;User Agent&#8217; header that prevent WP-Cache from caching bot, spiders, and crawlers&#8217; requests. Note that super cached files are still sent to these agents if they already exists."
+msgstr "WP-Cache が bot、spider、クローラーのリクエストをキャッシュしないようにする HTTP &#8217;User Agent&#8217; ヘッダー内の文字列です。すでにキャッシュが存在する場合はこれらのエージェントに Super Cache のファイルが送信されます。"
+
+#: partials/rejected_user_agents.php:2
+msgid "Rejected User Agents"
+msgstr "除外するユーザーエージェント"
+
+#: partials/advanced.php:257
+msgid "Change Expiration"
+msgstr "有効時間を変更"
+
+#: partials/advanced.php:256
+msgid "Set the expiry time to 0 seconds to disable garbage collection."
+msgstr "ガーベージコレクションを無効にするには有効時間を 0 秒に設定してください。"
+
+#: partials/advanced.php:253
+msgid "Sites where an external data source updates at a particular time every day should set the timeout to 86400 seconds and use the Clock scheduler set appropriately."
+msgstr "毎日決まった時間に外部のデータソースが更新されるサイトでは、タイムアウトを86400秒に設定し、定時スケジューラーで適切な時刻を指定します。"
+
+#: partials/advanced.php:252
+msgid "Sites with lots of static content, no widgets or rss feeds in their sidebar can use a timeout of 86400 seconds or even more and set the timer to something equally long."
+msgstr "静的なコンテンツがほとんどで、サイドバーにウィジェットや RSS フィードもないサイトでは、タイムアウトを86400秒以上、タイマーも同程度の長さに設定できます。"
+
+#: partials/advanced.php:251
+msgid "Sites with widgets and rss feeds in their sidebar should probably use a timeout of 3600 seconds and set the timer to 600 seconds. Stale files will be caught within 10 minutes of going stale."
+msgstr "サイドバーにウィジェットや RSS フィードのあるサイトではタイムアウトを3600秒、タイマーを600秒に設定してください。ファイルは10分経過すると、期限切れの古いファイルとして扱われます。"
+
+#: partials/advanced.php:250
+msgid "Sites that want to serve lots of newly generated data should set the <em>Cache Timeout</em> to 60 and use the <em>Timer</em> scheduler set to 90 seconds."
+msgstr "新しく生成されたデータを多数含むサイトでは<em>キャッシュタイムアウト</em>を60秒に、<em>タイマー</em>スケジューラーを90秒に設定してください。"
+
+#: partials/advanced.php:248
+msgid "There are no best garbage collection settings but here are a few scenarios. Garbage collection is separate to other actions that clear our cached files like leaving a comment or publishing a post."
+msgstr "ガーベージコレクションにはどの場合でも最適な設定値はありませんが、いくつか考えられるシナリオはあります。ガーベージコレクションはコメントの書き込みや投稿の公開など、WP Super Cache のキャッシュファイルを削除するアクションとは異なります。"
+
+#: partials/advanced.php:246
+msgid "Or, the <em>Clock</em> scheduler allows the garbage collection to run at specific times. If set to run hourly or twice daily, the garbage collector will be first scheduled for the time you enter here. It will then run again at the indicated interval. If set to run daily, it will run once a day at the time specified."
+msgstr "また、<em>定時</em>スケジューラーを設定すると、ガーベージコレクションは指定の時刻に実行されます。「1時間に1回」、または「1日2回」に設定すると、ガーベージコレクションは、まずここで指定した時刻にスケジュールされ、次回以降は指定の間隔で実行されます。「1日1回」に設定すると、毎日、指定の時刻に実行されます。"
+
+#: partials/advanced.php:245
+msgid "The <em>Timer</em> scheduler tells the plugin to run the garbage collector at regular intervals. When one garbage collection is done, the next run is scheduled."
+msgstr "<em>タイマー</em>スケジューラーを設定すると、一定の間隔でガーベージコレクションが実行されます。実行が完了すると、次回の実行がスケジュールされます。"
+
+#: partials/advanced.php:244
+msgid "Use the <em>Timer</em> or <em>Clock</em> schedulers to define when the garbage collector should run."
+msgstr "<em>タイマー</em>スケジューラー、または<em>定時</em>スケジューラーを使用して、ガーベージコレクションの動作タイミングを設定できます。"
+
+#: partials/advanced.php:243
+msgid "Stale cached files are not removed as soon as they become stale. They have to be removed by the garbage collecter. That is why you have to tell the plugin when the garbage collector should run."
+msgstr "古いキャッシュファイルはすぐには削除されず、後でガーベージコレクションが削除します。ガーベージコレクションがいつ動作するかはユーザーがプラグインに設定する必要があります。"
+
+#: partials/advanced.php:242
+msgid "Cached files are fresh for a limited length of time. You can set that time in the <em>Cache Timeout</em> text box on this page."
+msgstr "キャッシュファイルは一定時間まで有効です。時間はこのページの<em>キャッシュタイムアウト</em>テキストボックスで設定できます。"
+
+#: partials/advanced.php:241
+msgid "<em>Garbage collection</em> is the simple act of throwing out your garbage. For this plugin that would be old or <em>stale</em> cached files that may be out of date. New cached files are described as <em>fresh</em>."
+msgstr "<em>ガーベージコレクション</em>は、未使用のオブジェクトを削除する単純な動作です。このプラグインの場合、既定の時間を過ぎた<em>古い</em>キャッシュファイルが対象です。既定の時間内のキャッシュファイルは<em>新しい</em>キャッシュファイルと呼ばれます。"
+
+#: partials/advanced.php:240
+msgid "Garbage Collection"
+msgstr "ガーベージコレクション"
+
+#: partials/advanced.php:238
+msgid "Email me when the garbage collection runs."
+msgstr "ガーベージコレクション実行時に通知メールを送信します。"
+
+#: partials/advanced.php:237
+msgid "Notification Emails"
+msgstr "通知メール"
+
+#: partials/advanced.php:231
+msgid "Interval:"
+msgstr "間隔:"
+
+#: partials/advanced.php:229
+msgid "Check for stale cached files at this time <strong>(UTC)</strong> or starting at this time every <em>interval</em> below."
+msgstr "指定された時刻 <strong>(UTC)</strong> 、または、以下の<em>間隔</em>ごとの開始時刻に、古いキャッシュファイルを調べます。"
+
+#: partials/advanced.php:229
+msgid "HH:MM"
+msgstr "HH:MM"
+
+#: partials/advanced.php:228
+msgid "Clock:"
+msgstr "定時:"
+
+#: partials/advanced.php:227
+msgid "Check for stale cached files every <em>interval</em> seconds."
+msgstr "指定した<em>間隔</em>  (秒)  ごとに古いキャッシュファイルを調べます。"
+
+#: partials/advanced.php:226
+msgid "Timer:"
+msgstr "タイマー:"
+
+#: partials/advanced.php:226
+msgid "Scheduler"
+msgstr "スケジューラー"
+
+#: partials/advanced.php:225
+msgid "How long should cached pages remain fresh? Set to 0 to disable garbage collection. A good starting point is 3600 seconds."
+msgstr "キャッシュページの有効期間を設定してください。ガーベージコレクションを無効化するには0を設定します。最初は3600秒から始めてみてください。"
+
+#: partials/advanced.php:224 partials/advanced.php:227
+msgid "seconds"
+msgstr "秒"
+
+#: partials/advanced.php:223
+msgid "Cache Timeout"
+msgstr "キャッシュのタイムアウト"
+
+#: partials/advanced.php:205
+msgid "Warning! <strong>PRELOAD MODE</strong> activated. Supercache files will not be deleted regardless of age."
+msgstr "警告 ! <strong>プリロードモード</strong>を有効化しました。キャッシュファイルは期限に関わらず削除されません。"
+
+#: partials/advanced.php:201
+msgid "Next scheduled garbage collection will be at <strong>%s UTC</strong>"
+msgstr "次回のガーベージコレクションは <strong>%s UTC</strong> に予定されています。"
+
+#: partials/advanced.php:197
+msgid "Local time is <code>%1$s</code>"
+msgstr "現地時間: <code>%1$s</code>"
+
+#: partials/advanced.php:194
+msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is <code>%s</code>"
+msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr> (<a href=\"http://ja.wikipedia.org/wiki/UTC\" title=\"協定世界時 - Wikipedia\">協定世界時</a>): <code>%s</code>"
+
+#: partials/advanced.php:192
+msgid "Expiry Time &amp; Garbage Collection"
+msgstr "有効時間とガーベージコレクション"
+
+#: partials/advanced.php:188
+msgctxt "timezone date format"
+msgid "Y-m-d G:i:s"
+msgstr "Y-m-d G:i:s"
+
+#: partials/lockdown.php:72
+msgid "Update Direct Pages"
+msgstr "ダイレクトページを更新"
+
+#: partials/lockdown.php:70
+msgid "Make the textbox blank to remove it from the list of direct pages and delete the cached file."
+msgstr "ダイレクトページのこのリストから取り除くには、テキストボックスをブランクにしてキャッシュファイルを削除してください。"
+
+#: partials/lockdown.php:67
+msgid "For example: to cache <em>%1$sabout/</em>, you would enter %1$sabout/ or /about/. The cached file will be generated the next time an anonymous user visits that page."
+msgstr "例: <em>%1$sabout/</em> をキャッシュするには %1$sabout/ もしくは /about/ を入力します。このキャッシュファイルは次に該当のページに誰かが来た時に生成されます。"
+
+#: partials/lockdown.php:63
+msgid "Directly cached files are files created directly off %s where your blog lives. This feature is only useful if you are expecting a major Digg or Slashdot level of traffic to one post or page."
+msgstr "ダイレクトキャッシュファイルはブログのある %s からダイレクトに生成されたファイルです。この機能は Digg やスラッシュドットなど巨大レベルのトラフィックがひとつの投稿やページに集中することが予想されるときだけ役に立ちます。"
+
+#: partials/lockdown.php:60
+msgid "Add direct page:"
+msgstr "ダイレクトページを追加:"
+
+#: partials/lockdown.php:54
+msgid "Delete cached file"
+msgstr "キャッシュファイルを削除"
+
+#: partials/lockdown.php:54
+msgid "Existing direct page"
+msgstr "既存のダイレクトページ"
+
+#: partials/lockdown.php:39
+msgid "%s is writable. Please make it readonly after your page is generated as this is a security risk."
+msgstr "%s を書き込み可能です。これにはセキュリティリスクを伴いますので、ページ生成後には読み込みのみにしてください。"
+
+#: partials/lockdown.php:34
+msgid "You must make %s writable to enable this feature. As this is a security risk, please make it read-only after your page is generated."
+msgstr "この機能を有効化するには %s を書き込み可能にする必要があります。ただしセキュリティリスクになるため、ページの生成後は読み出しのみに変更してください。"
+
+#: partials/lockdown.php:27
+msgid "Directly Cached Files"
+msgstr "ダイレクトキャッシュファイル"
+
+#: partials/lockdown.php:19
+msgid "Lock Down"
+msgstr "ロックダウン"
+
+#: partials/lockdown.php:13
+msgid "WordPress is not locked down. New comments will refresh Super Cache static files as normal."
+msgstr "WordPress はロックダウンされていません。新しいコメントが投稿されると Super Cache の静的ファイルは通常通りにリフレッシュされます。"
+
+#: partials/lockdown.php:11
+msgid "WordPress is locked down. Super Cache static files will not be deleted when new comments are made."
+msgstr "WordPress はロックダウンされています。Super Cache の静的ファイルは新しいコメントが投稿されても削除されません。"
+
+#: partials/lockdown.php:7
+msgid "Sorry. My blog is locked down. Updates will appear shortly"
+msgstr "すみませんが、このブログは一時的に停止中です。間もなく更新されます。"
+
+#: partials/lockdown.php:5
+msgid "Developers: Make your plugin lock down compatible by checking the \"WPLOCKDOWN\" constant. The following code will make sure your plugin respects the WPLOCKDOWN setting."
+msgstr "開発者のみなさんへ: \"WPLOCKDOWN\" 定数をチェックすることにより、あなたのプラグインにロックダウンとの互換性を持たせることができます。次のコードにより、あなたのプラグインが WPLOCKDOWN 設置を考慮するようになります。"
+
+#: partials/lockdown.php:4
+msgid "Prepare your server for an expected spike in traffic by enabling the lock down. When this is enabled, new comments on a post will not refresh the cached static files."
+msgstr "ロックダウンを有効にすることにより、予想されるトラフィックの激増に対してサーバーが対処できるようにします。この機能が有効になると、新しいコメントが投稿されてもキャッシュされた静的ファイルは更新されません。"
+
+#: partials/lockdown.php:3
+msgid "Lock Down:"
+msgstr "ロックダウン:"
+
+#: wp-cache.php:1387
+msgid "Comment moderation is enabled. Your comment may take some time to appear."
+msgstr "コメントは承認待ちです。表示されるまでしばらく時間がかかるかもしれません。"
+
+#: partials/restore.php:5
+msgid "Restore Default Configuration"
+msgstr "デフォルト設定を復元"
+
+#: partials/restore.php:2
+msgid "Fix Configuration"
+msgstr "設定の修復"
+
+#: partials/advanced.php:178 wp-cache.php:2947
+msgid "Rules must be added to %s too:"
+msgstr "ルールは %s にも追加する必要があります:"
+
+#: partials/advanced.php:172
+msgid "View Mod_Rewrite Rules"
+msgstr "Mod_Rewrite ルールを参照する"
+
+#: partials/advanced.php:170
+msgid "A difference between the rules in your .htaccess file and the plugin rewrite rules has been found. This could be simple whitespace differences, but you should compare the rules in the file with those below as soon as possible. Click the &#8217;Update Mod_Rewrite Rules&#8217; button to update the rules."
+msgstr ".htaccess ファイル内のルールと、プラグインのリライトルールに異なる点があります。単純な空白文字の問題かもしれませんが、次の方法でできるだけ早くファイル内のルールを比較してください。&#8217;Mod_Rewrite ルールの更新&#8217; ボタンをクリックし、ルールを更新してください。"
+
+#: partials/advanced.php:167
+msgid "WP Super Cache mod rewrite rules were detected in your %s.htaccess file.<br /> Click the following link to see the lines added to that file. If you have upgraded the plugin, make sure these rules match."
+msgstr "%s.htaccess ファイル内に WP Super Cache の mod_rewrite ルールを発見しました。<br /> ファイルに追加された行を表示するには次のリンクをクリックします。プラグインをアップデートした場合、ルールが正しいことを確認してください。"
+
+#: partials/advanced.php:160
+msgid "Mod Rewrite rules must be updated!"
+msgstr "Mod Rewrite ルールを更新する必要があります !"
+
+#: partials/advanced.php:157
+msgid "%s.htaccess has been updated with the necessary mod_rewrite rules. Please verify they are correct. They should look like this:"
+msgstr "%s.htaccess が必要な mod_rewrite ルールで更新されました。正しく更新されたか確認してください。次のようになっているはずです:"
+
+#: partials/advanced.php:156
+msgid "Mod Rewrite rules updated!"
+msgstr "Mod Rewrite ルールを更新しました !"
+
+#: partials/advanced.php:144
+msgid "The mod_rewrite rules changed since you last installed this plugin. Unfortunately, you must remove the old supercache rules before the new ones are updated. Refresh this page when you have edited your .htaccess file. If you wish to manually upgrade, change the following line: %1$s so it looks like this: %2$s The only changes are \"HTTP_COOKIE\" becomes \"HTTP:Cookie\" and \"wordpressuser\" becomes \"wordpress\". This is a WordPress 2.5 change but it&#8217;s backwards compatible with older versions if you&#8217;re brave enough to use them."
+msgstr "最後にこのプラグインがインストールされてから mod_rewrite ルールが変更されています。残念ながら新しいプラグインで更新する前に、古い supercache ルールを削除する必要があります。.htaccess ファイルの編集後はこのページをリロードしてください。手動で更新する場合は、行「%1$s」を行「%2$s」に変更します。変更点は「HTTP_COOKIE」が「HTTP:Cookie」に、「wordpressuser」が「wordpress」になった点です。これは WordPress 2.5 での変更です。推奨できませんが過去のバージョンとの下位互換性はあります。"
+
+#: partials/advanced.php:144
+msgid "Thank you for upgrading."
+msgstr "アップグレードありがとうございます。"
+
+#: partials/advanced.php:137
+msgid "Mod Rewrite Rules"
+msgstr "Mod Rewrite ルール"
+
+#: wp-cache.php:1361
+msgid "Debug"
+msgstr "デバッグ"
+
+#: wp-cache.php:1360
+msgid "Plugins"
+msgstr "プラグイン"
+
+#: wp-cache.php:1359
+msgid "Preload"
+msgstr "先読み"
+
+#: wp-cache.php:1358
+msgid "Contents"
+msgstr "コンテンツ"
+
+#: wp-cache.php:1357
+msgid "CDN"
+msgstr "CDN"
+
+#: wp-cache.php:1355
+msgid "Easy"
+msgstr "簡単"
+
+#: wp-cache.php:1339
+msgid "Available Plugins"
+msgstr "利用可能なプラグイン"
+
+#: wp-cache.php:1310
+msgid "(may not always be accurate on busy sites)"
+msgstr "(アクセスの多いサイトでは必ずしも正確ではないかもしれません)"
+
+#: wp-cache.php:1306
+msgid "Cached %s seconds ago"
+msgstr "%s 秒前にキャッシュされました"
+
+#: wp-cache.php:1302
+msgid "Newest Cached Pages:"
+msgstr "キャッシュされた最新のページ:"
+
+#: wp-cache.php:1301
+msgid "Cached pages since %1$s : <strong>%2$s</strong>"
+msgstr "%1$s 以降のキャッシュページ : <strong>%2$s</strong>"
+
+#: wp-cache.php:1291
+msgid "Rate This Plugin"
+msgstr "このプラグインを評価"
+
+#: wp-cache.php:1284
+msgid "Need Help?"
+msgstr "お困りですか ?"
+
+#: partials/easy.php:160
+msgid "<a href=\"%s\">WP Crontrol</a> is a useful plugin to use when trying to debug garbage collection and preload problems."
+msgstr "<a href=\"%s\">WP Crontrol</a> プラグインは、ガーベージコレクションやプリロードの問題のデバッグに便利なプラグインです。"
+
+#: partials/easy.php:159
+msgid "<strong>Advanced users only:</strong> Install an object cache. Choose from <a href=\"%s\">Memcached</a>, <a href=\"%s\">XCache</a>, <a href=\"%s\">eAcccelerator</a> and others."
+msgstr "<strong>上級者のみ:</strong> オブジェクトキャッシュのインストール。<a href=\"%s\">Memcached</a>、<a href=\"%s\">XCache</a>、<a href=\"%s\">eAcccelerator</a>、もしくは他から選択してください。"
+
+#: partials/easy.php:157
+msgid "<a href=\"%s\">Use Google Libraries</a> allows you to load some commonly used Javascript libraries from Google webservers. Ironically, it may reduce your Yslow score."
+msgstr "<a href=\"%s\">Use Google Libraries</a> を使用すると Google の Web サーバーから一般的な JavaScript をロードできます。ただし Yslow スコアは下がります。"
+
+#: partials/easy.php:127
+msgid "Caching is only one part of making a website faster. Here are some other plugins that will help:"
+msgstr "キャッシングはウェブサイトを高速化する手段のひとつに過ぎません。役に立つ他のプラグインをご紹介します:"
+
+#: partials/easy.php:126
+msgid "Recommended Links and Plugins"
+msgstr "おすすめのリンクとプラグイン"
+
+#: partials/easy.php:121 wp-cache.php:2580
+msgid "Delete Cache On All Blogs"
+msgstr "すべてのブログでキャッシュを削除"
+
+#: inc/delete-cache-button.php:25 inc/delete-cache-button.php:35
+#: partials/easy.php:114 wp-cache.php:2574 wp-cache.php:2597 wp-cache.php:2831
+msgid "Delete Cache"
+msgstr "キャッシュを削除"
+
+#: partials/easy.php:111
+msgid "Cached pages are stored on your server as html and PHP files. If you need to delete them, use the button below."
+msgstr "キャッシュされたページはサーバー上に HTML ファイル、PHP ファイルとして保存されています。削除するには以下のボタンを使用してください。"
+
+#: partials/easy.php:110
+msgid "Delete Cached Pages"
+msgstr "キャッシュされているページの削除"
+
+#: partials/easy.php:102 partials/easy.php:104
+msgid "Test Cache"
+msgstr "キャッシュをテスト"
+
+#: partials/easy.php:97
+msgid "Send non-secure (non https) request for homepage"
+msgstr "非セキュア (https ではない) なホームページへのリクエストを送信"
+
+#: partials/easy.php:90
+msgid "You should check Page 1 and Page 2 above for errors. Your local server configuration may not allow your website to access itself."
+msgstr "エラーに関連して1ページと2ページを確認します。ローカルサーバーの構成によっては Web サイトからアクセスできない場合があります。"
+
+#: partials/easy.php:89
+msgid "Enable logging on the Debug page here. That should help you track down the problem."
+msgstr "「デバッグ」ページでログを有効化します。問題の原因を絞り込むことができます。"
+
+#: partials/easy.php:88
+msgid "Load your homepage in a logged out browser, check the timestamp at the end of the html source. Load the page again and compare the timestamp. Caching is working if the timestamps match."
+msgstr "ログアウトしたブラウザからホームページをロードし、HTML ソースコードの最後のタイムスタンプを確認します。再度ページをロードし、タイムスタンプを比較してください。タイムスタンプが同じであればキャッシュは働いています。"
+
+#: partials/easy.php:87
+msgid "Things you can do:"
+msgstr "以下のことが可能です。"
+
+#: partials/easy.php:86
+msgid "The pages do not match! Timestamps differ or were not found!"
+msgstr "ページが一致しません。タイムスタンプが異なるか、見つかりません。"
+
+#: partials/easy.php:84
+msgid "The timestamps on both pages match!"
+msgstr "両方のページのタイムスタンプが一致しました。"
+
+#: partials/easy.php:83
+msgid "Page 2: %s"
+msgstr "ページ 2: %s"
+
+#: partials/easy.php:82
+msgid "Page 1: %s"
+msgstr "ページ 1: %s"
+
+#: partials/easy.php:75 partials/easy.php:76
+msgid "Page %d: %d (%s)"
+msgstr "ページ %d: %d (%s)"
+
+#: partials/easy.php:43
+msgid "Fetching second copy of %s: "
+msgstr "%s の二つめのコピーを取得中: "
+
+#: partials/easy.php:58
+msgid "FAILED"
+msgstr "失敗"
+
+#: partials/easy.php:43
+msgid "Fetching first copy of %s: "
+msgstr "%s の最初のコピーを取得中: "
+
+#: partials/easy.php:54
+msgid "OK"
+msgstr "OK"
+
+#: partials/easy.php:43
+msgid "Fetching %s to prime cache: "
+msgstr "キャッシュを準備するために %s を取得: "
+
+#: partials/easy.php:36
+msgid "Test your cached website by clicking the test button below."
+msgstr "下のテストボタンをクリックするとキャッシュされたページをテストできます。"
+
+#: partials/easy.php:35
+msgid "Cache Tester"
+msgstr "キャッシュテスター"
+
+#: partials/easy.php:30
+msgid "Notice: Simple caching enabled but Supercache mod_rewrite rules from expert mode detected. Cached files will be served using those rules. If your site is working ok, please ignore this message. Otherwise, you can edit the .htaccess file in the root of your install and remove the SuperCache rules."
+msgstr "注意: シンプルキャッシュが有効ですが、エキスパートモードの Supercache mod_rewrite ルールも見つかりました。キャッシュファイルは mod_rewrite ルールを使用します。サイトが正常に動作している場合は、このメッセージを無視してください。不具合が発生する場合はインストール先のルートディレクトリの .htaccess ファイルを編集し、SuperCache ルールを削除してください。"
+
+#: partials/easy.php:13
+msgid "Caching Off"
+msgstr "キャッシング停止"
+
+#: partials/easy.php:12
+msgid "Caching On"
+msgstr "キャッシング利用"
+
+#: partials/advanced.php:262
+msgid "Accepted Filenames &amp; Rejected URIs"
+msgstr "受け付けるファイル名と除外する URI"
+
+#: partials/advanced.php:130 partials/easy.php:33
+msgid "Update Status"
+msgstr "ステータスを更新"
+
+#: partials/advanced.php:125
+msgid "Need help? Check the <a href=\"%1$s\">Super Cache readme file</a>. It includes installation documentation, a FAQ and Troubleshooting tips. The <a href=\"%2$s\">support forum</a> is also available. Your question may already have been answered."
+msgstr "お困りですか ? <a href=\"%1$s\">Super Cache readme ファイル</a>を読んでみてください。このファイルにはインストールのドキュメント、よくある質問とその答え、トラブルシューティングのヒントが含まれています。また、<a href=\"%2$s\">サポートフォーラム</a> も利用可能です。あなたの問題の答がすでにあるかもしれません。"
+
+#: partials/advanced.php:124
+msgid "Please see the <a href=\"%1$s/wp-super-cache/readme.txt\">readme.txt</a> for instructions on uninstalling this script. Look for the heading, \"How to uninstall WP Super Cache\"."
+msgstr "アンインストールの説明は <a href=\"%1$s/wp-super-cache/readme.txt\">readme.txt</a> の \"How to uninstall WP Super Cache\" を参照してください。"
+
+#: partials/advanced.php:123
+msgid "If uninstalling this plugin, make sure the directory <em>%s</em> is writeable by the webserver so the files <em>advanced-cache.php</em> and <em>cache-config.php</em> can be deleted automatically. (Making sure those files are writeable is probably a good idea!)"
+msgstr "アンインストールする場合は Web サーバーから <em>%s</em> ディレクトリが書き込み可能で、<em>advanced-cache.php</em> ファイルと <em>cache-config.php</em> ファイルが自動的に削除できることを確認してください。できれば個々のファイルが書き込み可能であることも確認してください。"
+
+#: partials/advanced.php:122
+msgid "Uninstall this plugin on the plugins page. It will automatically clean up after itself. If manual intervention is required, then simple instructions are provided."
+msgstr "このプラグインは管理画面の「プラグイン」メニューでアンインストールできます。自動的にすべてのファイルが削除されますが、手動での操作が必要な場合は簡単な手順が表示されます。"
+
+#: partials/advanced.php:120
+msgid "Note:"
+msgstr "注:"
+
+#: partials/advanced.php:83
+msgid "<strong>DO NOT CACHE PAGE</strong> secret key: <a href=\"%s\">%s</a>"
+msgstr "<strong>ページをキャッシュしない</strong> 秘密鍵: <a href=\"%s\">%s</a>"
+
+#: partials/advanced.php:78
+msgid "List the newest cached pages on this page."
+msgstr "キャッシュされた最新のページを一覧表示する。"
+
+#: partials/advanced.php:77
+msgid "Only refresh current page when comments made."
+msgstr "コメントが投稿されたときに該当のページだけリフレッシュする。"
+
+#: partials/advanced.php:76
+msgid "Extra homepage checks. (Very occasionally stops homepage caching)"
+msgstr "追加のホームページチェック。(非常にまれにホームページのキャッシングを止めることがあります)"
+
+#: partials/advanced.php:75
+msgid "Clear all cache files when a post or page is published or updated."
+msgstr "投稿や固定ページの公開、または更新時にすべてのキャッシュファイルをクリア"
+
+#: partials/advanced.php:74
+msgid "Remove UTF8/blog charset support from .htaccess file. Only necessary if you see odd characters or punctuation looks incorrect. Requires rewrite rules update."
+msgstr ".htaccess ファイルから UTF8 やブログの文字コードを削除。文字化けや誤った句読点が表示される場合のみ選択してください。rewrite ルールの更新が必要です。"
+
+#: partials/advanced.php:72
+msgid "Mobile Prefixes"
+msgstr "モバイル端末の局番"
+
+#: partials/advanced.php:72
+msgid "Mobile Browsers"
+msgstr "モバイルブラウザー"
+
+#: partials/advanced.php:70
+msgid "Mobile device support. (External plugin or theme required. See the <a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">FAQ</a> for further details.)"
+msgstr "モバイルデバイスサポート (外部プラグイン、または外部テーマが必要です。詳細については <a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">FAQ</a> を参照してください)"
+
+#: partials/advanced.php:69
+msgid "Enable dynamic caching. (See <a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">FAQ</a> or wp-super-cache/plugins/dynamic-cache-test.php for example code.)"
+msgstr "ダイナミックキャッシュの有効化 (<a href=\"https://wordpress.org/plugins/wp-super-cache/faq/\">FAQ</a> または wp-super-cache/plugins/dynamic-cache-test.php のサンプルコードを参照してください)"
+
+#: partials/advanced.php:65 partials/debug.php:51 wp-cache.php:1356
+msgid "Advanced"
+msgstr "高度な設定"
+
+#: partials/advanced.php:50
+msgid "Cache rebuild. Serve a supercache file to anonymous users while a new file is being generated."
+msgstr "キャッシュリビルド。新しいファイルの生成中にこのサイトの登録ユーザー以外のユーザーにキャッシュファイルを供給する。"
+
+#: partials/advanced.php:59
+msgid "Make known users anonymous so they&#8217;re served supercached static files."
+msgstr "既知のユーザーを匿名にして、キャッシュした静的なファイルを供給する。"
+
+#: partials/advanced.php:41
+msgid "Don&#8217;t cache pages with GET parameters. (?x=y at the end of a url)"
+msgstr "GET パラメーター (URL 末尾の ?x=y など) のページをキャッシュしない。"
+
+#: partials/advanced.php:58
+msgid "304 support is disabled by default because some hosts have had problems with the headers used in the past."
+msgstr "過去に使用されたヘッダーで問題の起きるホストもあるため、304 サポートはデフォルトでは無効です。"
+
+#: partials/advanced.php:47
+msgid "Compression is disabled by default because some hosts have problems with compressed files. Switching it on and off clears the cache."
+msgstr "ホストによっては圧縮されたファイルで問題が発生する場合があるので、デフォルトでは無効にしています。この機能を有効にして無効にすると、キャッシュがクリアされます。"
+
+#: partials/advanced.php:46
+msgid "Compress pages so they&#8217;re served more quickly to visitors."
+msgstr "ページを圧縮し、訪問者により速くページを供給する。"
+
+#: partials/advanced.php:44
+msgid "Warning! Compression is disabled as gzencode() function was not found."
+msgstr "警告: gzencode() 関数が見つからないため、圧縮を無効化しました。"
+
+#: partials/advanced.php:33
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: partials/advanced.php:23 partials/advanced.php:40 partials/advanced.php:46
+#: partials/advanced.php:50 partials/advanced.php:57 partials/advanced.php:76
+#: partials/easy.php:12
+msgid "Recommended"
+msgstr "推奨"
+
+#: partials/advanced.php:11 partials/advanced.php:14 partials/easy.php:9
+msgid "Caching"
+msgstr "キャッシング"
+
+#: wp-cache.php:1026
+msgid "<strong>Page last cached:</strong> %s"
+msgstr "<strong>最後にキャッシュされたページ:</strong> %s"
+
+#: wp-cache.php:1022
+msgid "Currently caching from post %d to %d."
+msgstr "投稿 %d から %d のキャッシュを作成中"
+
+#: wp-cache.php:1040
+msgid "Full refresh of cache in %d hours %d minutes and %d seconds."
+msgstr "キャッシュの完全リフレッシュは%d時間%d分%d秒後です。"
+
+#: wp-cache.php:1039
+msgid "Refresh of cache in %d hours %d minutes and %d seconds."
+msgstr "キャッシュのリフレッシュは%d時間%d分%d秒後です。"
+
+#: partials/preload.php:65
+msgid "Less emails, 1 at the start and 1 at the end of preloading all posts."
+msgstr "メール少数。すべての投稿のプリロードの最初と最後に 1 件づつのメール。"
+
+#: partials/preload.php:64
+msgid "Medium, 1 email per 100 posts."
+msgstr "中くらいのメール数。投稿数 100 につき 1 件のメール。"
+
+#: partials/preload.php:63
+msgid "Many emails, 2 emails per 100 posts."
+msgstr "メール多数。投稿数 100 につき 2 件のメール。"
+
+#: partials/preload.php:58
+msgid "Send me status emails when files are refreshed."
+msgstr "ファイルリフレッシュ時にステータスメールを送信する。"
+
+#: partials/preload.php:57
+msgid "Preload tags, categories and other taxonomies."
+msgstr "タグ、カテゴリー、その他のタクソノミーをプリロードする。"
+
+#: partials/preload.php:47
+msgid "Preload %s posts."
+msgstr "%s 件の投稿をプリロード。"
+
+#: partials/preload.php:34
+msgid "all"
+msgstr "すべて"
+
+#: partials/preload.php:21
+msgid "Refresh preloaded cache files every %s minutes. (0 to disable, minimum %d minutes.)"
+msgstr "プリロードされたキャッシュファイルは %s 分毎にリフレッシュされます。(0 にすると無効、最小 %d 分)"
+
+#: partials/preload.php:16
+msgid "Preloading creates lots of files however. Caching is done from the newest post to the oldest so please consider only caching the newest if you have lots (10,000+) of posts. This is especially important on shared hosting."
+msgstr "プリロード機能は大量のファイルを生成します。キャッシュは新しい投稿から先に生成するので、投稿記事がたくさん (1万ページ以上) ある場合は新しい投稿記事だけをキャッシュするようにしてください。これは共有サーバーを使用しているときは特に重要です。"
+
+#: partials/preload.php:15
+msgid "This will cache every published post and page on your site. It will create supercache static files so unknown visitors (including bots) will hit a cached page. This will probably help your Google ranking as they are using speed as a metric when judging websites now."
+msgstr "この機能はこのサイトで公開されているすべての投稿と固定ページをキャッシュします。Super Cache の静的ファイルが生成されるので、訪問者 (botも含む) はキャッシュされたページを閲覧することになります。これにより、ウェブサイトの測定基準のひとつとして「速さ」を採用している Google ランキングの改善に役立つかもしれません。"
+
+#: partials/preload.php:80
+msgid "Preload Cache Now"
+msgstr "キャッシュを今すぐプリロード"
+
+#: wp-cache.php:3559
+msgid "Scheduled preloading of cache cancelled."
+msgstr "予定されていたキャッシュのプリロードがキャンセルされました。"
+
+#: wp-cache.php:3534
+msgid "Scheduled preloading of cache almost cancelled. It may take up to a minute for it to cancel completely."
+msgstr "予定されていたキャッシュのプリロードをキャンセル中です。あと約1分でキャンセルが完了します。"
+
+#: partials/preload.php:82 wp-cache.php:1033
+msgid "Cancel Cache Preload"
+msgstr "キャッシュプリロードをキャンセル"
+
+#: wp-cache.php:1054
+msgid "Configuration file changed, some values might be wrong. Load the page again from the \"Settings\" menu to reset them."
+msgstr "設定ファイルが変更され、いくつかの値が誤っています。\"設定\"メニューからページを再読込みしてリセットしてください。"
+
+#: wp-cache.php:994
+msgid "Notice: <em>Expert mode caching enabled</em>. Showing Advanced Settings Page by default."
+msgstr "注: <strong>エキスパートモードキャッシングが有効になっています</strong>。詳細設定ページをデフォルトで表示します。"
+
+#: wp-cache.php:979
+msgid "WP Super Cache Settings"
+msgstr "WP Super Cache 設定"
+
+#: wp-cache.php:874
+msgid "<strong>Warning!</strong> You attempted to enable compression but <code>zlib.output_compression</code> is enabled. See #21 in the Troubleshooting section of the readme file."
+msgstr "<strong>警告:</strong> 圧縮を有効化しようとしましたが、<code>zlib.output_compression</code> が有効になっています。readme ファイルのトラブルシューティング #21 を参照してください。"
+
+#: wp-cache.php:640
+msgid "It appears you have WordPress installed in a sub directory as described <a href=\"https://codex.wordpress.org/Giving_WordPress_Its_Own_Directory\">here</a>. Unfortunately, WordPress writes to the .htaccess in the install directory, not where your site is served from.<br />When you update the rewrite rules in this plugin you will have to copy the file to where your site is hosted. This will be fixed in the future."
+msgstr "<a href=\"https://wpdocs.osdn.jp/Giving_WordPress_Its_Own_Directory\">この文章</a>のように WordPress はサブディレクトリにインストールされています。残念ながら WordPress はサイトの .htaccess でなく、インストールディレクトリの .htaccess に書き込みます。<br />このプラグインの rewrite ルールを更新する場合はサイトのディレクトリにファイルをコピーしてください。この問題は将来のバージョンで修正される予定です。"
+
+#: wp-cache.php:639
+msgid ".htaccess file may need to be moved"
+msgstr ".htaccessファイルを移動する必要があるかもしれません"
+
+#: wp-cache.php:620
+msgid "The following Apache modules are missing. The plugin will work in simple mode without them but in expert mode, your visitors may see corrupted pages or out of date content however."
+msgstr "次の Apache モジュールが見つかりません。これらのモジュールがない場合、プラグインはエキスパートモードの代替として簡易モードで動作しますが、訪問者に壊れたページや古いデータが表示されるかもしれません。"
+
+#: wp-cache.php:619
+msgid "Missing Apache Modules"
+msgstr "欠けている Apache モジュール"
+
+#: wp-cache.php:612
+msgid "Set the expiry date on supercached pages. Visitors may not see new pages when they refresh or leave comments without this module."
+msgstr "キャッシュしたページの有効期限を設定します。このモジュールがないと、訪問者は再読込みしたりコメントを残しても新しいページを参照できないかもしれません。"
+
+#: wp-cache.php:612
+msgid "Required to set caching information on supercache pages. IE7 users will see old pages without this module."
+msgstr "キャッシュしたページにキャッシュ情報を設定するために必要です。このモジュールがないと IE7 ユーザーは古いページを参照します。"
+
+#: wp-cache.php:612
+msgid "Required to serve compressed supercache files properly."
+msgstr "圧縮されたキャッシュファイルを正しく提供するために必要です。"
+
+#: wp-cache.php:599
+msgid "Add the rules yourself. Edit %s.htaccess and find the block of code enclosed by the lines <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code>. There are two sections that look very similar. Just below the line <code>%%{HTTP:Cookie} !^.*(comment_author_|%s|wp-postpass_).*$</code> add these lines: (do it twice, once for each section)"
+msgstr "手動でルールを追加してください。%s.htaccess を開き、「<code># BEGIN WPSuperCache</code>」行と「<code># END WPSuperCache</code>」行で囲まれたコードブロックを探します。非常によく似た2つのセクションがあります。「<code>%%{HTTP:Cookie} !^.*(comment_author_|%s|wp-postpass_).*$</code>」行のすぐ下に次のコードを追加してください。それぞれのセクションごとに1回、合計2回追加します。"
+
+#: wp-cache.php:598
+msgid "Delete the plugin mod_rewrite rules in %s.htaccess enclosed by <code># BEGIN WPSuperCache</code> and <code># END WPSuperCache</code> and let the plugin regenerate them by reloading this page."
+msgstr "%s.htaccess 内の <code># BEGIN WPSuperCache</code> と <code># END WPSuperCache</code> で囲まれたこのプラグインの mod_rewrite ルールを削除して、ページを再読込みしてプラグインに再生成させてください。"
+
+#: wp-cache.php:597 wp-cache.php:606
+msgid "Scroll down the Advanced Settings page and click the <strong>Update Mod_Rewrite Rules</strong> button."
+msgstr "詳細設定ページでスクロールダウンして <strong>Mod_Rewrite ルールを更新</strong> ボタンをクリックしてください。"
+
+#: wp-cache.php:596
+msgid "Set the plugin to simple mode and enable mobile support."
+msgstr "簡易モードに設定し、モバイルサポートを有効化してください。"
+
+#: wp-cache.php:595
+msgid "Mobile support requires extra rules in your .htaccess file, or you can set the plugin to simple mode. Here are your options (in order of difficulty):"
+msgstr "モバイルサポートには .htaccess ファイルにルールを追加する必要があります。またはプラグインを簡易モードに設定してください。次のオプションがあります (難しい順):"
+
+#: wp-cache.php:594 wp-cache.php:605
+msgid "The rewrite rules required by this plugin have changed or are missing. "
+msgstr "このプラグインに必要な rewrite ルールが変更されたか無くなっています。"
+
+#: wp-cache.php:593 wp-cache.php:604
+msgid "Rewrite rules must be updated"
+msgstr "Rewrite ルールを更新する必要があります"
+
+#: wp-cache.php:587
+msgid "This will have no affect on ordinary users but mobile users will see uncached pages."
+msgstr "この機能は通常のユーザーには何も影響ありませんが、モバイルユーザーにはキャッシュされたページを表示します。"
+
+#: wp-cache.php:587
+msgid "For best performance you should enable \"Mobile device support\" or delete the mobile rewrite rules in your .htaccess. Look for the 2 lines with the text \"2.0\\ MMP|240x320\" and delete those."
+msgstr "パフォーマンスを最大にするには \"モバイル機器サポート\"を使用するか、.htaccess の mobile rewrite ルールを削除してください。\"2.0\\ MMP|240x320\" の 2 行を探して削除してください。"
+
+#: wp-cache.php:586
+msgid "Mobile rewrite rules detected"
+msgstr "モバイル用 rewrite ルールを検知しました"
+
+#: wp-cache.php:564
+msgid "You should change the permissions on %s and make it more restrictive. Use your ftp client, or the following command to fix things:"
+msgstr "%s の権限を変更して、より限定されたものにしてください。ftp クライアントもしくは次のコマンドを使用して修正してください:"
+
+#: wp-cache.php:563
+msgid "Warning! %s is writeable!"
+msgstr "警告: %s が書き込み可能になっています。"
+
+#: wp-cache.php:542 wp-cache.php:570 wp-cache.php:645 wp-cache.php:1963
+msgid "Dismiss"
+msgstr "非表示"
+
+#: wp-cache.php:537
+msgid "Garbage collection by this plugin clears out expired and old cached pages on a regular basis. Use <a href=\"#expirytime\">this form</a> to enable it."
+msgstr "このプラグインのガーベージコレクションは、定期的に期限切れの古いキャッシュページを削除します。有効化するには<a href=\"#expirytime\">このフォーム</a>を使用してください。"
+
+#: wp-cache.php:536
+msgid "Warning! Garbage collection is not scheduled!"
+msgstr "警告: ガベージコレクションがスケジュールされていません。"
+
+#: wp-cache.php:518
+msgid "Read-only:"
+msgstr "読み取り専用:"
+
+#: wp-cache.php:517
+msgid "Writeable:"
+msgstr "書き込み可能:"
+
+#: wp-cache.php:516 wp-cache.php:565
+msgid "<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">This page</a> explains how to change file permissions."
+msgstr "ファイルパーミッションの変更は<a href=\"https://codex.wordpress.org/Changing_File_Permissions\">このページ</a>を参考にしてください。"
+
+#: wp-cache.php:515
+msgid "A simple way of doing that is by changing the permissions temporarily using the CHMOD command or through your ftp client. Make sure it&#8217;s globally writeable and it should be fine."
+msgstr "これを行なう簡単な方法としては、CHMOD コマンドや ftp クライントを使用して一時的に権限を変更する方法があります。グローバルに書き込み可能で問題ないことを確認してください。"
+
+#: wp-cache.php:514
+msgid "The WP Super Cache configuration file is <code>%s/wp-cache-config.php</code> and cannot be modified. That file must be writeable by the web server to make any changes."
+msgstr "WP Super Cache 構成ファイル <code>%s/wp-cache-config.php</code> を変更できません。ファイルを変更するには Web サーバーから書き込み可能である必要があります。"
+
+#: wp-cache.php:513
+msgid "Read Only Mode. Configuration cannot be changed."
+msgstr "読み込み専用モード。設定は変更できません。"
+
+#: wp-cache.php:507
+msgid "It appears that mod_rewrite is not installed. Sometimes this check isn&#8217;t 100% reliable, especially if you are not using Apache. Please verify that the mod_rewrite module is loaded. It is required for serving Super Cache static files in expert mode. You will still be able to simple mode."
+msgstr "mod_rewrite がインストールされていないようです。このチェックは、特に Apache を使用していない場合、100% 信用できないことがあります。mod_rewrite モジュールが読み込まれているか確認してください。このモジュールは Super Cache 静的ファイルの提供に不可欠です。ただし、簡易モードは使用できます。"
+
+#: wp-cache.php:506
+msgid "Mod rewrite may not be installed!"
+msgstr "Mod rewrite がインストールされていないようです !"
+
+#: wp-cache.php:496
+msgid "PHP is compressing the data sent to the visitors of your site. Disabling this is recommended as the plugin caches the compressed output once instead of compressing the same page over and over again. Also see #21 in the Troubleshooting section. See <a href=\"http://php.net/manual/en/zlib.configuration.php\">this page</a> for instructions on modifying your php.ini."
+msgstr "PHP がサイト訪問者に送るデータを圧縮しています。このプラグインは同じページを何度も圧縮するのではなく、圧縮した出力をキャッシュするだけなので、この機能は無効にすることをおすすめします。また、トラブルシューティングの #21 も参考にしてください。 php.ini の修正については「<a href=\"http://php.net/manual/ja/zlib.configuration.php\">実行時設定</a>」の説明をご覧ください。"
+
+#: wp-cache.php:495
+msgid "Zlib Output Compression Enabled!"
+msgstr "Zlib アウトプット圧縮を有効にしました !"
+
+#: wp-cache.php:479
+msgid "Cannot continue... fix previous problems and retry."
+msgstr "継続できません…前の問題を修正して再度お試しください。"
+
+#: wp-cache.php:463
+msgid "Unfortunately, WordPress cannot find the file wp-cron.php. This script is required for the correct operation of garbage collection by this plugin, WordPress scheduled posts as well as other critical activities."
+msgstr "WordPress はファイル「wp-cron.php」を見つけられません。このスクリプトは、WP Super Cache のガーベージコレクションだけでなく、投稿の日時を使用した予約や他の重要な操作の実行に必要です。"
+
+#: wp-cache.php:450 wp-cache.php:464
+msgid "Please see entry 16 in the <a href=\"%s\">Troubleshooting section</a> of the readme.txt"
+msgstr "readme.txt <a href=\"%s\">Troubleshooting section</a> の 16 を参照してください"
+
+#: wp-cache.php:449
+msgid "Your server thinks your hostname resolves to %s. Some services such as garbage collection by this plugin, and WordPress scheduled posts may not operate correctly."
+msgstr "お使いのサーバーはホスト名が %s に設定されています。このプラグインのガーベージコレクションや WordPress の予約投稿などのサービスが正しく動作しないかもしれません。"
+
+#: wp-cache.php:448
+msgid "Warning! Your hostname \"%s\" resolves to %s"
+msgstr "警告: ホスト名 \"%s\" が %s に設定されています"
+
+#: wp-cache.php:430
+msgid "A custom url or permalink structure is required for this plugin to work correctly. Please go to the <a href=\"options-permalink.php\">Permalinks Options Page</a> to configure your permalinks."
+msgstr "このプラグインが正しく動作するためにはカスタムな URL (もしくはパーマリンク) 構造が必要です。<a href=\"options-permalink.php\">パーマリンク設定画面</a>を開いてパーマリンクを設定してください。"
+
+#: wp-cache.php:429
+msgid "Permlink Structure Error"
+msgstr "パーマリンク構造エラー"
+
+#: wp-cache.php:423
+msgid "You or an administrator must disable this. See the <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details. This cannot be disabled in a .htaccess file unfortunately. It must be done in the php.ini config file."
+msgstr "あなたもしくは管理者がこの機能を無効にする必要があります。詳細は <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> をご覧ください。残念ながら .htaccess ファイル内では無効にできません。php.ini 設定ファイルで無効にする必要があります。"
+
+#: wp-cache.php:421
+msgid "You or an administrator may be able to make it work by changing the group owner of the plugin scripts to match that of the web server user. The group owner of the %s/cache/ directory must also be changed. See the  <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> for further details."
+msgstr "あなたもしくは管理者が、このプラグインスクリプトのグループオーナーを web サーバーのユーザーと一致するように変更すれば動作するようになるかもしれません。%s/cache/ ディレクトリのグループオーナーも変更する必要があります。詳細は <a href=\"http://php.net/features.safe-mode\">safe mode manual page</a> を参照してください。"
+
+#: wp-cache.php:419
+msgid "Your server is set up to check the owner of PHP scripts before allowing them to read and write files."
+msgstr "お使いのサーバーではファイルの読み書きの許可の前に PHP スクリプトのオーナーを確認するように設定されています。"
+
+#: wp-cache.php:416
+msgid "You may experience problems running this plugin because SAFE MODE is enabled."
+msgstr "セーフモードが有効なため、このプラグインの動作に問題が発生するかもしれません。"
+
+#: wp-cache.php:415
+msgid "Warning! PHP Safe Mode Enabled!"
+msgstr "警告: PHP セーフモードが有効になっています。"
+
+#: wp-cache.php:149
+msgid "Please create %s/wp-cache-config.php from wp-super-cache/wp-cache-config-sample.php"
+msgstr "wp-super-cache/wp-cache-config-sample.php から %s/wp-cache-config.php を作成してください。"
+
+#: wp-cache-phase2.php:3380
+msgid "[%1$s] WP Super Cache GC Report"
+msgstr "[%1$s] WP Super Cache GC レポート"
+
+#: wp-cache-phase2.php:3370
+msgid "Cache expiry cron job took more than 30 seconds. You should probably run the garbage collector more often."
+msgstr "キャッシュの有効期限を確認する cron ジョブが実行に30秒以上かかりました。ガーベージコレクションの実行頻度を上げてください。"
+
+#: wp-cache-phase2.php:3366
+msgid "Cache expiry cron job failed. Job will run again in 10 seconds."
+msgstr "キャッシュの有効期限を確認する cron ジョブが失敗しました。10秒後にジョブを再実行します。"
+
+#: plugins/wptouch.php:46
+msgid "WPTouch plugin detected! Please go to the Supercache plugins page and enable the WPTouch helper plugin."
+msgstr "WPTouch プラグインを検知しました。Super Cache プラグインのページにアクセスし、WPTouch ヘルパープラグインを有効化してください。"
+
+#: plugins/wptouch.php:32
+msgid "WPTouch support is now %s"
+msgstr "現在 WPTouch のサポートが%sです。"
+
+#: plugins/wptouch.php:25
+msgid "Provides support for <a href=\"https://wordpress.org/plugins/wptouch/\">WPTouch</a> mobile theme and plugin."
+msgstr "<a href=\"https://wordpress.org/plugins/wptouch/\">WPTouch</a> モバイルテーマおよびプラグインのサポート。"
+
+#: plugins/wptouch.php:20 plugins/wptouch.php:138
+msgid "WPTouch"
+msgstr "WPTouch"
+
+#: plugins/multisite.php:45
+msgid "Caching has been disabled on this blog on the Network Admin Sites page."
+msgstr "サイトネットワーク管理画面でこのブログのキャッシュが無効化されています。"
+
+#: partials/lockdown.php:16 plugins/multisite.php:39
+msgid "Disable"
+msgstr "無効化"
+
+#: partials/lockdown.php:16 partials/tracking_parameters.php:10
+#: plugins/multisite.php:37
+msgid "Enable"
+msgstr "有効化"
+
+#: plugins/multisite.php:14
+msgid "Cached"
+msgstr "キャッシュ済み"
+
+#: plugins/jetpack.php:51
+msgid "Jetpack Mobile Theme support is now %s"
+msgstr "Jetpack モバイルテーマのサポート: %s"
+
+#: plugins/jetpack.php:44
+msgid "Provides support for the <a href=\"https://wordpress.org/plugins/jetpack/\">Jetpack</a> mobile theme and plugin. PHP caching mode and mobile support will be enabled too."
+msgstr "<a href=\"https://wordpress.org/plugins/jetpack/\">Jetpack</a> モバイルテーマおよびプラグインのサポート。PHP キャッシュモードとモバイルサポートも有効化されます。"
+
+#: plugins/jetpack.php:37
+msgid "Jetpack not found in %s. Install it and enable the mobile theme and this helper plugin to cache visits by mobile visitors."
+msgstr "Jetpack が %s で見つかりません。Jetpack をインストールし、モバイルテーマを有効化してください。このヘルパープラグインはモバイルユーザーのアクセスをキャッシュします。"
+
+#: plugins/jetpack.php:34 plugins/jetpack.php:91
+msgid "Jetpack Mobile Theme"
+msgstr "Jetpack モバイルテーマ"
+
+#: plugins/domain-mapping.php:108
+msgid "Domain Mapping plugin detected! Please go to the Supercache plugins page and enable the domain mapping helper plugin."
+msgstr "ドメインマッピングプラグインを検知しました。Super Cache プラグインの設定ページを開いてドメインマッピングのヘルパープラグインを有効化してください。"
+
+#: plugins/domain-mapping.php:89
+msgid "Domain Mapping support is now %s"
+msgstr "ドメインマッピングのサポートは現在%sです。"
+
+#: plugins/domain-mapping.php:85
+msgid "Provides support for <a href=\"https://wordpress.org/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> plugin to map multiple domains to a blog."
+msgstr " <a href=\"https://wordpress.org/plugins/wordpress-mu-domain-mapping/\">Domain Mapping</a> プラグインのサポート。ブログに複数のドメインをマップできます。"
+
+#: plugins/domain-mapping.php:79 plugins/domain-mapping.php:132
+msgid "Domain Mapping"
+msgstr "ドメインマッピング"
+
+#: partials/lockdown.php:34 partials/lockdown.php:39
+#: plugins/badbehaviour.php:88
+msgid "Warning!"
+msgstr "警告 !"
+
+#: plugins/badbehaviour.php:79
+msgid "Bad Behavior support is now %s"
+msgstr "Bad Behavior のサポートは現在%sです。"
+
+#: plugins/badbehaviour.php:72
+msgid "(Only WPCache caching supported, disabled compression and requires <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> in \"%s/plugins/bad-behavior/\") "
+msgstr "(WPCache キャッシングのみサポートしています。圧縮が無効になっていて、\"%s/plugins/bad-behavior/\" に <a href=\"http://www.bad-behavior.ioerror.us/\">Bad Behavior</a> が必要です)"
+
+#: plugins/badbehaviour.php:67 plugins/badbehaviour.php:98
+msgid "Bad Behavior"
+msgstr "Bad Behavior"
+
+#: plugins/badbehaviour.php:51
+msgid "Bad Behaviour not found. Please check your install."
+msgstr "Bad Behaviour が見つかりませんでした。インストールを確認してください。"
+
+#: plugins/awaitingmoderation.php:46 plugins/badbehaviour.php:81
+#: plugins/domain-mapping.php:94 plugins/jetpack.php:53 plugins/wptouch.php:34
+msgid "Update"
+msgstr "更新"
+
+#: plugins/awaitingmoderation.php:44
+msgid "Awaiting Moderation is now %s"
+msgstr "承認待ちは%s件です。"
+
+#: plugins/awaitingmoderation.php:42 plugins/domain-mapping.php:90
+#: plugins/jetpack.php:49 plugins/wptouch.php:30
+msgid "disabled"
+msgstr "停止中"
+
+#: partials/debug.php:44 plugins/awaitingmoderation.php:40
+#: plugins/badbehaviour.php:75 plugins/domain-mapping.php:90
+#: plugins/jetpack.php:47 plugins/wptouch.php:28
+msgid "enabled"
+msgstr "使用中"
+
+#: plugins/awaitingmoderation.php:36 plugins/awaitingmoderation.php:61
+msgid "Enables or disables plugin to Remove the text \"Your comment is awaiting moderation.\" when someone leaves a moderated comment."
+msgstr "モデレートされたコメントが残されたときに表示されるテキスト \"あなたのコメントはモデレーション待ちです。\" を取り除くプラグインの有効化もしくは無効化。"
+
+#: partials/lockdown.php:3 plugins/awaitingmoderation.php:35
+#: plugins/badbehaviour.php:70 plugins/domain-mapping.php:83
+#: plugins/jetpack.php:42 plugins/wptouch.php:23
+msgid "Disabled"
+msgstr "無効"
+
+#: partials/lockdown.php:3 plugins/awaitingmoderation.php:34
+#: plugins/badbehaviour.php:69 plugins/domain-mapping.php:82
+#: plugins/jetpack.php:41 plugins/wptouch.php:22
+msgid "Enabled"
+msgstr "有効"
+
+#: plugins/awaitingmoderation.php:32 plugins/awaitingmoderation.php:60
+msgid "Awaiting Moderation"
+msgstr "承認待ち"
+
+#: plugins/awaitingmoderation.php:4
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: ossdl-cdn.php:375
+msgid "CDN functionality provided by <a href=\"https://wordpress.org/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a>"
+msgstr "CDN 機能は  <a href=\"https://wordpress.org/plugins/ossdl-cdn-off-linker/\">OSSDL CDN Off Linker</a> by <a href=\"http://mark.ossdl.de/\">Mark Kubacki</a> を使用しています"
+
+#: ossdl-cdn.php:373
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: ossdl-cdn.php:369
+msgid "Skip https URLs to avoid \"mixed content\" errors"
+msgstr "\"mixed content\" エラーを避けるために https の URL をスキップする"
+
+#: ossdl-cdn.php:365
+msgid "These <a href=\"https://www.wikipedia.org/wiki/CNAME_record\">CNAMES</a> will be used in place of %1$s for rewriting (in addition to the off-site URL above). Use a comma as the delimiter. For pages with a large number of static files, this can improve browser performance. CNAMEs may also need to be configured on your CDN.<br />Example: %2$s"
+msgstr "上記 <a href=\"https://www.wikipedia.org/wiki/CNAME_record\">CNAME</a> は %1$s の代わりに rewriteで使用されます (さらに上のオフサイト URL に加えて)。複数の場合はコンマで区切ってください。静的ファイルが多数あるページの場合にブラウザーのパフォーマンスを改善できます。CNAME は CDN で設定する必要があるかもしれません。<br />例: %2$s"
+
+#: ossdl-cdn.php:362
+msgid "Additional CNAMES"
+msgstr "追加 CNAME"
+
+#: ossdl-cdn.php:358
+msgid "Excludes something from being rewritten if one of the above strings is found in the URL. Use a comma as the delimiter like this, <code>.php, .flv, .do</code>, and always include <code>.php</code> (default)."
+msgstr "URL に上の文字列のどれかが含まれる場合は rewrite から除外されます。<code>.php, .flv, .do</code> のように半角コンマで区切り、<code>.php</code> は常に含めてください (デフォルト)。"
+
+#: ossdl-cdn.php:355
+msgid "Exclude if substring"
+msgstr "除外するサブストリング"
+
+#: ossdl-cdn.php:351
+msgid "Directories to include in static file matching. Use a comma as the delimiter. Default is <code>wp-content, wp-includes</code>, which will be enforced if this field is left empty."
+msgstr "静的ファイルマッチングに含むディレクトリです。半角コンマで区切ってください。デフォルトは <code>wp-content, wp-includes</code> で、この欄が空欄の場合は強制的にこのデフォルトが使用されます。"
+
+#: ossdl-cdn.php:348
+msgid "Include directories"
+msgstr "含めるディレクトリ"
+
+#: ossdl-cdn.php:344
+msgid "The new URL to be used in place of %1$s for rewriting. No trailing <code>/</code> please.<br />Example: <code>%2$s</code>."
+msgstr "%1$s の代わりに新しい URL がrewriteに使われます。最後の <code>/</code> は付けないようにしてください。<br />例: <code>%2$s</code>。"
+
+#: ossdl-cdn.php:341
+msgid "Off-site URL"
+msgstr "オフサイト URL"
+
+#: ossdl-cdn.php:331
+msgid "Enable CDN Support"
+msgstr "CDN サポートを有効化"
+
+#: ossdl-cdn.php:323
+msgid "You can define different CDN URLs for each site on a multsite network."
+msgstr "マルチサイトネットワーク上の場合は各サイトに別々の CDN URL を設定することができます。"
+
+#: ossdl-cdn.php:318
+msgid "<strong style=\"color: red\">WARNING:</strong> Test some static urls e.g., %s  to ensure your CDN service is fully working before saving changes."
+msgstr "<strong style=\"color: red\">注意:</strong> 変更を保存する前に静的な URL、%s などで CDN サービスが完全に動作していることを確認してください。"
+
+#: ossdl-cdn.php:317
+msgid "Your website probably uses lots of static files. Image, Javascript and CSS files are usually static files that could just as easily be served from another site or CDN. Therefore, this plugin replaces any links in the <code>wp-content</code> and <code>wp-includes</code> directories (except for PHP files) on your site with the URL you provide below. That way you can either copy all the static content to a dedicated host or mirror the files to a CDN by <a href=\"https://www.google.com/search?q=cdn+origin+pull\" target=\"_blank\">origin pull</a>."
+msgstr "サイトにはおそらく大量の静的ファイルがあるでしょう。通常、画像、JavaScript、CSS ファイルは、他のサイトや CDN からも同じように簡単に読み込める静的ファイルです。そのため、このプラグインはサイト上の <code>wp-content</code> や <code>wp-includes</code> ディレクトリ内のリンク (PHP ファイルを除く) を以下で指定した URL で置換します。こうすればすべての静的コンテンツを新しい専用ホストに移動したり、ファイルを <a href=\"https://www.google.com/search?q=cdn+origin+pull\" target=\"_blank\">Origin Pull</a> で CDN にミラーリングできます。"

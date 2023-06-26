@@ -1,0 +1,117 @@
+# Translation of Plugins - Duplicate Page - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - Duplicate Page - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-13 08:14:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Duplicate Page - Development (trunk)\n"
+
+#: inc/admin-settings.php:49
+msgid "All Editors"
+msgstr "すべてのエディター"
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:301
+msgid "Duplicate this as "
+msgstr "以下として複製:"
+
+#: inc/admin-settings.php:50
+msgid "Classic Editor"
+msgstr "旧エディター"
+
+#: inc/admin-settings.php:51
+msgid "Gutenberg Editor"
+msgstr "Gutenberg エディター"
+
+#: inc/admin-settings.php:46
+msgid "Choose Editor"
+msgstr "エディターを選択"
+
+#: duplicatepage.php:328
+msgid "Duplicate This as "
+msgstr "以下として複製 "
+
+#: inc/admin-settings.php:63
+msgid "Pending"
+msgstr "保留中"
+
+#: inc/admin-settings.php:62
+msgid "Private"
+msgstr "非公開"
+
+#: inc/admin-settings.php:61
+msgid "Publish"
+msgstr "公開"
+
+#: inc/admin-settings.php:60
+msgid "Draft"
+msgstr "下書き"
+
+#: duplicatepage.php:77
+msgid "Settings"
+msgstr "設定"
+
+#. Author URI of the plugin
+msgid "https://profiles.wordpress.org/mndpsingh287/"
+msgstr "https://profiles.wordpress.org/mndpsingh287/"
+
+#. Author of the plugin
+msgid "mndpsingh287"
+msgstr "mndpsingh287"
+
+#. Description of the plugin
+msgid "Duplicate Posts, Pages and Custom Posts using single click."
+msgstr "ワンクリックで投稿、ページ、カスタム投稿を複製。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/duplicate-page/"
+msgstr "https://ja.wordpress.org/plugins/duplicate-page/"
+
+#: duplicatepage.php:261 duplicatepage.php:277 duplicatepage.php:300
+msgid "Duplicate This"
+msgstr "複製"
+
+#. Plugin Name of the plugin
+#: duplicatepage.php:91 duplicatepage.php:357
+msgid "Duplicate Page"
+msgstr "Duplicate Page"
+
+#: duplicatepage.php:78
+msgid "Donate"
+msgstr "寄付する"
+
+#: inc/admin-settings.php:78
+msgid "Duplicate Post Suffix"
+msgstr "投稿の接尾語を複製"
+
+#: inc/admin-settings.php:81
+msgid "Add a suffix for duplicate or clone post as Copy, Clone etc. It will show after title."
+msgstr "コピーとして投稿をクローンや複製するため接尾辞を追加してください。タイトルの後ろに表示されます。"
+
+#: inc/admin-settings.php:9
+msgid "Buy PRO"
+msgstr "PRO 版を購入"
+
+#: inc/admin-settings.php:9
+msgid "Duplicate Page Settings "
+msgstr "ページ複製設定"
+
+#: inc/admin-settings.php:71
+msgid "To All Posts List"
+msgstr "すべての投稿一覧へ"
+
+#: inc/admin-settings.php:72
+msgid "To Duplicate Edit Screen"
+msgstr "複製編集画面へ"
+
+#: inc/admin-settings.php:57
+msgid "Duplicate Post Status"
+msgstr "投稿ステータスを複製"
+
+#: inc/admin-settings.php:69
+msgid "Redirect to after click on <strong>Duplicate This Link</strong>"
+msgstr "<strong>このリンクを複製</strong>をクリックした後にリダイレクトする"

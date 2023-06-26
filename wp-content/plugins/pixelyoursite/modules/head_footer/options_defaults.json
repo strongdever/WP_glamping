@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "head_any"                          : "",
+  "head_desktop"                      : "",
+  "head_mobile"                       : "",
+  "footer_any"                        : "",
+  "footer_desktop"                    : "",
+  "footer_mobile"                     : "",
+  "woo_order_received_disable_global" : false,
+  "woo_order_received_head_any"       : "",
+  "woo_order_received_head_desktop"   : "",
+  "woo_order_received_head_mobile"    : "",
+  "woo_order_received_footer_any"     : "",
+  "woo_order_received_footer_desktop" : "",
+  "woo_order_received_footer_mobile"  : ""
+}

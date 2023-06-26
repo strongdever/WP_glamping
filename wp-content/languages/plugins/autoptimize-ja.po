@@ -1,0 +1,1638 @@
+# Translation of Plugins - Autoptimize - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Autoptimize - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-03-20 00:49:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.4\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Autoptimize - Stable (latest release)\n"
+
+#. Translators: the URL added points to the Autopmize Extra settings.
+#: classes/autoptimizeMain.php:783
+msgid "Shortpixel reports it cannot always reach your site, which might mean some images are not optimized. You can %1$sread more about why this happens and how you can fix that problem here%2$s."
+msgstr "Shortpixel がこのサイトに常にアクセスできていないようです。一部の画像が最適化されていない可能性があります。この問題の原因と解決法は%1$sこちらをご覧ください%2$s。"
+
+#. translators: "add more credits" will appear in a "a href".
+#: classes/autoptimizeImages.php:1460
+msgid "Your ShortPixel image optimization and CDN quota has been exhausted, %1$sadd more credits%2$s to continue to quickly deliver optimized images on your website <strong>or consider using %3$sAutoptimize Pro%2$s which comes with (nearly) unlimited image optimization</strong> but also automated critical CSS and extra booster options."
+msgstr "利用中の ShortPixel 画像最適化と CDN クォータを使い果たしました。%1$sクレジットの追加%2$sにより、サイトの最適化された画像の提供を継続するか、<strong>(ほぼ) 無制限の画像最適化ができる %3$sAutoptimize Pro%2$s を検討してください</strong>。Pro には自動化されるクリティカル CSS と追加のブースターオプションもあります。"
+
+#. translators: "add more credits" will appear in a "a href".
+#: classes/autoptimizeImages.php:1457
+msgid "Your ShortPixel image optimization and CDN quota is almost used, make sure you %1$sadd more credits%2$s to avoid slowing down your website <strong>or consider using %3$sAutoptimize Pro%2$s which comes with (nearly) unlimited image optimization</strong> but also automated critical CSS and extra booster options."
+msgstr "利用中の ShortPixel 画像最適化と CDN クォータのほとんどが使用されています。サイトが遅くならないようにするには、%1$sクレジットを追加%2$sするか、<strong>(ほぼ) 無制限の画像最適化ができる %3$sAutoptimize Pro%2$s を検討してください</strong>。Pro には自動化されるクリティカル CSS と追加のブースターオプションもあります。"
+
+#. translators: 1st link points to autoptimize.com.pro, 2nd to shortpixel.
+#: classes/autoptimizeImages.php:1333
+msgid "For <strong>unlimited image optimizations %1$sbuy Autoptimize Pro%2$s</strong> which also includes Critical CSS and extra \"booster\" options or %3$ssign up at Shortpixel%4$s."
+msgstr "<strong>無制限の画像最適化のため %1$sAutoptimize Pro の購入%2$s</strong>には、クティカル CSS と追加の「ブースター」のオプションや、%3$sShortpixel の登録%4$sも含まれています。"
+
+#: classes/autoptimizeImages.php:1305
+msgid "On-the-fly image optimization and fast delivery via the Shortpixel global CDN."
+msgstr "オンザフライでの画像最適化と Shortpixel のグローバルな CDN を介した高速な送信。"
+
+#: classes/autoptimizeImages.php:1303
+msgid "Image optimization & CDN"
+msgstr "画像最適化と CDN"
+
+#: classes/autoptimizeImages.php:1300
+msgid "Make your site significantly faster by simply ticking a few boxes and start serving CDN powered, optimized images in next-get formats like WebP and AVIF! No additional plugins or services needed."
+msgstr "わずかなボックスをチェックするだけでサイトを大きく高速化でき、CDN 経由で、WebP や AVIF のような次世代の画像形式で最適化された画像の提供を開始します ! 追加のプラグインやサービスは不要です。"
+
+#: classes/autoptimizeImages.php:1270
+msgid "The image optimization service does not work on locally hosted sites or when the server is on a private network."
+msgstr "画像最適化サービスが機能していません。サービスはローカルホスト上のサイト、またはサーバーが非公開のネットワーク上にあります。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:145
+msgid "The Critical CSS service does not work on locally hosted sites or when the server is on a private network."
+msgstr "クリティカル CSS のサービスが機能していません。サービスはローカルホスト上のサイト、またはサーバーが非公開のネットワーク上にあります。"
+
+#. Translators: before the 1st word a number + a space will be displayed, as in
+#. e.g. "2 of above rules".
+#: classes/critcss-inc/admin_settings_rules.js.php:116
+msgid "of the above rules got flagged by criticalcss.com as possibly needing review. This is often due to font-related issues which can be safely ignored, but in case of doubt do a visual test or check for Cumulative Layout Shift issues in e.g. Pagespeed Insights."
+msgstr "個の上記のルールは、criticalcss.com によって、見直しが必要な可能性があるとされました。この原因は、しばしばフォント関連の問題であり無視することができます。心配なら表示のテストを行うか、Pagespeed Insights などで累積レイアウトシフト (Cumulative Layout Shift) の問題を検査してみてください。"
+
+#: classes/autoptimizeCriticalCSSBase.php:362
+msgid "Every %s (Autoptimize Crit. CSS)"
+msgstr "%s ごと (Autoptimize クリティ CSS)"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:302
+msgid "Path validation error:\\n\\nThe path contains characters that are not permitted, remove or encode the unsafe characters."
+msgstr "ルールの検証エラー:\\n\\nパスに許可されていない文字が含まれています。この安全でない文字を、削除するかエンコードしてください。"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:300
+msgid "Rule validation error:\\n\\nType based rules requires a minified critical CSS."
+msgstr "ルールの検証エラー:\\n\\nタイプ用ルールには最小化されたクリティカル CSS が必要です。"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:298
+msgid "Rule validation error:\\n\\nBased on your rule type, you should set a path or conditional tag."
+msgstr "ルールの検証エラー:\\n\\nルールの種類に応じて、パスまたは条件タグを設定する必要があります。"
+
+#: classes/autoptimizeConfig.php:492
+msgid "In Autoptimize 3.0 extra compatibiity logic was added (e.g. for Gutenberg blocks, Revolution Slider, jQuery-heavy plugins, ...), but if you had Autoptimize installed already before the update to 3.0, this compatibility code was disabled. <strong>Untick this option to permanently enable the compatibility logic</strong>."
+msgstr "Autoptimize 3.0には互換性ロジックが追加されました (例: Gutenberg のブロック、Revolution Slider、jQuery が大量のプラグイン、など)。しかし、3.0へのアップデート前にAutoptimizeをすでにインストールしていた場合、この互換性コードは無効化されています。<strong>このオプションのチェックを外すと、互換性ロジックが永続的に有効になります</strong>。"
+
+#: classes/autoptimizeConfig.php:490
+msgid "Disable extra compatibilty logic?"
+msgstr "追加の互換性ロジックを無効化"
+
+#: classes/autoptimizeConfig.php:375
+msgid "Enable this if you want inline JS or CSS to be minified as well."
+msgstr "インラインの JS や CSS も最小化します。"
+
+#: classes/autoptimizeConfig.php:373
+msgid "Also minify inline JS/ CSS?"
+msgstr "インラインの JS/CSS も最小化"
+
+#: classes/autoptimizeExitSurvey.php:77
+msgid "I would like be contacted about my experience with Autoptimize."
+msgstr "Autoptimize の使用感について連絡を希望する。"
+
+#: classes/autoptimizeExitSurvey.php:56
+msgid "Ouch, sorry about that! But almost all problems can be fixed with the right configuration, have a look at <a href=\"https://blog.futtta.be/2022/05/05/what-to-do-when-autoptimize-breaks-your-site/\" target=\"_blank\">this short troubleshooting howto</a> or create a topic on <a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">the support forum here</a>!"
+msgstr "申し訳ありません ! しかし、たいていの問題は正しい設定で修正できますので、<a href=\"https://blog.futtta.be/2022/05/05/what-to-do-when-autoptimize-breaks-your-site/\" target=\"_blank\">簡単にまとめた問題解決の手順</a>をご覧ください。あるいは、<a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">こちらのサポート掲示板に</a>話題を投稿してください !"
+
+#: classes/autoptimizeExitSurvey.php:42
+msgid "We would appreciate if you let us know why you're deactivating Autoptimize!"
+msgstr "よろしければ Autoptimize を無効化している理由を教えてください !"
+
+#: classes/autoptimizeExitSurvey.php:39
+msgid "Sorry to see you go!"
+msgstr "すみません。不都合があったかと存じます。"
+
+#: classes/autoptimizeMetabox.php:129
+msgid "LCP Image to preload"
+msgstr "事前読み込みする LCP (コンテンツ用の大きな) 画像"
+
+#: classes/autoptimizeExtra.php:583
+msgid "WordPress adds block CSS and global styles to improve easy styling of block-based sites, but which can add a significant amount of CSS and SVG. If you are sure your site can do without the block CSS and \"global styles\", you can disable them here."
+msgstr "WordPress はブロック型の CSS とグローバルスタイルを、ブロックベースのサイトのスタイルを簡単に改善するために追加しています。しかし、これはかなり大量の CSS と SVG を追加します。ブロック型の CSS とグローバルスタイルがなくても大丈夫だと確信できている場合、これを無効化できます。"
+
+#: classes/autoptimizeExtra.php:581
+msgid "Remove WordPress block CSS"
+msgstr "WordPress のブロック CSS を除去"
+
+#: classes/autoptimizeCriticalCSSSettings.php:168
+msgid "To be able to use Critical CSS you will have to enable CSS optimization and make sure \"eliminate render-blocking CSS\" is active on the main Autoptimize settings page."
+msgstr "クリティカル CSS を使用するには、Autoptimize の設定ページにて、CSS の最適化を有効にし、「レンダリングブロックしている CSS を除去」が有効になっている必要があります。"
+
+#. translators: links "autoptimize critical CSS" tab.
+#: classes/autoptimizeConfig.php:332
+msgid "You can manually create rules for different types of pages or have this done fully automated on the %s tab."
+msgstr "異なるページの種別に手動でルールを作成することも、%sタブから完全に自動化することもできます。"
+
+#: classes/autoptimizeExitSurvey.php:91
+msgid "Selected reason from the above survey"
+msgstr "上記の調査で選択された理由"
+
+#: classes/autoptimizeExitSurvey.php:91
+msgid "Uninstall reason"
+msgstr "アンインストールの理由"
+
+#: classes/autoptimizeExitSurvey.php:90
+msgid "Current website:"
+msgstr "現在のウェブサイト:"
+
+#: classes/autoptimizeExitSurvey.php:89
+msgid "WordPress version"
+msgstr "WordPress バージョン"
+
+#: classes/autoptimizeExitSurvey.php:88
+msgid "Plugin version"
+msgstr "プラグインのバージョン"
+
+#: classes/autoptimizeExitSurvey.php:86
+msgid "Below is a detailed view of all data that Optimizing Matters will receive if you fill in this survey. Your email address is only shared if you explicitly fill it in, your IP addres is never sent."
+msgstr "この調査に記入すると、以下に問題についてのすべてのデータが表示されます。あなたのメールアドレスは記入された場合にのみ共有され、またIP アドレスを収集することはありません。"
+
+#: classes/autoptimizeExitSurvey.php:85
+msgid "What info do we collect?"
+msgstr "どんな情報を収集していますか ?"
+
+#: classes/autoptimizeExitSurvey.php:70
+msgid "Other (please specify below)"
+msgstr "ほか (以下で説明ください)"
+
+#: classes/autoptimizeExitSurvey.php:65
+msgid "I'm just disabling temporarily."
+msgstr "一時的に無効化しているだけです。"
+
+#: classes/autoptimizeExitSurvey.php:60
+msgid "I found a better solution."
+msgstr "ほかにいい方法があった。"
+
+#: classes/autoptimizeExitSurvey.php:54
+msgid "It broke my site."
+msgstr "サイトが壊れた。"
+
+#: classes/autoptimizeExitSurvey.php:49
+msgid "As Autoptimize does not do page caching, you might have to install e.g. KeyCDN Cache Enabler or WP Super Cache as well. Feel free to create a topic on <a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">the support forum here</a> to get pointers on how get the most out of Autoptimize!"
+msgstr "Autoptimize はページキャッシュを行わないため、KeyCDN の Cache Enabler や WP Super Cache などのインストールが必要な場合があります。Autoptimize を活用するアドバイスを得るには、<a href=\"https://wordpress.org/support/plugin/autoptimize/#new-topic-0\" target=\"_blank\">こちらのサポート掲示板で</a>自由に話題を投稿してください。"
+
+#: classes/autoptimizeExitSurvey.php:47
+msgid "I don't see a performance improvement."
+msgstr "パフォーマンスが向上していない。"
+
+#: classes/critcss-inc/admin_settings_key.php:26
+msgid "API Key provided by a filter, no need to enter anything here."
+msgstr "フィルターが提供する API キーです。ここへ入力する必要はありません。"
+
+#: classes/autoptimizeToolbar.php:117
+msgid "Clear CSS/ JS Cache"
+msgstr "CSS/JS キャッシュ消去"
+
+#: classes/autoptimizeToolbar.php:96
+msgid "CSS/ JS Cache Info"
+msgstr "CSS/JS キャッシュ情報"
+
+#: classes/autoptimizeConfig.php:717 classes/autoptimizeToolbar.php:82
+msgid "Autoptimize Pro"
+msgstr "Autoptimize Pro"
+
+#: classes/autoptimizeConfig.php:533
+msgid "Autoptimize news"
+msgstr "Autoptimize ニュース"
+
+#: classes/autoptimizeConfig.php:399
+msgid "Enter your CDN root URL to enable CDN for Autoptimized files. The URL can be http, https or protocol-relative. This is not needed for Cloudflare."
+msgstr " ルートとなる CDN の URL を入力し、最適化されたファイルの CDN を有効にします。URLは、http、https、またはプロトコル相対にできます。 Cloudflare には必要ありません。 "
+
+#: classes/autoptimizeConfig.php:398
+msgid "example: //cdn.yoursite.com/"
+msgstr "例: //cdn.yoursite.com/"
+
+#: classes/autoptimizeConfig.php:394
+msgid "The CDN has automatically been set to make use of the image optimization CDN."
+msgstr "画像最適化 CDN を利用するように自動で設定されています。"
+
+#: classes/autoptimizeConfig.php:200
+#: classes/autoptimizeCriticalCSSSettings.php:135
+#: classes/autoptimizeExtra.php:543 classes/autoptimizeImages.php:1265
+#: classes/autoptimizePartners.php:144
+msgid "Autoptimize Pro Settings"
+msgstr "Autoptimize Pro 設定"
+
+#: classes/critcss-inc/admin_settings_rules.php:169
+msgid "How To Use Autoptimize CriticalCSS Rules"
+msgstr " Autoptimize クリティカル CSS のルールの使い方\t"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:443
+msgid "For path based rules, paste your specific and minified critical CSS. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\""
+msgstr "パス用ルールに使う、最小化された個別のクリティカル CSS を貼り付けます。クリティカル CSS の挿入から除外するためのルールを作成するには、\\\"none\\\" と入力します。"
+
+#: classes/critcss-inc/admin_settings_queue.php:56
+msgid "How To Use Autoptimize CriticalCSS Queue"
+msgstr " Autoptimize クリティカル CSS の処理待ちキューの使い方"
+
+#: classes/autoptimizeMetabox.php:224
+msgid "Sorry, something went wrong."
+msgstr "何かがうまくいかなかったようです。"
+
+#: classes/autoptimizeMetabox.php:221
+msgid "Could not add to CCSS job queue."
+msgstr "CCSS ジョブを処理待ちに追加できませんでした。"
+
+#: classes/autoptimizeMetabox.php:219
+msgid "Added to CCSS job queue."
+msgstr "CCSS ジョブを処理待ちに追加しました。"
+
+#: classes/autoptimizeMetabox.php:167
+msgid "Generate Critical CSS"
+msgstr "クリティカル CSS 生成"
+
+#. Translators: the sentence will be finished with the name of the offending
+#. plugin and a final stop.
+#: classes/autoptimizeMain.php:831
+msgid "It looks like you have <strong>another plugin also doing CSS and/ or JS optimization</strong>, which can result in hard to troubleshoot <strong>conflicts</strong>. For this reason it is recommended to disable this functionality in"
+msgstr "<strong>他のプラグインも CSS や JS の最適化を行っている</strong>ようです。問題解決の難しい<strong>競合</strong>が発生することがあります。そのため、この機能を無効にすることを推奨します"
+
+#: classes/autoptimizeMain.php:810
+msgid "It looks like your site might not have <strong>page caching</strong> which is a <strong>must-have for performance</strong>. If you are sure you have a page cache, you can close this notice, but when in doubt check with your host if they offer this or install a page caching plugin like for example"
+msgstr "このサイトは、<strong>パフォーマンス向上</strong>に欠かせない<strong>ページキャッシュ機能</strong>を使っていないようです。ページキャッシュしていることが確実であればこの通知を閉じることができますが、よく分からなければ、ホストがこの機能を提供しているかを確認するか、次のようなページキャッシュ用プラグインをインストールします。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:181
+msgid "The \"Eliminate render-blocking CSS\" option was activated to allow critical CSS to be used."
+msgstr "クリティカル CSS を使用できるよう、「レンダリングブロックしている CSS を除去」のオプションを有効化しました。"
+
+#: classes/critcss-inc/admin_settings_queue.php:85
+msgid "Manually process the job queue"
+msgstr "ジョブの処理待ちを手動で処理"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:236
+msgid "Could not process queue."
+msgstr "処理待ちを処理できませんでした。"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:234
+msgid "The queue is locked, retry in a couple of minutes. If this problem persists and the queue is not moving at all remove the <code>wp-content/uploads/ao_ccss/queue.lock</code> file."
+msgstr "この処理待ちはロックされています。数分以内に再試行してください。もし問題が解決せず、処理待ちにまったく動きがない場合、<code>wp-content/uploads/ao_ccss/queue.lock</code>ファイルを削除してください。"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:231
+msgid "Queue processed, reloading page."
+msgstr "キューが処理されました。ページ再読み込み。"
+
+#: classes/critcss-inc/admin_settings_adv.php:114
+msgid "<b>This functionality will be removed in a next major version of Autoptimize</b>, being replaced by the combination of the \"do not aggregate but defer JS\" + \"defer inline JS\" options on the main settings page."
+msgstr "<b>この機能は Autoptimize の次のメジャーバージョンでは削除される予定です</b>。同様の機能は、設定ページの「連結しないで遅延」と「インライン JS も遅延」のオプションの併用に置き換えられます。"
+
+#: classes/critcss-inc/admin_settings_adv.php:108
+msgid "Defer jQuery and other non-aggregated JS-files? (deprecated)"
+msgstr "jQuery やほかの非連結 JS ファイルを遅延 (廃止予定)"
+
+#: classes/autoptimizeMetabox.php:117
+msgid "Lazyload images?"
+msgstr "画像の遅延読み込み ?"
+
+#: classes/autoptimizeMetabox.php:105
+msgid "Inline critical CSS?"
+msgstr "インラインのクリティカル CSS ?"
+
+#: classes/autoptimizeMetabox.php:90
+msgid "Optimize CSS?"
+msgstr "CSS 最適化 ?"
+
+#: classes/autoptimizeMetabox.php:78
+msgid "Optimize JS?"
+msgstr "JS 最適化 ?"
+
+#: classes/autoptimizeMetabox.php:66
+msgid "Optimize this page?"
+msgstr "このページを最適化 ?"
+
+#: classes/autoptimizeMetabox.php:37
+msgid "Autoptimize this page"
+msgstr "このページの自動最適化"
+
+#: classes/autoptimizeImages.php:1386
+msgid "Automatically serve AVIF image format to any browser that supports it."
+msgstr "AVIF 画像形式に対応したブラウザにはこれを自動で提供します。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:203
+msgid "You have \"defer jQuery and other non-aggregated JS-files\" active (under Advanced Settings), but that functionality is deprecated and will be removed in the next major version of Autoptimize. Consider using the new \"Do not aggregate but defer\" and \"Also defer inline JS\" options on the main settings page instead."
+msgstr "「jQuery やほかの非連結 JS ファイルを遅延」 (高度な設定内) が有効になっていますが、この機能は Autoptimize の次のメジャーバージョンで廃止予定なので使用は非推奨です。代わりに、設定ページから「連結しないで遅延」と「インライン JS も遅延」の新しいオプションの使用を検討してください。"
+
+#: classes/autoptimizeConfig.php:485
+msgid "Add a \"metabox\" to the post/ page edit screen allowing different optimizations to be turned off on a per post/ page level?"
+msgstr "投稿/ページの編集画面にメタボックスを追加し、投稿/ページごとに最適化の設定をオフにして調整できるようにしますか ?"
+
+#: classes/autoptimizeConfig.php:483
+msgid "Enable configuration per post/ page?"
+msgstr "投稿/ページごとに設定"
+
+#: classes/autoptimizeConfig.php:359
+msgid "If Google Pagespeed Insights detects unused CSS, consider using %s to <strong>reduce your site's CSS size to up to 90&#37;</strong>, resulting in a slimmer, faster site!"
+msgstr "Google Pagespeed Insights で未使用の CSS が検出されれば、 サイトのスリム化と高速化のため、<strong>サイトの CSS のサイズを最大90&#37;まで減少</strong>できる %s の使用を検討できます。"
+
+#: classes/autoptimizeConfig.php:355
+msgid "Remove Unused CSS?"
+msgstr "未使用の CSS の削除には ?"
+
+#: classes/autoptimizeConfig.php:325
+msgid "Eliminate render-blocking CSS?"
+msgstr "レンダリングブロックしている CSS を除去"
+
+#: classes/autoptimizeConfig.php:285
+msgid "Autoptimize combines your theme & plugins' JavaScript, but does not know what is used and what not. If Google Pagespeed Insights detects unused JavaScript, consider using a plugin like \"Plugin Organizer\" or similar to manage what JavaScript is added where."
+msgstr "Autoptimize は、テーマやプラグインの JavaScript を結合しますが、何が使われているものなのかは認識できません。Google Pagespeed Insights で未使用の JavaScript が検出されれば、どの JavaScript がどこに追加されているかを管理するための Plugin Organizer などのプラグインの使用を検討できます。"
+
+#: classes/autoptimizeConfig.php:284
+msgid "Remove Unused JavaScript?"
+msgstr "未使用の JavaScript の削除には ?"
+
+#: classes/autoptimizeConfig.php:279
+msgid "Important: when \"aggregate JS-files\" is on, excluded non-minified files are still minified by Autoptimize unless that option under \"misc\" is disabled."
+msgstr "重要: 「JS ファイルを連結」が有効であれば、「その他」内のオプションが無効でない限り、除外された最小化されていないファイルも、Autoptimizeによって最小化されます。"
+
+#: classes/autoptimizeConfig.php:279
+msgid "A comma-separated list of scripts you do not want optimized, for example 'whatever.js, my_var' (without the quotes)."
+msgstr "最適化したくないスクリプトをコンマ区切りで一覧にします。例「whatever.js, my_var」 (括弧を除く) 。"
+
+#: classes/autoptimizeConfig.php:261
+msgid "Also defer inline JS. Generally this will allow all JS to be deferred, so you should remove default exclusions, test and only exclude specific items if still needed."
+msgstr "インライン JS も遅延します。これによりすべての JS が遅延されるため、標準の除外スクリプトを削除してテストし、なお必要であれば特定の項目のみを除外します。"
+
+#: classes/autoptimizeConfig.php:259
+msgid "Also defer inline JS?"
+msgstr "インライン JS も遅延"
+
+#: classes/autoptimizeConfig.php:256
+msgid "Individual JS-files will be minified and deferred, making them non-render-blocking."
+msgstr "それぞれの JS ファイルは最小化され遅延されるので、レンダリングブロックされません。"
+
+#: classes/autoptimizeConfig.php:251
+msgid "If your aggregated scripts break because of a JS-error, you might want to try this, but generally discouraged."
+msgstr "連結したスクリプトが JS エラーを出し壊れている場合これを試すことができますが、一般的な使用は推奨できません。"
+
+#: classes/autoptimizeConfig.php:246
+msgid "Load JavaScript early (discouraged as it makes the JS render blocking)"
+msgstr "JavaScript を早めに読み込む (JS がレンダリングブロックされるため推奨しない)"
+
+#: classes/autoptimizeConfig.php:241
+msgid "Let Autoptimize also extract JS from the HTML (discouraged as it can make Autoptimize's cache size grow quickly)"
+msgstr "Autoptimize に HTML からも JS を抽出させる (Autoptimize のキャッシュサイズが急激に大きくなる可能性があるため推奨しない)"
+
+#: classes/autoptimizeConfig.php:236
+msgid "Aggregate all linked JS-files to have them loaded non-render blocking?"
+msgstr "レンダリングブロックなしで読み込むために、リンクされたすべての JS ファイルを連結する ?"
+
+#. translators: "here to refresh" links to the Autoptimize Extra page and
+#. forces a refresh of the img opt stats.
+#: classes/autoptimizeImages.php:1488
+msgid "you can click %1$shere to refresh your quota status%2$s"
+msgstr "クリックで%1$sクォータの状態を更新%2$s"
+
+#. translators: link points to shortpixel.
+#: classes/autoptimizeImages.php:1328
+msgid "Get more Google love by speeding up your website. Start serving on-the-fly optimized images (also in the \"next-gen\" <strong>WebP</strong> and <strong>AVIF</strong> image formats) by %1$sShortPixel%2$s. No additional image optimization plugins are needed: your images are optimized, cached and served from %3$sShortPixel's global CDN%2$s."
+msgstr "このサイトを高速化することで、さらに Google から好まれることでしょう。オンザフライでの最適化された画像（次世代の <strong>WebP</strong> や <strong>AVIF</strong> 画像形式にも対応）の提供を %1$sShortPixel%2$s ではじめましょう。画像最適化用プラグインを追加する必要はありません。この最適化された画像は、キャッシュされ %3$sShortPixel のグローバルCDN%2$s から提供されます。"
+
+#: classes/autoptimizeImages.php:1411
+msgid "Don't lazyload the first X images, '1' lazyloads all."
+msgstr "最初の画像 X 枚を遅延読み込みしない。1 ですべて遅延読み込みします。"
+
+#: classes/autoptimizeImages.php:1409
+msgid "Lazy-load from nth image"
+msgstr "指定枚数目から遅延読み込み"
+
+#: classes/autoptimizeImages.php:1349
+msgid "Comma-separated list of image classes or filenames that should not be optimized."
+msgstr "最適化すべきではない画像のクラスやファイル名をコンマ区切りで一覧にします。"
+
+#: classes/autoptimizeImages.php:1347
+msgid "Optimization exclusions"
+msgstr "最適化の除外"
+
+#: classes/autoptimizeConfig.php:254
+msgid "Do not aggregate but defer?"
+msgstr "連結しないで遅延"
+
+#: classes/autoptimizeCriticalCSSSettings.php:290
+msgid "It looks like the amount of Critical CSS rules is very high, it is recommended to reconfigure Autoptimize (e.g. by manually creating broader rules) to ensure less rules are created."
+msgstr "クリティカル CSS のルールが非常に多いです。Autoptimize を再設定し (広範囲となるルールを手動で作成するなど) 、作成ルールが少なくなることを推奨します。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:266
+msgid "In the meantime you might want to <strong>edit default rule CSS now</strong>, to avoid all CSS being inlined when no (applicable) rules are found."
+msgstr "それまでの間に、(適用できる) ルールがないすべての CSS がインライン化されないよう、<strong>すぐに標準ルールの CSS を編集</strong>したい場合があるでしょう。"
+
+#: classes/critcss-inc/admin_settings_adv.php:68
+msgid "The cronned queue processing is an asynchronous process triggerd by (WordPress) cron. To avoid this process from running too long and potentially getting killed, you can set the number of seconds here, 0 means no limit."
+msgstr "クーロン (cron) によるキュー処理は、(WordPress の) クーロンによって開始される非同期プロセスです。この処理の実行時間が長くなりすぎて強制終了となるのを防止するためここで秒数を設定でき、また0では無制限を意味します。"
+
+#: classes/critcss-inc/admin_settings_adv.php:63
+msgid "Queue processing time limit"
+msgstr "キューの処理時間制限"
+
+#. translators: "associate your domain" will appear in a "a href".
+#: classes/autoptimizeImages.php:1462
+msgid "If you have enough CDN quota remaining, then you may need to %1$sassociate your domain%2$s to your Shortpixel account."
+msgstr "CDN クォータを十分にお持ちであれば、Shortpixel のアカウントを%1$sお使いのドメインに関連付ける%2$s必要がある可能性があります。"
+
+#: classes/autoptimizeConfig.php:460
+msgid "Enable 404 fallbacks?"
+msgstr "404 フォールバックの使用"
+
+#: classes/critcss-inc/admin_settings_adv.php:126
+msgid "In rare cases the critical CSS needs to be removed once the full CSS loads, this option makes it so!"
+msgstr "まれに CSS の完全な読み込み後に、クリティカル CSS を削除する必要がありますが、このオプションを使用するとそれを行います !"
+
+#: classes/critcss-inc/admin_settings_adv.php:121
+msgid "Unload critical CSS after page load?"
+msgstr "ページ読み込み後に クリティカル CSS の読み込み解除"
+
+#: classes/critcss-inc/admin_settings_explain.php:45
+msgid "<h2>Fix render-blocking CSS!</h2><p>Significantly improve your first-paint times by making CSS non-render-blocking.</p><p>The next step is to sign up at <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> (this is a premium service, priced 2 GBP/month for membership and 5 GBP/month per domain) <strong>and get the API key, which you can copy from <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">the API-keys page</a></strong> and paste below.</p><p>If you have any questions or need support, head on over to <a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">our support forum</a> and we'll help you get up and running in no time!</p>"
+msgstr "<h2>CSSのレンダリングブロックを修正 !</h2><p>CSS をレンダリングブロックしないことで、最初の表示にかかる時間を大きく改善します。</p><p>次に <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">https://criticalcss.com</a> へ登録でき (これはプレミアムサービスで、メンバーは 2英ポンド/月、ドメインごとに 5英ポンド/月かかります)、<strong>API キーを取得したらその <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">API キーのページ</a></strong> からコピーして以下に貼り付けできます。</p><p>質問やサポートが必要であれば、<a href=\"https://wordpress.org/support/plugin/autoptimize\" target=\"_blank\">サポート用掲示板</a>に直接アクセスしていただければ、すぐに稼働できるようお手伝いします !</p>"
+
+#: classes/autoptimizeCriticalCSSCore.php:441
+msgid "Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key to start."
+msgstr "開始するには有効な <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> の API キーを入力してください。"
+
+#: classes/autoptimizeCriticalCSSCore.php:432
+msgid "Something went wrong when checking your API key, make sure you server can communicate with https://criticalcss.com and/ or try again later."
+msgstr "API キーの確認時に何か誤りがあるようなので、サーバーが https://criticalcss.com と通信できるか後で再度確認してください。"
+
+#: classes/autoptimizeCriticalCSSCore.php:412
+#: classes/autoptimizeCriticalCSSCore.php:430
+msgid "Your API key is invalid. Please enter a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> key."
+msgstr "API キーが無効です。有効な <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> キーを入力してください。"
+
+#: classes/autoptimizeCriticalCSSCore.php:410
+#: classes/autoptimizeCriticalCSSCore.php:427
+msgid "Invalid"
+msgstr "無効"
+
+#: classes/autoptimizeCriticalCSSCore.php:403
+#: classes/autoptimizeCriticalCSSCore.php:421
+msgid "Valid"
+msgstr "有効"
+
+#: classes/autoptimizeConfig.php:462
+msgid "Sometimes Autoptimized JS/ CSS is referenced in cached HTML but is already removed, resulting in broken sites. With this option on, Autoptimize will try to redirect those not-found files to \"fallback\"-versions, keeping the page/ site somewhat intact. In some cases this will require extra web-server level configuration to ensure <code>wp-content/autoptimize_404_handler.php</code> is set to handle 404's in <code>wp-content/cache/autoptimize</code>."
+msgstr "時折、キャッシュされた HTML から、すでに削除された Autoptimized JS/CSS が参照された結果、サイトの表示が壊れることがあります。このオプションを有効化すると、Autoptimize は、それら見つからないファイルの「フォールバック版」(予備) へのリダイレクトを試し、ページやサイトが表示できるようある程度維持しようとします。一部の環境では、<code>wp-content/cache/autoptimize</code> 内の <code>wp-content/autoptimize_404_handler.php</code> が 404 を処理できるよう、ウェブサーバー単位での追加の設定が必要です。"
+
+#: classes/autoptimizeConfig.php:343
+msgid "Inlining all CSS is an easy way to stop the CSS from being render-blocking, but is generally not recommended because the size of the HTML increases significantly. Additionally it might push meta-tags down to a position where e.g. Facebook and Whatsapp will not find them any more, breaking thumbnails when sharing."
+msgstr "すべての CSS のインライン化は、CSS のレンダリングブロックを回避する簡単な方法ですが、HTML のサイズが大幅に増加するため、一般に推奨されません。さらにこれは Facebook や Whatsapp などが探索しない位置までメタタグの位置を下げてしまい、シェア用の画像を壊す可能性があります。"
+
+#: classes/autoptimizeConfig.php:195
+msgid "Autoptimize now includes the criticalcss.com integration that was previously part of the separate power-up. If you want you can simply disable the power-up and Autoptimize will take over immediately."
+msgstr "現在の Autoptimize には、以前は別の「パワーアップ」プラグインの機能だった criticalcss.com が統合されています。必要ならパワーアップを無効化するだけで、Autoptimize がすぐに引き継ぎます。"
+
+#: classes/critcss-inc/admin_settings_rules.php:201
+msgid "Remove all rules"
+msgstr "すべてのルールを削除"
+
+#: classes/critcss-inc/admin_settings_rules.php:198
+msgid "Add CSS To All Rules"
+msgstr "すべてのルールに CSS を追加"
+
+#: classes/critcss-inc/admin_settings_rules.php:197
+msgid "Edit Default Rule CSS"
+msgstr "標準ルールの CSS を編集"
+
+#: classes/critcss-inc/admin_settings_rules.php:196
+msgid "Add New Rule"
+msgstr "新規ルールを追加"
+
+#: classes/critcss-inc/admin_settings_rules.php:183
+msgid "At any time you can delete an <span class=\"badge auto\">AUTO</span> or <span class=\"badge manual\">MANUAL</span> rule by cliking on \"Remove\" button of the desired rule and saving your changes."
+msgstr "<span class=\"badge auto\">自動</span>または<span class=\"badge manual\">手動</span>ルールはいつでも削除できます。削除するには、そのルールの「削除」ボタンをクリックしてから変更を保存します。"
+
+#: classes/critcss-inc/admin_settings_rules.php:182
+msgid "You can create <span class=\"badge manual\">MANUAL</span> rules for specific page paths (URL). Longer, more specific paths have higher priority over shorter ones, which in turn have higher priority over <span class=\"badge auto\">AUTO</span> rules. Also, critical CSS files from <span class=\"badge manual\">MANUAL</span> <strong>rules are NEVER updated automatically.</strong>"
+msgstr "特定のページのパス (URL) に対する <span class=\"badge manual\">手動</span>ルールを作成することもできます。長くより具体的なパスの方が、より短いパスよりも優先順位が高く、<span class=\"badge auto\">自動</span> ルールよりも優先度が高くなります。また、<span class=\"badge manual\">手動</span>ルールのクリティカル CSS ファイルは<strong>自動的に更新されることはありません。</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:181
+msgid "If you want to make any fine tunning in the critical CSS file of an <span class=\"badge auto\">AUTO</span> rule, click on \"Edit\" button of that rule, change what you need, submit and save it. The rule you've just edited becomes a <span class=\"badge manual\">MANUAL</span> rule then."
+msgstr "<span class=\"badge auto\">自動</span>ルールのクリティカル CSS ファイルを微調整したい場合、そのルールの「編集」ボタンをクリックし、必要なものを変更し、送信して保存してください。編集したルールは <span class=\"badge manual\">手動</span>ルールになります。"
+
+#: classes/critcss-inc/admin_settings_rules.php:180
+msgid "These requests also creates an <span class=\"badge auto\">AUTO</span> rule for you. The critical CSS files from <span class=\"badge auto\">AUTO</span> <strong>rules are updated automatically</strong> when a CSS file in your theme or frontend plugins changes."
+msgstr "これらのリクエストは、あなたのために<span class=\"badge auto\">自動</span>ルールも作成します。<span class=\"badge auto\">自動</span>ルールによるクリティカル CSS ファイルは、使用中のテーマやフロントエンドのプラグインの CSS ファイルが変更されると、<strong>自動的に更新されます</strong>。"
+
+#: classes/critcss-inc/admin_settings_rules.php:179
+msgid "Upon a request to any of the frontend pages made by a <strong>not logged in user</strong>, it will <strong>asynchronously</strong> fetch and update the critical CSS from <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for conditional tags you have on your site (e.g. is_page, is_single, is_archive etc.)"
+msgstr "<strong>ログインしていないユーザー</strong>によるフロントエンドのページへのリクエストに応じて、サイト上の条件分岐タグ (is_page、is_single、is_archive など) に対し <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> からクリティカル CSS を<strong>非同期的</strong>に取得して更新します。"
+
+#: classes/critcss-inc/admin_settings_rules.php:178
+msgid "When a valid <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API key is in place, Autoptimize starts to operate <strong>automatically</strong>."
+msgstr "有効な <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> API キーが設定されると、Autoptimize は<strong>自動で</strong>開始します。"
+
+#: classes/critcss-inc/admin_settings_rules.php:176
+msgid "TL;DR:<br />Critical CSS files from <span class='badge auto'>AUTO</span> <strong>rules are updated automatically</strong> while from <span class='badge manual'>MANUAL</span> <strong>rules are not.</strong>"
+msgstr "要旨:<br /><span class='badge auto'>自動</span><strong>ルールからのクリティカル CSS ファイルは自動的に更新されます</strong>が、<span class='badge manual'>手動</span><strong>ルールからのものは更新されません。</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:163
+msgid "Paste your minified additional critical CSS here and hit submit to save. This is the CSS to be added AT THE END of every critical CSS provided by a matching rule, or the default one."
+msgstr "ここにあなたの最小化された追加のクリティカル CSS を貼り付け、送信を押し保存します。これは、標準のものか、ルールに一致することによって提供されるすべてのクリティカル CSS の末尾に追加される CSS です。"
+
+#: classes/critcss-inc/admin_settings_rules.php:158
+msgid "Paste your minified default critical CSS here and hit submit to save. This is the critical CSS to be used for every page not matching any rule."
+msgstr "ここにあなたの最小化された標準のクリティカル CSS を貼り付け、送信を押し保存します。これは、どのルールにも一致しないすべてのページに使用されるクリティカル CSS です。"
+
+#: classes/critcss-inc/admin_settings_rules.php:153
+msgid "All Critical CSS rules will be deleted immediately and cannot be recovered.<br /><br /><strong>Are you sure?</strong>"
+msgstr "すべてのクリティカル CSS は、ただちに削除され復元不可能となります。<br /><br /><strong>よろしいですか ?</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:152
+msgid "Delete all Rules and Jobs"
+msgstr "すべてのルールとジョブを削除"
+
+#: classes/critcss-inc/admin_settings_rules.php:148
+msgid "This Critical CSS rule will be deleted immediately and cannot be recovered.<br /><br /><strong>Are you sure?</strong>"
+msgstr "クリティカル CSS のルールはただちに削除され、復元不可能になります。<br /><br /><strong>よろしいですか ?</strong>"
+
+#: classes/critcss-inc/admin_settings_rules.php:147
+msgid "Delete Rule"
+msgstr "ルールの削除"
+
+#: classes/critcss-inc/admin_settings_rules.php:138
+msgid "Paste your specific critical CSS here and hit submit to save."
+msgstr "ここに個別のクリティカル CSS を貼り付け、送信を押し保存します。"
+
+#: classes/critcss-inc/admin_settings_rules.php:135
+msgid "Custom Critical CSS"
+msgstr "カスタムクリティカル CSS"
+
+#: classes/critcss-inc/admin_settings_rules.php:100
+msgid "WooCommerce Conditional Tags"
+msgstr "WooCommerce 条件タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:96
+msgid "Easy Digital Downloads Conditional Tags"
+msgstr "Easy Digital Downloads 条件タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:92
+msgid "BuddyPress Conditional Tags"
+msgstr "BuddyPress 条件タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:88
+msgid "BBPress Conditional Tags"
+msgstr "BBPress 条件タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:84
+msgid "Page Templates"
+msgstr "ページテンプレート"
+
+#: classes/critcss-inc/admin_settings_rules.php:80
+msgid "Custom Post Types"
+msgstr "カスタム投稿タイプ"
+
+#: classes/critcss-inc/admin_settings_rules.php:58
+msgid "Standard Conditional Tags"
+msgstr "標準の条件分岐タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:57
+msgid "Select from the list below..."
+msgstr "以下の一覧から選択..."
+
+#: classes/critcss-inc/admin_settings_rules.php:53
+msgid "Conditional Tag, Custom Post Type or Page Template"
+msgstr "条件付きタグ、カスタム投稿タイプ、またはページテンプレート"
+
+#: classes/critcss-inc/admin_settings_rules.php:48
+msgid "Enter a part of the URL that identifies the page(s) you're targetting."
+msgstr "対象としたいページの URL の一部を入力してページを特定します。"
+
+#: classes/critcss-inc/admin_settings_rules.php:45
+msgid "String in Path"
+msgstr "パス内の文字列"
+
+#: classes/critcss-inc/admin_settings_rules.php:39
+msgid "Conditional Tag"
+msgstr "条件分岐タグ"
+
+#: classes/critcss-inc/admin_settings_rules.php:38
+msgid "Path"
+msgstr "パス"
+
+#: classes/critcss-inc/admin_settings_rules.php:34
+msgid "Rule Type"
+msgstr "ルールの種類"
+
+#: classes/critcss-inc/admin_settings_rules.php:26
+msgid "<strong>Rules or Queue changed!</strong> Don't forget to save your changes!"
+msgstr "<strong>ルールまたはキューが変更されました !</strong> 変更の保存をお忘れなく !"
+
+#: classes/critcss-inc/admin_settings_rules.php:21
+msgid "Rules"
+msgstr "ルール"
+
+#: classes/critcss-inc/admin_settings_impexp.js.php:35
+msgid "Export settings result"
+msgstr "設定結果のエクスポート"
+
+#: classes/critcss-inc/admin_settings_debug.php:81
+msgid "WP-Cron Scheduled Events"
+msgstr "WP-Cron スケジュールされたイベント"
+
+#: classes/critcss-inc/admin_settings_debug.php:78
+msgid "WP-Cron Intervals"
+msgstr "WP-Cron 間隔"
+
+#: classes/critcss-inc/admin_settings_debug.php:45
+msgid "Options"
+msgstr "オプション"
+
+#: classes/critcss-inc/admin_settings_debug.php:39
+msgid "Debug Information"
+msgstr "デバッグ情報"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:343
+msgid "Additional Critical CSS"
+msgstr "追加のクリティカル CSS"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:322
+msgid "Default Critical CSS"
+msgstr "標準のクリティカル CSS"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:290
+#: classes/critcss-inc/admin_settings_rules.js.php:325
+#: classes/critcss-inc/admin_settings_rules.js.php:346
+msgid "Submit"
+msgstr "送信"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:278
+msgid "For path based rules, paste your specific and minified critical CSS here or leave this empty to fetch it from criticalcss.com and hit submit to save. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\""
+msgstr "パス用ルールに使う、最小化された個別のクリティカル CSS を貼り付けるか、criticalcss.com から取得するために空欄のままにし、送信を押し保存します。クリティカル CSS の挿入から除外するためのルールを作成するには、\\\"none\\\" と入力します。"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:274
+msgid "For type based rules, paste your specific and minified critical CSS here and hit submit to save. If you want to create a rule to exclude from critical CSS injection, enter \\\"none\\\"."
+msgstr "タイプ用ルールに使う、最小化された個別のクリティカル CSS を貼り付け、送信を押し保存します。クリティカル CSS の挿入から除外するためのルールを作成するには、\\\"none\\\" と入力します。"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:263
+msgid "Add Critical CSS Rule"
+msgstr "クリティカル CSS のルールを追加"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:234
+msgid "Loading critical CSS..."
+msgstr "クリティカル CSS を読み込み中..."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:223
+msgid "Edit Critical CSS Rule"
+msgstr "クリティカル CSS のルールを編集"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:158
+msgid "Delete All"
+msgstr "すべて削除"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:102
+msgid "Remove"
+msgstr "削除"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:102
+msgid "Edit"
+msgstr "編集"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:74
+msgid "AUTO"
+msgstr "自動"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:71
+msgid "MANUAL"
+msgstr "手動"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:68
+msgid "To be fetched from criticalcss.com in the next queue run..."
+msgstr "次の処理待ち実行時に criticalcss.com から取得..."
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Critical CSS File"
+msgstr "クリティカル CSS のファイル"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Target"
+msgstr "対象"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Type"
+msgstr "種類"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:45
+msgid "Conditional Tags, Custom Post Types and Page Templates Rules"
+msgstr "条件分岐タグ、独自の投稿種別やページテンプレートのルール"
+
+#: classes/critcss-inc/admin_settings_rules.js.php:43
+msgid "Path Based Rules"
+msgstr "パス用ルール"
+
+#: classes/critcss-inc/admin_settings_adv.php:149
+msgid "<strong>CAUTION! Only use debug mode on production/live environments for ad-hoc troubleshooting and remember to turn it back off after</strong>, as this generates a lot of log-data.<br />Check the box above to enable Autoptimize CriticalCSS Power-Up debug mode. It provides debug facilities in this screen, to the browser console and to this file: "
+msgstr "<strong>警告 ! 実際に発生するトラブル解決のために、本番/実際の環境でのみデバッグモードを使用し、後にオフにするようにします</strong>。大量のログデータが生成されるためです。<br />上記のチェックボックスをオンにして、Autoptimize CriticalCSS パワーアップのデバッグモードを有効にします。この画面で、ブラウザー コンソールとこのファイルにデバッグ機能を提供します。"
+
+#: classes/critcss-inc/admin_settings_adv.php:143
+msgid "Debug Mode"
+msgstr "デバッグモード"
+
+#: classes/critcss-inc/admin_settings_adv.php:137
+msgid "Only requests from this domain will be sent for Critical CSS generation (pricing is per domain/ month)."
+msgstr "このドメインからのリクエストのみが、クリティカル CSS の生成用に送信されます (価格はドメインごとの月額です)。"
+
+#: classes/critcss-inc/admin_settings_adv.php:135
+msgid "Don't leave this empty, put e.g. https://example.net/ or simply 'none' to disable domain binding."
+msgstr "空欄にしないでください。ドメインのバインドを無効にするには、https://example.net/ や単に none と入力します。"
+
+#: classes/critcss-inc/admin_settings_adv.php:132
+msgid "Bound domain"
+msgstr "ドメインのバインド"
+
+#: classes/critcss-inc/admin_settings_adv.php:113
+msgid "Defer all non-aggregated JS, including jQuery and inline JS to fix remaining render-blocking issues. Make sure to test your site thoroughly when activating this option!"
+msgstr "残りのレンダリングブロックの問題を修正するために、jQuery とインライン JS を含む、すべての非連結 JS を遅延させます。このオプションを有効化する場合、十分にサイト表示をテストしてください。"
+
+#: classes/critcss-inc/admin_settings_adv.php:101
+msgid "By default for each page a separate rule is generated. If your pages have (semi-)identical above the fold look and feel and you want to keep the rules lean, you can disable that so one rule is created to all pages."
+msgstr "標準状態では、各ページごとに個別のルールが生成されます。それらのページが派生的でよく似たファーストビュー (above the fold) であり、無駄のないルールにしたければ、これを無効にすることですべてのページに対する1つのルールが作成されます。"
+
+#: classes/critcss-inc/admin_settings_adv.php:96
+msgid "Force path-based rules to be generated for pages?"
+msgstr "ページに対してパス用ルールを強制的に生成"
+
+#: classes/critcss-inc/admin_settings_adv.php:90
+msgid "Critical CSS is generated by criticalcss.com from your pages as seen by an \"anonymous visitor\". Disable this option if you don't want the \"visitor\" critical CSS to be used for logged in users."
+msgstr "Criticalcss.com によって「匿名の訪問者」によるページ閲覧とされるページで、クリティカル CSS が生成されます。ログインしているユーザーに「訪問者」のクリティカル CSS を使用したくなければ、このオプションを無効にします。"
+
+#: classes/critcss-inc/admin_settings_adv.php:85
+msgid "Add CCSS for logged in users?"
+msgstr "ログインユーザーに CCSS を追加"
+
+#: classes/critcss-inc/admin_settings_adv.php:79
+msgid "In some (rare) cases the generation of critical CSS works better with the original CSS instead of the Autoptimized one, this option enables that behavior."
+msgstr "まれに、クリティカル CSS の生成に、自動最適化されたものではなく、元の CSS を使った方がよく動作します。このオプションは、その動作を有効化します。"
+
+#: classes/critcss-inc/admin_settings_adv.php:74
+msgid "Fetch Original CSS"
+msgstr "元の CSS の取得"
+
+#: classes/critcss-inc/admin_settings_adv.php:57
+msgid "Force include CSS selectors can be used to style dynamic content that is not part of the HTML that is seen during the Critical CSS generation. To use this feature, add comma separated values with both simple strings and/or regular expressions to match the desired selectors. Regular expressions must be preceeded by two forward slashes. For instance: <code>.button-special,//#footer</code>. In this example <code>.button-special</code> will match <code>.button-special</code> selector only, while <code>//#footer</code> will match <code>#footer</code>, <code>#footer-address</code> and <code>#footer-phone</code> selectors in case they exist.<br />Do take into account that changing this setting will only affect new/ updated rules, so you might want to remove old rules and clear your page cache to expedite the forceIncludes becoming used."
+msgstr "CSS セレクタを強制的に含めることは、クリティカル CSS の生成中にみられる HTML の一部分ではない、動的なコンテンツにスタイルを適用するために使われます。この機能を使うには対象とするセレクタに合致する、単なる文字列や正規表現をカンマ区切りで一覧にします。正規表現には、2回の前方スラッシュ「//」が必要です。例: <code>.button-special,//#footer</code> では、<code>.button-special</code> 部分は<code>.button-special</code> セレクタのみに一致し、<code>//#footer</code> は存在すれば <code>#footer</code> や <code>#footer-address</code> また <code>#footer-phone</code> セレクタに一致します。<br />注意点として、この設定を変更しても新規ルール/更新したルールにしか影響はありません。古いルールを削除し、ページのキャッシュを削除して、この強制を促すこともできます。"
+
+#: classes/critcss-inc/admin_settings_adv.php:55
+msgid ".button-special,//#footer"
+msgstr ".button-special,//#footer"
+
+#: classes/critcss-inc/admin_settings_adv.php:52
+msgid "Force Include CSS selectors"
+msgstr "CSS セレクタを強制的に含める"
+
+#: classes/critcss-inc/admin_settings_adv.php:46
+msgid "<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> default viewport size is 1400x1080 pixels (width x height). You can change this size by typing a desired width and height values above. Allowed value ranges are from 800 to 4096 for width and from 600 to 2160 for height."
+msgstr "<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> の標準の viewport のサイズは 1400x1080 ピクセル (幅x高さ) です。このサイズを変更するには、上の入力覧にご希望の幅と高さの値を指定してください。許容される範囲は以下です: 幅 800 - 4096 x 高さ 600 - 2160。"
+
+#: classes/critcss-inc/admin_settings_adv.php:44
+msgid "Height"
+msgstr "高さ"
+
+#: classes/critcss-inc/admin_settings_adv.php:43
+msgid "Width"
+msgstr "幅"
+
+#: classes/critcss-inc/admin_settings_adv.php:40
+msgid "Viewport Size"
+msgstr "viewport のサイズ"
+
+#: classes/critcss-inc/admin_settings_adv.php:32
+msgid "Advanced Settings"
+msgstr "高度な設定"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:186
+msgid "Retry"
+msgstr "再試行"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:166
+msgid "Delete all jobs?"
+msgstr "すべてのジョブを削除しますか?"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:153
+#: classes/critcss-inc/admin_settings_queue.js.php:171
+#: classes/critcss-inc/admin_settings_queue.js.php:201
+#: classes/critcss-inc/admin_settings_rules.js.php:145
+#: classes/critcss-inc/admin_settings_rules.js.php:165
+#: classes/critcss-inc/admin_settings_rules.js.php:308
+#: classes/critcss-inc/admin_settings_rules.js.php:330
+#: classes/critcss-inc/admin_settings_rules.js.php:351
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:148
+#: classes/critcss-inc/admin_settings_rules.js.php:140
+msgid "Delete"
+msgstr "削除"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:125
+msgid "Job status is "
+msgstr "ジョブの状態は"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:119
+msgid "N/A"
+msgstr "該当なし"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "UNKNOWN"
+msgstr "U 不明"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:103
+#: classes/critcss-inc/admin_settings_queue.js.php:112
+msgid "Get Help"
+msgstr "ヘルプ"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+msgid "ERROR"
+msgstr "エラー"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:95
+msgid "DONE"
+msgstr "完了"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "- Validation: "
+msgstr "- 検証: "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "- Result: "
+msgstr "- 結果: "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "- Status: "
+msgstr "- 状態: "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "- Job ID: "
+msgstr "- ジョブ ID: "
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+#: classes/critcss-inc/admin_settings_queue.js.php:102
+#: classes/critcss-inc/admin_settings_queue.js.php:111
+msgid "Info from criticalcss.com:"
+msgstr "criticalcss.com からの情報:"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:88
+msgid "REVIEW"
+msgstr "要点検"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:82
+msgid "PENDING"
+msgstr "P 待機中"
+
+#: classes/autoptimizeCriticalCSSCore.php:439
+#: classes/critcss-inc/admin_settings_queue.js.php:77
+#: classes/critcss-inc/admin_settings_queue.js.php:83
+msgid "None"
+msgstr "なし"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:76
+msgid "New"
+msgstr "新規"
+
+#: classes/critcss-inc/admin_settings_queue.php:88
+msgid "Remove all jobs"
+msgstr "すべてのジョブを削除"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+#: classes/critcss-inc/admin_settings_rules.js.php:49
+msgid "Actions"
+msgstr "操作"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Finish Date"
+msgstr "終了日"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Creation Date"
+msgstr "作成日"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Page Type"
+msgstr "ページの種類"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Page Path"
+msgstr "ページのパス"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Target Rule"
+msgstr "対象のルール"
+
+#: classes/critcss-inc/admin_settings_queue.php:78
+msgid "Status"
+msgstr "状態"
+
+#: classes/critcss-inc/admin_settings_queue.php:72
+msgid "<strong>A word about WordPress cron:</strong> Autoptimize watches the queue by using WordPress Cron (or WP-Cron for short.) It <a href=\"https://www.smashingmagazine.com/2013/10/schedule-events-using-wordpress-cron/#limitations-of-wordpress-cron-and-solutions-to-fix-em\" target=\"_blank\">could be faulty</a> on very light or very heavy loads. If your site receives just a few or thousands visits a day, it might be a good idea to <a href=\"https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/\" target=\"_blank\">turn WP-Cron off and use your system task scheduler</a> to fire it instead."
+msgstr "<strong>WordPress cron について:</strong> Autoptimize は、WordPress クーロン (略して WP-Cron) を介してキューを監視します。サイトが非常に軽い負荷でも、非常に重い負荷でも<a href=\"https://www.smashingmagazine.com/2013/10/schedule-events-using-wordpress-cron/#limitations-of-wordpress-cron-and-solutions-to-fix-em\" target=\"_blank\">これは不具合を起こす可能性があります</a>。サイトが1日に数千回しか訪問されない場合は、<a href=\"https://developer.wordpress.org/plugins/cron/hooking-into-the-system-task-scheduler/\" target=\"_blank\">WP-Cron を無効にして、代わりにシステムのタスクスケジューラに駆動させる</a>のはいい考えです。"
+
+#: classes/critcss-inc/admin_settings_queue.php:71
+msgid "To get more information about jobs statuses, specially the ones with <span class=\"badge error\">E</span> and <span class=\"badge unknown\">U</span> status, hover your mouse in the status badge of that job. This information might be crucial when contacting <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for assistance."
+msgstr "ジョブの状態、特に <span class=\"badge error\">E</span> (エラー) と <span class=\"badge unknown\">U</span> (不明) での詳細情報を得るには、そのジョブの状態の印の上にマウスカーソルを乗せます。この情報は、<a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> に連絡して支援を求める際に重要な場合があります。"
+
+#: classes/critcss-inc/admin_settings_queue.php:70
+msgid "Sometimes an unknown condition can happen. In this case, the job status becomes <span class=\"badge unknown\">U</span> and you may want to ask <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for help or just delete it."
+msgstr "時に、未知の状況が発生します。この場合、そのジョブの状態は <span class=\"badge unknown\">U</span> (不明) になり、あなたは <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> にて助けを求めるかもしれませんし、あるいは、単にジョブを削除するでしょう。"
+
+#: classes/critcss-inc/admin_settings_queue.php:69
+msgid "When things go wrong, a job is marked as <span class=\"badge error\">E</span>. You can retry faulty jobs, delete them or get in touch with <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> for assistance."
+msgstr "問題が発生した場合、ジョブは <span class=\"badge error\">E</span> (エラー) と示されます。問題の起きたジョブを再試行したり、または削除したり、<a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> にて助けを求めることができます。"
+
+#: classes/critcss-inc/admin_settings_queue.php:68
+msgid "As soon as <a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> returns a valid critical CSS file, the job is then finished and removed from the queue."
+msgstr "<a href=\"https://criticalcss.com/?aff=1\" target=\"_blank\">criticalcss.com</a> が有効なクリティカル CSS ファイルを返すとすぐに、ジョブは終了し、処理待ちから削除されます。"
+
+#: classes/critcss-inc/admin_settings_queue.php:67
+msgid "Autoptimize constantly queries the queue for <span class='badge new'>N</span> jobs. When it finds one, gears spins and jobs becomes <span class='badge pending'>P</span> while they are running and <a href='https://criticalcss.com/?aff=1' target='_blank'>criticalcss.com</a> doesn't return a result."
+msgstr "Autoptimize は、処理待ち内の <span class='badge new'>N</span> ジョブ (新規ジョブ) を常に照会します。1つ見つかると、歯車が回転し、ジョブの実行中には状態が <span class='badge pending'>P</span> (待機中) になり、<a href='https://criticalcss.com/?aff=1' target='_blank'>criticalcss.com</a> は結果を返しません。"
+
+#: classes/critcss-inc/admin_settings_queue.php:66
+msgid "When the conditions to create a job are met (i.e. user not logged in, no matching <span class=\"badge manual\">MANUAL</span> rule or CSS files has changed for an <span class=\"badge auto\">AUTO</span> rule), a <span class=\"badge new\">N</span> job is created in the queue."
+msgstr "ジョブを作成するための条件が満たされれば (つまり、ユーザーがログインしていない、<span class=\"badge manual\">手動</span>のルールに合致しない、またはCSSファイルが<span class=\"badge auto\">自動</span>のルールのために変更されている)、<span class=\"badge new\">N</span> ジョブが処理待ちに追加されます。"
+
+#: classes/critcss-inc/admin_settings_queue.php:65
+msgid "The queue operates <strong>automatically, asynchronously and on regular intervals of 10 minutes.</strong> To view updated queue status, refresh this page."
+msgstr "処理待ちは、<strong>自動的に非同期的に、10分間隔で動作します。</strong>更新された処理待ち状態を表示するには、このページを更新します。"
+
+#: classes/critcss-inc/admin_settings_queue.php:63
+msgid "TL;DR:<br /><strong>Queue runs every 10 minutes.</strong> Job statuses are <span class=\"badge new\">N</span> for NEW, <span class=\"badge pending\">P</span> for PENDING, <span class=\"badge error\">E</span> for ERROR and <span class=\"badge unknown\">U</span> for UNKOWN."
+msgstr "要旨:<br /><strong>処理待ちは10分ごとに実行されます。</strong> ジョブの状態は<span class=\"badge new\">N</span> が新規 (NEW), <span class=\"badge pending\">P</span> が待機中 (PENDING)、<span class=\"badge error\">E</span> がエラー (ERROR)、<span class=\"badge unknown\">U</span>が不明 (UNKOWN) です。"
+
+#: classes/critcss-inc/admin_settings_queue.php:57
+#: classes/critcss-inc/admin_settings_rules.php:170
+msgid "Click the side arrow to toggle instructions"
+msgstr "矢印のクリックで説明表示を切り替え"
+
+#: classes/critcss-inc/admin_settings_queue.php:49
+msgid "This will delete all jobs, are you sure?"
+msgstr "すべてのジョブを削除しますか?"
+
+#: classes/critcss-inc/admin_settings_queue.php:48
+msgid "Delete all jobs"
+msgstr "すべてのジョブを削除"
+
+#: classes/critcss-inc/admin_settings_queue.php:44
+msgid "Are you sure you want to delete this job?"
+msgstr "このジョブを削除しますか ?"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:89
+#: classes/critcss-inc/admin_settings_queue.js.php:96
+#: classes/critcss-inc/admin_settings_queue.js.php:103
+#: classes/critcss-inc/admin_settings_queue.js.php:112
+#: classes/critcss-inc/admin_settings_queue.php:43
+msgid "Delete Job"
+msgstr "ジョブの削除"
+
+#: classes/critcss-inc/admin_settings_queue.php:39
+msgid "Are you sure you want to retry this job?"
+msgstr "このジョブを再試行しますか ?"
+
+#: classes/critcss-inc/admin_settings_queue.js.php:103
+#: classes/critcss-inc/admin_settings_queue.php:38
+msgid "Retry Job"
+msgstr "ジョブを再試行"
+
+#: classes/critcss-inc/admin_settings_queue.php:24
+msgid "Job Queue"
+msgstr "ジョブのキュー"
+
+#: classes/critcss-inc/admin_settings_key.php:58
+msgid "Enter your <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> API key above. The key is revalidated every time a new job is sent to it.<br />To obtain your API key, go to <a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> > Account > API Keys.<br />Requests to generate a critical CSS via the API are priced at £5 per domain per month.<br /><strong>Not sure yet? With the <a href=\"https://criticalcss.com/faq/?aff=1#trial\" target=\"_blank\">30 day money back guarantee</a>, you have nothing to lose!</strong>"
+msgstr "<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> の API キーを上覧に入力してください。このキーは新たなジョブが送信されるたびに再認証されます。<br />自分用の API キーを入手するには、<a href=\"https://criticalcss.com/account/api-keys?aff=1\" target=\"_blank\">criticalcss.com</a> へアクセスし > Account > API Keys の順に選択します。<br />API を介してクリティカル CSS を生成するリクエストは、ドメインごとに毎月5ポンドとなっています。<br /><strong>迷い中ですか？ <a href=\"https://criticalcss.com/faq/?aff=1#trial\" target=\"_blank\">30日の返金保証</a>もあるので、失うものはありません。</strong>"
+
+#: classes/critcss-inc/admin_settings_key.php:56
+msgid "Please enter your criticalcss.com API key here."
+msgstr "あなたの criticalcss.com の API キーをここに入力してください。"
+
+#: classes/critcss-inc/admin_settings_key.php:53
+msgid "Your API Key"
+msgstr "あなたの API キー"
+
+#: classes/critcss-inc/admin_settings_key.php:32
+msgid "API Key"
+msgstr "API キー"
+
+#: classes/critcss-inc/admin_settings_key.php:24
+msgid "API key provided by your host/ WordPress administrator, no need to enter anything here. In case of problems with the API key, contact your host/ WordPress administrator."
+msgstr "API キーは、サービス提供者や WordPress の管理者が指定するため、ここに何か入力する必要はありません。API キーに問題があれば、提供者や管理者に連絡してください。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:377
+msgid "Import Settings"
+msgstr "設定のインポート"
+
+#: classes/autoptimizeCriticalCSSSettings.php:376
+msgid "Export Settings"
+msgstr "設定のエクスポート"
+
+#. translators: the placesholder is for a line of code in wp-config.php.
+#: classes/autoptimizeCriticalCSSSettings.php:311
+msgid "<p>Critical CSS settings cannot be set at network level as critical CSS is specific to each sub-site.</p><p>You can however provide the critical CSS API key for use by all sites by adding this your wp-config.php as %s</p>"
+msgstr "<p>クリティカル CSS の設定は、それぞれのサブサイトごとに指定されており、ネットワーク単位では設定できません。</p><p>ただしすべてのサイトで使用するクリティカル CSS API キーを提供するには、wp-config.php に以下を追加します: %s</p>"
+
+#: classes/autoptimizeCriticalCSSSettings.php:277
+msgid "The critical CSS service has been reported to be down. Although no new rules will be created for now, this does not prevent existing rules from being applied."
+msgstr "クリティカル CSS のサービスが停止していると報告されています。新規ルールは作成されませんが、既存のルールが適用は妨げられません。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:264
+msgid "Great, Autoptimize will now automatically start creating new critical CSS rules, you should see those appearing below in the next couple of hours."
+msgstr "Autoptimize は、新規のクリティカル CSS のルールの作成を自動的に開始します。数時間内に、次のように表示されるでしょう。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:256
+msgid "It looks like there might be a problem with WordPress cron (task scheduling). Have a look at <a href=\"https://blog.futtta.be/2023/03/17/how-to-fix-autoptimize-critical-css-cron-issue/\" target=\"_blank\">the FAQ</a> or the info in the Job Queue instructions if all jobs remain in \"N\" status and no rules are created."
+msgstr "WordPress の cron (タスクスケジュール) に問題があるようです。<a href=\"https://blog.futtta.be/2023/03/17/how-to-fix-autoptimize-critical-css-cron-issue/\" target=\"_blank\">FAQ</a>や、すべてのジョブが N の状態のまま、ルールが作成されない場合のジョブキューの説明をご覧ください。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:192
+msgid "WordPress cron (for task scheduling) seems to be disabled. Have a look at <a href=\"https://wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">the FAQ</a> or the info in the Job Queue instructions if all jobs remain in \"N\" status and no rules are created."
+msgstr "WordPress の cron (タスクスケジュール) は無効化されているようです。<a href=\"https://ja.wordpress.org/plugins/autoptimize-criticalcss/faq/\" target=\"_blank\">FAQ</a>や、すべてのジョブが N (新規) の状態のまま、ルールが作成されない場合のジョブキューの説明をご覧ください。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:157
+msgid "Could not create the required directory. Make sure the webserver can write to the wp-content/uploads directory."
+msgstr "必要なディレクトリを作成できませんでした。ウェブサーバーが wp-content/uploads ディレクトリに書き込めることを確認してください。"
+
+#: classes/autoptimizeExtra.php:595
+msgid "Comma-separated list with full URL's of to to-be-preloaded resources. To be used sparingly!"
+msgstr "事前読み込み (preload) したいリソースの完全な URL をコンマ区切りの一覧にします。控えめに使います。"
+
+#: classes/autoptimizeExtra.php:593
+msgid "Preload specific requests <em>(advanced users)</em>"
+msgstr "リクエストの事前読み込み <em>(上級者向け)</em>"
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:562 classes/autoptimizeExtra.php:564
+msgid "includes %1$sdisplay:swap%2$s."
+msgstr "%1$sdisplay:swap%2$s を含む。"
+
+#: classes/autoptimizeCriticalCSSSettings.php:59
+#: classes/autoptimizeCriticalCSSSettings.php:131
+#: classes/critcss-inc/admin_settings_explain.php:15
+msgid "Critical CSS"
+msgstr "クリティカル CSS"
+
+#: classes/autoptimizeConfig.php:467
+msgid "By default Autoptimize is also active for logged on editors/ administrators, uncheck this option if you don't want Autoptimize to optimize when logged in e.g. to use a pagebuilder."
+msgstr "デフォルトで Autoptimize はログイン状態の編集者 / 管理者へも有効ですが、ページビルダーを利用するといった場合にログイン状態で最適化を行いたくない時はこのオプションのチェックを外してください。"
+
+#: classes/autoptimizeConfig.php:465
+msgid "Also optimize for logged in editors/ administrators?"
+msgstr "ログイン状態の編集者、管理者にも最適化を行う"
+
+#: classes/autoptimizeConfig.php:338
+msgid "Paste the above the fold CSS here. You can leave this empty when using the automated Critical CSS integration."
+msgstr "ファーストビューの CSS をここへ貼り付けます。自動的なクリティカル CSS の統合を利用する場合、ここを空欄のままにします。"
+
+#: classes/autoptimizeConfig.php:349
+msgid "Important: excluded non-minified files are still minified by Autoptimize unless that option under \"misc\" is disabled."
+msgstr "重要: 除外した最小化されていないファイルは、「その他オプション」からも無効化しなければ、まだ最小化されたままです。"
+
+#: classes/autoptimizeConfig.php:218
+msgid "Enable Autoptimize configuration per site."
+msgstr "サイトごとの Autoptimize の設定を有効化します。"
+
+#: classes/autoptimizeConfig.php:216
+msgid "Enable site configuration?"
+msgstr "サイトごとに設定"
+
+#: classes/autoptimizeConfig.php:213
+msgid "Multisite Options"
+msgstr "マルチサイトのオプション"
+
+#: classes/autoptimizeConfig.php:96
+msgid "Autoptimize is enabled and configured on a WordPress network level. Please contact your network administrator if you need Autoptimize settings changed."
+msgstr "Autoptimize は、WordPress のネットワーク単位で有効化され設定されています。Autoptimize の設定を変更する必要があれば、ネットワーク管理者に連絡してください。"
+
+#. translators: "check the documentation here" will appear in a "a href".
+#: classes/autoptimizeImages.php:1465
+msgid "It seems ShortPixel image optimization is not able to fetch images from your site, %1$scheck the documentation here%2$s for more information"
+msgstr "あなたのサイトから、ShortPixel 画像最適化サービスが画像を取得できないようです。詳細は%1$sこちらの説明文書をご確認ください%2$s"
+
+#. translators: link points to shortpixel FAQ.
+#: classes/autoptimizeImages.php:1339
+msgid "Only works for websites and images that are publicly available."
+msgstr "公開されたサイト/画像でのみ機能します。"
+
+#: classes/autoptimizeConfig.php:956
+msgid "JS, CSS  &amp; HTML"
+msgstr "JS、CSS  &amp; HTML"
+
+#: classes/autoptimizeConfig.php:457
+msgid "When aggregating JS or CSS, excluded files that are not minified (based on filename) are by default minified by Autoptimize despite being excluded. Uncheck this option if anything breaks despite excluding."
+msgstr "JS や CSS の連結時に、最小化されていない除外対象のファイルは、標準では、除外されているにもかかわらず、(ファイル名で判断され) Autoptimize により最小化されます。除外しても何かが壊れているのであれば、このオプションを外してください。"
+
+#: classes/autoptimizeConfig.php:455
+msgid "Minify excluded CSS and JS files?"
+msgstr "除外された CSS ファイルと JS ファイルを最小化"
+
+#: classes/autoptimizeImages.php:1405
+msgid "Comma-separated list of to be excluded image classes or filenames."
+msgstr "除外するクラスやファイル名をコンマ区切りで一覧にします。"
+
+#: classes/autoptimizeImages.php:1403
+msgid "Lazy-load exclusions"
+msgstr "遅延読み込みの除外"
+
+#: classes/autoptimizeImages.php:1399
+msgid "Image lazy-loading will delay the loading of non-visible images to allow the browser to optimally load all resources for the \"above the fold\"-page first."
+msgstr "画像の遅延読み込みは、ファーストビュー (Above the fold) 用のすべてのリソースを最適化して読み込ませることで、見えていない部分の画像の読み込みをブラウザに対し遅延させます。"
+
+#: classes/autoptimizeImages.php:1397
+msgid "Lazy-load images?"
+msgstr "画像の遅延読み込み (Lazy-load) を利用"
+
+#: classes/autoptimizeImages.php:1384
+msgid "Load AVIF in supported browsers?"
+msgstr "対応ブラウザでは AVIF を読み込む"
+
+#: classes/autoptimizeImages.php:1299
+msgid "Image optimization"
+msgstr "画像最適化"
+
+#. translators: "disable  Jetpack's site accelerator for images" will appear in
+#. a "a href" linking to the jetpack settings page.
+#: classes/autoptimizeImages.php:1293
+msgid "Please %1$sdisable Jetpack's site accelerator for images%2$s to be able to use Autoptomize's advanced image optimization features below."
+msgstr "以下の Autoptomize の高機能な画像最適化機能を使用可能にするには、%1$s画像用の Jetpack サイトアクセラレーターを無効化%2$sしてください。"
+
+#: classes/autoptimizeImages.php:1239 classes/autoptimizeImages.php:1263
+msgid "Images"
+msgstr "画像"
+
+#. Description of the plugin
+msgid "Makes your site faster by optimizing CSS, JS, Images, Google fonts and more."
+msgstr "CSS、JS、画像、Google フォントなどを最適化することでサイトの応答を高速化します。"
+
+#: classes/autoptimizeImages.php:1484
+msgid "based on previously fetched data"
+msgstr "以前に取得したデータに基づく"
+
+#: classes/autoptimizeImages.php:1482
+msgid "based on status at "
+msgstr "以下時点の状態に基づく"
+
+#. Translators: the URL added points to the Autopmize Extra settings.
+#: classes/autoptimizeMain.php:766
+msgid "Did you know that Autoptimize offers on-the-fly image optimization (with support for WebP and AVIF) and CDN via ShortPixel? Check out the %1$sAutoptimize Image settings%2$s to enable this option."
+msgstr "Autoptimize は、オンザフライの画像最適化 (WebP と AVIF にも対応) と ShortPixel を介した CDN を提供しているとご存知ですか ? このオプションを有効にするには %1$sAutoptimize 画像の設定%2$s をご覧ください。"
+
+#. translators: link points Async Javascript settings page.
+#: classes/autoptimizeExtra.php:604
+msgid "You have \"Async JavaScript\" installed, %1$sconfiguration of async javascript is best done there%2$s."
+msgstr "Async JavaScript はインストール済みです。%1$sasync javascript の設定はそちらから行うのが最良です%2$s。"
+
+#. translators: link points to shortpixel image test page.
+#: classes/autoptimizeImages.php:1375
+msgid "You can %1$stest compression levels here%2$s."
+msgstr "%1$sここで圧縮レベルのテスト%2$sが行えます。"
+
+#. translators: links points to shortpixel TOS & Privacy Policy.
+#: classes/autoptimizeImages.php:1341
+msgid "Usage of this feature is subject to Shortpixel's %1$sTerms of Use%2$s and %3$sPrivacy policy%4$s."
+msgstr "この機能の利用は、Shortpixel の%1$s利用規約%2$sと%3$sプライバシーポリシー%4$sに従うことになります。"
+
+#. translators: link points to shortpixel FAQ.
+#: classes/autoptimizeImages.php:1338
+msgid "<strong>Questions</strong>? Take a look at the %1$sAutoptimize + ShortPixel FAQ%2$s!"
+msgstr "<strong>質問</strong>があれば、%1$sAutoptimize + ShortPixel FAQ%2$s をご覧ください !"
+
+#: classes/autoptimizeImages.php:1353
+msgid "Image Optimization quality"
+msgstr "画像最適化の品質"
+
+#: classes/autoptimizeImages.php:1330
+msgid "For a limited time only, this service is offered free for all Autoptimize users, <b>don't miss the chance to test it</b> and see how much it could improve your site's speed."
+msgstr "期間限定で、このサービスはすべての Autoptimize の利用者に無料で提供されています。サイトの反応速度をどれくらい向上させることができるか、<b>テストする機会をお見逃しなく</b>。"
+
+#: classes/autoptimizeImages.php:1325
+msgid "Shortpixel status: "
+msgstr "Shortpixel の状態:"
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:564
+msgid "Combine and link deferred in head (fonts load late, but are not render-blocking)"
+msgstr "結合とヘッダーで遅延リンク (フォント読み込みは遅いが、レンダリングブロックなし)"
+
+#. translators: "display:swap" should remain untranslated, will be shown in
+#. code tags.
+#: classes/autoptimizeExtra.php:562
+msgid "Combine and link in head (fonts load fast but are render-blocking)"
+msgstr "結合とヘッダーでのリンク (フォント読み込みは速いがレンダリングブロックが発生)"
+
+#: classes/autoptimizeImages.php:1285
+msgid "The image optimization service is launching, but not yet available for this domain, it should become available in the next couple of days."
+msgstr "画像最適化サービスは開始されていますが、まだこのドメインでは利用できません。2 - 3 日で利用できるようになります。"
+
+#. translators: "Autoptimize support forum" will appear in a "a href".
+#: classes/autoptimizeImages.php:1278
+msgid "The image optimization service is currently down, image optimization will be skipped until further notice. Check the %1$sAutoptimize support forum%2$s for more info."
+msgstr "画像最適化サービスは現在停止しており、さらなる告知があるまで画像最適化処理は省略されます。詳細は %1$sAutoptimize のサポート用掲示板%2$s をご覧ください。"
+
+#: classes/autoptimizeExtra.php:547
+msgid "Most of below Extra optimizations require at least one of HTML, JS, CSS or Image autoptimizations being active."
+msgstr "以下の追加の最適化は、HTML、JS、CSS、画像の自動最適化の少なくとも1つが有効化されている必要があります。"
+
+#. translators: "log in to check your account" will appear in a "a href".
+#: classes/autoptimizeImages.php:1469
+msgid "Your ShortPixel image optimization and CDN quota are in good shape, %1$slog in to check your account%2$s."
+msgstr "お使いの ShortPixel 画像最適化と CDN のクォータの状態は良好です。%1$sログイン%2$sでアカウントを確認できます。"
+
+#: classes/autoptimizeConfig.php:300
+msgid "Aggregate all linked CSS-files? If this option is off, the individual CSS-files will remain in place but will be minified."
+msgstr "すべてのリンク型の CSS ファイルを連結します。このオプションが無効ならそれぞれの CSS ファイルはそのままで、最小化だけが行われます。"
+
+#: classes/autoptimizeConfig.php:298
+msgid "Aggregate CSS-files?"
+msgstr "CSS ファイルを連結"
+
+#: classes/autoptimizeConfig.php:234
+msgid "Aggregate JS-files?"
+msgstr "JS ファイルを連結"
+
+#: autoptimize.php:33
+msgid "Autoptimize requires PHP 5.6 (or higher) to function properly. Please upgrade PHP. The Plugin has been auto-deactivated."
+msgstr "Autoptimize が正常に動作するには PHP 5.6以上が必要です。 PHP をアップグレードしてください。プラグインは自動的に無効化されています。"
+
+#: classes/autoptimizePartners.php:84
+msgid "More info"
+msgstr "詳細情報"
+
+#. translators: %s will be replaced by a link to "wp youtube lyte" plugin.
+#: classes/autoptimizeExtra.php:629
+msgid "%s allows you to “lazy load” your videos, by inserting responsive “Lite YouTube Embeds\". "
+msgstr "%s は、レスポンシブな LIte YouTube Embed を挿入する事で、動画を「遅延読み込み」させられます。"
+
+#: classes/autoptimizeExtra.php:626
+msgid "Click here to configure it."
+msgstr "ここをクリックして設定してください。"
+
+#: classes/autoptimizeExtra.php:624
+msgid "Great, you have WP YouTube Lyte installed."
+msgstr "素晴らしいです。WP YouTube Lyte はインストール済みです。"
+
+#: classes/autoptimizeExtra.php:620
+msgid "Optimize YouTube videos"
+msgstr "YouTube 動画の最適化"
+
+#: classes/autoptimizeExtra.php:614 classes/autoptimizeExtra.php:631
+msgid "Click here to install and activate it."
+msgstr "インストールして有効化するには、ここをクリック。"
+
+#. translators: %s will be replaced by a link to the "async javascript" plugin.
+#: classes/autoptimizeExtra.php:612
+msgid "Configuration of async javascript is easier and more flexible using the %s plugin."
+msgstr "%s プラグインを使用すると、非同期 javascript の設定がより簡単で柔軟になります。"
+
+#: classes/autoptimizeExtra.php:610
+msgid "Comma-separated list of local or 3rd party JS-files that should loaded with the <code>async</code> flag. JS-files from your own site will be automatically excluded if added here. "
+msgstr "<code>async</code> (非同期) フラグで読み込むべきローカルまたはサードパーティの JS ファイルをカンマ区切りで一覧にします。ここに追加すると、自分のサイトの JS ファイルは自動的に除外されます。"
+
+#: classes/autoptimizeExtra.php:599
+msgid "Async Javascript-files <em>(advanced users)</em>"
+msgstr "非同期 JavaScript ファイル <em>(上級者向け)</em>"
+
+#: classes/autoptimizeExtra.php:589
+msgid "Add 3rd party domains you want the browser to <a href=\"https://www.keycdn.com/support/preconnect/#primary\" target=\"_blank\">preconnect</a> to, separated by comma's. Make sure to include the correct protocol (HTTP or HTTPS)."
+msgstr "ブラウザーに<a href=\"https://www.keycdn.com/support/preconnect/#primary\" target=\"_blank\">事前接続</a>させたいサードパーティドメインをカンマ区切りで追加してください。正しいプロトコル (HTTP または HTTPS) を含めるようにしてください。"
+
+#: classes/autoptimizeExtra.php:587
+msgid "Preconnect to 3rd party domains <em>(advanced users)</em>"
+msgstr "サードパーティのドメインに事前接続 <em>(上級者向け)</em>"
+
+#: classes/autoptimizeExtra.php:565
+msgid "Combine and load fonts asynchronously with <a href=\"https://github.com/typekit/webfontloader#readme\" target=\"_blank\">webfont.js</a>"
+msgstr "<a href=\"https://github.com/typekit/webfontloader#readme\" target=\"_blank\">webfont.js</a> で非同期にフォントを結合して読み込む"
+
+#: classes/autoptimizeExtra.php:559
+msgid "Leave as is"
+msgstr "そのままにする"
+
+#: classes/autoptimizeExtra.php:557
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: classes/autoptimizeExtra.php:577
+msgid "Removing query strings (or more specifically the <code>ver</code> parameter) will not improve load time, but might improve performance scores."
+msgstr "クエリーの文字列 (具体的には <code>ver</code> 変数) を削除しても読み込み時間は改善されませんが、パフォーマンスが向上する可能性があります。"
+
+#: classes/autoptimizeExtra.php:575
+msgid "Remove query strings from static resources"
+msgstr "静的リソースからクエリー文字列を削除"
+
+#: classes/autoptimizeExtra.php:571
+msgid "Removes WordPress' core emojis' inline CSS, inline JavaScript, and an otherwise un-autoptimized JavaScript file."
+msgstr "WordPress コアの絵文字用のインライン CSS、インライン JavaScript、およびその他の自動化されていない JavaScript ファイルを削除します。"
+
+#: classes/autoptimizeExtra.php:569
+msgid "Remove emojis"
+msgstr "絵文字の削除"
+
+#: classes/autoptimizeExtra.php:554
+msgid "The following settings can improve your site's performance even more."
+msgstr "次の設定を行うと、サイトのパフォーマンスがさらに向上します。"
+
+#: classes/autoptimizeExtra.php:553
+msgid "Extra Auto-Optimizations"
+msgstr "追加の自動最適化"
+
+#: classes/autoptimizeExtra.php:519 classes/autoptimizeExtra.php:541
+msgid "Extra"
+msgstr "追加"
+
+#: classes/autoptimizeCLI.php:30
+msgid "Cache flushed."
+msgstr "キャッシュをフラッシュしました。"
+
+#: classes/autoptimizeCLI.php:28
+msgid "Flushing the cache..."
+msgstr "キャッシュをフラッシュ中…"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://autoptimize.com/pro/"
+msgstr "https://autoptimize.com/pro/"
+
+#. translators: links to the Autoptimize settings page.
+#: classes/autoptimizeToolbar.php:152
+msgid "Your Autoptimize cache might not have been purged successfully, please check on the <a href=%s>Autoptimize settings page</a>."
+msgstr "Autoptimize のキャッシュが正常に消去されていない可能性があります。<a href=%s>Autoptimize 設定ページ</a>でご確認ください。"
+
+#: classes/autoptimizeConfig.php:526
+msgid "Need help? <a href='https://wordpress.org/plugins/autoptimize/faq/'>Check out the FAQ here</a>."
+msgstr "ヘルプが必要ですか ? <a href='https://ja.wordpress.org/plugins/autoptimize/faq/'>こちらの FAQ をご覧ください</a>。"
+
+#: classes/autoptimizeConfig.php:475
+msgid "By default Autoptimize is also active on your shop's cart/ checkout, uncheck not to optimize those."
+msgstr "デフォルトでは、ショップのカート/支払い手続き画面でも自動最適化が有効になっていますが、最適化しないようにするにはチェックを外してください。"
+
+#: classes/autoptimizeConfig.php:473
+msgid "Also optimize shop cart/ checkout?"
+msgstr "ショッピングカート / 支払い手続きも最適化しますか ?"
+
+#: classes/autoptimizeConfig.php:441
+msgid "Misc Options"
+msgstr "その他オプション"
+
+#. translators: Kilobytes + timestamp shown.
+#: classes/autoptimizeConfig.php:432
+msgid "%1$s files, totalling %2$s (calculated at %3$s)"
+msgstr "%1$s個のファイル。合計%2$s (%3$sに計算)"
+
+#: classes/autoptimizeConfig.php:268 classes/autoptimizeConfig.php:317
+#: classes/autoptimizeExtra.php:565
+msgid "(deprecated)"
+msgstr "(廃止予定)"
+
+#. Translators: %s is the cache directory location.
+#: classes/autoptimizeMain.php:745
+msgid "Autoptimize cannot write to the cache directory (%s), please fix to enable CSS/ JS optimization!"
+msgstr "Autoptimize はキャッシュディレクトリ (%s) に書き込めません。CSS/JS の最適化を有効にするには修正してください。"
+
+#: classes/autoptimizePartners.php:56
+msgid "Have a look at <a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> for Autoptimize power-ups!"
+msgstr "Autoptimize パワーアップについては、<a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> をご覧ください。"
+
+#: classes/autoptimizePartners.php:146
+msgid "These Autoptimize power-ups and related services will improve your site's performance even more!"
+msgstr "これら「Autoptimize パワーアップ」や関連サービスは、サイトのパフォーマンスをさらに向上させます。"
+
+#: classes/autoptimizePartners.php:40 classes/autoptimizePartners.php:142
+msgid "Optimize More!"
+msgstr "さらに最適化 !"
+
+#: classes/autoptimizeCacheChecker.php:67
+msgid "Autoptimize's cache size is getting big, consider purging the cache. Have a look at https://wordpress.org/plugins/autoptimize/faq/ to see how you can keep the cache size under control."
+msgstr "Autoptimize のキャッシュサイズが肥大化してきたので、キャッシュの削除を検討してください。キャッシュサイズの制御方法については、https:/ja.wordpress.org/plugins/autoptimize/faq/ をご覧ください。"
+
+#: classes/autoptimizeCacheChecker.php:66
+msgid "Autoptimize cache size warning"
+msgstr "Autoptimize のキャッシュサイズ警告"
+
+#. translators: links to the Autoptimize settings page.
+#: classes/autoptimizeToolbar.php:153
+msgid "Dismiss this notice."
+msgstr "この通知を非表示にする。"
+
+#: classes/autoptimizeToolbar.php:107
+msgid "Files"
+msgstr "ファイル"
+
+#: classes/autoptimizeToolbar.php:106
+msgid "Size"
+msgstr "サイズ"
+
+#: classes/autoptimizeConfig.php:380
+msgid "Enable this if you want HTML comments to remain in the page."
+msgstr "有効にすると、HTML コメントをページ内に残します。"
+
+#: classes/autoptimizeCacheChecker.php:92
+msgid "<strong>Autoptimize's cache size is getting big</strong>, consider purging the cache. Have a look at <a href=\"https://wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\" rel=\"noopener noreferrer\">the Autoptimize FAQ</a> to see how you can keep the cache size under control."
+msgstr "<strong>Autoptimize のキャッシュサイズが肥大化してきています。</strong>キャッシュの削除を検討してください。<a href=\"https://ja.wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\" rel=\"noopener noreferrer\">>Autoptimize FAQ</a> を参照して、キャッシュサイズの制御方法を確認してください。"
+
+#. translators: the variable contains a date.
+#: classes/autoptimizeConfig.php:942
+msgid "Posted %s"
+msgstr "投稿日: %s"
+
+#: classes/autoptimizeConfig.php:936
+msgid "No items"
+msgstr "項目なし"
+
+#: classes/autoptimizeConfig.php:527
+msgid "Try my other plugins!"
+msgstr "私の他のプラグインもお試しください。"
+
+#: classes/autoptimizeConfig.php:527
+msgid "Happy with Autoptimize?"
+msgstr "Autoptimize に満足していますか ?"
+
+#: classes/autoptimizeConfig.php:305
+msgid "Check this option for Autoptimize to also aggregate CSS in the HTML."
+msgstr "このオプションをチェックすると、HTML 中の CSS も連結します。"
+
+#: classes/autoptimizeConfig.php:303
+msgid "Also aggregate inline CSS?"
+msgstr "インラインの CSS も連結"
+
+#: classes/autoptimizeExtra.php:560
+msgid "Remove Google Fonts"
+msgstr "Google フォントの削除"
+
+#: classes/autoptimizeConfig.php:239
+msgid "Also aggregate inline JS?"
+msgstr "インラインの JS も連結"
+
+#. Author of the plugin
+msgid "Frank Goossens (futtta)"
+msgstr "Frank Goossens (futtta)"
+
+#: classes/autoptimizeConfig.php:789 classes/autoptimizeConfig.php:795
+msgid "Settings"
+msgstr "設定"
+
+#: classes/autoptimizeConfig.php:720 classes/autoptimizeConfig.php:723
+#: classes/autoptimizeConfig.php:726
+msgid "Autoptimize Options"
+msgstr "Autoptimize 設定"
+
+#: classes/autoptimizeConfig.php:542
+msgid "Do not donate for this plugin!"
+msgstr "このプラグインに寄付をしないでください！"
+
+#. Plugin Name of the plugin
+#: classes/autoptimizeCacheChecker.php:110 classes/autoptimizeConfig.php:717
+#: classes/autoptimizeToolbar.php:82
+msgid "Autoptimize"
+msgstr "Autoptimize"
+
+#: classes/autoptimizeConfig.php:502
+msgid "Save Changes and Empty Cache"
+msgstr "変更の保存とキャッシュの削除"
+
+#: classes/autoptimizeConfig.php:501
+#: classes/autoptimizeCriticalCSSSettings.php:357
+#: classes/autoptimizeExtra.php:637 classes/autoptimizeImages.php:1415
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: classes/autoptimizeConfig.php:446
+msgid "By default files saved are static css/js, uncheck this option if your webserver doesn't properly handle the compression and expiry."
+msgstr "デフォルトで保存されるファイルは静的な CSS / JS になります。ウェブサーバーが圧縮と有効期限を正しく処理しない場合は、このオプションのチェックを外してください。"
+
+#: classes/autoptimizeConfig.php:444
+msgid "Save aggregated script/css as static files?"
+msgstr "連結されたスクリプト / CSS を静的ファイルとして保存"
+
+#: classes/autoptimizeConfig.php:421
+msgid "Cached styles and scripts"
+msgstr "キャッシュ済みのスタイルとスクリプト"
+
+#: classes/autoptimizeConfig.php:418
+msgid "No"
+msgstr "いいえ"
+
+#: classes/autoptimizeConfig.php:418
+msgid "Yes"
+msgstr "はい"
+
+#: classes/autoptimizeConfig.php:417
+msgid "Can we write?"
+msgstr "書き込み権限"
+
+#: classes/autoptimizeConfig.php:413
+msgid "Cache folder"
+msgstr "キャッシュフォルダ"
+
+#: classes/autoptimizeConfig.php:410
+msgid "Cache Info"
+msgstr "キャッシュ情報"
+
+#: classes/autoptimizeConfig.php:389
+msgid "CDN Base URL"
+msgstr "CDN のベース URL"
+
+#: classes/autoptimizeConfig.php:386
+msgid "CDN Options"
+msgstr "CDN オプション"
+
+#: classes/autoptimizeConfig.php:349
+msgid "A comma-separated list of CSS you want to exclude from being optimized."
+msgstr "最適化から除外する CSS をコンマ区切りで一覧にします。"
+
+#: classes/autoptimizeConfig.php:346
+msgid "Exclude CSS from Autoptimize:"
+msgstr "Autoptimize から CSS を除外:"
+
+#: classes/autoptimizeConfig.php:341
+msgid "Inline all CSS?"
+msgstr "すべての CSS をインライン化"
+
+#: classes/autoptimizeConfig.php:328
+msgid "Inline \"above the fold CSS\" while loading the main autoptimized CSS only after page load. <a href=\"https://wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\">Check the FAQ</a> for more info."
+msgstr "「ファーストビュー (Above the fold) のCSS」をインライン化しつつ、ページの読み込み直後にはメインの自動最適化された CSS のみを読み込みます。詳細は <a href=\"https://ja.wordpress.org/plugins/autoptimize/faq/\" target=\"_blank\">FAQ をご覧ください</a> 。"
+
+#: classes/autoptimizeConfig.php:321
+msgid "Don't autoptimize CSS outside the head-section. If the cache gets big, you might want to enable this."
+msgstr "ヘッダーセクション以外の CSS を自動最適化しないようにします。キャッシュが肥大化する場合、有効にするといいかもしれません。"
+
+#: classes/autoptimizeConfig.php:316
+msgid "Look for styles only in &lt;head&gt;?"
+msgstr "&lt;head&gt; 内のスタイルのみ探す"
+
+#: classes/autoptimizeConfig.php:310
+msgid "Enable this to include small background-images in the CSS itself instead of as separate downloads."
+msgstr "この機能を有効にすると、個別に画像をダウンロードせず、CSS 自体に小さな背景画像を含めることができます。"
+
+#: classes/autoptimizeConfig.php:308
+msgid "Generate data: URIs for images?"
+msgstr "データ生成: 画像を URI 化"
+
+#: classes/autoptimizeConfig.php:294
+msgid "Optimize CSS Code?"
+msgstr "CSS コードを最適化"
+
+#: classes/autoptimizeConfig.php:291
+msgid "CSS Options"
+msgstr "CSS オプション"
+
+#: classes/autoptimizeConfig.php:249
+msgid "Add try-catch wrapping?"
+msgstr "try-catch で囲む"
+
+#: classes/autoptimizeConfig.php:276
+msgid "Exclude scripts from Autoptimize:"
+msgstr "Autoptimize からスクリプトを除外:"
+
+#: classes/autoptimizeConfig.php:272
+msgid "Mostly useful in combination with previous option when using jQuery-based templates, but might help keeping cache size under control."
+msgstr "jQuery ベースのテンプレートを使用する場合、以前のオプションと組み合わせて使用すると大抵便利ですが、キャッシュサイズを制御し続けるために役立つ可能性があります。"
+
+#: classes/autoptimizeConfig.php:267
+msgid "Look for scripts only in &lt;head&gt;?"
+msgstr "&lt;head&gt; 内のスクリプトのみ探す"
+
+#: classes/autoptimizeConfig.php:244
+msgid "Force JavaScript in &lt;head&gt;?"
+msgstr "&lt;head&gt; 内へ JavaScript を強制"
+
+#: classes/autoptimizeConfig.php:230
+msgid "Optimize JavaScript Code?"
+msgstr "JavaScript コードの最適化"
+
+#: classes/autoptimizeConfig.php:227
+msgid "JavaScript Options"
+msgstr "JavaScript オプション"
+
+#: classes/autoptimizeConfig.php:378
+msgid "Keep HTML comments?"
+msgstr "HTML コメントを維持"
+
+#: classes/autoptimizeConfig.php:369
+msgid "Optimize HTML Code?"
+msgstr "HTML コードを最適化"
+
+#: classes/autoptimizeConfig.php:366
+msgid "HTML Options"
+msgstr "HTML オプション"
+
+#: classes/autoptimizeConfig.php:94 classes/autoptimizeConfig.php:200
+#: classes/autoptimizeCriticalCSSSettings.php:135
+#: classes/autoptimizeExtra.php:543 classes/autoptimizeImages.php:1265
+#: classes/autoptimizePartners.php:144
+msgid "Autoptimize Settings"
+msgstr "Autoptimize 設定"
+
+#: classes/autoptimizeMain.php:759
+msgid "Autoptimize has just been updated. Please <strong>test your site now</strong> and adapt Autoptimize config if needed."
+msgstr "Autoptimize が更新されました。<strong>サイトを今すぐテスト</strong>し、必要に応じて自動最適化の設定を調整してください。"
+
+#: classes/autoptimizeMain.php:752
+msgid "Thank you for installing and activating Autoptimize. Please configure it under %1$sSettings -> Autoptimize%2$s to start improving your site's performance."
+msgstr "Autoptimize をインストール・有効化していただきありがとうございます。サイトのパフォーマンスを向上させるには、%1$s設定 -> Autoptimize%2$sで設定を行ってください。"

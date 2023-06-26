@@ -1,0 +1,31 @@
+/*****************************************
+ * PCのみのコンテンツ非表示
+ *****************************************/
+ .pc {
+    display: none !important;
+}
+
+
+/*****************************************
+ * コンテンツ領域
+ *****************************************/
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    .content {
+        padding-top: 50px;
+        padding-top: 3.125rem;
+        //padding-bottom: 50px;
+        //padding-bottom: 3.125rem;
+        width: 100vw;
+    }
+    .full-content {
+        padding-top: 40px;
+        padding-top: 2.5rem;
+        //padding-bottom: 40px;
+        //padding-bottom: 2.5rem;
+        width: 100vw;
+    }
+}

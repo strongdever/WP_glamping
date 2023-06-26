@@ -1,0 +1,21 @@
+/*!
+Theme Name: GLANSTELLA-CABIN
+Author: Cryptomeria
+Version: 1.0.0
+License: BSD License
+*/
+@charset 'utf-8';
+
+// 共通スタイル読込
+@import 'normalize';
+@import 'style-common';
+
+// PC用スタイル読込
+@media screen and (min-width: 769px) {
+    @import 'style-pc';
+}
+
+// SP用スタイル読込
+@media screen and (max-width: 768px) {
+    @import 'style-sp';
+}

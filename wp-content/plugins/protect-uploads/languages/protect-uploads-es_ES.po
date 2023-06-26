@@ -1,0 +1,198 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: protect-uploads\n"
+"POT-Creation-Date: 2015-04-01 15:38-0500\n"
+"PO-Revision-Date: 2015-04-01 15:53-0500\n"
+"Last-Translator: alticreation <alexis@alticreation.com>\n"
+"Language-Team: alticreation <alexis@alticreation.com>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.11\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-protect-uploads-admin.php:56
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/class-protect-uploads-admin.php:122
+msgid "Impossible to create or modified the index.php file in "
+msgstr "Imposible de crear o modificar el archivo index.php en"
+
+#: admin/class-protect-uploads-admin.php:136
+msgid ""
+"The index.php file has been created in main folder and subfolders (two "
+"levels max)."
+msgstr ""
+"El archivo index.php se ha creado en la carpeta principal de uploads y "
+"subcarpetas  (dos niveles max)."
+
+#: admin/class-protect-uploads-admin.php:170
+msgid "Impossible to create or modified the htaccess file."
+msgstr "Imposible de crear o modificar el archivo .htaccess."
+
+#: admin/class-protect-uploads-admin.php:179
+msgid "The htaccess file has been created."
+msgstr "El archivo .htaccess se ha creado."
+
+#: admin/class-protect-uploads-admin.php:191
+msgid "Existing htaccess has been updated."
+msgstr "Htaccess existente se ha actualizado."
+
+#: admin/class-protect-uploads-admin.php:221
+msgid "The index.php file(s) have(has) been deleted."
+msgstr "El(los) archivo(s) index.php ha(n) sido eliminado(s)."
+
+#: admin/class-protect-uploads-admin.php:250
+msgid "The htaccess file has been updated."
+msgstr "El archivo .htaccess se ha actualizado."
+
+#: admin/class-protect-uploads-admin.php:294
+msgid ""
+"The Protect Uploads plugin cannot work without Apache. Yourself or your web "
+"host has to activate this module."
+msgstr ""
+"El plugin Protect Uploads no puede funcionar sin Apache. Usted o su "
+"proveedor de alojamiento web tiene que activar este módulo."
+
+#: admin/views/includes/protect-uploads-admin-message.php:7
+msgid "Error code"
+msgstr "Código de error"
+
+#: admin/views/includes/protect-uploads-admin-message.php:7
+msgid "Go to Protect Uploads documentation"
+msgstr "Ir a la documentación de Protect Uploads"
+
+#: admin/views/protect-uploads-admin-settings-page.php:9
+msgid "by"
+msgstr "por"
+
+#: admin/views/protect-uploads-admin-settings-page.php:10
+msgid ""
+"Prevent users to browse your uploads directory. You'll protect your uploads "
+"directory to be accessed and content stolen too easily in one batch."
+msgstr ""
+"Evita que los usuarios navigen directamente por el directorio de archivos. "
+"Va a proteger su directorio de archivos y contenido no sera robado con "
+"demasiada facilidad en un solo lote."
+
+#: admin/views/protect-uploads-admin-settings-page.php:17
+msgid "Status"
+msgstr "Estado"
+
+#: admin/views/protect-uploads-admin-settings-page.php:22
+msgid "Uploads directory is protected."
+msgstr "Directorio Uploads  está protegida."
+
+#: admin/views/protect-uploads-admin-settings-page.php:24
+msgid ""
+"Your uploads directory is <strong>already protected</strong> by an htaccess "
+"file or an Apache setting set for the whole website. You don't need extra "
+"protection.<br>The «remove option» behind will have no effect on the current "
+"protection."
+msgstr ""
+"Su directorio de archivos está <strong> ya protegido </ strong> por un "
+"archivo .htaccess o una configuración de Apache puesta para todo el sitio. "
+"Usted no necesita protección adicional. <br> El «opción quitar» aqui abajo "
+"no tendrá ningún efecto sobre la protección actual."
+
+#: admin/views/protect-uploads-admin-settings-page.php:27
+msgid "Uploads directory is not protected!"
+msgstr "Directorio de Uploads no está protegido!"
+
+#: admin/views/protect-uploads-admin-settings-page.php:34
+#: admin/views/protect-uploads-admin-settings-page.php:39
+msgid "Protection"
+msgstr "Protección"
+
+#: admin/views/protect-uploads-admin-settings-page.php:44
+msgid "add index file"
+msgstr "añadir archivo index"
+
+#: admin/views/protect-uploads-admin-settings-page.php:45
+msgid ""
+"This will create an index.php file on the root of your uploads directory. "
+"This simple trick will hide the content of your whole uploads directory."
+msgstr ""
+"Esto creará un archivo index.php en la raíz del directorio de los archivos "
+"subidos. Este sencillo truco ocultará el contenido de todo su directorio "
+"uploads."
+
+#: admin/views/protect-uploads-admin-settings-page.php:50
+msgid "prevent directory listing with htaccess"
+msgstr "previene la navegacion en el directorio de Uploads con htaccess"
+
+#: admin/views/protect-uploads-admin-settings-page.php:51
+msgid ""
+"Through the htaccess file, it will prevent people to browse your uploads "
+"directory and return a 403 code (Forbidden Access)."
+msgstr ""
+"Mediante el archivo .htaccess, se evitará que la gente navega en el "
+"directorio de archivos y devuelve un código 403 (Acceso prohibido)."
+
+#: admin/views/protect-uploads-admin-settings-page.php:56
+msgid "remove protection or disabled protection"
+msgstr "eliminar la protección o desactivar la protección"
+
+#: admin/views/protect-uploads-admin-settings-page.php:57
+msgid "Your uploads directory is not protected."
+msgstr "El directorio Uploads no está protegido."
+
+#: admin/views/protect-uploads-admin-settings-page.php:65
+msgid "Check"
+msgstr "Comprobar"
+
+#: admin/views/protect-uploads-admin-settings-page.php:68
+msgid "Visit your"
+msgstr "Visite a su"
+
+#: admin/views/protect-uploads-admin-settings-page.php:68
+msgid "uploads directory"
+msgstr "directorio de uploads"
+
+#: admin/views/protect-uploads-admin-settings-page.php:68
+msgid "to check the current protection"
+msgstr "para comprobar la protección actual"
+
+#: admin/views/protect-uploads-admin-settings-page.php:73
+msgid "Support"
+msgstr "Ayuda"
+
+#: admin/views/protect-uploads-admin-settings-page.php:76
+msgid ""
+"Protect Uploads Plugin <a href=\"https://www.alticreation.com/en/protect-"
+"uploads/\" target=\"_blank\">support page</a>."
+msgstr ""
+"Ver la <a href=\"https://www.alticreation.com/en/protect-uploads/\" target="
+"\"_blank\">pagina de ayuda</a> del plugin."
+
+#: admin/views/protect-uploads-admin-settings-page.php:77
+msgid ""
+"This plugin is compatible with the <span class=\"dashicons dashicons-awards"
+"\"></span> <a href=\"https://www.alticreation.com/en/alti-watermark/\" target="
+"\"_blank\">Watermark Plugin</a>."
+msgstr ""
+"Este plugin es compatible con el <span class=\"dashicons dashicons-premios "
+"\"></ span> <a href=\"http: //www.alticreation.com/en/alti-watermark/ \" "
+"target =\"_blank \"> Plugin Marca de agua </a>."
+
+#: admin/views/protect-uploads-admin-settings-page.php:78
+msgid ""
+"To do so, you have to: 1. Install the Watermark Plugin 2. Then choose your "
+"settings in this page and Update."
+msgstr ""
+"Por eso, usted tiene que: 1. Instalar el Watermark Plugin 2. Seleccione la "
+"configuración en esta página y actualizar."
+
+#: admin/views/protect-uploads-admin-settings-page.php:85
+msgid "Update"
+msgstr "Actualizar"
+
+#: admin/views/protect-uploads-admin-settings-page.php:94
+msgid "Protect Uploads plugin is developped by"
+msgstr "El Plugin Protect Uploads está desarrollado por"

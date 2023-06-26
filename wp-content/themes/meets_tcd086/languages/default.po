@@ -1,0 +1,5565 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: design-plus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-22 13:59+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: mono-lab <mail@mono-lab.net>\n"
+"Language-Team: design plus\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/inc/404.php:25
+msgid "404 page"
+msgstr ""
+
+#: admin/inc/404.php:43
+msgid "The page you are looking for are not found"
+msgstr ""
+
+#: admin/inc/404.php:70
+msgid "Settings for 404 page"
+msgstr ""
+
+#: admin/inc/404.php:72 admin/inc/blog.php:200 admin/inc/blog.php:382
+#: admin/inc/featured.php:213 admin/inc/footer.php:193
+#: admin/inc/front_page.php:361 admin/inc/front_page.php:691
+#: admin/inc/front_page.php:2238 admin/inc/front_page_mobile.php:150
+#: admin/inc/front_page_mobile.php:425 admin/inc/front_page_mobile.php:1725
+#: admin/inc/gallery.php:199 admin/inc/news.php:178
+#: functions/category_cf.php:28 functions/featured_category.php:28
+#: functions/page_cf.php:257 functions/page_cf.php:262
+#: functions/page_cf.php:269 functions/page_lp.php:1273
+msgid "Background image"
+msgstr ""
+
+#: admin/inc/404.php:73 admin/inc/basic.php:269 admin/inc/basic.php:574
+#: admin/inc/basic.php:619 admin/inc/blog.php:202 admin/inc/blog.php:462
+#: admin/inc/blog.php:501 admin/inc/blog.php:541 admin/inc/blog.php:581
+#: admin/inc/featured.php:214 admin/inc/featured.php:423
+#: admin/inc/featured.php:462 admin/inc/featured.php:502
+#: admin/inc/featured.php:541 admin/inc/footer.php:149 admin/inc/footer.php:195
+#: admin/inc/footer.php:209 admin/inc/front_page.php:366
+#: admin/inc/front_page.php:380 admin/inc/front_page.php:696
+#: admin/inc/front_page.php:710 admin/inc/front_page.php:998
+#: admin/inc/front_page.php:1027 admin/inc/front_page.php:2240
+#: admin/inc/front_page.php:2254 admin/inc/front_page_mobile.php:155
+#: admin/inc/front_page_mobile.php:430 admin/inc/front_page_mobile.php:1727
+#: admin/inc/gallery.php:200 admin/inc/marketing.php:215
+#: admin/inc/marketing.php:227 admin/inc/marketing.php:265
+#: admin/inc/marketing.php:277 admin/inc/marketing.php:309
+#: admin/inc/marketing.php:321 admin/inc/marketing.php:666
+#: admin/inc/news.php:179 admin/inc/news.php:365 admin/inc/news.php:404
+#: admin/inc/news.php:444 admin/inc/news.php:483 functions.php:548
+#: functions.php:556 functions.php:560 functions/category_cf.php:29
+#: functions/featured_category.php:29 functions/gallery_category.php:53
+#: functions/gallery_category.php:107 functions/gallery_cf.php:36
+#: functions/gallery_cf.php:42 functions/page_cf.php:259
+#: functions/page_cf.php:260 functions/page_lp.php:765
+#: functions/page_lp.php:780 functions/page_lp.php:1275
+#: functions/page_lp.php:1290 functions/page_lp.php:1406
+#: functions/page_lp.php:1421 functions/user-profile.php:56
+#, php-format
+msgid "Recommend image size. Width:%1$spx, Height:%2$spx."
+msgstr ""
+
+#: admin/inc/404.php:79 admin/inc/basic.php:232 admin/inc/basic.php:248
+#: admin/inc/basic.php:276 admin/inc/basic.php:581 admin/inc/basic.php:625
+#: admin/inc/basic.php:699 admin/inc/basic.php:711 admin/inc/blog.php:209
+#: admin/inc/blog.php:388 admin/inc/blog.php:470 admin/inc/blog.php:509
+#: admin/inc/blog.php:549 admin/inc/blog.php:588 admin/inc/featured.php:220
+#: admin/inc/featured.php:431 admin/inc/featured.php:470
+#: admin/inc/featured.php:510 admin/inc/featured.php:548
+#: admin/inc/footer.php:155 admin/inc/footer.php:202 admin/inc/footer.php:216
+#: admin/inc/footer.php:252 admin/inc/front_page.php:373
+#: admin/inc/front_page.php:387 admin/inc/front_page.php:408
+#: admin/inc/front_page.php:431 admin/inc/front_page.php:537
+#: admin/inc/front_page.php:550 admin/inc/front_page.php:565
+#: admin/inc/front_page.php:578 admin/inc/front_page.php:703
+#: admin/inc/front_page.php:717 admin/inc/front_page.php:738
+#: admin/inc/front_page.php:761 admin/inc/front_page.php:867
+#: admin/inc/front_page.php:880 admin/inc/front_page.php:895
+#: admin/inc/front_page.php:908 admin/inc/front_page.php:1005
+#: admin/inc/front_page.php:1034 admin/inc/front_page.php:1739
+#: admin/inc/front_page.php:1752 admin/inc/front_page.php:1767
+#: admin/inc/front_page.php:1780 admin/inc/front_page.php:2247
+#: admin/inc/front_page.php:2261 admin/inc/front_page_mobile.php:162
+#: admin/inc/front_page_mobile.php:183 admin/inc/front_page_mobile.php:280
+#: admin/inc/front_page_mobile.php:293 admin/inc/front_page_mobile.php:308
+#: admin/inc/front_page_mobile.php:321 admin/inc/front_page_mobile.php:437
+#: admin/inc/front_page_mobile.php:458 admin/inc/front_page_mobile.php:555
+#: admin/inc/front_page_mobile.php:568 admin/inc/front_page_mobile.php:583
+#: admin/inc/front_page_mobile.php:596 admin/inc/front_page_mobile.php:1285
+#: admin/inc/front_page_mobile.php:1298 admin/inc/front_page_mobile.php:1313
+#: admin/inc/front_page_mobile.php:1326 admin/inc/front_page_mobile.php:1734
+#: admin/inc/gallery.php:206 admin/inc/header.php:273 admin/inc/logo.php:112
+#: admin/inc/logo.php:130 admin/inc/logo.php:180 admin/inc/logo.php:198
+#: admin/inc/logo.php:245 admin/inc/logo.php:260 admin/inc/marketing.php:221
+#: admin/inc/marketing.php:233 admin/inc/marketing.php:271
+#: admin/inc/marketing.php:283 admin/inc/marketing.php:315
+#: admin/inc/marketing.php:327 admin/inc/marketing.php:530
+#: admin/inc/marketing.php:545 admin/inc/marketing.php:672
+#: admin/inc/news.php:185 admin/inc/news.php:373 admin/inc/news.php:412
+#: admin/inc/news.php:452 admin/inc/news.php:490 admin/inc/quicktag.php:404
+#: admin/inc/quicktag.php:478 functions/category_cf.php:36
+#: functions/featured_category.php:36 functions/gallery_category.php:61
+#: functions/gallery_category.php:114 functions/gallery_category.php:180
+#: functions/gallery_category.php:209 functions/page_cf.php:16
+#: functions/page_lp.php:772 functions/page_lp.php:791
+#: functions/page_lp.php:804 functions/page_lp.php:872
+#: functions/page_lp.php:885 functions/page_lp.php:900
+#: functions/page_lp.php:913 functions/page_lp.php:1009
+#: functions/page_lp.php:1046 functions/page_lp.php:1113
+#: functions/page_lp.php:1126 functions/page_lp.php:1141
+#: functions/page_lp.php:1154 functions/page_lp.php:1211
+#: functions/page_lp.php:1239 functions/page_lp.php:1282
+#: functions/page_lp.php:1297 functions/page_lp.php:1413
+#: functions/page_lp.php:1428 functions/user-profile.php:130 widget/ad.php:99
+#: widget/banner.php:216
+msgid "Select Image"
+msgstr ""
+
+#: admin/inc/404.php:80 admin/inc/basic.php:233 admin/inc/basic.php:249
+#: admin/inc/basic.php:277 admin/inc/basic.php:582 admin/inc/basic.php:626
+#: admin/inc/basic.php:700 admin/inc/basic.php:712 admin/inc/blog.php:210
+#: admin/inc/blog.php:389 admin/inc/blog.php:471 admin/inc/blog.php:510
+#: admin/inc/blog.php:550 admin/inc/blog.php:589 admin/inc/featured.php:221
+#: admin/inc/featured.php:432 admin/inc/featured.php:471
+#: admin/inc/featured.php:511 admin/inc/featured.php:549
+#: admin/inc/footer.php:156 admin/inc/footer.php:203 admin/inc/footer.php:217
+#: admin/inc/footer.php:253 admin/inc/front_page.php:374
+#: admin/inc/front_page.php:388 admin/inc/front_page.php:409
+#: admin/inc/front_page.php:432 admin/inc/front_page.php:538
+#: admin/inc/front_page.php:551 admin/inc/front_page.php:566
+#: admin/inc/front_page.php:579 admin/inc/front_page.php:704
+#: admin/inc/front_page.php:718 admin/inc/front_page.php:739
+#: admin/inc/front_page.php:762 admin/inc/front_page.php:868
+#: admin/inc/front_page.php:881 admin/inc/front_page.php:896
+#: admin/inc/front_page.php:909 admin/inc/front_page.php:1006
+#: admin/inc/front_page.php:1035 admin/inc/front_page.php:1740
+#: admin/inc/front_page.php:1753 admin/inc/front_page.php:1768
+#: admin/inc/front_page.php:1781 admin/inc/front_page.php:2248
+#: admin/inc/front_page.php:2262 admin/inc/front_page_mobile.php:163
+#: admin/inc/front_page_mobile.php:184 admin/inc/front_page_mobile.php:281
+#: admin/inc/front_page_mobile.php:294 admin/inc/front_page_mobile.php:309
+#: admin/inc/front_page_mobile.php:322 admin/inc/front_page_mobile.php:438
+#: admin/inc/front_page_mobile.php:459 admin/inc/front_page_mobile.php:556
+#: admin/inc/front_page_mobile.php:569 admin/inc/front_page_mobile.php:584
+#: admin/inc/front_page_mobile.php:597 admin/inc/front_page_mobile.php:1286
+#: admin/inc/front_page_mobile.php:1299 admin/inc/front_page_mobile.php:1314
+#: admin/inc/front_page_mobile.php:1327 admin/inc/front_page_mobile.php:1735
+#: admin/inc/gallery.php:207 admin/inc/header.php:274 admin/inc/logo.php:113
+#: admin/inc/logo.php:131 admin/inc/logo.php:181 admin/inc/logo.php:199
+#: admin/inc/logo.php:246 admin/inc/logo.php:261 admin/inc/marketing.php:222
+#: admin/inc/marketing.php:234 admin/inc/marketing.php:272
+#: admin/inc/marketing.php:284 admin/inc/marketing.php:316
+#: admin/inc/marketing.php:328 admin/inc/marketing.php:531
+#: admin/inc/marketing.php:546 admin/inc/marketing.php:673
+#: admin/inc/news.php:186 admin/inc/news.php:374 admin/inc/news.php:413
+#: admin/inc/news.php:453 admin/inc/news.php:491 admin/inc/quicktag.php:405
+#: admin/inc/quicktag.php:479 functions/category_cf.php:37
+#: functions/featured_category.php:37 functions/gallery_category.php:62
+#: functions/gallery_category.php:115 functions/gallery_category.php:181
+#: functions/gallery_category.php:210 functions/page_cf.php:17
+#: functions/page_lp.php:773 functions/page_lp.php:792
+#: functions/page_lp.php:805 functions/page_lp.php:873
+#: functions/page_lp.php:886 functions/page_lp.php:901
+#: functions/page_lp.php:914 functions/page_lp.php:1010
+#: functions/page_lp.php:1047 functions/page_lp.php:1114
+#: functions/page_lp.php:1127 functions/page_lp.php:1142
+#: functions/page_lp.php:1155 functions/page_lp.php:1212
+#: functions/page_lp.php:1240 functions/page_lp.php:1283
+#: functions/page_lp.php:1298 functions/page_lp.php:1414
+#: functions/page_lp.php:1429 functions/user-profile.php:131 widget/ad.php:100
+#: widget/banner.php:217
+msgid "Remove Image"
+msgstr ""
+
+#: admin/inc/404.php:84 admin/inc/blog.php:245 admin/inc/blog.php:404
+#: admin/inc/featured.php:256 admin/inc/featured.php:367
+#: admin/inc/front_page.php:126 admin/inc/front_page.php:170
+#: admin/inc/front_page.php:234 admin/inc/front_page.php:1669
+#: admin/inc/front_page.php:1674 admin/inc/front_page.php:1838
+#: admin/inc/front_page.php:1843 admin/inc/front_page.php:1969
+#: admin/inc/front_page.php:1974 admin/inc/front_page_mobile.php:1221
+#: admin/inc/front_page_mobile.php:1223 admin/inc/front_page_mobile.php:1378
+#: admin/inc/front_page_mobile.php:1380 admin/inc/front_page_mobile.php:1486
+#: admin/inc/front_page_mobile.php:1488 admin/inc/gallery.php:273
+#: admin/inc/news.php:221 admin/inc/news.php:310 functions/featured_cf.php:58
+#: functions/featured_cf.php:74 functions/gallery_cf.php:78
+#: functions/gallery_cf.php:94 functions/page_builder.php:106
+#: functions/page_builder.php:291 functions/page_lp.php:739
+#: functions/page_lp.php:955 functions/page_lp.php:1540
+#: functions/page_lp.php:1685
+msgid "Headline"
+msgstr ""
+
+#: admin/inc/404.php:87 admin/inc/404.php:104 admin/inc/basic.php:732
+#: admin/inc/basic.php:752 admin/inc/blog.php:196 admin/inc/blog.php:302
+#: admin/inc/featured.php:209 admin/inc/footer.php:279 admin/inc/footer.php:514
+#: admin/inc/front_page.php:458 admin/inc/front_page.php:465
+#: admin/inc/front_page.php:473 admin/inc/front_page.php:788
+#: admin/inc/front_page.php:795 admin/inc/front_page.php:803
+#: admin/inc/front_page.php:961 admin/inc/front_page.php:1694
+#: admin/inc/front_page.php:1994 admin/inc/front_page.php:2004
+#: admin/inc/front_page.php:2062 admin/inc/front_page.php:2179
+#: admin/inc/front_page.php:2194 admin/inc/front_page.php:2337
+#: admin/inc/front_page_mobile.php:210 admin/inc/front_page_mobile.php:216
+#: admin/inc/front_page_mobile.php:485 admin/inc/front_page_mobile.php:491
+#: admin/inc/front_page_mobile.php:647 admin/inc/front_page_mobile.php:1241
+#: admin/inc/front_page_mobile.php:1506 admin/inc/front_page_mobile.php:1515
+#: admin/inc/front_page_mobile.php:1562 admin/inc/front_page_mobile.php:1668
+#: admin/inc/front_page_mobile.php:1682 admin/inc/front_page_mobile.php:1807
+#: admin/inc/gallery.php:195 admin/inc/header.php:556 admin/inc/logo.php:95
+#: admin/inc/logo.php:161 admin/inc/logo.php:229 admin/inc/marketing.php:205
+#: admin/inc/marketing.php:254 admin/inc/marketing.php:299
+#: admin/inc/news.php:174 admin/inc/quicktag.php:220 functions/page_cf.php:235
+#: functions/page_cf.php:244 functions/page_cf.php:252
+#: functions/page_cf.php:305 functions/page_cf.php:340
+#: functions/page_lp.php:759 functions/page_lp.php:975
+#: functions/page_lp.php:1338 functions/page_lp.php:1346
+#: functions/page_lp.php:1560 functions/page_lp.php:1705
+msgid "Font size"
+msgstr ""
+
+#: admin/inc/404.php:88 admin/inc/404.php:105 admin/inc/basic.php:733
+#: admin/inc/basic.php:753 admin/inc/blog.php:197 admin/inc/blog.php:303
+#: admin/inc/featured.php:210 admin/inc/footer.php:280
+#: admin/inc/front_page.php:459 admin/inc/front_page.php:789
+#: admin/inc/front_page.php:962 admin/inc/front_page.php:1695
+#: admin/inc/front_page.php:1995 admin/inc/front_page.php:2005
+#: admin/inc/front_page.php:2063 admin/inc/front_page.php:2180
+#: admin/inc/front_page.php:2195 admin/inc/front_page.php:2338
+#: admin/inc/gallery.php:196 admin/inc/header.php:557 admin/inc/logo.php:96
+#: admin/inc/logo.php:162 admin/inc/logo.php:230 admin/inc/news.php:175
+#: functions/page_cf.php:236 functions/page_cf.php:306
+#: functions/page_cf.php:341 functions/page_lp.php:760
+#: functions/page_lp.php:976 functions/page_lp.php:1339
+#: functions/page_lp.php:1353 functions/page_lp.php:1561
+#: functions/page_lp.php:1706
+msgid "Font size (mobile)"
+msgstr ""
+
+#: admin/inc/404.php:89 admin/inc/basic.php:734 admin/inc/basic.php:754
+#: admin/inc/blog.php:198 admin/inc/blog.php:373 admin/inc/featured.php:211
+#: admin/inc/footer.php:135 admin/inc/footer.php:281 admin/inc/footer.php:296
+#: admin/inc/footer.php:337 admin/inc/footer.php:394 admin/inc/footer.php:526
+#: admin/inc/front_page.php:460 admin/inc/front_page.php:466
+#: admin/inc/front_page.php:487 admin/inc/front_page.php:790
+#: admin/inc/front_page.php:796 admin/inc/front_page.php:817
+#: admin/inc/front_page.php:1710 admin/inc/front_page.php:1897
+#: admin/inc/front_page.php:2053 admin/inc/front_page.php:2181
+#: admin/inc/front_page.php:2196 admin/inc/front_page.php:2211
+#: admin/inc/front_page_mobile.php:211 admin/inc/front_page_mobile.php:217
+#: admin/inc/front_page_mobile.php:230 admin/inc/front_page_mobile.php:486
+#: admin/inc/front_page_mobile.php:492 admin/inc/front_page_mobile.php:505
+#: admin/inc/front_page_mobile.php:1256 admin/inc/front_page_mobile.php:1422
+#: admin/inc/front_page_mobile.php:1553 admin/inc/front_page_mobile.php:1669
+#: admin/inc/front_page_mobile.php:1683 admin/inc/front_page_mobile.php:1698
+#: admin/inc/gallery.php:197 admin/inc/gallery.php:317 admin/inc/header.php:205
+#: admin/inc/header.php:249 admin/inc/header.php:558 admin/inc/logo.php:163
+#: admin/inc/logo.php:231 admin/inc/marketing.php:206
+#: admin/inc/marketing.php:255 admin/inc/marketing.php:300
+#: admin/inc/marketing.php:424 admin/inc/marketing.php:432
+#: admin/inc/marketing.php:446 admin/inc/marketing.php:458
+#: admin/inc/marketing.php:466 admin/inc/marketing.php:489
+#: admin/inc/marketing.php:501 admin/inc/marketing.php:509
+#: admin/inc/marketing.php:575 admin/inc/news.php:176
+#: admin/inc/quicktag.php:221 admin/inc/quicktag.php:308
+#: admin/inc/quicktag.php:413 admin/inc/quicktag.php:467
+#: functions/gallery_category.php:172 functions/gallery_category.php:201
+#: functions/page_cf.php:237 functions/page_cf.php:245
+#: functions/page_cf.php:307 functions/page_cf.php:342
+#: functions/page_lp.php:842 functions/page_lp.php:1001
+#: functions/page_lp.php:1038 functions/page_lp.php:1083
+#: functions/page_lp.php:1340 functions/page_lp.php:1347
+#: functions/page_lp.php:1371 widget/banner.php:205
+msgid "Font color"
+msgstr ""
+
+#: admin/inc/404.php:91
+msgid "Dropshadow of headline"
+msgstr ""
+
+#: admin/inc/404.php:93
+msgid "Enter \"0\" if you don't want to use dropshadow."
+msgstr ""
+
+#: admin/inc/404.php:96
+msgid "Dropshadow position (left)"
+msgstr ""
+
+#: admin/inc/404.php:97
+msgid "Dropshadow position (top)"
+msgstr ""
+
+#: admin/inc/404.php:98
+msgid "Dropshadow size"
+msgstr ""
+
+#: admin/inc/404.php:99
+msgid "Dropshadow color"
+msgstr ""
+
+#: admin/inc/404.php:101 admin/inc/blog.php:375 admin/inc/footer.php:47
+#: admin/inc/footer.php:146 functions/gallery_category.php:37
+#: widget/banner.php:168 widget/banner.php:184 widget/banner.php:198
+msgid "Subtitle"
+msgstr ""
+
+#: admin/inc/404.php:107 admin/inc/blog.php:214 admin/inc/featured.php:225
+#: admin/inc/front_page.php:514 admin/inc/front_page.php:844
+#: admin/inc/front_page_mobile.php:257 admin/inc/front_page_mobile.php:532
+#: admin/inc/gallery.php:211 admin/inc/marketing.php:238 admin/inc/news.php:190
+#: functions/category_cf.php:45 functions/featured_category.php:45
+#: functions/page_cf.php:271 widget/banner.php:232
+msgid "Overlay setting"
+msgstr ""
+
+#: admin/inc/404.php:108 admin/inc/blog.php:215 admin/inc/featured.php:226
+#: admin/inc/footer.php:259 admin/inc/front_page.php:515
+#: admin/inc/front_page.php:845 admin/inc/front_page.php:2275
+#: admin/inc/front_page_mobile.php:258 admin/inc/front_page_mobile.php:533
+#: admin/inc/front_page_mobile.php:1748 admin/inc/gallery.php:212
+#: admin/inc/news.php:191 functions/category_cf.php:47
+#: functions/featured_category.php:47 functions/gallery_category.php:126
+#: functions/page_cf.php:275 functions/page_lp.php:1304 widget/banner.php:233
+msgid "Use overlay"
+msgstr ""
+
+#: admin/inc/404.php:111 admin/inc/marketing.php:553
+msgid "Overlay color"
+msgstr ""
+
+#: admin/inc/404.php:113 admin/inc/blog.php:220 admin/inc/featured.php:231
+#: admin/inc/footer.php:264 admin/inc/front_page.php:519
+#: admin/inc/front_page.php:849 admin/inc/front_page.php:2280
+#: admin/inc/front_page_mobile.php:262 admin/inc/front_page_mobile.php:537
+#: admin/inc/front_page_mobile.php:1753 admin/inc/gallery.php:217
+#: admin/inc/marketing.php:241 admin/inc/news.php:196
+#: functions/category_cf.php:51 functions/featured_category.php:51
+#: functions/gallery_category.php:131 functions/page_cf.php:280
+#: functions/page_lp.php:1309
+msgid "Transparency of overlay"
+msgstr ""
+
+#: admin/inc/404.php:115 admin/inc/blog.php:222 admin/inc/featured.php:233
+#: admin/inc/footer.php:266 admin/inc/footer.php:401
+#: admin/inc/front_page.php:492 admin/inc/front_page.php:501
+#: admin/inc/front_page.php:519 admin/inc/front_page.php:822
+#: admin/inc/front_page.php:831 admin/inc/front_page.php:849
+#: admin/inc/front_page.php:2216 admin/inc/front_page.php:2225
+#: admin/inc/front_page.php:2282 admin/inc/front_page_mobile.php:235
+#: admin/inc/front_page_mobile.php:244 admin/inc/front_page_mobile.php:262
+#: admin/inc/front_page_mobile.php:510 admin/inc/front_page_mobile.php:519
+#: admin/inc/front_page_mobile.php:537 admin/inc/front_page_mobile.php:1703
+#: admin/inc/front_page_mobile.php:1712 admin/inc/front_page_mobile.php:1755
+#: admin/inc/gallery.php:219 admin/inc/marketing.php:241 admin/inc/news.php:198
+#: admin/inc/quicktag.php:314 admin/inc/quicktag.php:323
+#: functions/category_cf.php:51 functions/featured_category.php:51
+#: functions/gallery_category.php:134 functions/page_cf.php:282
+#: functions/page_lp.php:1311 functions/page_lp.php:1376
+#: functions/page_lp.php:1385
+msgid ""
+"Please specify the number of 0.1 from 0.9. Overlay color will be more "
+"transparent as the number is small."
+msgstr ""
+
+#: admin/inc/404.php:120 admin/inc/basic.php:475 admin/inc/basic.php:511
+#: admin/inc/basic.php:529 admin/inc/basic.php:644 admin/inc/blog.php:312
+#: admin/inc/featured.php:339 admin/inc/front_page.php:1628
+#: admin/inc/front_page.php:1833 admin/inc/front_page.php:1964
+#: admin/inc/front_page.php:2089 admin/inc/front_page.php:2164
+#: admin/inc/front_page.php:2311 admin/inc/front_page_mobile.php:1187
+#: admin/inc/front_page_mobile.php:1373 admin/inc/front_page_mobile.php:1481
+#: admin/inc/front_page_mobile.php:1586 admin/inc/front_page_mobile.php:1653
+#: admin/inc/front_page_mobile.php:1781 admin/inc/header.php:539
+#: admin/inc/marketing.php:725 admin/inc/news.php:287 functions/page_cf.php:168
+#: functions/support_cf.php:5 widget/category_list.php:77
+#: widget/post_slider.php:174 widget/styled_post_list1.php:173
+msgid "Display setting"
+msgstr ""
+
+#: admin/inc/404.php:122 functions/page_cf.php:173
+msgid "Hide header"
+msgstr ""
+
+#: admin/inc/404.php:123 functions/page_cf.php:175
+msgid "Hide footer"
+msgstr ""
+
+#: admin/inc/404.php:126 admin/inc/acceleration.php:58 admin/inc/basic.php:212
+#: admin/inc/basic.php:255 admin/inc/basic.php:282 admin/inc/basic.php:367
+#: admin/inc/basic.php:443 admin/inc/basic.php:486 admin/inc/basic.php:522
+#: admin/inc/basic.php:546 admin/inc/basic.php:554 admin/inc/basic.php:587
+#: admin/inc/basic.php:605 admin/inc/basic.php:631 admin/inc/basic.php:764
+#: admin/inc/basic.php:781 admin/inc/basic.php:797 admin/inc/blog.php:167
+#: admin/inc/blog.php:228 admin/inc/blog.php:281 admin/inc/blog.php:433
+#: admin/inc/blog.php:478 admin/inc/blog.php:517 admin/inc/blog.php:557
+#: admin/inc/blog.php:596 admin/inc/blog.php:603 admin/inc/featured.php:180
+#: admin/inc/featured.php:239 admin/inc/featured.php:308
+#: admin/inc/featured.php:394 admin/inc/featured.php:439
+#: admin/inc/featured.php:478 admin/inc/featured.php:518
+#: admin/inc/featured.php:556 admin/inc/featured.php:563
+#: admin/inc/footer.php:163 admin/inc/footer.php:170 admin/inc/footer.php:284
+#: admin/inc/footer.php:323 admin/inc/footer.php:352 admin/inc/footer.php:554
+#: admin/inc/footer.php:566 admin/inc/front_page.php:968
+#: admin/inc/front_page.php:1051 admin/inc/front_page.php:1083
+#: admin/inc/front_page.php:1136 admin/inc/front_page.php:2361
+#: admin/inc/front_page_mobile.php:653 admin/inc/front_page_mobile.php:681
+#: admin/inc/front_page_mobile.php:693 admin/inc/front_page_mobile.php:746
+#: admin/inc/front_page_mobile.php:1828 admin/inc/gallery.php:166
+#: admin/inc/gallery.php:225 admin/inc/gallery.php:374
+#: admin/inc/gallery.php:434 admin/inc/header.php:163 admin/inc/header.php:233
+#: admin/inc/header.php:281 admin/inc/header.php:286 admin/inc/header.php:304
+#: admin/inc/header.php:395 admin/inc/header.php:525 admin/inc/header.php:564
+#: admin/inc/logo.php:138 admin/inc/logo.php:206 admin/inc/logo.php:268
+#: admin/inc/marketing.php:244 admin/inc/marketing.php:289
+#: admin/inc/marketing.php:333 admin/inc/marketing.php:390
+#: admin/inc/marketing.php:582 admin/inc/marketing.php:641
+#: admin/inc/marketing.php:709 admin/inc/marketing.php:717
+#: admin/inc/marketing.php:766 admin/inc/marketing.php:773
+#: admin/inc/news.php:145 admin/inc/news.php:204 admin/inc/news.php:256
+#: admin/inc/news.php:336 admin/inc/news.php:381 admin/inc/news.php:420
+#: admin/inc/news.php:460 admin/inc/news.php:498 admin/inc/news.php:505
+#: admin/inc/protect.php:102 admin/inc/quicktag.php:201
+#: admin/inc/quicktag.php:265 admin/inc/quicktag.php:272
+#: admin/inc/quicktag.php:335 admin/inc/quicktag.php:342
+#: admin/inc/quicktag.php:364 admin/inc/quicktag.php:371
+#: admin/inc/quicktag.php:418 admin/inc/quicktag.php:425
+#: admin/inc/quicktag.php:506
+msgid "Save Changes"
+msgstr ""
+
+#: admin/inc/404.php:127 admin/inc/basic.php:213 admin/inc/basic.php:256
+#: admin/inc/basic.php:283 admin/inc/basic.php:368 admin/inc/basic.php:444
+#: admin/inc/basic.php:555 admin/inc/basic.php:588 admin/inc/basic.php:606
+#: admin/inc/basic.php:632 admin/inc/basic.php:765 admin/inc/basic.php:782
+#: admin/inc/basic.php:798 admin/inc/blog.php:168 admin/inc/blog.php:229
+#: admin/inc/blog.php:282 admin/inc/blog.php:434 admin/inc/blog.php:479
+#: admin/inc/blog.php:518 admin/inc/blog.php:558 admin/inc/blog.php:597
+#: admin/inc/blog.php:604 admin/inc/featured.php:181 admin/inc/featured.php:240
+#: admin/inc/featured.php:309 admin/inc/featured.php:395
+#: admin/inc/featured.php:440 admin/inc/featured.php:479
+#: admin/inc/featured.php:519 admin/inc/featured.php:557
+#: admin/inc/featured.php:564 admin/inc/footer.php:164 admin/inc/footer.php:171
+#: admin/inc/footer.php:285 admin/inc/footer.php:324 admin/inc/footer.php:353
+#: admin/inc/footer.php:555 admin/inc/footer.php:567
+#: admin/inc/front_page.php:969 admin/inc/front_page.php:1052
+#: admin/inc/front_page.php:2362 admin/inc/front_page_mobile.php:654
+#: admin/inc/front_page_mobile.php:1829 admin/inc/gallery.php:167
+#: admin/inc/gallery.php:226 admin/inc/gallery.php:375
+#: admin/inc/gallery.php:435 admin/inc/header.php:164 admin/inc/header.php:234
+#: admin/inc/header.php:287 admin/inc/header.php:305 admin/inc/header.php:396
+#: admin/inc/header.php:526 admin/inc/header.php:565 admin/inc/logo.php:139
+#: admin/inc/logo.php:207 admin/inc/logo.php:269 admin/inc/marketing.php:245
+#: admin/inc/marketing.php:290 admin/inc/marketing.php:334
+#: admin/inc/marketing.php:391 admin/inc/marketing.php:583
+#: admin/inc/marketing.php:642 admin/inc/marketing.php:710
+#: admin/inc/marketing.php:718 admin/inc/marketing.php:767
+#: admin/inc/news.php:146 admin/inc/news.php:205 admin/inc/news.php:257
+#: admin/inc/news.php:337 admin/inc/news.php:382 admin/inc/news.php:421
+#: admin/inc/news.php:461 admin/inc/news.php:499 admin/inc/news.php:506
+#: admin/inc/protect.php:103 admin/inc/quicktag.php:266
+#: admin/inc/quicktag.php:273 admin/inc/quicktag.php:336
+#: admin/inc/quicktag.php:343 admin/inc/quicktag.php:365
+#: admin/inc/quicktag.php:372 admin/inc/quicktag.php:419
+#: admin/inc/quicktag.php:426 admin/inc/quicktag.php:507
+#: functions/page_cf.php:188 functions/page_cf.php:349
+#: functions/page_lp.php:933 functions/page_lp.php:1015
+#: functions/page_lp.php:1052 functions/page_lp.php:1174
+#: functions/page_lp.php:1217 functions/page_lp.php:1245
+#: functions/page_lp.php:1259 functions/page_lp.php:1519
+#: functions/page_lp.php:1587 functions/page_lp.php:1611
+#: functions/page_lp.php:1654 functions/page_lp.php:1720
+#: functions/page_lp.php:1731
+msgid "Close"
+msgstr ""
+
+#: admin/inc/acceleration.php:28
+msgid "Acceleration"
+msgstr ""
+
+#: admin/inc/acceleration.php:36
+msgid "Acceleration setting"
+msgstr ""
+
+#: admin/inc/acceleration.php:38
+msgid "Emoji setting"
+msgstr ""
+
+#: admin/inc/acceleration.php:40
+msgid ""
+"We recommend to checkoff this option if you dont use any Emoji in your post "
+"content."
+msgstr ""
+
+#: admin/inc/acceleration.php:42
+msgid "Use emoji"
+msgstr ""
+
+#: admin/inc/acceleration.php:43
+msgid "Optimization setting"
+msgstr ""
+
+#: admin/inc/acceleration.php:45
+msgid "Check here to remove margins and line breaks in JavaScript."
+msgstr ""
+
+#: admin/inc/acceleration.php:47
+msgid "Use JavaScript optimization"
+msgstr ""
+
+#: admin/inc/acceleration.php:49
+msgid ""
+"Check here to remove margins and line breaks in CSS.<br>It also improves the "
+"loading speed by generating a page common CSS cache file.<br>* This "
+"specification does not apply to external CSS (CDN, etc.)."
+msgstr ""
+
+#: admin/inc/acceleration.php:51
+msgid "Use CSS optimization"
+msgstr ""
+
+#: admin/inc/acceleration.php:53
+msgid "Check here to remove margins and line breaks in HTML."
+msgstr ""
+
+#: admin/inc/acceleration.php:55
+msgid "Use HTML optimization"
+msgstr ""
+
+#: admin/inc/basic.php:25 admin/inc/blog.php:157 admin/inc/featured.php:153
+#: admin/inc/footer.php:121 admin/inc/gallery.php:149 admin/inc/news.php:132
+#: admin/inc/quicktag.php:196 functions/gallery_category.php:34
+#: functions/page_cf.php:166
+msgid "Basic setting"
+msgstr ""
+
+#: admin/inc/basic.php:165 admin/inc/front_page.php:282
+#: admin/inc/front_page.php:1524 admin/inc/front_page.php:1570
+#: admin/inc/front_page_mobile.php:62 admin/inc/front_page_mobile.php:1087
+#: admin/inc/front_page_mobile.php:1133 admin/inc/gallery.php:26
+#: admin/inc/gallery.php:36 admin/inc/gallery.php:67 admin/inc/gallery.php:139
+#: admin/theme-options.php:803 functions.php:895
+#: functions/gallery_category.php:20 functions/gallery_category.php:25
+#: functions/gallery_cf.php:19
+msgid "Gallery"
+msgstr ""
+
+#: admin/inc/basic.php:166 admin/inc/front_page.php:283
+#: admin/inc/front_page.php:1525 admin/inc/front_page.php:1571
+#: admin/inc/front_page_mobile.php:63 admin/inc/front_page_mobile.php:1088
+#: admin/inc/front_page_mobile.php:1134 admin/inc/gallery.php:38
+#: admin/inc/gallery.php:140 admin/inc/header.php:128 functions.php:928
+#: functions/admin_column.php:70 functions/gallery_category.php:26
+msgid "Gallery category"
+msgstr ""
+
+#: admin/inc/basic.php:174 admin/inc/basic.php:668 admin/inc/footer.php:335
+#: admin/inc/header.php:247 admin/inc/quicktag.php:306
+#: admin/inc/quicktag.php:361 admin/inc/quicktag.php:411 widget/banner.php:203
+msgid "Color setting"
+msgstr ""
+
+#: admin/inc/basic.php:177
+msgid ""
+"Sub color will be used mostly in pager, navigation menu, and link button "
+"mouseover color."
+msgstr ""
+
+#: admin/inc/basic.php:180
+msgid "Main color"
+msgstr ""
+
+#: admin/inc/basic.php:181
+msgid "Sub color"
+msgstr ""
+
+#: admin/inc/basic.php:182
+msgid "Text color on mouseover"
+msgstr ""
+
+#: admin/inc/basic.php:184
+msgid "Single page text link color"
+msgstr ""
+
+#: admin/inc/basic.php:191 admin/inc/footer.php:305 admin/inc/footer.php:346
+#: admin/inc/footer.php:535 admin/inc/header.php:185 admin/inc/header.php:214
+#: admin/inc/header.php:379 admin/inc/marketing.php:701
+#: admin/inc/quicktag.php:493 functions/page_lp.php:1633
+msgid "Apply main color"
+msgstr ""
+
+#: admin/inc/basic.php:196
+msgid "Single page text link color on mouseover"
+msgstr ""
+
+#: admin/inc/basic.php:203 admin/inc/footer.php:317 admin/inc/footer.php:547
+#: admin/inc/header.php:197 admin/inc/header.php:226
+msgid "Apply sub color"
+msgstr ""
+
+#: admin/inc/basic.php:207 admin/inc/basic.php:417 admin/inc/basic.php:431
+#: admin/inc/basic.php:672 admin/inc/footer.php:298 admin/inc/footer.php:339
+#: admin/inc/footer.php:395 admin/inc/footer.php:528
+#: admin/inc/front_page.php:1665 admin/inc/front_page_mobile.php:1217
+#: admin/inc/header.php:207 admin/inc/header.php:250 admin/inc/header.php:300
+#: admin/inc/header.php:370 admin/inc/header.php:459 admin/inc/header.php:487
+#: admin/inc/header.php:510 admin/inc/header.php:559
+#: admin/inc/marketing.php:257 admin/inc/marketing.php:433
+#: admin/inc/marketing.php:440 admin/inc/marketing.php:467
+#: admin/inc/marketing.php:474 admin/inc/marketing.php:510
+#: admin/inc/marketing.php:517 admin/inc/marketing.php:694
+#: admin/inc/quicktag.php:309 admin/inc/quicktag.php:414
+#: functions/gallery_category.php:170 functions/gallery_category.php:199
+#: functions/page_cf.php:343 functions/page_lp.php:999
+#: functions/page_lp.php:1036
+msgid "Background color"
+msgstr ""
+
+#: admin/inc/basic.php:208
+msgid "Font color of widget headline"
+msgstr ""
+
+#: admin/inc/basic.php:209
+msgid "Background color of widget headline"
+msgstr ""
+
+#: admin/inc/basic.php:221
+msgid "Headline icon setting"
+msgstr ""
+
+#: admin/inc/basic.php:223
+msgid "Icon image"
+msgstr ""
+
+#: admin/inc/basic.php:225 admin/inc/basic.php:241
+msgid ""
+"If you upload a image for retina display, please check the following check "
+"boxes"
+msgstr ""
+
+#: admin/inc/basic.php:237 admin/inc/basic.php:253
+msgid "Use retina display image"
+msgstr ""
+
+#: admin/inc/basic.php:238
+msgid "Icon image (small size)"
+msgstr ""
+
+#: admin/inc/basic.php:240
+#, php-format
+msgid "This icon will be used in %s single page and %s sort button."
+msgstr ""
+
+#: admin/inc/basic.php:264
+msgid "Favicon setting"
+msgstr ""
+
+#: admin/inc/basic.php:267
+msgid "Setting for the favicon displayed at browser address bar or tab."
+msgstr ""
+
+#: admin/inc/basic.php:268
+msgid ""
+"You can use .ico, .png or .gif file, and we recommed you to use .ico file."
+msgstr ""
+
+#: admin/inc/basic.php:269
+msgid "Favicon file"
+msgstr ""
+
+#: admin/inc/basic.php:291
+msgid "Font type setting"
+msgstr ""
+
+#: admin/inc/basic.php:293
+msgid "Basic font type"
+msgstr ""
+
+#: admin/inc/basic.php:295
+msgid "This font type will be the basic font type of this website."
+msgstr ""
+
+#: admin/inc/basic.php:312 admin/inc/blog.php:248 admin/inc/front_page.php:1677
+#: admin/inc/front_page.php:1846 admin/inc/front_page.php:1977
+#: admin/inc/front_page_mobile.php:1226 admin/inc/front_page_mobile.php:1383
+#: admin/inc/front_page_mobile.php:1491 admin/inc/gallery.php:276
+#: admin/inc/gallery.php:409 admin/inc/news.php:224 functions/page_lp.php:742
+#: functions/page_lp.php:958 functions/page_lp.php:1543
+#: functions/page_lp.php:1688
+msgid "Font type of headline"
+msgstr ""
+
+#: admin/inc/basic.php:314
+msgid "This font type will be apply to headline and catchphrase."
+msgstr ""
+
+#: admin/inc/basic.php:331
+msgid "Font type of widget headline"
+msgstr ""
+
+#: admin/inc/basic.php:347
+msgid "Font type of content area"
+msgstr ""
+
+#: admin/inc/basic.php:349
+msgid "This font type will be apply to single page content area."
+msgstr ""
+
+#: admin/inc/basic.php:376
+msgid "Thumbnail hover effect"
+msgstr ""
+
+#: admin/inc/basic.php:378
+msgid "Hover effect type"
+msgstr ""
+
+#: admin/inc/basic.php:380
+msgid "Please set the hover effect for thumbnail images."
+msgstr ""
+
+#: admin/inc/basic.php:393
+msgid "Zoom in effect setting"
+msgstr ""
+
+#: admin/inc/basic.php:395
+msgid "Magnification rate"
+msgstr ""
+
+#: admin/inc/basic.php:400
+msgid "Zoom out effect setting"
+msgstr ""
+
+#: admin/inc/basic.php:402
+msgid "Reduction rate"
+msgstr ""
+
+#: admin/inc/basic.php:407
+msgid "Slide effect setting"
+msgstr ""
+
+#: admin/inc/basic.php:410 admin/inc/protect.php:83
+msgid "Direction"
+msgstr ""
+
+#: admin/inc/basic.php:419 admin/inc/basic.php:433
+msgid "Opacity of background color"
+msgstr ""
+
+#: admin/inc/basic.php:422 admin/inc/basic.php:436
+msgid ""
+"Please specify the number of 0 from 1.0. Overlay color will be more "
+"transparent as the number is small."
+msgstr ""
+
+#: admin/inc/basic.php:429
+msgid "Fade effect setting"
+msgstr ""
+
+#: admin/inc/basic.php:452
+msgid "Social button setting"
+msgstr ""
+
+#: admin/inc/basic.php:455
+msgid "Top social button in single page"
+msgstr ""
+
+#: admin/inc/basic.php:458
+msgid "This button will be displayed under post title area."
+msgstr ""
+
+#: admin/inc/basic.php:459 admin/inc/basic.php:495
+msgid ""
+"Facebook like button is displayed only when you select Button type 5 "
+"(Default button)."
+msgstr ""
+
+#: admin/inc/basic.php:460 admin/inc/basic.php:496
+msgid ""
+"RSS button is not displayed if you select Button type 5 (Default button)."
+msgstr ""
+
+#: admin/inc/basic.php:461 admin/inc/basic.php:497
+msgid ""
+"If you use Button type 5 (Default button) and Button types 1 to 4 together, "
+"button design will collapses."
+msgstr ""
+
+#: admin/inc/basic.php:463 admin/inc/basic.php:499
+msgid "Social button design"
+msgstr ""
+
+#: admin/inc/basic.php:477 admin/inc/basic.php:513
+msgid "Display twitter button"
+msgstr ""
+
+#: admin/inc/basic.php:478
+msgid "Display facebook like button -Button type 5 (Default button) only"
+msgstr ""
+
+#: admin/inc/basic.php:479 admin/inc/basic.php:515
+msgid "Display facebook share button"
+msgstr ""
+
+#: admin/inc/basic.php:480 admin/inc/basic.php:516
+msgid "Display hatena button"
+msgstr ""
+
+#: admin/inc/basic.php:481 admin/inc/basic.php:517
+msgid "Display pocket button"
+msgstr ""
+
+#: admin/inc/basic.php:482 admin/inc/basic.php:518
+msgid "Display feedly button"
+msgstr ""
+
+#: admin/inc/basic.php:483 admin/inc/basic.php:519
+msgid "Display rss button"
+msgstr ""
+
+#: admin/inc/basic.php:484 admin/inc/basic.php:520
+msgid "Display pinterest button"
+msgstr ""
+
+#: admin/inc/basic.php:491
+msgid "Bottom social button in single page"
+msgstr ""
+
+#: admin/inc/basic.php:494
+msgid "This button will be displayed under post content."
+msgstr ""
+
+#: admin/inc/basic.php:514
+msgid "Display facebook like button-Button type 5 (Default button) only"
+msgstr ""
+
+#: admin/inc/basic.php:527
+msgid "Footer social button"
+msgstr ""
+
+#: admin/inc/basic.php:531
+msgid "Display SNS on footer"
+msgstr ""
+
+#: admin/inc/basic.php:533 admin/inc/marketing.php:209
+#: admin/inc/marketing.php:259 admin/inc/marketing.php:303
+msgid "Link setting"
+msgstr ""
+
+#: admin/inc/basic.php:535
+msgid ""
+"Enter url of your Twitter, Facebook, Instagram, Pinterest, Flickr, Tumblr, "
+"and contact page. Please leave the field empty if you don't want to display "
+"certain sns button."
+msgstr ""
+
+#: admin/inc/basic.php:538 functions/user-profile.php:30
+msgid "Instagram URL"
+msgstr ""
+
+#: admin/inc/basic.php:539 functions/user-profile.php:25
+msgid "Twitter URL"
+msgstr ""
+
+#: admin/inc/basic.php:540 functions/user-profile.php:20
+msgid "Facebook URL"
+msgstr ""
+
+#: admin/inc/basic.php:541 functions/user-profile.php:35
+msgid "Pinterest URL"
+msgstr ""
+
+#: admin/inc/basic.php:542 functions/user-profile.php:40
+msgid "Youtube URL"
+msgstr ""
+
+#: admin/inc/basic.php:543
+msgid "Contact page URL (You can use mailto:)"
+msgstr ""
+
+#: admin/inc/basic.php:544
+msgid "Display RSS button"
+msgstr ""
+
+#: admin/inc/basic.php:550
+msgid "Setting for the twitter button"
+msgstr ""
+
+#: admin/inc/basic.php:551
+msgid "Set of twitter account. (ex.tcd_jp)"
+msgstr ""
+
+#: admin/inc/basic.php:563
+msgid "Facebook OGP setting"
+msgstr ""
+
+#: admin/inc/basic.php:566
+msgid "OGP is a mechanism for correctly conveying page information."
+msgstr ""
+
+#: admin/inc/basic.php:568
+msgid "Use OGP"
+msgstr ""
+
+#: admin/inc/basic.php:569
+msgid "Your app ID"
+msgstr ""
+
+#: admin/inc/basic.php:570
+msgid "In order to use Facebook Insights please set your app ID."
+msgstr ""
+
+#: admin/inc/basic.php:571
+msgid "OGP image"
+msgstr ""
+
+#: admin/inc/basic.php:573
+msgid "This image is displayed for OGP if the page does not have a thumbnail."
+msgstr ""
+
+#: admin/inc/basic.php:596
+msgid "Twitter Cards setting"
+msgstr ""
+
+#: admin/inc/basic.php:599
+msgid "This theme requires Facebook OGP settings to use Twitter cards."
+msgstr ""
+
+#: admin/inc/basic.php:601
+msgid "Use Twitter Cards"
+msgstr ""
+
+#: admin/inc/basic.php:602
+msgid "Your Twitter account name (exclude @ mark)"
+msgstr ""
+
+#: admin/inc/basic.php:603
+msgid "Information about Twitter Cards."
+msgstr ""
+
+#: admin/inc/basic.php:614
+msgid "Original alternate image for featured image"
+msgstr ""
+
+#: admin/inc/basic.php:617
+msgid "You can register original alternate image for featured image."
+msgstr ""
+
+#: admin/inc/basic.php:639
+msgid "Loading screen setting"
+msgstr ""
+
+#: admin/inc/basic.php:642
+msgid "You can set the load screen displayed during page transition."
+msgstr ""
+
+#: admin/inc/basic.php:654
+msgid "Screen animation after loading content"
+msgstr ""
+
+#: admin/inc/basic.php:656
+msgid "Fade out"
+msgstr ""
+
+#: admin/inc/basic.php:657 admin/inc/front_page.php:2037
+#: admin/inc/front_page_mobile.php:1539 admin/inc/gallery.php:339
+msgid "Slide up"
+msgstr ""
+
+#: admin/inc/basic.php:658
+msgid "Slide down"
+msgstr ""
+
+#: admin/inc/basic.php:659
+msgid "Slide left"
+msgstr ""
+
+#: admin/inc/basic.php:660
+msgid "Slide right"
+msgstr ""
+
+#: admin/inc/basic.php:662
+msgid "Type of loader"
+msgstr ""
+
+#: admin/inc/basic.php:670
+msgid "Primary color"
+msgstr ""
+
+#: admin/inc/basic.php:671
+msgid "Secondary color"
+msgstr ""
+
+#: admin/inc/basic.php:674
+msgid "Maximum display time"
+msgstr ""
+
+#: admin/inc/basic.php:676
+msgid "Please set the maximum display time of the loading screen."
+msgstr ""
+
+#: admin/inc/basic.php:693 admin/inc/footer.php:271 admin/inc/logo.php:25
+#: functions/page_cf.php:290
+msgid "Logo setting"
+msgstr ""
+
+#: admin/inc/basic.php:704 admin/inc/basic.php:716 admin/inc/logo.php:117
+#: admin/inc/logo.php:135 admin/inc/logo.php:185 admin/inc/logo.php:203
+#: admin/inc/logo.php:250 admin/inc/logo.php:265 functions/page_cf.php:319
+#: functions/page_cf.php:322
+msgid "Use retina display logo image"
+msgstr ""
+
+#: admin/inc/basic.php:705
+msgid "Logo setting (mobile)"
+msgstr ""
+
+#: admin/inc/basic.php:717
+msgid "Logo animation setting"
+msgstr ""
+
+#: admin/inc/basic.php:718
+msgid "Use logo animation"
+msgstr ""
+
+#: admin/inc/basic.php:722 admin/inc/blog.php:37 admin/inc/blog.php:178
+#: admin/inc/featured.php:44 admin/inc/featured.php:191
+#: admin/inc/front_page.php:45 admin/inc/front_page.php:202
+#: admin/inc/front_page.php:448 admin/inc/front_page.php:778
+#: admin/inc/front_page.php:2169 admin/inc/front_page_mobile.php:200
+#: admin/inc/front_page_mobile.php:475 admin/inc/front_page_mobile.php:1658
+#: admin/inc/gallery.php:42 admin/inc/gallery.php:177
+#: admin/inc/marketing.php:202 admin/inc/marketing.php:251
+#: admin/inc/marketing.php:296 admin/inc/marketing.php:421
+#: admin/inc/marketing.php:455 admin/inc/marketing.php:498
+#: admin/inc/news.php:40 admin/inc/news.php:156 admin/inc/options.php:85
+#: admin/theme-options.php:792 functions/category_cf.php:21
+#: functions/featured_category.php:21 functions/featured_cf.php:35
+#: functions/page_builder.php:197 functions/page_builder.php:201
+#: functions/page_cf.php:217 functions/page_lp.php:1328
+msgid "Catchphrase"
+msgstr ""
+
+#: admin/inc/basic.php:725 admin/inc/basic.php:745 admin/inc/blog.php:181
+#: admin/inc/blog.php:295 admin/inc/featured.php:194 admin/inc/featured.php:259
+#: admin/inc/footer.php:123 admin/inc/front_page.php:451
+#: admin/inc/front_page.php:781 admin/inc/front_page.php:2172
+#: admin/inc/front_page.php:2187 admin/inc/front_page_mobile.php:203
+#: admin/inc/front_page_mobile.php:478 admin/inc/front_page_mobile.php:1661
+#: admin/inc/front_page_mobile.php:1675 admin/inc/gallery.php:180
+#: admin/inc/gallery.php:245 admin/inc/news.php:159 functions/page_cf.php:220
+#: functions/page_cf.php:333 functions/page_lp.php:1331 widget/banner.php:173
+msgid "Font type"
+msgstr ""
+
+#: admin/inc/basic.php:739
+msgid "Loading message"
+msgstr ""
+
+#: admin/inc/basic.php:741
+msgid "You can display loading message below logo image or catchphrase."
+msgstr ""
+
+#: admin/inc/basic.php:756
+msgid "Dot animation setting"
+msgstr ""
+
+#: admin/inc/basic.php:758
+msgid "Animated dot will be display behind loading message."
+msgstr ""
+
+#: admin/inc/basic.php:760
+msgid "Don't display dot animation"
+msgstr ""
+
+#: admin/inc/basic.php:773
+msgid "Custom css displayed inside &lt;head&gt; tag"
+msgstr ""
+
+#: admin/inc/basic.php:776 functions/custom_css.php:30
+msgid ""
+"This css will be displayed inside &lt;head&gt; tag.<br />You don't need to "
+"enter &lt;style&gt; tag in this field."
+msgstr ""
+
+#: admin/inc/basic.php:777 functions/custom_css.php:31
+msgid "Example:<br><strong>.custom_css { font-size:12px; }</strong>"
+msgstr ""
+
+#: admin/inc/basic.php:790
+msgid "Custom script displayed inside &lt;head&gt; tag"
+msgstr ""
+
+#: admin/inc/basic.php:793 functions/custom_script.php:30
+msgid "This script will be displayed inside &lt;head&gt; tag."
+msgstr ""
+
+#: admin/inc/blog.php:25 admin/inc/blog.php:34 admin/inc/blog.php:50
+#: admin/inc/blog.php:149 admin/inc/front_page.php:279
+#: admin/inc/front_page.php:1521 admin/inc/front_page.php:1567
+#: admin/inc/front_page_mobile.php:59 admin/inc/front_page_mobile.php:1084
+#: admin/inc/front_page_mobile.php:1130 admin/inc/header.php:126
+msgid "Blog"
+msgstr ""
+
+#: admin/inc/blog.php:111
+msgid "Related post"
+msgstr ""
+
+#: admin/inc/blog.php:160 admin/inc/featured.php:155 admin/inc/gallery.php:151
+#: admin/inc/news.php:134
+msgid "Name of content"
+msgstr ""
+
+#: admin/inc/blog.php:162 admin/inc/featured.php:157 admin/inc/news.php:136
+msgid "This name will also be used in breadcrumb link."
+msgstr ""
+
+#: admin/inc/blog.php:176 admin/inc/featured.php:189 admin/inc/gallery.php:175
+#: admin/inc/news.php:154
+msgid "Archive page header setting"
+msgstr ""
+
+#: admin/inc/blog.php:188 admin/inc/blog.php:247 admin/inc/featured.php:201
+#: admin/inc/featured.php:258 admin/inc/footer.php:130
+#: admin/inc/front_page.php:1676 admin/inc/front_page.php:1845
+#: admin/inc/front_page.php:1976 admin/inc/front_page_mobile.php:1225
+#: admin/inc/front_page_mobile.php:1382 admin/inc/front_page_mobile.php:1490
+#: admin/inc/gallery.php:187 admin/inc/gallery.php:244 admin/inc/news.php:166
+#: admin/inc/news.php:223 functions/page_cf.php:227 functions/page_lp.php:741
+#: functions/page_lp.php:957 functions/page_lp.php:1542
+#: functions/page_lp.php:1687
+msgid "Font direction"
+msgstr ""
+
+#: admin/inc/blog.php:188 admin/inc/blog.php:247 admin/inc/featured.php:201
+#: admin/inc/featured.php:258 admin/inc/footer.php:130
+#: admin/inc/front_page.php:1676 admin/inc/front_page.php:1845
+#: admin/inc/front_page.php:1976 admin/inc/front_page.php:2041
+#: admin/inc/front_page.php:2106 admin/inc/front_page_mobile.php:1225
+#: admin/inc/front_page_mobile.php:1382 admin/inc/front_page_mobile.php:1490
+#: admin/inc/front_page_mobile.php:1543 admin/inc/front_page_mobile.php:1600
+#: admin/inc/gallery.php:187 admin/inc/gallery.php:244
+#: admin/inc/gallery.php:275 admin/inc/gallery.php:305
+#: admin/inc/gallery.php:355 admin/inc/gallery.php:408 admin/inc/header.php:511
+#: admin/inc/news.php:166 admin/inc/news.php:223 admin/inc/options.php:377
+#: functions/page_cf.php:227 functions/page_lp.php:741
+#: functions/page_lp.php:957 functions/page_lp.php:1542
+#: functions/page_lp.php:1687
+msgid "Display vertically"
+msgstr ""
+
+#: admin/inc/blog.php:189 admin/inc/featured.php:202 admin/inc/gallery.php:188
+#: admin/inc/news.php:167 functions/page_cf.php:228
+msgid "Animation type"
+msgstr ""
+
+#: admin/inc/blog.php:218 admin/inc/featured.php:229 admin/inc/footer.php:262
+#: admin/inc/front_page.php:518 admin/inc/front_page.php:848
+#: admin/inc/front_page.php:2278 admin/inc/front_page_mobile.php:261
+#: admin/inc/front_page_mobile.php:536 admin/inc/front_page_mobile.php:1751
+#: admin/inc/gallery.php:215 admin/inc/marketing.php:240 admin/inc/news.php:194
+#: functions/category_cf.php:50 functions/featured_category.php:50
+#: functions/gallery_category.php:129 functions/page_cf.php:278
+#: functions/page_lp.php:1307 widget/banner.php:236
+msgid "Color of overlay"
+msgstr ""
+
+#: admin/inc/blog.php:237 admin/inc/featured.php:248 admin/inc/gallery.php:234
+#: admin/inc/news.php:213
+msgid "Archive page other setting"
+msgstr ""
+
+#: admin/inc/blog.php:240 admin/inc/featured.php:251 admin/inc/gallery.php:403
+#: admin/inc/news.php:216 admin/inc/quicktag.php:209 functions/page_lp.php:732
+#: functions/page_lp.php:948 functions/page_lp.php:1533
+#: functions/page_lp.php:1678
+msgid "Headline setting"
+msgstr ""
+
+#: admin/inc/blog.php:242 admin/inc/featured.php:253
+#: admin/inc/front_page.php:1671 admin/inc/front_page.php:1840
+#: admin/inc/front_page.php:1971 admin/inc/front_page.php:2102
+#: admin/inc/gallery.php:240 admin/inc/gallery.php:270
+#: admin/inc/gallery.php:325 admin/inc/gallery.php:351
+#: admin/inc/gallery.php:424 admin/inc/news.php:218 functions/page_lp.php:734
+#: functions/page_lp.php:950 functions/page_lp.php:1535
+#: functions/page_lp.php:1680
+msgid ""
+"The icon image can be set in <a href=\"./admin.php?page=theme_options\" "
+"target=\"_blank\">theme option</a> basic menu."
+msgstr ""
+
+#: admin/inc/blog.php:246 admin/inc/news.php:222 functions/page_lp.php:740
+#: functions/page_lp.php:956 functions/page_lp.php:1541
+#: functions/page_lp.php:1686
+msgid "Icon"
+msgstr ""
+
+#: admin/inc/blog.php:246 admin/inc/featured.php:257
+#: admin/inc/front_page.php:1675 admin/inc/front_page.php:1844
+#: admin/inc/front_page.php:1975 admin/inc/front_page.php:2002
+#: admin/inc/front_page.php:2061 admin/inc/front_page.php:2105
+#: admin/inc/front_page_mobile.php:1224 admin/inc/front_page_mobile.php:1381
+#: admin/inc/front_page_mobile.php:1489 admin/inc/front_page_mobile.php:1513
+#: admin/inc/front_page_mobile.php:1561 admin/inc/front_page_mobile.php:1599
+#: admin/inc/gallery.php:243 admin/inc/gallery.php:274
+#: admin/inc/gallery.php:328 admin/inc/gallery.php:332
+#: admin/inc/gallery.php:354 admin/inc/news.php:222 functions/page_lp.php:740
+#: functions/page_lp.php:956 functions/page_lp.php:1541
+#: functions/page_lp.php:1686
+msgid "Display icon"
+msgstr ""
+
+#: admin/inc/blog.php:255 admin/inc/blog.php:405 admin/inc/blog.php:428
+#: admin/inc/featured.php:266 admin/inc/featured.php:357
+#: admin/inc/featured.php:368 admin/inc/front_page.php:1684
+#: admin/inc/front_page.php:1853 admin/inc/front_page.php:1984
+#: admin/inc/front_page_mobile.php:1233 admin/inc/front_page_mobile.php:1390
+#: admin/inc/front_page_mobile.php:1498 admin/inc/gallery.php:252
+#: admin/inc/gallery.php:283 admin/inc/gallery.php:416 admin/inc/news.php:231
+#: admin/inc/news.php:311 functions/page_lp.php:749 functions/page_lp.php:965
+#: functions/page_lp.php:1550 functions/page_lp.php:1695
+msgid "Font size of headline"
+msgstr ""
+
+#: admin/inc/blog.php:256 admin/inc/blog.php:406 admin/inc/blog.php:429
+#: admin/inc/featured.php:267 admin/inc/featured.php:358
+#: admin/inc/featured.php:369 admin/inc/front_page.php:1685
+#: admin/inc/front_page.php:1854 admin/inc/front_page.php:1985
+#: admin/inc/gallery.php:253 admin/inc/gallery.php:284
+#: admin/inc/gallery.php:417 admin/inc/news.php:232 admin/inc/news.php:312
+#: functions/page_lp.php:750 functions/page_lp.php:966
+#: functions/page_lp.php:1551 functions/page_lp.php:1696
+msgid "Font size of headline (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:257 admin/inc/featured.php:268
+#: admin/inc/front_page.php:1686 admin/inc/front_page.php:1855
+#: admin/inc/front_page.php:1986 admin/inc/front_page_mobile.php:1234
+#: admin/inc/front_page_mobile.php:1391 admin/inc/front_page_mobile.php:1499
+#: admin/inc/gallery.php:285 admin/inc/news.php:233 functions/page_lp.php:751
+#: functions/page_lp.php:967 functions/page_lp.php:1552
+#: functions/page_lp.php:1697
+msgid "Subheadline"
+msgstr ""
+
+#: admin/inc/blog.php:258 admin/inc/featured.php:269
+#: admin/inc/front_page.php:1687 admin/inc/front_page.php:1856
+#: admin/inc/front_page.php:1987 admin/inc/front_page.php:2117
+#: admin/inc/front_page_mobile.php:1235 admin/inc/front_page_mobile.php:1392
+#: admin/inc/front_page_mobile.php:1500 admin/inc/front_page_mobile.php:1610
+#: admin/inc/gallery.php:286 admin/inc/gallery.php:366 admin/inc/news.php:234
+#: functions/page_lp.php:752 functions/page_lp.php:968
+#: functions/page_lp.php:1553 functions/page_lp.php:1698
+msgid "Font size of subheadline"
+msgstr ""
+
+#: admin/inc/blog.php:259 admin/inc/featured.php:270
+#: admin/inc/front_page.php:1688 admin/inc/front_page.php:1857
+#: admin/inc/front_page.php:1988 admin/inc/front_page.php:2118
+#: admin/inc/gallery.php:287 admin/inc/gallery.php:367 admin/inc/news.php:235
+#: functions/page_lp.php:753 functions/page_lp.php:969
+#: functions/page_lp.php:1554 functions/page_lp.php:1699
+msgid "Font size of subheadline (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:262
+msgid "Post list setting"
+msgstr ""
+
+#: admin/inc/blog.php:264 admin/inc/blog.php:364 admin/inc/blog.php:421
+#: admin/inc/featured.php:329 admin/inc/featured.php:386
+#: admin/inc/footer.php:131 admin/inc/front_page.php:2051
+#: admin/inc/front_page.php:2115 admin/inc/front_page_mobile.php:1552
+#: admin/inc/front_page_mobile.php:1609 admin/inc/gallery.php:364
+#: admin/inc/gallery.php:394 admin/inc/header.php:461 admin/inc/header.php:519
+#: admin/inc/news.php:248 admin/inc/news.php:277 admin/inc/news.php:329
+msgid "Font size of title"
+msgstr ""
+
+#: admin/inc/blog.php:265 admin/inc/blog.php:365 admin/inc/blog.php:422
+#: admin/inc/featured.php:330 admin/inc/featured.php:387
+#: admin/inc/footer.php:132 admin/inc/front_page.php:2052
+#: admin/inc/front_page.php:2116 admin/inc/gallery.php:365
+#: admin/inc/gallery.php:395 admin/inc/news.php:249 admin/inc/news.php:278
+#: admin/inc/news.php:330
+msgid "Font size of title (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:266 admin/inc/blog.php:315 admin/inc/blog.php:339
+#: admin/inc/featured.php:303 admin/inc/featured.php:343
+#: admin/inc/featured.php:388 admin/inc/front_page.php:1882
+#: admin/inc/front_page_mobile.php:1407 admin/inc/gallery.php:304
+#: admin/inc/header.php:504 widget/post_slider.php:177
+msgid "Display category"
+msgstr ""
+
+#: admin/inc/blog.php:267 admin/inc/blog.php:316 admin/inc/featured.php:344
+#: admin/inc/header.php:467 admin/inc/news.php:252 admin/inc/news.php:290
+#: admin/inc/news.php:331 functions/support_cf.php:25
+#: widget/styled_post_list1.php:176
+msgid "Display date"
+msgstr ""
+
+#: admin/inc/blog.php:269 admin/inc/header.php:469 widget/post_slider.php:181
+#: widget/styled_post_list1.php:180
+msgid "Native ads setting"
+msgstr ""
+
+#: admin/inc/blog.php:270 admin/inc/header.php:470 admin/inc/marketing.php:731
+#: admin/inc/marketing.php:742 admin/inc/marketing.php:750
+#: admin/inc/marketing.php:758 widget/post_slider.php:182
+#: widget/styled_post_list1.php:181
+msgid "Display native ads"
+msgstr ""
+
+#: admin/inc/blog.php:273 admin/inc/marketing.php:734
+#: admin/inc/marketing.php:745 admin/inc/marketing.php:753
+#: admin/inc/marketing.php:761 widget/post_slider.php:185
+#: widget/styled_post_list1.php:184
+msgid ""
+"Native ads will be displayed randomly at intervals of the number of articles "
+"set below."
+msgstr ""
+
+#: admin/inc/blog.php:290 admin/inc/featured.php:317 admin/inc/gallery.php:383
+#: admin/inc/news.php:265
+msgid "Single page setting"
+msgstr ""
+
+#: admin/inc/blog.php:293 admin/inc/featured.php:320 admin/inc/gallery.php:385
+#: admin/inc/news.php:268
+msgid "Post title setting"
+msgstr ""
+
+#: admin/inc/blog.php:306 admin/inc/featured.php:333 admin/inc/gallery.php:397
+#: admin/inc/news.php:281
+msgid "Post content setting"
+msgstr ""
+
+#: admin/inc/blog.php:308 admin/inc/featured.php:335 admin/inc/gallery.php:399
+#: admin/inc/news.php:283 functions/page_cf.php:184
+msgid "Font size of content"
+msgstr ""
+
+#: admin/inc/blog.php:309 admin/inc/featured.php:336 admin/inc/gallery.php:400
+#: admin/inc/news.php:284 functions/page_cf.php:185
+msgid "Font size of content (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:314 admin/inc/featured.php:341 admin/inc/news.php:289
+msgid "Display featured image"
+msgstr ""
+
+#: admin/inc/blog.php:317 admin/inc/featured.php:345 admin/inc/news.php:291
+msgid "Display modified date"
+msgstr ""
+
+#: admin/inc/blog.php:318 admin/inc/featured.php:346 admin/inc/gallery.php:429
+#: admin/inc/news.php:292
+msgid "Display next previous link"
+msgstr ""
+
+#: admin/inc/blog.php:319 admin/inc/blog.php:341
+msgid "Display comment"
+msgstr ""
+
+#: admin/inc/blog.php:320
+msgid "Display trackbacks"
+msgstr ""
+
+#: admin/inc/blog.php:321 admin/inc/featured.php:347 admin/inc/news.php:293
+msgid "Display social button under featured image"
+msgstr ""
+
+#: admin/inc/blog.php:322 admin/inc/featured.php:348 admin/inc/news.php:294
+msgid "Display social button under post content"
+msgstr ""
+
+#: admin/inc/blog.php:323 admin/inc/featured.php:349 admin/inc/news.php:295
+msgid "Display \"COPY Title&amp;URL\" button under featured image"
+msgstr ""
+
+#: admin/inc/blog.php:324 admin/inc/featured.php:350 admin/inc/news.php:296
+msgid "Display \"COPY Title&amp;URL\" button under post content"
+msgstr ""
+
+#: admin/inc/blog.php:327 admin/inc/news.php:299
+msgid "Side content setting"
+msgstr ""
+
+#: admin/inc/blog.php:334
+msgid "Meta box setting"
+msgstr ""
+
+#: admin/inc/blog.php:335
+msgid "Display meta box"
+msgstr ""
+
+#: admin/inc/blog.php:338
+msgid "Display author"
+msgstr ""
+
+#: admin/inc/blog.php:340
+msgid "Display tag"
+msgstr ""
+
+#: admin/inc/blog.php:345
+msgid "Pagenation settings"
+msgstr ""
+
+#: admin/inc/blog.php:359
+msgid "Banner content setting"
+msgstr ""
+
+#: admin/inc/blog.php:360
+msgid "Display content banner"
+msgstr ""
+
+#: admin/inc/blog.php:363 admin/inc/footer.php:46 admin/inc/footer.php:144
+#: admin/inc/marketing.php:663 widget/archive_list.php:61 widget/banner.php:163
+#: widget/banner.php:176 widget/banner.php:197 widget/category_list.php:68
+#: widget/google_search.php:63 widget/styled_post_list1.php:139
+msgid "Title"
+msgstr ""
+
+#: admin/inc/blog.php:366 admin/inc/featured.php:322
+#: admin/inc/front_page.php:2107 admin/inc/front_page_mobile.php:1601
+#: admin/inc/gallery.php:356 admin/inc/gallery.php:387 admin/inc/header.php:512
+#: admin/inc/news.php:270
+msgid "Font type of title"
+msgstr ""
+
+#: admin/inc/blog.php:374 admin/inc/footer.php:136
+msgid "Background color of title"
+msgstr ""
+
+#: admin/inc/blog.php:376 admin/inc/footer.php:133 admin/inc/gallery.php:254
+#: admin/inc/gallery.php:418 admin/inc/header.php:520
+msgid "Font size of subtitle"
+msgstr ""
+
+#: admin/inc/blog.php:377 admin/inc/footer.php:134 admin/inc/gallery.php:255
+#: admin/inc/gallery.php:419
+msgid "Font size of subtitle (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:378 admin/inc/front_page.php:462
+#: admin/inc/front_page.php:792 admin/inc/front_page.php:1691
+#: admin/inc/front_page.php:1991 admin/inc/front_page.php:2184
+#: admin/inc/front_page_mobile.php:213 admin/inc/front_page_mobile.php:488
+#: admin/inc/front_page_mobile.php:1238 admin/inc/front_page_mobile.php:1503
+#: admin/inc/front_page_mobile.php:1672 admin/inc/gallery.php:259
+#: functions/featured_cf.php:60 functions/featured_cf.php:76
+#: functions/gallery_category.php:143 functions/gallery_category.php:168
+#: functions/gallery_category.php:197 functions/gallery_cf.php:80
+#: functions/gallery_cf.php:96 functions/page_builder.php:119
+#: functions/page_builder.php:296 functions/page_cf.php:241
+#: functions/page_lp.php:997 functions/page_lp.php:1034
+#: functions/page_lp.php:1343 functions/page_lp.php:1557 widget/profile.php:112
+msgid "Description"
+msgstr ""
+
+#: admin/inc/blog.php:379 admin/inc/front_page.php:1880
+#: admin/inc/front_page_mobile.php:1406 admin/inc/gallery.php:262
+#: admin/inc/gallery.php:315 admin/inc/gallery.php:368 admin/inc/header.php:521
+#: admin/inc/news.php:250 functions/page_builder.php:217
+msgid "Font size of description"
+msgstr ""
+
+#: admin/inc/blog.php:380 admin/inc/front_page.php:1881
+#: admin/inc/gallery.php:263 admin/inc/gallery.php:316
+#: admin/inc/gallery.php:369 admin/inc/news.php:251
+msgid "Font size of description (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:394 admin/inc/footer.php:160 admin/inc/footer.php:524
+#: admin/inc/front_page.php:485 admin/inc/front_page.php:815
+#: admin/inc/front_page.php:1709 admin/inc/front_page.php:2210
+#: admin/inc/front_page_mobile.php:228 admin/inc/front_page_mobile.php:503
+#: admin/inc/front_page_mobile.php:1255 admin/inc/front_page_mobile.php:1697
+#: admin/inc/header.php:334 admin/inc/header.php:356
+#: admin/inc/marketing.php:211 admin/inc/marketing.php:261
+#: admin/inc/marketing.php:305 admin/inc/marketing.php:430
+#: admin/inc/marketing.php:464 admin/inc/marketing.php:507
+#: admin/inc/marketing.php:677 admin/inc/protect.php:80 comments.php:107
+#: functions/gallery_cf.php:114 functions/page_lp.php:840
+#: functions/page_lp.php:1081 functions/page_lp.php:1369
+msgid "URL"
+msgstr ""
+
+#: admin/inc/blog.php:395 admin/inc/footer.php:525 admin/inc/front_page.php:486
+#: admin/inc/front_page.php:816 admin/inc/front_page_mobile.php:229
+#: admin/inc/front_page_mobile.php:504 admin/inc/marketing.php:212
+#: admin/inc/marketing.php:262 admin/inc/marketing.php:306
+#: admin/inc/marketing.php:431 admin/inc/marketing.php:465
+#: admin/inc/marketing.php:508 admin/inc/marketing.php:679
+#: admin/inc/protect.php:81 functions/gallery_cf.php:115
+#: functions/page_lp.php:841 functions/page_lp.php:1082
+#: functions/page_lp.php:1370
+msgid "Open link in new window"
+msgstr ""
+
+#: admin/inc/blog.php:400 admin/inc/featured.php:363
+msgid "Related post setting"
+msgstr ""
+
+#: admin/inc/blog.php:401 admin/inc/featured.php:364
+msgid "Display related post"
+msgstr ""
+
+#: admin/inc/blog.php:407 admin/inc/featured.php:288 admin/inc/featured.php:371
+#: admin/inc/front_page.php:1637 admin/inc/front_page.php:1862
+#: admin/inc/front_page.php:2018 admin/inc/front_page_mobile.php:1196
+#: admin/inc/front_page_mobile.php:1397 admin/inc/front_page_mobile.php:1528
+#: admin/inc/gallery.php:289 admin/inc/news.php:241 admin/inc/news.php:314
+msgid "Number of post to display"
+msgstr ""
+
+#: admin/inc/blog.php:414 admin/inc/featured.php:379
+#: admin/inc/front_page.php:1644 admin/inc/front_page.php:1869
+#: admin/inc/front_page.php:2026 admin/inc/gallery.php:297
+#: admin/inc/news.php:322
+msgid "Number of post to display (mobile)"
+msgstr ""
+
+#: admin/inc/blog.php:426
+msgid "Comment headline setting"
+msgstr ""
+
+#: admin/inc/blog.php:442 admin/inc/featured.php:403 admin/inc/header.php:255
+#: admin/inc/news.php:345
+msgid "Banner setting"
+msgstr ""
+
+#: admin/inc/blog.php:447
+msgid "Above main content"
+msgstr ""
+
+#: admin/inc/blog.php:450 admin/inc/featured.php:411 admin/inc/news.php:353
+msgid "This banner will be displayed after featured image."
+msgstr ""
+
+#: admin/inc/blog.php:452 admin/inc/blog.php:491 admin/inc/blog.php:531
+#: admin/inc/blog.php:571 admin/inc/featured.php:413 admin/inc/featured.php:452
+#: admin/inc/featured.php:492 admin/inc/featured.php:531
+#: admin/inc/header.php:260 admin/inc/news.php:355 admin/inc/news.php:394
+#: admin/inc/news.php:434 admin/inc/news.php:473
+msgid "Banner code"
+msgstr ""
+
+#: admin/inc/blog.php:454 admin/inc/blog.php:493 admin/inc/blog.php:533
+#: admin/inc/blog.php:573 admin/inc/featured.php:415 admin/inc/featured.php:454
+#: admin/inc/featured.php:494 admin/inc/featured.php:533
+#: admin/inc/header.php:261 admin/inc/news.php:357 admin/inc/news.php:396
+#: admin/inc/news.php:436 admin/inc/news.php:475
+msgid "If you are using google adsense, enter all code below."
+msgstr ""
+
+#: admin/inc/blog.php:458 admin/inc/blog.php:497 admin/inc/blog.php:537
+#: admin/inc/blog.php:577 admin/inc/featured.php:419 admin/inc/featured.php:458
+#: admin/inc/featured.php:498 admin/inc/featured.php:537
+#: admin/inc/header.php:264 admin/inc/news.php:361 admin/inc/news.php:400
+#: admin/inc/news.php:440 admin/inc/news.php:479
+msgid ""
+"If you are not using google adsense, you can register your banner image and "
+"affiliate code individually."
+msgstr ""
+
+#: admin/inc/blog.php:460 admin/inc/blog.php:499 admin/inc/blog.php:539
+#: admin/inc/blog.php:579 admin/inc/featured.php:421 admin/inc/featured.php:460
+#: admin/inc/featured.php:500 admin/inc/featured.php:539
+#: admin/inc/header.php:266 admin/inc/news.php:363 admin/inc/news.php:402
+#: admin/inc/news.php:442 admin/inc/news.php:481
+msgid "Register banner image."
+msgstr ""
+
+#: admin/inc/blog.php:463 admin/inc/blog.php:502 admin/inc/blog.php:542
+#: admin/inc/featured.php:424 admin/inc/featured.php:463
+#: admin/inc/featured.php:503 admin/inc/news.php:366 admin/inc/news.php:405
+#: admin/inc/news.php:445
+#, php-format
+msgid "Maximum image width is %1$spx."
+msgstr ""
+
+#: admin/inc/blog.php:475 admin/inc/blog.php:514 admin/inc/blog.php:554
+#: admin/inc/blog.php:593 admin/inc/featured.php:436 admin/inc/featured.php:475
+#: admin/inc/featured.php:515 admin/inc/featured.php:553
+#: admin/inc/header.php:278 admin/inc/news.php:378 admin/inc/news.php:417
+#: admin/inc/news.php:457 admin/inc/news.php:495
+msgid "Register affiliate code"
+msgstr ""
+
+#: admin/inc/blog.php:486
+msgid "Below main content"
+msgstr ""
+
+#: admin/inc/blog.php:489
+msgid "This banner will be displayed before related post."
+msgstr ""
+
+#: admin/inc/blog.php:525 admin/inc/blog.php:530 admin/inc/featured.php:486
+#: admin/inc/featured.php:491 admin/inc/news.php:428 admin/inc/news.php:433
+msgid "Short code"
+msgstr ""
+
+#: admin/inc/blog.php:528 admin/inc/featured.php:489 admin/inc/news.php:431
+msgid ""
+"Please copy and paste the short code inside the content to show this banner."
+msgstr ""
+
+#: admin/inc/blog.php:565 admin/inc/featured.php:526 admin/inc/news.php:468
+msgid "Mobile device"
+msgstr ""
+
+#: admin/inc/blog.php:568 admin/inc/featured.php:529 admin/inc/news.php:471
+msgid "This banner will be displayed on mobile device."
+msgstr ""
+
+#: admin/inc/blog.php:569
+msgid ""
+"This banner will be display above related post and will be repleace by "
+"banner for PC device."
+msgstr ""
+
+#: admin/inc/featured.php:26 admin/inc/featured.php:36
+#: admin/inc/featured.php:144 admin/inc/front_page.php:281
+#: admin/inc/front_page.php:1523 admin/inc/front_page.php:1569
+#: admin/inc/front_page_mobile.php:61 admin/inc/front_page_mobile.php:1086
+#: admin/inc/front_page_mobile.php:1132 admin/inc/header.php:127
+#: functions.php:834
+msgid "Featured"
+msgstr ""
+
+#: admin/inc/featured.php:40 functions.php:867 functions/admin_column.php:49
+msgid "Featured category"
+msgstr ""
+
+#: admin/inc/featured.php:58 admin/inc/front_page.php:280
+#: admin/inc/front_page.php:1522 admin/inc/front_page.php:1568
+#: admin/inc/front_page_mobile.php:60 admin/inc/front_page_mobile.php:1085
+#: admin/inc/front_page_mobile.php:1131 admin/inc/news.php:26
+#: admin/inc/news.php:36 admin/inc/news.php:53 admin/inc/news.php:123
+#: functions.php:787
+msgid "News"
+msgstr ""
+
+#: admin/inc/featured.php:107
+msgid "Related featured"
+msgstr ""
+
+#: admin/inc/featured.php:160 admin/inc/gallery.php:153 admin/inc/news.php:139
+msgid "Slug setting"
+msgstr ""
+
+#: admin/inc/featured.php:162 admin/inc/featured.php:169
+#: admin/inc/gallery.php:155 admin/inc/gallery.php:162 admin/inc/news.php:141
+msgid ""
+"Please enter word by alphabet only.<br />After changing slug, please update "
+"permalink setting form <a href=\"./options-permalink.php\"><strong>permalink "
+"option page</strong></a>."
+msgstr ""
+
+#: admin/inc/featured.php:165 admin/inc/gallery.php:158
+#, php-format
+msgid "Name of %s category"
+msgstr ""
+
+#: admin/inc/featured.php:167 admin/inc/gallery.php:160
+#, php-format
+msgid "%s category slug setting"
+msgstr ""
+
+#: admin/inc/featured.php:172
+msgid "Subtitle of content"
+msgstr ""
+
+#: admin/inc/featured.php:174
+msgid "This subtitle will be displayed near post number."
+msgstr ""
+
+#: admin/inc/featured.php:177
+msgid "Color of post number"
+msgstr ""
+
+#: admin/inc/featured.php:257 admin/inc/front_page.php:1675
+#: admin/inc/front_page.php:1844 admin/inc/front_page.php:1975
+#: admin/inc/front_page_mobile.php:1224 admin/inc/front_page_mobile.php:1381
+#: admin/inc/front_page_mobile.php:1489 admin/inc/gallery.php:243
+msgid "Icon setting"
+msgstr ""
+
+#: admin/inc/featured.php:273 admin/inc/front_page.php:1860
+#: admin/inc/front_page.php:2016 admin/inc/front_page.php:2100
+#: admin/inc/front_page_mobile.php:1395 admin/inc/front_page_mobile.php:1526
+#: admin/inc/front_page_mobile.php:1597 admin/inc/gallery.php:267
+#: admin/inc/gallery.php:347 admin/inc/news.php:238
+#, php-format
+msgid "%s list setting"
+msgstr ""
+
+#: admin/inc/featured.php:275
+msgid "Excerpt will be displayed only in small size layout."
+msgstr ""
+
+#: admin/inc/featured.php:279
+msgid "Layout"
+msgstr ""
+
+#: admin/inc/featured.php:281
+msgid "Display in three diffrent size"
+msgstr ""
+
+#: admin/inc/featured.php:282
+msgid "Display in large size only"
+msgstr ""
+
+#: admin/inc/featured.php:283
+msgid "Display in middle size only"
+msgstr ""
+
+#: admin/inc/featured.php:284
+msgid "Display in small size only"
+msgstr ""
+
+#: admin/inc/featured.php:295 admin/inc/front_page.php:1876
+#: admin/inc/front_page_mobile.php:1404
+msgid "Font size of large size post title"
+msgstr ""
+
+#: admin/inc/featured.php:296 admin/inc/front_page.php:1877
+msgid "Font size of large size post title (mobile)"
+msgstr ""
+
+#: admin/inc/featured.php:297
+msgid "Font size of middle size post title"
+msgstr ""
+
+#: admin/inc/featured.php:298
+msgid "Font size of middle size post title (mobile)"
+msgstr ""
+
+#: admin/inc/featured.php:299 admin/inc/front_page.php:1878
+#: admin/inc/front_page_mobile.php:1405
+msgid "Font size of small size post title"
+msgstr ""
+
+#: admin/inc/featured.php:300 admin/inc/front_page.php:1879
+msgid "Font size of small size post title (mobile)"
+msgstr ""
+
+#: admin/inc/featured.php:301
+msgid "Font size of excerpt"
+msgstr ""
+
+#: admin/inc/featured.php:302
+msgid "Font size of excerpt (mobile)"
+msgstr ""
+
+#: admin/inc/featured.php:304 admin/inc/featured.php:342
+#: admin/inc/featured.php:359 admin/inc/featured.php:389
+#: admin/inc/front_page.php:1883 admin/inc/front_page_mobile.php:1408
+msgid "Display post number"
+msgstr ""
+
+#: admin/inc/featured.php:353
+msgid "Data list setting"
+msgstr ""
+
+#: admin/inc/featured.php:355
+msgid "Font color of headline"
+msgstr ""
+
+#: admin/inc/featured.php:356
+msgid "Background color of headline"
+msgstr ""
+
+#: admin/inc/featured.php:360
+msgid "Background color of data list"
+msgstr ""
+
+#: admin/inc/featured.php:408 admin/inc/news.php:350
+msgid "Under featured image"
+msgstr ""
+
+#: admin/inc/featured.php:447
+msgid "Above related post"
+msgstr ""
+
+#: admin/inc/featured.php:450
+msgid "This banner will be displayed before related post"
+msgstr ""
+
+#: admin/inc/footer.php:25
+msgid "Footer"
+msgstr ""
+
+#: admin/inc/footer.php:119
+msgid "Banner contents setting"
+msgstr ""
+
+#: admin/inc/footer.php:138
+msgid "Content setting"
+msgstr ""
+
+#: admin/inc/footer.php:141
+#, php-format
+msgid "Content%s setting"
+msgstr ""
+
+#: admin/inc/footer.php:143 admin/inc/front_page.php:2166
+#: admin/inc/front_page_mobile.php:1655
+msgid "Display banner content"
+msgstr ""
+
+#: admin/inc/footer.php:148 admin/inc/footer.php:185
+#: admin/inc/front_page.php:994 admin/inc/front_page.php:996
+#: admin/inc/front_page.php:1025 admin/inc/logo.php:236
+#: admin/inc/marketing.php:214 admin/inc/marketing.php:264
+#: admin/inc/marketing.php:308 admin/inc/marketing.php:521
+#: admin/inc/marketing.php:665 admin/inc/options.php:208
+#: admin/inc/options.php:269 admin/inc/options.php:294
+#: functions/gallery_category.php:174 functions/gallery_category.php:203
+#: functions/gallery_cf.php:38 functions/gallery_cf.php:46
+#: functions/gallery_cf.php:47 functions/gallery_cf.php:50
+#: functions/gallery_cf.php:51 functions/gallery_cf.php:56
+#: functions/gallery_cf.php:57 functions/gallery_cf.php:60
+#: functions/gallery_cf.php:61 functions/page_builder.php:78
+#: functions/page_builder.php:259 functions/page_lp.php:1003
+#: functions/page_lp.php:1040 functions/page_lp.php:1203
+#: functions/page_lp.php:1205 functions/page_lp.php:1233 widget/banner.php:211
+msgid "Image"
+msgstr ""
+
+#: admin/inc/footer.php:179
+msgid "Logo area setting"
+msgstr ""
+
+#: admin/inc/footer.php:181
+msgid "Background setting"
+msgstr ""
+
+#: admin/inc/footer.php:189 admin/inc/options.php:270 admin/inc/options.php:295
+msgid "Video"
+msgstr ""
+
+#: admin/inc/footer.php:207 admin/inc/front_page.php:378
+#: admin/inc/front_page.php:708 admin/inc/front_page.php:2252
+#: functions/page_cf.php:264 functions/page_lp.php:1288
+msgid "Background image (mobile)"
+msgstr ""
+
+#: admin/inc/footer.php:223 admin/inc/front_page.php:332
+#: admin/inc/front_page.php:662 admin/inc/front_page_mobile.php:121
+#: admin/inc/front_page_mobile.php:396
+msgid "Video setting"
+msgstr ""
+
+#: admin/inc/footer.php:225 admin/inc/front_page.php:334
+#: admin/inc/front_page.php:664 admin/inc/front_page_mobile.php:123
+#: admin/inc/front_page_mobile.php:398
+msgid "Please upload MP4 format file."
+msgstr ""
+
+#: admin/inc/footer.php:226 admin/inc/front_page.php:335
+#: admin/inc/front_page.php:356 admin/inc/front_page.php:665
+#: admin/inc/front_page.php:686 admin/inc/front_page_mobile.php:124
+#: admin/inc/front_page_mobile.php:145 admin/inc/front_page_mobile.php:399
+#: admin/inc/front_page_mobile.php:420
+msgid ""
+"Web browser takes few second to load the data of video so we recommend to "
+"use loading screen if you want to display video."
+msgstr ""
+
+#: admin/inc/footer.php:233 admin/inc/front_page.php:341
+#: admin/inc/front_page.php:671 admin/inc/front_page_mobile.php:130
+#: admin/inc/front_page_mobile.php:405
+msgid "Uploaded MP4 file"
+msgstr ""
+
+#: admin/inc/footer.php:238 admin/inc/front_page.php:346
+#: admin/inc/front_page.php:676 admin/inc/front_page_mobile.php:135
+#: admin/inc/front_page_mobile.php:410
+msgid "Select MP4 file"
+msgstr ""
+
+#: admin/inc/footer.php:239 admin/inc/front_page.php:347
+#: admin/inc/front_page.php:677 admin/inc/front_page_mobile.php:136
+#: admin/inc/front_page_mobile.php:411
+msgid "Remove MP4 file"
+msgstr ""
+
+#: admin/inc/footer.php:243
+msgid "Substitute image"
+msgstr ""
+
+#: admin/inc/footer.php:245 admin/inc/front_page.php:364
+#: admin/inc/front_page.php:694 admin/inc/front_page_mobile.php:153
+#: admin/inc/front_page_mobile.php:428
+msgid ""
+"If the mobile device can't play video this image will be displayed instead."
+msgstr ""
+
+#: admin/inc/footer.php:258
+msgid "Overlay setting for background"
+msgstr ""
+
+#: admin/inc/footer.php:272 admin/inc/front_page.php:299
+#: admin/inc/front_page_mobile.php:92 functions/page_cf.php:291
+msgid "Display logo"
+msgstr ""
+
+#: admin/inc/footer.php:274 admin/inc/front_page.php:301
+#: admin/inc/front_page_mobile.php:94
+msgid "Please register logo image from Logo option section."
+msgstr ""
+
+#: admin/inc/footer.php:276
+msgid "Message setting"
+msgstr ""
+
+#: admin/inc/footer.php:293
+msgid "Return top link button setting"
+msgstr ""
+
+#: admin/inc/footer.php:310 admin/inc/footer.php:396 admin/inc/footer.php:540
+#: admin/inc/front_page.php:496 admin/inc/front_page.php:826
+#: admin/inc/front_page.php:1713 admin/inc/front_page.php:1900
+#: admin/inc/front_page.php:2220 admin/inc/front_page_mobile.php:239
+#: admin/inc/front_page_mobile.php:514 admin/inc/front_page_mobile.php:1259
+#: admin/inc/front_page_mobile.php:1425 admin/inc/front_page_mobile.php:1707
+#: admin/inc/header.php:178 admin/inc/header.php:219 admin/inc/header.php:252
+#: admin/inc/header.php:372 admin/inc/marketing.php:435
+#: admin/inc/marketing.php:469 admin/inc/marketing.php:512
+#: admin/inc/quicktag.php:318 functions/page_lp.php:845
+#: functions/page_lp.php:1086 functions/page_lp.php:1380
+msgid "Background color on mouseover"
+msgstr ""
+
+#: admin/inc/footer.php:332
+msgid "Copyright setting"
+msgstr ""
+
+#: admin/inc/footer.php:361
+msgid "Footer bar setting (mobile device only)"
+msgstr ""
+
+#: admin/inc/footer.php:364
+msgid "Footer bar will only be displayed at mobile device."
+msgstr ""
+
+#: admin/inc/footer.php:366
+msgid "Display type of the footer bar"
+msgstr ""
+
+#: admin/inc/footer.php:378
+msgid "Footer bar type"
+msgstr ""
+
+#: admin/inc/footer.php:382
+msgid "Button with icon"
+msgstr ""
+
+#: admin/inc/footer.php:386
+msgid "Normal button"
+msgstr ""
+
+#: admin/inc/footer.php:392
+msgid "Settings for the appearance of the footer bar"
+msgstr ""
+
+#: admin/inc/footer.php:397 admin/inc/front_page.php:488
+#: admin/inc/front_page.php:818 admin/inc/front_page.php:1711
+#: admin/inc/front_page.php:1898 admin/inc/front_page.php:2212
+#: admin/inc/front_page_mobile.php:231 admin/inc/front_page_mobile.php:506
+#: admin/inc/front_page_mobile.php:1257 admin/inc/front_page_mobile.php:1423
+#: admin/inc/front_page_mobile.php:1699 admin/inc/header.php:253
+#: admin/inc/marketing.php:482 admin/inc/marketing.php:568
+#: admin/inc/quicktag.php:310 admin/inc/quicktag.php:415
+#: functions/page_lp.php:843 functions/page_lp.php:1084
+#: functions/page_lp.php:1372
+msgid "Border color"
+msgstr ""
+
+#: admin/inc/footer.php:399
+msgid "Opacity of border"
+msgstr ""
+
+#: admin/inc/footer.php:401 admin/inc/quicktag.php:237
+msgid "Please enter 0 if you don't want to display border."
+msgstr ""
+
+#: admin/inc/footer.php:405
+msgid "Settings for the contents of the footer bar"
+msgstr ""
+
+#: admin/inc/footer.php:407
+msgid ""
+"You can display the button with icon in footer bar. (We recommend you to set "
+"max 4 buttons.)"
+msgstr ""
+
+#: admin/inc/footer.php:407
+msgid "You can select button types below."
+msgstr ""
+
+#: admin/inc/footer.php:411 admin/inc/options.php:101
+msgid "Default"
+msgstr ""
+
+#: admin/inc/footer.php:412
+msgid "You can set link URL."
+msgstr ""
+
+#: admin/inc/footer.php:415 admin/inc/options.php:102
+msgid "Share"
+msgstr ""
+
+#: admin/inc/footer.php:416
+msgid "Share buttons are displayed if you tap this button."
+msgstr ""
+
+#: admin/inc/footer.php:419 admin/inc/options.php:103
+msgid "Telephone"
+msgstr ""
+
+#: admin/inc/footer.php:420
+msgid "You can call this number."
+msgstr ""
+
+#: admin/inc/footer.php:423
+msgid ""
+"Click \"Add item\", and set the button for footer bar. You can drag the item "
+"to change their order."
+msgstr ""
+
+#: admin/inc/footer.php:426 admin/inc/front_page.php:313
+#: admin/inc/front_page.php:988 admin/inc/front_page_mobile.php:102
+#: admin/inc/header.php:323 functions/featured_cf.php:50
+#: functions/gallery_category.php:160 functions/gallery_cf.php:70
+#: functions/page_lp.php:985 functions/page_lp.php:1196
+#: functions/page_lp.php:1570
+msgid "Delete?"
+msgstr ""
+
+#: admin/inc/footer.php:435 admin/inc/footer.php:487 admin/inc/header.php:280
+#: widget/banner.php:227
+msgid "Open with new window"
+msgstr ""
+
+#: admin/inc/footer.php:437 admin/inc/footer.php:478 admin/inc/quicktag.php:291
+msgid "Button type"
+msgstr ""
+
+#: admin/inc/footer.php:444 admin/inc/footer.php:485
+msgid "Button label"
+msgstr ""
+
+#: admin/inc/footer.php:445 admin/inc/footer.php:486 widget/banner.php:223
+msgid "Link URL"
+msgstr ""
+
+#: admin/inc/footer.php:446 admin/inc/footer.php:488
+msgid "Phone number"
+msgstr ""
+
+#: admin/inc/footer.php:448 admin/inc/footer.php:490
+msgid "Button icon"
+msgstr ""
+
+#: admin/inc/footer.php:456 admin/inc/footer.php:498
+#: admin/inc/front_page.php:594 admin/inc/front_page.php:924
+#: admin/inc/front_page.php:1010 admin/inc/front_page.php:1039
+#: admin/inc/front_page_mobile.php:335 admin/inc/front_page_mobile.php:610
+#: admin/inc/header.php:336 admin/inc/header.php:358
+#: functions/featured_cf.php:62 functions/featured_cf.php:78
+#: functions/gallery_category.php:185 functions/gallery_category.php:214
+#: functions/gallery_cf.php:82 functions/gallery_cf.php:98
+#: functions/page_lp.php:1016 functions/page_lp.php:1053
+#: functions/page_lp.php:1218 functions/page_lp.php:1246
+msgid "Delete item"
+msgstr ""
+
+#: admin/inc/footer.php:474 admin/inc/front_page.php:649
+#: admin/inc/front_page.php:1023 admin/inc/front_page_mobile.php:383
+#: admin/inc/header.php:351 functions.php:794 functions.php:841
+#: functions.php:902 functions/featured_cf.php:56 functions/featured_cf.php:72
+#: functions/gallery_category.php:166 functions/gallery_category.php:195
+#: functions/gallery_cf.php:76 functions/gallery_cf.php:92
+#: functions/page_builder.php:645
+msgid "New item"
+msgstr ""
+
+#: admin/inc/footer.php:505 admin/inc/front_page.php:931
+#: admin/inc/front_page.php:1046 admin/inc/front_page_mobile.php:617
+#: admin/inc/header.php:365 functions/featured_cf.php:85
+#: functions/gallery_category.php:221 functions/gallery_cf.php:105
+#: functions/page_builder.php:639 functions/page_lp.php:1061
+#: functions/page_lp.php:1254
+msgid "Add item"
+msgstr ""
+
+#: admin/inc/footer.php:512 admin/inc/front_page.php:477
+#: admin/inc/front_page.php:807 admin/inc/front_page.php:1698
+#: admin/inc/front_page.php:1886 admin/inc/front_page.php:2199
+#: admin/inc/front_page_mobile.php:220 admin/inc/front_page_mobile.php:495
+#: admin/inc/front_page_mobile.php:1244 admin/inc/front_page_mobile.php:1411
+#: admin/inc/front_page_mobile.php:1686 admin/inc/marketing.php:427
+#: admin/inc/marketing.php:461 admin/inc/marketing.php:504
+#: admin/inc/quicktag.php:281 functions/page_lp.php:827
+#: functions/page_lp.php:1068 functions/page_lp.php:1356
+msgid "Button setting"
+msgstr ""
+
+#: admin/inc/footer.php:518
+#, php-format
+msgid "Button%s setting"
+msgstr ""
+
+#: admin/inc/footer.php:520
+#, php-format
+msgid "Display button%s"
+msgstr ""
+
+#: admin/inc/footer.php:523 admin/inc/front_page.php:484
+#: admin/inc/front_page.php:814 admin/inc/front_page.php:1708
+#: admin/inc/front_page.php:1896 admin/inc/front_page.php:2060
+#: admin/inc/front_page.php:2209 admin/inc/front_page_mobile.php:227
+#: admin/inc/front_page_mobile.php:502 admin/inc/front_page_mobile.php:1254
+#: admin/inc/front_page_mobile.php:1421 admin/inc/front_page_mobile.php:1560
+#: admin/inc/front_page_mobile.php:1696 functions/gallery_cf.php:113
+#: functions/page_lp.php:839 functions/page_lp.php:1080
+#: functions/page_lp.php:1368
+msgid "label"
+msgstr ""
+
+#: admin/inc/front_page.php:25
+msgid "Front page"
+msgstr ""
+
+#: admin/inc/front_page.php:50
+msgid "Description will be displayed here."
+msgstr ""
+
+#: admin/inc/front_page.php:90 admin/inc/front_page_mobile.php:43
+msgid "MORE"
+msgstr ""
+
+#: admin/inc/front_page.php:135 admin/inc/front_page.php:207
+#: admin/inc/front_page.php:243
+msgid ""
+"Description will be displayed here.<br />Description will be displayed here."
+msgstr ""
+
+#: admin/inc/front_page.php:291 admin/inc/front_page_mobile.php:71
+msgid "Header content setting"
+msgstr ""
+
+#: admin/inc/front_page.php:294
+msgid "Display header content"
+msgstr ""
+
+#: admin/inc/front_page.php:298 admin/inc/front_page_mobile.php:91
+msgid "Header logo"
+msgstr ""
+
+#: admin/inc/front_page.php:304 admin/inc/front_page_mobile.php:97
+msgid "Slider setting"
+msgstr ""
+
+#: admin/inc/front_page.php:307 admin/inc/front_page.php:982
+#: admin/inc/header.php:318 functions/gallery_category.php:152
+#: functions/page_lp.php:982 functions/page_lp.php:1192
+msgid ""
+"Click add item button to start this option.<br />You can change order by "
+"dragging each headline of option field."
+msgstr ""
+
+#: admin/inc/front_page.php:319 admin/inc/front_page_mobile.php:108
+#: admin/inc/header.php:329
+msgid "Item"
+msgstr ""
+
+#: admin/inc/front_page.php:321 admin/inc/front_page.php:651
+#: admin/inc/front_page_mobile.php:110 admin/inc/front_page_mobile.php:385
+msgid "Slider type"
+msgstr ""
+
+#: admin/inc/front_page.php:353 admin/inc/front_page.php:683
+#: admin/inc/front_page_mobile.php:142 admin/inc/front_page_mobile.php:417
+msgid "Youtube setting"
+msgstr ""
+
+#: admin/inc/front_page.php:355 admin/inc/front_page.php:685
+#: admin/inc/front_page_mobile.php:144 admin/inc/front_page_mobile.php:419
+msgid "Please enter Youtube URL."
+msgstr ""
+
+#: admin/inc/front_page.php:394 admin/inc/front_page.php:724
+#: admin/inc/front_page_mobile.php:169 admin/inc/front_page_mobile.php:444
+msgid "Animation of background image"
+msgstr ""
+
+#: admin/inc/front_page.php:402 admin/inc/front_page.php:732
+#: admin/inc/front_page_mobile.php:177 admin/inc/front_page_mobile.php:452
+#: admin/inc/logo.php:100 admin/inc/logo.php:168 functions/page_cf.php:311
+#: functions/page_cf.php:318
+msgid "Logo image"
+msgstr ""
+
+#: admin/inc/front_page.php:417 admin/inc/front_page.php:747
+#: admin/inc/front_page_mobile.php:192 admin/inc/front_page_mobile.php:467
+msgid "Logo image preview"
+msgstr ""
+
+#: admin/inc/front_page.php:419 admin/inc/front_page.php:442
+#: admin/inc/front_page.php:749 admin/inc/front_page.php:772
+#: admin/inc/front_page_mobile.php:194 admin/inc/front_page_mobile.php:469
+msgid ""
+"You can change the image size by moving the mouse cursor over the image and "
+"dragging the arrow. Double-click on the image to return to the original size."
+msgstr ""
+
+#: admin/inc/front_page.php:425 admin/inc/front_page.php:755
+#: admin/inc/logo.php:118 admin/inc/logo.php:186 functions/page_cf.php:320
+#: functions/page_cf.php:321
+msgid "Logo image (mobile)"
+msgstr ""
+
+#: admin/inc/front_page.php:440 admin/inc/front_page.php:770
+msgid "Logo image preview (mobile)"
+msgstr ""
+
+#: admin/inc/front_page.php:468 admin/inc/front_page.php:798
+#: functions/page_cf.php:247 functions/page_lp.php:1350
+msgid "Description (mobile)"
+msgstr ""
+
+#: admin/inc/front_page.php:469 admin/inc/front_page.php:799
+msgid "Display description in mobile device width"
+msgstr ""
+
+#: admin/inc/front_page.php:478 admin/inc/front_page.php:808
+#: admin/inc/front_page.php:1699 admin/inc/front_page.php:1887
+#: admin/inc/front_page.php:2200 admin/inc/front_page_mobile.php:221
+#: admin/inc/front_page_mobile.php:496 admin/inc/front_page_mobile.php:1245
+#: admin/inc/front_page_mobile.php:1412 admin/inc/front_page_mobile.php:1687
+#: admin/inc/protect.php:78 functions/page_lp.php:830
+#: functions/page_lp.php:1071 functions/page_lp.php:1359
+msgid "Display button"
+msgstr ""
+
+#: admin/inc/front_page.php:481 admin/inc/front_page.php:811
+#: admin/inc/front_page.php:1702 admin/inc/front_page.php:1890
+#: admin/inc/front_page.php:2203 admin/inc/front_page_mobile.php:224
+#: admin/inc/front_page_mobile.php:499 admin/inc/front_page_mobile.php:1248
+#: admin/inc/front_page_mobile.php:1415 admin/inc/front_page_mobile.php:1690
+#: functions/page_lp.php:833 functions/page_lp.php:1074
+#: functions/page_lp.php:1362
+msgid ""
+"Main color will be apply for default background color, and sub color will be "
+"apply for mouseover background color.<br>You can change both color from "
+"\"Color setting\" section in \"Basic setting\" theme option menu."
+msgstr ""
+
+#: admin/inc/front_page.php:490 admin/inc/front_page.php:820
+#: admin/inc/front_page.php:2214 admin/inc/front_page_mobile.php:233
+#: admin/inc/front_page_mobile.php:508 admin/inc/front_page_mobile.php:1701
+#: admin/inc/quicktag.php:312 functions/page_lp.php:1374
+msgid "Transparency of border"
+msgstr ""
+
+#: admin/inc/front_page.php:495 admin/inc/front_page.php:825
+#: admin/inc/front_page_mobile.php:238 admin/inc/front_page_mobile.php:513
+#: admin/inc/logo.php:164 admin/inc/logo.php:232 admin/inc/marketing.php:207
+#: admin/inc/marketing.php:256 admin/inc/marketing.php:301
+#: admin/inc/marketing.php:434 admin/inc/marketing.php:447
+#: admin/inc/marketing.php:468 admin/inc/marketing.php:490
+#: admin/inc/marketing.php:511 admin/inc/marketing.php:576
+#: admin/inc/quicktag.php:317
+msgid "Font color on mouseover"
+msgstr ""
+
+#: admin/inc/front_page.php:497 admin/inc/front_page.php:827
+#: admin/inc/front_page.php:1714 admin/inc/front_page.php:1901
+#: admin/inc/front_page.php:2221 admin/inc/front_page_mobile.php:240
+#: admin/inc/front_page_mobile.php:515 admin/inc/front_page_mobile.php:1260
+#: admin/inc/front_page_mobile.php:1426 admin/inc/front_page_mobile.php:1708
+#: admin/inc/quicktag.php:319 functions/page_lp.php:846
+#: functions/page_lp.php:1087 functions/page_lp.php:1381
+msgid "Border color on mouseover"
+msgstr ""
+
+#: admin/inc/front_page.php:499 admin/inc/front_page.php:829
+#: admin/inc/front_page.php:2223 admin/inc/front_page_mobile.php:242
+#: admin/inc/front_page_mobile.php:517 admin/inc/front_page_mobile.php:1710
+#: admin/inc/quicktag.php:321 functions/page_lp.php:1383
+msgid "Transparency of border on mouseover"
+msgstr ""
+
+#: admin/inc/front_page.php:504 admin/inc/front_page.php:834
+#: admin/inc/front_page.php:1715 admin/inc/front_page.php:1902
+#: admin/inc/front_page.php:2228 admin/inc/front_page_mobile.php:247
+#: admin/inc/front_page_mobile.php:522 admin/inc/front_page_mobile.php:1261
+#: admin/inc/front_page_mobile.php:1427 admin/inc/front_page_mobile.php:1715
+#: admin/inc/quicktag.php:326 functions/page_lp.php:847
+#: functions/page_lp.php:1088 functions/page_lp.php:1388
+msgid "Hover effect"
+msgstr ""
+
+#: admin/inc/front_page.php:506 admin/inc/front_page.php:836
+#: admin/inc/front_page.php:1717 admin/inc/front_page.php:1904
+#: admin/inc/front_page.php:2230 admin/inc/front_page_mobile.php:249
+#: admin/inc/front_page_mobile.php:524 admin/inc/front_page_mobile.php:1263
+#: admin/inc/front_page_mobile.php:1429 admin/inc/front_page_mobile.php:1717
+#: admin/inc/quicktag.php:328 functions/page_lp.php:849
+#: functions/page_lp.php:1090 functions/page_lp.php:1390
+msgid "No hover effect"
+msgstr ""
+
+#: admin/inc/front_page.php:507 admin/inc/front_page.php:837
+#: admin/inc/front_page.php:1718 admin/inc/front_page.php:1905
+#: admin/inc/front_page.php:2231 admin/inc/front_page_mobile.php:250
+#: admin/inc/front_page_mobile.php:525 admin/inc/front_page_mobile.php:1264
+#: admin/inc/front_page_mobile.php:1430 admin/inc/front_page_mobile.php:1718
+#: admin/inc/quicktag.php:329 functions/page_lp.php:850
+#: functions/page_lp.php:1091 functions/page_lp.php:1391
+msgid "Swipe animation"
+msgstr ""
+
+#: admin/inc/front_page.php:508 admin/inc/front_page.php:838
+#: admin/inc/front_page.php:1719 admin/inc/front_page.php:1906
+#: admin/inc/front_page.php:2232 admin/inc/front_page_mobile.php:251
+#: admin/inc/front_page_mobile.php:526 admin/inc/front_page_mobile.php:1265
+#: admin/inc/front_page_mobile.php:1431 admin/inc/front_page_mobile.php:1719
+#: admin/inc/quicktag.php:330 functions/page_lp.php:851
+#: functions/page_lp.php:1092 functions/page_lp.php:1392
+msgid "Diagonal swipe animation"
+msgstr ""
+
+#: admin/inc/front_page.php:523 admin/inc/front_page.php:853
+#: admin/inc/front_page.php:1725 admin/inc/front_page_mobile.php:266
+#: admin/inc/front_page_mobile.php:541 admin/inc/front_page_mobile.php:1271
+#: functions/page_lp.php:857 functions/page_lp.php:1098
+#: functions/page_lp.php:1404
+msgid "Layer image"
+msgstr ""
+
+#: admin/inc/front_page.php:525 admin/inc/front_page.php:855
+#: admin/inc/front_page_mobile.php:268 admin/inc/front_page_mobile.php:543
+msgid "Layer image will be displayed at the four corners of each item."
+msgstr ""
+
+#: admin/inc/front_page.php:527 admin/inc/front_page.php:857
+#: admin/inc/front_page.php:1729 admin/inc/front_page_mobile.php:270
+#: admin/inc/front_page_mobile.php:545 admin/inc/front_page_mobile.php:1275
+#: functions/page_lp.php:862 functions/page_lp.php:1103
+#: functions/page_lp.php:1400
+msgid "Display layer image"
+msgstr ""
+
+#: admin/inc/front_page.php:531 admin/inc/front_page.php:861
+#: admin/inc/front_page.php:1733 admin/inc/front_page_mobile.php:274
+#: admin/inc/front_page_mobile.php:549 admin/inc/front_page_mobile.php:1279
+#: functions/page_lp.php:866 functions/page_lp.php:1107
+msgid "Left top"
+msgstr ""
+
+#: admin/inc/front_page.php:544 admin/inc/front_page.php:874
+#: admin/inc/front_page.php:1746 admin/inc/front_page_mobile.php:287
+#: admin/inc/front_page_mobile.php:562 admin/inc/front_page_mobile.php:1292
+#: functions/page_lp.php:879 functions/page_lp.php:1120
+msgid "Right top"
+msgstr ""
+
+#: admin/inc/front_page.php:559 admin/inc/front_page.php:889
+#: admin/inc/front_page.php:1761 admin/inc/front_page_mobile.php:302
+#: admin/inc/front_page_mobile.php:577 admin/inc/front_page_mobile.php:1307
+#: functions/page_lp.php:894 functions/page_lp.php:1135
+msgid "Left bottom"
+msgstr ""
+
+#: admin/inc/front_page.php:572 admin/inc/front_page.php:902
+#: admin/inc/front_page.php:1774 admin/inc/front_page_mobile.php:315
+#: admin/inc/front_page_mobile.php:590 admin/inc/front_page_mobile.php:1320
+#: functions/page_lp.php:907 functions/page_lp.php:1148
+msgid "Right bottom"
+msgstr ""
+
+#: admin/inc/front_page.php:585 admin/inc/front_page.php:915
+#: admin/inc/front_page_mobile.php:328 admin/inc/front_page_mobile.php:603
+msgid "Animation of layer image"
+msgstr ""
+
+#: admin/inc/front_page.php:591 admin/inc/front_page.php:921
+msgid "Hide layer image in mobile device size"
+msgstr ""
+
+#: admin/inc/front_page.php:592 admin/inc/front_page.php:922
+msgid "Hide layer image"
+msgstr ""
+
+#: admin/inc/front_page.php:935 admin/inc/front_page_mobile.php:621
+msgid "Animation setting"
+msgstr ""
+
+#: admin/inc/front_page.php:937 admin/inc/front_page_mobile.php:623
+msgid ""
+"Please check the checkbox below if you want to stop animation of header "
+"logo, slider content, and arrow message."
+msgstr ""
+
+#: admin/inc/front_page.php:939 admin/inc/front_page_mobile.php:625
+msgid "Stop all animation in header content."
+msgstr ""
+
+#: admin/inc/front_page.php:942 admin/inc/front_page_mobile.php:628
+msgid "Slider speed setting"
+msgstr ""
+
+#: admin/inc/front_page.php:958 admin/inc/front_page_mobile.php:644
+msgid "Arrow message setting"
+msgstr ""
+
+#: admin/inc/front_page.php:977
+msgid "Image carousel setting"
+msgstr ""
+
+#: admin/inc/front_page.php:979
+msgid "Display image carousel"
+msgstr ""
+
+#: admin/inc/front_page.php:983 functions/page_lp.php:1193
+msgid ""
+"Image carousel will be used if registered item is more than 5. Please use as "
+"mini image gallery."
+msgstr ""
+
+#: admin/inc/front_page.php:1060 admin/inc/front_page_mobile.php:662
+msgid "Content builder"
+msgstr ""
+
+#: admin/inc/front_page.php:1066
+msgid "Use content builder"
+msgstr ""
+
+#: admin/inc/front_page.php:1070 admin/inc/front_page_mobile.php:676
+msgid "Use page content instead of content builder"
+msgstr ""
+
+#: admin/inc/front_page.php:1080 admin/inc/front_page_mobile.php:690
+#, php-format
+msgid ""
+"Please set content from <a href=\"post.php?post=%s&action=edit\" target="
+"\"_blank\">Front page edit screen</a>."
+msgstr ""
+
+#: admin/inc/front_page.php:1091 admin/inc/front_page_mobile.php:701
+msgid ""
+"<p>You can build contents freely with this function.</p><br /><p>STEP1: "
+"Click Add content button.<br />STEP2: Select content from dropdown menu.<br /"
+">STEP3: Input data and save the option.</p><br /><p>You can change order by "
+"dragging MOVE button and you can delete content by clicking DELETE button.</"
+"p>"
+msgstr ""
+
+#: admin/inc/front_page.php:1093 admin/inc/front_page_mobile.php:703
+#: functions/page_lp.php:33
+msgid "Content image"
+msgstr ""
+
+#: admin/inc/front_page.php:1095 admin/inc/front_page.php:1528
+#: admin/inc/front_page.php:1625 admin/inc/front_page_mobile.php:705
+#: admin/inc/front_page_mobile.php:1091 admin/inc/front_page_mobile.php:1184
+#: functions/page_lp.php:36 functions/page_lp.php:503
+msgid "Design content"
+msgstr ""
+
+#: admin/inc/front_page.php:1096 admin/inc/front_page.php:1529
+#: admin/inc/front_page.php:1830 admin/inc/front_page_mobile.php:706
+#: admin/inc/front_page_mobile.php:1092 admin/inc/front_page_mobile.php:1370
+#, php-format
+msgid "%s post list"
+msgstr ""
+
+#: admin/inc/front_page.php:1097 admin/inc/front_page.php:1098
+#: admin/inc/front_page.php:1530 admin/inc/front_page.php:1531
+#: admin/inc/front_page.php:1961 admin/inc/front_page.php:2086
+#: admin/inc/front_page_mobile.php:707 admin/inc/front_page_mobile.php:708
+#: admin/inc/front_page_mobile.php:1093 admin/inc/front_page_mobile.php:1094
+#: admin/inc/front_page_mobile.php:1478 admin/inc/front_page_mobile.php:1583
+#, php-format
+msgid "%s list"
+msgstr ""
+
+#: admin/inc/front_page.php:1099 admin/inc/front_page.php:1532
+#: admin/inc/front_page.php:2161 admin/inc/front_page_mobile.php:709
+#: admin/inc/front_page_mobile.php:1095 admin/inc/front_page_mobile.php:1650
+msgid "Banner content"
+msgstr ""
+
+#: admin/inc/front_page.php:1110 admin/inc/front_page_mobile.php:720
+#: functions/page_lp.php:48
+msgid "Click Add content button to start content builder"
+msgstr ""
+
+#: admin/inc/front_page.php:1118 admin/inc/front_page.php:1143
+#: admin/inc/front_page_mobile.php:728 admin/inc/front_page_mobile.php:753
+#: functions/page_builder.php:615 functions/page_builder.php:653
+#: functions/page_lp.php:56 functions/page_lp.php:84
+msgid "Move"
+msgstr ""
+
+#: admin/inc/front_page.php:1119 admin/inc/front_page.php:1144
+#: admin/inc/front_page_mobile.php:729 admin/inc/front_page_mobile.php:754
+#: functions/page_builder.php:616 functions/page_builder.php:654
+#: functions/page_builder.php:956 functions/page_builder.php:1011
+#: functions/page_lp.php:57 functions/page_lp.php:85
+msgid "Delete"
+msgstr ""
+
+#: admin/inc/front_page.php:1135 admin/inc/front_page_mobile.php:745
+#: functions/page_lp.php:77
+msgid "Add content"
+msgstr ""
+
+#: admin/inc/front_page.php:1533 admin/inc/front_page.php:2308
+#: admin/inc/front_page.php:2326 admin/inc/front_page_mobile.php:1096
+#: admin/inc/front_page_mobile.php:1778 admin/inc/front_page_mobile.php:1796
+#: admin/inc/options.php:195 functions/page_lp.php:651
+#: functions/page_lp.php:1702
+msgid "Free space"
+msgstr ""
+
+#: admin/inc/front_page.php:1543 admin/inc/front_page_mobile.php:1106
+#: functions/page_lp.php:690
+msgid "Choose the content"
+msgstr ""
+
+#: admin/inc/front_page.php:1630 admin/inc/front_page_mobile.php:1189
+msgid "Display design content"
+msgstr ""
+
+#: admin/inc/front_page.php:1633 admin/inc/front_page_mobile.php:1192
+msgid "News ticker setting"
+msgstr ""
+
+#: admin/inc/front_page.php:1634 admin/inc/front_page_mobile.php:1193
+msgid "Display news ticker"
+msgstr ""
+
+#: admin/inc/front_page.php:1651 admin/inc/front_page_mobile.php:1203
+#: functions/admin_column.php:33 widget/post_slider.php:144
+#: widget/styled_post_list1.php:143
+msgid "Post type"
+msgstr ""
+
+#: admin/inc/front_page.php:1658 admin/inc/front_page_mobile.php:1210
+#: admin/inc/header.php:497 widget/post_slider.php:167
+#: widget/styled_post_list1.php:166
+msgid "Post order"
+msgstr ""
+
+#: admin/inc/front_page.php:1660 admin/inc/front_page_mobile.php:1212
+msgid "Date"
+msgstr ""
+
+#: admin/inc/front_page.php:1661 admin/inc/front_page_mobile.php:1213
+#: admin/inc/header.php:499
+msgid "Admin order"
+msgstr ""
+
+#: admin/inc/front_page.php:1662 admin/inc/front_page_mobile.php:1214
+#: admin/inc/header.php:500 admin/inc/options.php:158
+#: widget/post_slider.php:170 widget/styled_post_list1.php:169
+msgid "Random"
+msgstr ""
+
+#: admin/inc/front_page.php:1705 admin/inc/front_page.php:1893
+#: admin/inc/front_page.php:2206 admin/inc/front_page_mobile.php:1251
+#: admin/inc/front_page_mobile.php:1418 admin/inc/front_page_mobile.php:1693
+#: functions/page_lp.php:836 functions/page_lp.php:1077
+#: functions/page_lp.php:1365
+msgid ""
+"Default background color will be transparent when you use swipe animation."
+msgstr ""
+
+#: admin/inc/front_page.php:1712 admin/inc/front_page.php:1899
+#: admin/inc/front_page.php:2219 admin/inc/front_page_mobile.php:1258
+#: admin/inc/front_page_mobile.php:1424 admin/inc/front_page_mobile.php:1706
+#: functions/page_lp.php:844 functions/page_lp.php:1085
+#: functions/page_lp.php:1379
+msgid "Font color of on mouseover"
+msgstr ""
+
+#: admin/inc/front_page.php:1727 admin/inc/front_page_mobile.php:1273
+#: functions/page_lp.php:859 functions/page_lp.php:1100
+msgid "Layer image will be displayed at the four corners."
+msgstr ""
+
+#: admin/inc/front_page.php:1835 admin/inc/front_page_mobile.php:1375
+#, php-format
+msgid "Display %s post list"
+msgstr ""
+
+#: admin/inc/front_page.php:1938 admin/inc/front_page_mobile.php:1459
+#: admin/inc/gallery.php:90
+msgid "ALL"
+msgstr ""
+
+#: admin/inc/front_page.php:1966 admin/inc/front_page.php:2091
+#: admin/inc/front_page_mobile.php:1483 admin/inc/front_page_mobile.php:1588
+#: admin/inc/gallery.php:348
+#, php-format
+msgid "Display %s list"
+msgstr ""
+
+#: admin/inc/front_page.php:1998 admin/inc/front_page_mobile.php:1509
+msgid "Category sort button setting"
+msgstr ""
+
+#: admin/inc/front_page.php:1999 admin/inc/front_page_mobile.php:1510
+#: admin/inc/gallery.php:322
+msgid "Display category sort button"
+msgstr ""
+
+#: admin/inc/front_page.php:2003 admin/inc/front_page_mobile.php:1514
+#: admin/inc/gallery.php:329
+msgid "Label of all button"
+msgstr ""
+
+#: admin/inc/front_page.php:2007 admin/inc/front_page.php:2094
+#: admin/inc/front_page_mobile.php:1517 admin/inc/front_page_mobile.php:1591
+msgid "Category ID to display"
+msgstr ""
+
+#: admin/inc/front_page.php:2010 admin/inc/front_page.php:2096
+#: admin/inc/front_page_mobile.php:1520 admin/inc/front_page_mobile.php:1593
+msgid "Please enter category id in each row."
+msgstr ""
+
+#: admin/inc/front_page.php:2020 admin/inc/front_page.php:2028
+#: admin/inc/front_page_mobile.php:1530
+msgid "Display all post"
+msgstr ""
+
+#: admin/inc/front_page.php:2034 admin/inc/front_page_mobile.php:1536
+msgid "Animation"
+msgstr ""
+
+#: admin/inc/front_page.php:2036 admin/inc/front_page_mobile.php:1538
+#: admin/inc/gallery.php:338 admin/inc/options.php:237
+#: functions/page_lp.php:1437
+msgid "Fade in"
+msgstr ""
+
+#: admin/inc/front_page.php:2038 admin/inc/front_page_mobile.php:1540
+#: admin/inc/gallery.php:340
+msgid "Pop up"
+msgstr ""
+
+#: admin/inc/front_page.php:2041 admin/inc/front_page_mobile.php:1543
+#: admin/inc/gallery.php:305
+msgid "Font direction of category"
+msgstr ""
+
+#: admin/inc/front_page.php:2042 admin/inc/front_page_mobile.php:1544
+#: admin/inc/gallery.php:306
+msgid "Font type of category"
+msgstr ""
+
+#: admin/inc/front_page.php:2049 admin/inc/front_page_mobile.php:1551
+msgid "Font size of category"
+msgstr ""
+
+#: admin/inc/front_page.php:2050
+msgid "Font size of category (mobile)"
+msgstr ""
+
+#: admin/inc/front_page.php:2056 admin/inc/front_page_mobile.php:1556
+msgid "Load button setting"
+msgstr ""
+
+#: admin/inc/front_page.php:2057 admin/inc/front_page_mobile.php:1557
+msgid "Display load button"
+msgstr ""
+
+#: admin/inc/front_page.php:2105 admin/inc/front_page_mobile.php:1599
+#: admin/inc/gallery.php:354
+msgid "Icon of title"
+msgstr ""
+
+#: admin/inc/front_page.php:2106 admin/inc/front_page_mobile.php:1600
+#: admin/inc/gallery.php:355 admin/inc/header.php:511
+msgid "Font direction of title"
+msgstr ""
+
+#: admin/inc/front_page.php:2114 admin/inc/front_page_mobile.php:1608
+#: admin/inc/gallery.php:363
+msgid "Font color of title"
+msgstr ""
+
+#: admin/inc/front_page.php:2267 admin/inc/front_page_mobile.php:1740
+msgid "Parallax effect for background image"
+msgstr ""
+
+#: admin/inc/front_page.php:2269 admin/inc/front_page_mobile.php:1742
+msgid "You can express a three-dimensional effect and depth background."
+msgstr ""
+
+#: admin/inc/front_page.php:2270 admin/inc/front_page_mobile.php:1743
+msgid ""
+"If you use parallax effect on background, please upload very high height "
+"image."
+msgstr ""
+
+#: admin/inc/front_page.php:2272 admin/inc/front_page_mobile.php:1745
+#: admin/inc/options.php:314
+msgid "Use parallax effect"
+msgstr ""
+
+#: admin/inc/front_page.php:2274 admin/inc/front_page_mobile.php:1747
+#: functions/page_lp.php:1303
+msgid "Overlay setting for background image"
+msgstr ""
+
+#: admin/inc/front_page.php:2313 admin/inc/front_page_mobile.php:1783
+msgid "Display free space"
+msgstr ""
+
+#: admin/inc/front_page.php:2316 admin/inc/front_page_mobile.php:1786
+#: admin/inc/header.php:545 functions/page_cf.php:179
+#: functions/page_lp.php:1668
+msgid "Content width"
+msgstr ""
+
+#: admin/inc/front_page.php:2341 admin/inc/front_page_mobile.php:1810
+#: admin/inc/gallery.php:422 admin/inc/header.php:554 functions/page_cf.php:182
+#: functions/page_lp.php:922 functions/page_lp.php:1163
+#: functions/page_lp.php:1643 functions/page_lp.php:1709
+msgid "Other setting"
+msgstr ""
+
+#: admin/inc/front_page.php:2343 admin/inc/front_page_mobile.php:1812
+#: functions/page_lp.php:926 functions/page_lp.php:1167
+#: functions/page_lp.php:1647 functions/page_lp.php:1713
+msgid "Top space of content"
+msgstr ""
+
+#: admin/inc/front_page.php:2344 functions/page_lp.php:927
+#: functions/page_lp.php:1168 functions/page_lp.php:1648
+#: functions/page_lp.php:1714
+msgid "Top space of content (mobile)"
+msgstr ""
+
+#: admin/inc/front_page.php:2345 admin/inc/front_page_mobile.php:1813
+#: functions/page_lp.php:928 functions/page_lp.php:1169
+#: functions/page_lp.php:1649 functions/page_lp.php:1715
+msgid "Bottom space of content"
+msgstr ""
+
+#: admin/inc/front_page.php:2346 functions/page_lp.php:929
+#: functions/page_lp.php:1170 functions/page_lp.php:1650
+#: functions/page_lp.php:1716
+msgid "Bottom space of content (mobile)"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:25
+msgid "Front page (smartphone)"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:77
+msgid "Display same header content in smartphone"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:81
+msgid "Display different header content in smartphone"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:85
+msgid "Don't display header content in smartphone"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:668
+msgid "Display same content builder in smartphone"
+msgstr ""
+
+#: admin/inc/front_page_mobile.php:672
+msgid "Display diffrent content builder in smartphone"
+msgstr ""
+
+#: admin/inc/gallery.php:92
+msgid "LOAD MORE"
+msgstr ""
+
+#: admin/inc/gallery.php:238
+msgid "Headline setting for category page"
+msgstr ""
+
+#: admin/inc/gallery.php:269
+#, php-format
+msgid ""
+"Headline and subheadline of category page can be set in <a href=\"./edit-"
+"tags.php?taxonomy=gallery_category&post_type=gallery\" target=\"_blank\">%s "
+"edit page</a>."
+msgstr ""
+
+#: admin/inc/gallery.php:274
+msgid "Icon of headline"
+msgstr ""
+
+#: admin/inc/gallery.php:275 admin/inc/gallery.php:408
+msgid "Font direction of headline"
+msgstr ""
+
+#: admin/inc/gallery.php:313
+msgid "Font size category"
+msgstr ""
+
+#: admin/inc/gallery.php:314
+msgid "Font size category (mobile)"
+msgstr ""
+
+#: admin/inc/gallery.php:321
+msgid "Category sort button and AJAX load setting"
+msgstr ""
+
+#: admin/inc/gallery.php:328
+msgid "Icon of category sort button"
+msgstr ""
+
+#: admin/inc/gallery.php:330
+msgid "Font size of sort button"
+msgstr ""
+
+#: admin/inc/gallery.php:331
+msgid "Font size of sort button (mobile)"
+msgstr ""
+
+#: admin/inc/gallery.php:332
+msgid "Icon of load button"
+msgstr ""
+
+#: admin/inc/gallery.php:333
+msgid "Label of load button"
+msgstr ""
+
+#: admin/inc/gallery.php:334
+msgid "Font size of load button"
+msgstr ""
+
+#: admin/inc/gallery.php:335
+msgid "Font size of load button (mobile)"
+msgstr ""
+
+#: admin/inc/gallery.php:336
+msgid "Animation of post"
+msgstr ""
+
+#: admin/inc/gallery.php:405
+#, php-format
+msgid ""
+"Headline can be set in <a href=\"./edit-tags.php?"
+"taxonomy=gallery_category&post_type=gallery\" target=\"_blank\">%s edit "
+"page</a>."
+msgstr ""
+
+#: admin/inc/gallery.php:427
+msgid "Label of archive button"
+msgstr ""
+
+#: admin/inc/gallery.php:428
+msgid "Display icon on archive button"
+msgstr ""
+
+#: admin/inc/gallery.php:430
+msgid "Display header"
+msgstr ""
+
+#: admin/inc/header.php:25
+msgid "Header"
+msgstr ""
+
+#: admin/inc/header.php:137
+msgid "Header bar setting"
+msgstr ""
+
+#: admin/inc/header.php:139
+msgid "Display position"
+msgstr ""
+
+#: admin/inc/header.php:148
+msgid "Display position (mobile)"
+msgstr ""
+
+#: admin/inc/header.php:157
+msgid "Transparency of background color on fixed position"
+msgstr ""
+
+#: admin/inc/header.php:159
+msgid ""
+"Please specify the number of 0.1 from 1. Overlay color will be more "
+"transparent as the number is small."
+msgstr ""
+
+#: admin/inc/header.php:172
+msgid "Global menu setting"
+msgstr ""
+
+#: admin/inc/header.php:175
+msgid "Parent menu setting"
+msgstr ""
+
+#: admin/inc/header.php:190
+msgid "Background color on active menu"
+msgstr ""
+
+#: admin/inc/header.php:203
+msgid "Child menu setting"
+msgstr ""
+
+#: admin/inc/header.php:242
+msgid "Drawer menu setting (mobile)"
+msgstr ""
+
+#: admin/inc/header.php:245
+msgid ""
+"Drawer menu is a menu which will be displayed in mobile device, and will be "
+"slide in displayed when user click the menu button on right top of the "
+"screen."
+msgstr ""
+
+#: admin/inc/header.php:251
+msgid "Background color of child menu"
+msgstr ""
+
+#: admin/inc/header.php:258
+#, php-format
+msgid "Banner%s"
+msgstr ""
+
+#: admin/inc/header.php:267
+msgid "Recommend image size. Width:300px Height:250px"
+msgstr ""
+
+#: admin/inc/header.php:295
+msgid "Search form setting"
+msgstr ""
+
+#: admin/inc/header.php:297
+msgid "Display search form"
+msgstr ""
+
+#: admin/inc/header.php:313
+msgid "Language button setting"
+msgstr ""
+
+#: admin/inc/header.php:315
+msgid "Display language button"
+msgstr ""
+
+#: admin/inc/header.php:331 admin/inc/header.php:353
+msgid "Set this language button as active button"
+msgstr ""
+
+#: admin/inc/header.php:332 admin/inc/header.php:354
+msgid "Language name"
+msgstr ""
+
+#: admin/inc/header.php:384
+msgid "Mobile setting"
+msgstr ""
+
+#: admin/inc/header.php:386
+msgid "Display on header"
+msgstr ""
+
+#: admin/inc/header.php:387
+msgid "Display inside drawer menu"
+msgstr ""
+
+#: admin/inc/header.php:388
+msgid "Hide in mobile device size"
+msgstr ""
+
+#: admin/inc/header.php:404
+msgid "Mega menu setting"
+msgstr ""
+
+#: admin/inc/header.php:406
+msgid "Set the display format of the sub menu of the global menu"
+msgstr ""
+
+#: admin/inc/header.php:408
+msgid "Dropdown menu - Display submenu in drop down."
+msgstr ""
+
+#: admin/inc/header.php:409
+msgid "Mega menu A - Display category post list."
+msgstr ""
+
+#: admin/inc/header.php:410
+#, php-format
+msgid "Mega menu B - Display %s post list."
+msgstr ""
+
+#: admin/inc/header.php:411
+#, php-format
+msgid "Mega menu C - Display %s list."
+msgstr ""
+
+#: admin/inc/header.php:425
+msgid "Menu type setting"
+msgstr ""
+
+#: admin/inc/header.php:427
+msgid ""
+"Please create custom menu from <a href=\"./nav-menus.php\">menu page</a> and "
+"set the position as <strong>\"Global menu\"</strong> before you use this "
+"option."
+msgstr ""
+
+#: admin/inc/header.php:457
+msgid "Mega menu A setting"
+msgstr ""
+
+#: admin/inc/header.php:460
+msgid "Background color of menu area"
+msgstr ""
+
+#: admin/inc/header.php:462
+msgid "Display new icon"
+msgstr ""
+
+#: admin/inc/header.php:463
+msgid "Label of new icon"
+msgstr ""
+
+#: admin/inc/header.php:464
+msgid "Number of days to display icon from post time"
+msgstr ""
+
+#: admin/inc/header.php:465
+msgid "Font color of new icon"
+msgstr ""
+
+#: admin/inc/header.php:466
+msgid "Background color of new icon"
+msgstr ""
+
+#: admin/inc/header.php:473
+msgid "Native ads will be displayed randomly at number of articles set below."
+msgstr ""
+
+#: admin/inc/header.php:485
+msgid "Mega menu B setting"
+msgstr ""
+
+#: admin/inc/header.php:488
+msgid "Font size of title (slider)"
+msgstr ""
+
+#: admin/inc/header.php:489
+msgid "Display post number (slider)"
+msgstr ""
+
+#: admin/inc/header.php:490
+msgid "Number of post (slider)"
+msgstr ""
+
+#: admin/inc/header.php:503
+msgid "Font size of title (post list)"
+msgstr ""
+
+#: admin/inc/header.php:508
+msgid "Mega menu C setting"
+msgstr ""
+
+#: admin/inc/header.php:533
+msgid "Header message setting"
+msgstr ""
+
+#: admin/inc/header.php:535
+msgid "Display header message"
+msgstr ""
+
+#: admin/inc/header.php:537
+msgid "Message"
+msgstr ""
+
+#: admin/inc/header.php:541
+msgid "Display on front page"
+msgstr ""
+
+#: admin/inc/header.php:542
+msgid "Display on sub pages"
+msgstr ""
+
+#: admin/inc/header.php:543
+msgid "Display close button"
+msgstr ""
+
+#: admin/inc/header.php:560
+msgid "Font color of text link"
+msgstr ""
+
+#: admin/inc/logo.php:81
+msgid "Header logo setting"
+msgstr ""
+
+#: admin/inc/logo.php:83 admin/inc/logo.php:149 admin/inc/logo.php:217
+#: functions/page_cf.php:293
+msgid "Type of logo"
+msgstr ""
+
+#: admin/inc/logo.php:93 admin/inc/logo.php:159 widget/banner.php:195
+msgid "Font size setting"
+msgstr ""
+
+#: admin/inc/logo.php:103 admin/inc/logo.php:121 functions/page_cf.php:314
+#, php-format
+msgid ""
+"Maximum height is %s. We recommend to use the background transparent PNG "
+"image."
+msgstr ""
+
+#: admin/inc/logo.php:104 admin/inc/logo.php:122 admin/inc/logo.php:172
+#: admin/inc/logo.php:190 admin/inc/logo.php:238 admin/inc/logo.php:253
+#: functions/page_cf.php:315
+msgid ""
+"If you upload a logo image for retina display, please check the following "
+"check boxes"
+msgstr ""
+
+#: admin/inc/logo.php:147
+msgid "Footer logo setting"
+msgstr ""
+
+#: admin/inc/logo.php:171 admin/inc/logo.php:189
+msgid "We recommend to use the background transparent PNG image."
+msgstr ""
+
+#: admin/inc/logo.php:215
+msgid "Front page logo setting"
+msgstr ""
+
+#: admin/inc/logo.php:227 admin/inc/quicktag.php:218 functions/page_cf.php:303
+msgid "Font setting"
+msgstr ""
+
+#: admin/inc/logo.php:251 admin/inc/marketing.php:226
+#: admin/inc/marketing.php:276 admin/inc/marketing.php:320
+#: admin/inc/marketing.php:536
+msgid "Image (mobile)"
+msgstr ""
+
+#: admin/inc/marketing.php:25
+msgid "Marketing"
+msgstr ""
+
+#: admin/inc/marketing.php:180 admin/inc/marketing.php:182
+msgid "CTA under the post content"
+msgstr ""
+
+#: admin/inc/marketing.php:184
+msgid "You can set up CTA under the post content."
+msgstr ""
+
+#: admin/inc/marketing.php:185 admin/inc/marketing.php:403
+msgid "You can register up to three contents."
+msgstr ""
+
+#: admin/inc/marketing.php:193 admin/inc/marketing.php:411
+msgid "Type of CTA"
+msgstr ""
+
+#: admin/inc/marketing.php:343 admin/inc/marketing.php:590
+msgid "Display settings"
+msgstr ""
+
+#: admin/inc/marketing.php:345
+msgid "Please select the CTA to display under the post content."
+msgstr ""
+
+#: admin/inc/marketing.php:353 admin/inc/marketing.php:604
+#: admin/inc/options.php:452
+msgid "Random display"
+msgstr ""
+
+#: admin/inc/marketing.php:354 admin/inc/marketing.php:605
+msgid "Please select CTA to use in random display."
+msgstr ""
+
+#: admin/inc/marketing.php:361 admin/inc/marketing.php:612
+msgid "A/B Testing"
+msgstr ""
+
+#: admin/inc/marketing.php:363 admin/inc/marketing.php:614
+msgid ""
+"To measure conversions, copy and paste the following code in the editor of "
+"\"thanks page\"."
+msgstr ""
+
+#: admin/inc/marketing.php:369 admin/inc/marketing.php:620
+msgid "Impressions"
+msgstr ""
+
+#: admin/inc/marketing.php:370 admin/inc/marketing.php:621
+msgid "Number of clicks"
+msgstr ""
+
+#: admin/inc/marketing.php:371 admin/inc/marketing.php:622
+msgid "Click-through rate"
+msgstr ""
+
+#: admin/inc/marketing.php:372 admin/inc/marketing.php:623
+msgid "Conversions"
+msgstr ""
+
+#: admin/inc/marketing.php:373 admin/inc/marketing.php:624
+msgid "Conversion rate"
+msgstr ""
+
+#: admin/inc/marketing.php:374 admin/inc/marketing.php:625
+#: admin/inc/tools.php:47 admin/inc/tools.php:51
+msgid "Reset"
+msgstr ""
+
+#: admin/inc/marketing.php:384 admin/inc/marketing.php:635
+msgid "Reset values"
+msgstr ""
+
+#: admin/inc/marketing.php:399
+msgid "Footer CTA"
+msgstr ""
+
+#: admin/inc/marketing.php:403
+msgid ""
+"You can set up Footer CTA which is displayed at the bottom of the footer on "
+"scroll."
+msgstr ""
+
+#: admin/inc/marketing.php:403
+msgid ""
+"If click the close button in footer CTA, hide the footer CTA until browser "
+"closes."
+msgstr ""
+
+#: admin/inc/marketing.php:429 admin/inc/marketing.php:463
+#: admin/inc/marketing.php:506 admin/inc/marketing.php:690
+#: admin/inc/protect.php:79
+msgid "Label"
+msgstr ""
+
+#: admin/inc/marketing.php:438 admin/inc/marketing.php:472
+#: admin/inc/marketing.php:515 admin/inc/quicktag.php:230
+msgid "Background color setting"
+msgstr ""
+
+#: admin/inc/marketing.php:441 admin/inc/marketing.php:475
+#: admin/inc/marketing.php:518 admin/inc/marketing.php:554
+msgid "Background opacity"
+msgstr ""
+
+#: admin/inc/marketing.php:444 admin/inc/marketing.php:487
+#: admin/inc/marketing.php:573
+msgid "Close button setting"
+msgstr ""
+
+#: admin/inc/marketing.php:478 admin/inc/marketing.php:564
+msgid "Border setting"
+msgstr ""
+
+#: admin/inc/marketing.php:479 admin/inc/marketing.php:565
+msgid "Display border"
+msgstr ""
+
+#: admin/inc/marketing.php:483 admin/inc/marketing.php:569
+msgid "Border opacity"
+msgstr ""
+
+#: admin/inc/marketing.php:523 admin/inc/marketing.php:538
+#: admin/inc/quicktag.php:398
+#, php-format
+msgid "Recommend image size. Width:%dpx, Height:%dpx"
+msgstr ""
+
+#: admin/inc/marketing.php:551 functions/page_lp.php:1190
+msgid "Image setting"
+msgstr ""
+
+#: admin/inc/marketing.php:556
+msgid "Edge angle"
+msgstr ""
+
+#: admin/inc/marketing.php:559
+msgid ""
+"Set the right edge angle of image. It can be set within the range of -30 to "
+"30 degrees on the premise that 0 is vertical."
+msgstr ""
+
+#: admin/inc/marketing.php:592
+msgid "Please select the Footer CTA to display."
+msgstr ""
+
+#: admin/inc/marketing.php:593
+msgid "Note: when the Footer CTA is displayed, the footer bar is hidden."
+msgstr ""
+
+#: admin/inc/marketing.php:600
+msgid "Hide Footer CTA on front page"
+msgstr ""
+
+#: admin/inc/marketing.php:650
+msgid "Native ads"
+msgstr ""
+
+#: admin/inc/marketing.php:654
+msgid "Ads setting"
+msgstr ""
+
+#: admin/inc/marketing.php:659
+#, php-format
+msgid "Ads%s setting"
+msgstr ""
+
+#: admin/inc/marketing.php:661
+#, php-format
+msgid "Display ads%s"
+msgstr ""
+
+#: admin/inc/marketing.php:680
+msgid "Ads client name"
+msgstr ""
+
+#: admin/inc/marketing.php:682
+msgid "Date will be replace by ads name in post list area."
+msgstr ""
+
+#: admin/inc/marketing.php:685
+msgid "Label setting"
+msgstr ""
+
+#: admin/inc/marketing.php:686
+msgid "Display label"
+msgstr ""
+
+#: admin/inc/marketing.php:728
+msgid ""
+"Front page tab post list, mega menu, and post list widget native ads can be "
+"set from each option area."
+msgstr ""
+
+#: admin/inc/marketing.php:730
+msgid "Front page header carousel"
+msgstr ""
+
+#: admin/inc/marketing.php:738
+msgid "Front page header carousel (mobile)"
+msgstr ""
+
+#: admin/inc/marketing.php:740
+msgid "This option will be applied when mobile header carousel is setted."
+msgstr ""
+
+#: admin/inc/marketing.php:749
+msgid "Archive page post list (category, tag, author, monthly archive page)"
+msgstr ""
+
+#: admin/inc/marketing.php:757
+msgid "Footer carousel"
+msgstr ""
+
+#: admin/inc/news.php:87
+msgid "Latest news"
+msgstr ""
+
+#: admin/inc/news.php:306
+msgid "Recent post setting"
+msgstr ""
+
+#: admin/inc/news.php:307
+msgid "Display recent post"
+msgstr ""
+
+#: admin/inc/news.php:389
+msgid "Above recent post"
+msgstr ""
+
+#: admin/inc/news.php:392
+msgid "This banner will be displayed before recent post"
+msgstr ""
+
+#: admin/inc/options.php:10 admin/inc/options.php:224
+msgid "Zoom in"
+msgstr ""
+
+#: admin/inc/options.php:11 admin/inc/options.php:223
+msgid "Zoom out"
+msgstr ""
+
+#: admin/inc/options.php:12
+msgid "Slide"
+msgstr ""
+
+#: admin/inc/options.php:13
+msgid "Fade"
+msgstr ""
+
+#: admin/inc/options.php:14 admin/inc/options.php:229 admin/inc/options.php:236
+#: functions/page_lp.php:1436
+msgid "No animation"
+msgstr ""
+
+#: admin/inc/options.php:18
+msgid "Left to Right"
+msgstr ""
+
+#: admin/inc/options.php:19
+msgid "Right to Left"
+msgstr ""
+
+#: admin/inc/options.php:26
+msgid "Meiryo"
+msgstr ""
+
+#: admin/inc/options.php:27
+msgid "YuGothic"
+msgstr ""
+
+#: admin/inc/options.php:28
+msgid "YuMincho"
+msgstr ""
+
+#: admin/inc/options.php:35
+msgid "Normal position"
+msgstr ""
+
+#: admin/inc/options.php:36
+msgid "Fix at top after page scroll"
+msgstr ""
+
+#: admin/inc/options.php:41
+msgid "Normal header"
+msgstr ""
+
+#: admin/inc/options.php:42
+msgid "Fix logo area at top after page scroll"
+msgstr ""
+
+#: admin/inc/options.php:43
+msgid "Fix global menu at top after page scroll"
+msgstr ""
+
+#: admin/inc/options.php:44
+msgid "Fix all header content at top after page scroll"
+msgstr ""
+
+#: admin/inc/options.php:51
+msgid "Use theme option setting"
+msgstr ""
+
+#: admin/inc/options.php:52
+msgid "Don't display"
+msgstr ""
+
+#: admin/inc/options.php:53
+msgid "Display on right side"
+msgstr ""
+
+#: admin/inc/options.php:54
+msgid "Display on left side"
+msgstr ""
+
+#: admin/inc/options.php:61
+msgid "Type1 (color)"
+msgstr ""
+
+#: admin/inc/options.php:62
+msgid "Type2 (mono)"
+msgstr ""
+
+#: admin/inc/options.php:63
+msgid "Type3 (4 column - color)"
+msgstr ""
+
+#: admin/inc/options.php:64
+msgid "Type4 (4 column - mono)"
+msgstr ""
+
+#: admin/inc/options.php:65
+msgid "Type5 (official design)"
+msgstr ""
+
+#: admin/inc/options.php:72
+msgid "Don't display load screen"
+msgstr ""
+
+#: admin/inc/options.php:73 admin/inc/options.php:323
+msgid "Display only on front page"
+msgstr ""
+
+#: admin/inc/options.php:74
+msgid "Display on front page and archive page"
+msgstr ""
+
+#: admin/inc/options.php:81
+msgid "Circle"
+msgstr ""
+
+#: admin/inc/options.php:82
+msgid "Square"
+msgstr ""
+
+#: admin/inc/options.php:83
+msgid "Dot"
+msgstr ""
+
+#: admin/inc/options.php:84
+msgid "Logo"
+msgstr ""
+
+#: admin/inc/options.php:92
+msgid "Fade In"
+msgstr ""
+
+#: admin/inc/options.php:93
+msgid "Slide In"
+msgstr ""
+
+#: admin/inc/options.php:94
+msgid "Hide"
+msgstr ""
+
+#: admin/inc/options.php:146 widget/post_slider.php:146
+#: widget/styled_post_list1.php:145
+msgid "All post"
+msgstr ""
+
+#: admin/inc/options.php:147 widget/post_slider.php:147
+#: widget/styled_post_list1.php:146
+msgid "Recommend post1"
+msgstr ""
+
+#: admin/inc/options.php:148 widget/post_slider.php:148
+#: widget/styled_post_list1.php:147
+msgid "Recommend post2"
+msgstr ""
+
+#: admin/inc/options.php:149
+msgid "Pickup post"
+msgstr ""
+
+#: admin/inc/options.php:156
+msgid "Date (DESC)"
+msgstr ""
+
+#: admin/inc/options.php:157
+msgid "Date (ASC)"
+msgstr ""
+
+#: admin/inc/options.php:165 admin/inc/options.php:166
+#: admin/inc/options.php:167 admin/inc/options.php:168
+#: admin/inc/options.php:169 admin/inc/options.php:170
+#: admin/inc/options.php:171 admin/inc/options.php:172
+#: admin/inc/options.php:173 admin/inc/options.php:174
+#: admin/inc/options.php:175 admin/inc/options.php:176
+#: admin/inc/options.php:177 admin/inc/options.php:178
+#: admin/inc/options.php:179
+#, php-format
+msgid "%s second"
+msgstr ""
+
+#: admin/inc/options.php:186
+msgid "Use text for logo"
+msgstr ""
+
+#: admin/inc/options.php:187
+msgid "Use image for logo"
+msgstr ""
+
+#: admin/inc/options.php:194
+msgid "Template"
+msgstr ""
+
+#: admin/inc/options.php:202
+msgid "Use default marker"
+msgstr ""
+
+#: admin/inc/options.php:203
+msgid "Use custom marker"
+msgstr ""
+
+#: admin/inc/options.php:207 admin/inc/quicktag.php:466
+msgid "Text"
+msgstr ""
+
+#: admin/inc/options.php:215 functions/blog_cf.php:19
+msgid "Page numbers"
+msgstr ""
+
+#: admin/inc/options.php:216 functions/blog_cf.php:20
+msgid "Read more button"
+msgstr ""
+
+#: admin/inc/options.php:225
+msgid "Move right"
+msgstr ""
+
+#: admin/inc/options.php:226
+msgid "Move left"
+msgstr ""
+
+#: admin/inc/options.php:227
+msgid "Move top"
+msgstr ""
+
+#: admin/inc/options.php:228
+msgid "Move bottom"
+msgstr ""
+
+#: admin/inc/options.php:238
+msgid "Slide in"
+msgstr ""
+
+#: admin/inc/options.php:245 admin/inc/options.php:367
+msgid "Align left"
+msgstr ""
+
+#: admin/inc/options.php:246 admin/inc/options.php:368
+msgid "Align center"
+msgstr ""
+
+#: admin/inc/options.php:247 admin/inc/options.php:369
+msgid "Align right"
+msgstr ""
+
+#: admin/inc/options.php:252
+msgid "Align top"
+msgstr ""
+
+#: admin/inc/options.php:253
+msgid "Align middle"
+msgstr ""
+
+#: admin/inc/options.php:254
+msgid "Align bottom"
+msgstr ""
+
+#: admin/inc/options.php:261
+msgid "Display no image"
+msgstr ""
+
+#: admin/inc/options.php:262
+msgid "Don't display no image"
+msgstr ""
+
+#: admin/inc/options.php:271 admin/inc/options.php:296
+#: functions/custom_editor.php:89
+msgid "Youtube"
+msgstr ""
+
+#: admin/inc/options.php:278
+msgid "Display footer button"
+msgstr ""
+
+#: admin/inc/options.php:279
+msgid "Display footer bar"
+msgstr ""
+
+#: admin/inc/options.php:286
+msgid "Same as PC setting"
+msgstr ""
+
+#: admin/inc/options.php:287
+msgid "Display diffrent content in mobile size"
+msgstr ""
+
+#: admin/inc/options.php:297
+msgid "Logo content"
+msgstr ""
+
+#: admin/inc/options.php:304
+msgid "Dropdown menu"
+msgstr ""
+
+#: admin/inc/options.php:305
+msgid "Mega menu A"
+msgstr ""
+
+#: admin/inc/options.php:306
+msgid "Mega menu B"
+msgstr ""
+
+#: admin/inc/options.php:307
+msgid "Mega menu C"
+msgstr ""
+
+#: admin/inc/options.php:315
+msgid "Don't use parallax effect"
+msgstr ""
+
+#: admin/inc/options.php:322
+msgid "Don't display site description"
+msgstr ""
+
+#: admin/inc/options.php:324
+msgid "Display on all page"
+msgstr ""
+
+#: admin/inc/options.php:333
+msgid "Flat button"
+msgstr ""
+
+#: admin/inc/options.php:337
+msgid "Rounded button"
+msgstr ""
+
+#: admin/inc/options.php:341
+msgid "Oval button"
+msgstr ""
+
+#: admin/inc/options.php:351
+msgid "Small size button - Width:130px Height:40px"
+msgstr ""
+
+#: admin/inc/options.php:355
+msgid "Medium size button - Width:240px Height:60px"
+msgstr ""
+
+#: admin/inc/options.php:359
+msgid "Large size button - Width:400px Height:70px"
+msgstr ""
+
+#: admin/inc/options.php:376
+msgid "Display horizontally"
+msgstr ""
+
+#: admin/inc/options.php:384
+msgid "Normal content width"
+msgstr ""
+
+#: admin/inc/options.php:385
+msgid "Full screen width"
+msgstr ""
+
+#: admin/inc/options.php:392
+msgid "Animate letter one by one"
+msgstr ""
+
+#: admin/inc/options.php:393
+msgid "Animate all words from bottom to upward"
+msgstr ""
+
+#: admin/inc/options.php:405 admin/inc/options.php:466
+msgid "Type1"
+msgstr ""
+
+#: admin/inc/options.php:410 admin/inc/options.php:471
+msgid "Type2"
+msgstr ""
+
+#: admin/inc/options.php:415 admin/inc/options.php:476
+msgid "Type3"
+msgstr ""
+
+#: admin/inc/options.php:426
+msgid "Type1 (left: image, right: text)"
+msgstr ""
+
+#: admin/inc/options.php:430
+msgid "Type2 (left: text, right: image)"
+msgstr ""
+
+#: admin/inc/options.php:456
+msgid "Hidden"
+msgstr ""
+
+#: admin/inc/protect.php:25
+msgid "Password protected page"
+msgstr ""
+
+#: admin/inc/protect.php:42
+msgid "Send"
+msgstr ""
+
+#: admin/inc/protect.php:62
+msgid "Password protected pages settings"
+msgstr ""
+
+#: admin/inc/protect.php:64
+msgid "Label of password field"
+msgstr ""
+
+#: admin/inc/protect.php:66 functions/password_form.php:27
+msgid "Contents to encourage member registration"
+msgstr ""
+
+#: admin/inc/protect.php:69 functions/page_lp.php:992
+#: functions/password_form.php:46
+msgid "Content"
+msgstr ""
+
+#: admin/inc/protect.php:71
+msgid "Name of contents"
+msgstr ""
+
+#: admin/inc/protect.php:74
+msgid "\"Name of contents\" is used in edit post page."
+msgstr ""
+
+#: admin/inc/protect.php:76
+msgid "Button settings"
+msgstr ""
+
+#: admin/inc/protect.php:91
+msgid "Sentences to encourage member registration"
+msgstr ""
+
+#: admin/inc/protect.php:93
+msgid ""
+"\"Sentences to encourage member registration\" is displayed under excerpts."
+msgstr ""
+
+#: admin/inc/protect.php:96
+msgid "Name of password button"
+msgstr ""
+
+#: admin/inc/quicktag.php:25
+msgid "Quick tag"
+msgstr ""
+
+#: admin/inc/quicktag.php:198
+msgid ""
+"If you don't want to use quicktags included in the theme, please uncheck the "
+"box below."
+msgstr ""
+
+#: admin/inc/quicktag.php:199
+msgid "Use quicktags"
+msgstr ""
+
+#: admin/inc/quicktag.php:212 admin/inc/quicktag.php:284
+#: admin/inc/quicktag.php:354 admin/inc/quicktag.php:383
+msgid ""
+"These settings will be reflected in the quick tag button on the edit screen."
+msgstr ""
+
+#: admin/inc/quicktag.php:216
+#, php-format
+msgid "H%d tag"
+msgstr ""
+
+#: admin/inc/quicktag.php:222
+msgid "Text align"
+msgstr ""
+
+#: admin/inc/quicktag.php:231
+msgid "Display background color"
+msgstr ""
+
+#: admin/inc/quicktag.php:235
+msgid "Border width setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:240 admin/inc/quicktag.php:247
+#: admin/inc/quicktag.php:254 admin/inc/quicktag.php:261
+msgid "Top"
+msgstr ""
+
+#: admin/inc/quicktag.php:241 admin/inc/quicktag.php:248
+#: admin/inc/quicktag.php:255 admin/inc/quicktag.php:262
+msgid "Bottom"
+msgstr ""
+
+#: admin/inc/quicktag.php:242 admin/inc/quicktag.php:249
+#: admin/inc/quicktag.php:256
+msgid "Left"
+msgstr ""
+
+#: admin/inc/quicktag.php:243 admin/inc/quicktag.php:250
+#: admin/inc/quicktag.php:257
+msgid "Right"
+msgstr ""
+
+#: admin/inc/quicktag.php:245
+msgid "Border color setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:252
+msgid "Padding setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:259
+msgid "Margin setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:285
+msgid "You can also change the size of each button directly from edit screen."
+msgstr ""
+
+#: admin/inc/quicktag.php:289
+#, php-format
+msgid "Button %d settings"
+msgstr ""
+
+#: admin/inc/quicktag.php:297
+msgid "Button size"
+msgstr ""
+
+#: admin/inc/quicktag.php:303
+msgid "Small button"
+msgstr ""
+
+#: admin/inc/quicktag.php:304
+msgid "Medium button"
+msgstr ""
+
+#: admin/inc/quicktag.php:305
+msgid "Large button"
+msgstr ""
+
+#: admin/inc/quicktag.php:351
+msgid "Underline setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:355
+msgid ""
+"You can also change the color of each underline directly from edit screen."
+msgstr ""
+
+#: admin/inc/quicktag.php:359
+#, php-format
+msgid "Underline %d setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:380
+msgid "Speech balloon setting"
+msgstr ""
+
+#: admin/inc/quicktag.php:384
+msgid ""
+"You can also change the user image and name directly from short code "
+"generated on the edit screen."
+msgstr ""
+
+#: admin/inc/quicktag.php:390 admin/inc/quicktag.php:391
+#: admin/inc/quicktag.php:392 admin/inc/quicktag.php:393
+#, php-format
+msgid "%s settings"
+msgstr ""
+
+#: admin/inc/quicktag.php:390 functions/custom_editor.php:153
+msgid "Speech balloon left 1"
+msgstr ""
+
+#: admin/inc/quicktag.php:391 functions/custom_editor.php:157
+msgid "Speech balloon left 2"
+msgstr ""
+
+#: admin/inc/quicktag.php:392 functions/custom_editor.php:161
+msgid "Speech balloon right 1"
+msgstr ""
+
+#: admin/inc/quicktag.php:393 functions/custom_editor.php:165
+msgid "Speech balloon right 2"
+msgstr ""
+
+#: admin/inc/quicktag.php:397
+msgid "User image"
+msgstr ""
+
+#: admin/inc/quicktag.php:409
+msgid "User name"
+msgstr ""
+
+#: admin/inc/quicktag.php:434
+msgid "Google Maps settings"
+msgstr ""
+
+#: admin/inc/quicktag.php:437
+msgid ""
+"You can set styles of marker in Google maps using this option.<br />You can "
+"also set the saturation of map."
+msgstr ""
+
+#: admin/inc/quicktag.php:439
+msgid "API key"
+msgstr ""
+
+#: admin/inc/quicktag.php:441
+msgid "Marker type"
+msgstr ""
+
+#: admin/inc/quicktag.php:454
+msgid "Custom marker type"
+msgstr ""
+
+#: admin/inc/quicktag.php:464
+msgid "Custom marker text"
+msgstr ""
+
+#: admin/inc/quicktag.php:471
+msgid "Custom marker image"
+msgstr ""
+
+#: admin/inc/quicktag.php:472
+msgid "Recommended size: width:60px, height:20px"
+msgstr ""
+
+#: admin/inc/quicktag.php:484
+msgid "Background color of marker"
+msgstr ""
+
+#: admin/inc/quicktag.php:499
+msgid "Saturation of map"
+msgstr ""
+
+#: admin/inc/quicktag.php:501
+msgid ""
+"Please set the saturation of the map. If you set it to -100 the output map "
+"is monochrome."
+msgstr ""
+
+#: admin/inc/quicktag.php:503
+msgid "Current value: "
+msgstr ""
+
+#: admin/inc/tools.php:17 admin/inc/tools.php:30
+msgid "TCD theme options tools"
+msgstr ""
+
+#: admin/inc/tools.php:31
+msgid "You can do TCD theme options \"export\" \"import\" \"reset\"."
+msgstr ""
+
+#: admin/inc/tools.php:32
+msgid ""
+"For \"import\" and \"reset\", theme option setting may be overwritten. Be "
+"sure to read the following note before using."
+msgstr ""
+
+#: admin/inc/tools.php:34 admin/inc/tools.php:38
+msgid "Export"
+msgstr ""
+
+#: admin/inc/tools.php:36
+msgid "Export TCD theme option."
+msgstr ""
+
+#: admin/inc/tools.php:39 admin/inc/tools.php:45
+msgid "Import"
+msgstr ""
+
+#: admin/inc/tools.php:41
+msgid ""
+"Import the TCD theme option.Please specify JSON file (. Json) exported from "
+"TCD theme."
+msgstr ""
+
+#: admin/inc/tools.php:49
+msgid ""
+"Initialize the TCD theme option.Please note that all current settings will "
+"be deleted."
+msgstr ""
+
+#: admin/inc/tools.php:53
+msgid "Add sample posts"
+msgstr ""
+
+#: admin/inc/tools.php:53
+msgid "Note: sample posts will not be added if they already exist."
+msgstr ""
+
+#: admin/inc/tools.php:54
+msgid "Add sample Categories"
+msgstr ""
+
+#: admin/inc/tools.php:54
+msgid "Note: sample categories will not be added if they already exist."
+msgstr ""
+
+#: admin/inc/tools.php:55
+msgid "Add an sample global menu"
+msgstr ""
+
+#: admin/inc/tools.php:55
+msgid ""
+"Note: an sample global menu will not be added if the global menu or \"Sample "
+"menu\" already exist."
+msgstr ""
+
+#: admin/inc/tools.php:56
+msgid "Initialize the widget area"
+msgstr ""
+
+#: admin/inc/tools.php:56
+msgid "Note: current widgets in the widget area will be initialized."
+msgstr ""
+
+#: admin/inc/tools.php:71
+msgid "Are you sure you want to reset?"
+msgstr ""
+
+#: admin/theme-options.php:20 admin/theme-options.php:21
+msgid "TCD Theme"
+msgstr ""
+
+#: admin/theme-options.php:74
+msgid "TCD Theme Options"
+msgstr ""
+
+#: admin/theme-options.php:81
+msgid "Updated"
+msgstr ""
+
+#: admin/theme-options.php:109
+msgid "Now saving..."
+msgstr ""
+
+#: admin/theme-options.php:347
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr ""
+
+#: admin/theme-options.php:350
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr ""
+
+#: admin/theme-options.php:353
+msgid "The uploaded file was only partially uploaded."
+msgstr ""
+
+#: admin/theme-options.php:356
+msgid "No file was uploaded."
+msgstr ""
+
+#: admin/theme-options.php:359
+msgid "Missing a temporary folder."
+msgstr ""
+
+#: admin/theme-options.php:362
+msgid "Failed to write file to disk."
+msgstr ""
+
+#: admin/theme-options.php:365
+msgid "File upload stopped by extension."
+msgstr ""
+
+#: admin/theme-options.php:368
+msgid "File has not been uploaded."
+msgstr ""
+
+#: admin/theme-options.php:371
+msgid "There is no file"
+msgstr ""
+
+#: admin/theme-options.php:374
+msgid "The file extension is not .json"
+msgstr ""
+
+#: admin/theme-options.php:377
+msgid "Failed to read the file"
+msgstr ""
+
+#: admin/theme-options.php:380
+msgid "Json decoding failed"
+msgstr ""
+
+#: admin/theme-options.php:388
+#, php-format
+msgid "Import error. %s"
+msgstr ""
+
+#: admin/theme-options.php:392
+msgid "Settings imported"
+msgstr ""
+
+#: admin/theme-options.php:396
+msgid "Settings reset"
+msgstr ""
+
+#: admin/theme-options.php:751 admin/theme-options.php:760
+#: admin/theme-options.php:769 admin/theme-options.php:786
+#: admin/theme-options.php:791 admin/theme-options.php:1128
+#: admin/theme-options.php:1133 admin/theme-options.php:1138
+#: admin/theme-options.php:1143
+msgid "Category"
+msgstr ""
+
+#: admin/theme-options.php:790
+msgid "Sub title"
+msgstr ""
+
+#: admin/theme-options.php:793 admin/theme-options.php:794
+#: admin/theme-options.php:916 admin/theme-options.php:936
+#: admin/theme-options.php:952 admin/theme-options.php:971
+msgid "Sample text. Sample text."
+msgstr ""
+
+#: admin/theme-options.php:915
+msgid "Sample post"
+msgstr ""
+
+#: admin/theme-options.php:935
+msgid "Sample news"
+msgstr ""
+
+#: admin/theme-options.php:951
+msgid "Sample featured"
+msgstr ""
+
+#: admin/theme-options.php:970
+msgid "Sample gallery"
+msgstr ""
+
+#: admin/theme-options.php:1101 admin/theme-options.php:1107
+msgid "Sample menu"
+msgstr ""
+
+#: admin/theme-options.php:1266 widget/styled_post_list1.php:135
+msgid "Recent post"
+msgstr ""
+
+#: admin/theme-options.php:1279 widget/category_list.php:64
+msgid "Category list"
+msgstr ""
+
+#: admin/theme-options.php:1289 widget/archive_list.php:58
+msgid "Archive"
+msgstr ""
+
+#: archive-featured.php:104 archive-news.php:81 index.php:225
+#: taxonomy-featured_category.php:107 taxonomy-gallery_category.php:169
+#: widget/styled_post_list1.php:110
+msgid "There is no registered post."
+msgstr ""
+
+#: archive-gallery.php:162 archive-gallery.php:216 front-page.php:417
+#: front-page.php:467 taxonomy-gallery_category.php:163
+msgid "LOADING..."
+msgstr ""
+
+#: comments.php:10 single.php:155
+msgid "Comment"
+msgstr ""
+
+#: comments.php:14
+msgid "Comments"
+msgstr ""
+
+#: comments.php:15
+msgid "Trackbacks"
+msgstr ""
+
+#: comments.php:43
+msgid "There are no comment yet."
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "TRACKBACK URL"
+msgstr ""
+
+#: comments.php:80
+msgid "There are no trackback yet."
+msgstr ""
+
+#: comments.php:99
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: comments.php:99
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:99
+msgid "Log out"
+msgstr ""
+
+#: comments.php:105
+msgid "NAME"
+msgstr ""
+
+#: comments.php:105 comments.php:106
+msgid "( required )"
+msgstr ""
+
+#: comments.php:106
+msgid "E-MAIL"
+msgstr ""
+
+#: comments.php:106
+msgid "- will not be published -"
+msgstr ""
+
+#: comments.php:118
+msgid "Submit Comment"
+msgstr ""
+
+#: front-page.php:49 page.php:110 single-featured.php:122 single-gallery.php:59
+#: single-news.php:100 single.php:112
+msgid "Read more"
+msgstr ""
+
+#: functions.php:31
+msgid "Settings Saved Successfully"
+msgstr ""
+
+#: functions.php:32
+msgid "Can not save data. Please try again"
+msgstr ""
+
+#: functions.php:33
+msgid ""
+"Your changes on the current tab have not been saved.\n"
+"To stay on the current tab so that you can save your changes, click Cancel."
+msgstr ""
+
+#: functions.php:34 functions/page_builder.php:956
+#: functions/page_builder.php:1011
+msgid "Are you sure you want to delete this content?"
+msgstr ""
+
+#: functions.php:35
+msgid ""
+"<span>You can display image by content width when you displaying border "
+"around the content on LP page.</span>"
+msgstr ""
+
+#: functions.php:40
+msgid "Please select image"
+msgstr ""
+
+#: functions.php:41
+msgid "Use this image"
+msgstr ""
+
+#: functions.php:42
+msgid "Please select MP4 file"
+msgstr ""
+
+#: functions.php:43
+msgid "Use this MP4 file"
+msgstr ""
+
+#: functions.php:144
+msgid "Common widget"
+msgstr ""
+
+#: functions.php:145 functions.php:154
+msgid ""
+"Widgets set in this area are displayed as basic widget in the sidebar of all "
+"pages. If there are individual settings, the widget will be displayed."
+msgstr ""
+
+#: functions.php:153
+msgid "Common widget (smarphone)"
+msgstr ""
+
+#: functions.php:162
+msgid "Blog single page"
+msgstr ""
+
+#: functions.php:170
+msgid "Blog single page (smartphone)"
+msgstr ""
+
+#: functions.php:171 functions.php:188
+msgid ""
+"This widget will be replaced with normal widget when a user accesses the "
+"site by smartphone."
+msgstr ""
+
+#: functions.php:179
+msgid "News single page"
+msgstr ""
+
+#: functions.php:187
+msgid "News single page (smartphone)"
+msgstr ""
+
+#: functions.php:259
+msgid "Default style"
+msgstr ""
+
+#: functions.php:260
+msgid "No border"
+msgstr ""
+
+#: functions.php:261
+msgid "Display only horizontal border"
+msgstr ""
+
+#: functions.php:552
+msgid ""
+"Recommend image size. Width:500px, Height:500px.<br>This image will be used "
+"in search result and OGP tag."
+msgstr ""
+
+#: functions.php:573
+msgid "Global menu"
+msgstr ""
+
+#: functions.php:574
+msgid "Footer menu"
+msgstr ""
+
+#: functions.php:687 functions/seo.php:100 functions/seo.php:169 index.php:120
+#: template-parts/breadcrumb.php:41
+msgid "F jS, Y"
+msgstr ""
+
+#: functions.php:689 functions/seo.php:102 functions/seo.php:171 index.php:124
+#: template-parts/breadcrumb.php:43
+msgid "F, Y"
+msgstr ""
+
+#: functions.php:691 functions/seo.php:104 functions/seo.php:173 index.php:128
+#: template-parts/breadcrumb.php:45
+msgid "Y"
+msgstr ""
+
+#: functions.php:696 functions/seo.php:97 search.php:7
+#: template-parts/breadcrumb.php:26
+msgid "Search result"
+msgstr ""
+
+#: functions.php:753 functions.php:755 functions.php:758
+msgid "REPLY"
+msgstr ""
+
+#: functions.php:760
+msgid "QUOTE"
+msgstr ""
+
+#: functions.php:761
+msgid "EDIT"
+msgstr ""
+
+#: functions.php:767
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:791 functions.php:838 functions.php:899
+msgid "Add New"
+msgstr ""
+
+#: functions.php:792 functions.php:839 functions.php:900
+msgid "Add New Item"
+msgstr ""
+
+#: functions.php:793 functions.php:840 functions.php:901
+msgid "Edit"
+msgstr ""
+
+#: functions.php:795 functions.php:842 functions.php:903
+msgid "View Item"
+msgstr ""
+
+#: functions.php:796 functions.php:843 functions.php:904
+msgid "Search Items"
+msgstr ""
+
+#: functions.php:797 functions.php:844 functions.php:905
+msgid "Not Found"
+msgstr ""
+
+#: functions.php:798 functions.php:845 functions.php:906
+msgid "Not found in trash"
+msgstr ""
+
+#: functions/admin_column.php:18
+msgid "Featured Image"
+msgstr ""
+
+#: functions/admin_column.php:122 functions/admin_column.php:123
+#: functions/recommend.php:6
+msgid "Recommend post"
+msgstr ""
+
+#: functions/admin_column.php:124 widget/post_slider.php:149
+#: widget/styled_post_list1.php:148
+msgid "Featured post"
+msgstr ""
+
+#: functions/blog_cf.php:6
+msgid "Other options"
+msgstr ""
+
+#: functions/blog_cf.php:21
+msgid "Use theme options settings"
+msgstr ""
+
+#: functions/blog_cf.php:36
+msgid "Pagenation type"
+msgstr ""
+
+#: functions/blog_cf.php:45
+msgid "Side content position"
+msgstr ""
+
+#: functions/category_cf.php:18 functions/featured_category.php:18
+msgid "Category page header setting"
+msgstr ""
+
+#: functions/cta.php:19 functions/footer-cta.php:20
+msgid "Are you sure to reset these values?"
+msgstr ""
+
+#: functions/custom_css.php:7
+msgid "Custom CSS for this page"
+msgstr ""
+
+#: functions/custom_editor.php:55 functions/custom_editor.php:129
+#: functions/custom_editor.php:133 functions/custom_editor.php:137
+#, php-format
+msgid "Button %d"
+msgstr ""
+
+#: functions/custom_editor.php:81
+msgid "Text and image tags to display in the speech balloon"
+msgstr ""
+
+#: functions/custom_editor.php:86
+msgid "quicktags"
+msgstr ""
+
+#: functions/custom_editor.php:90
+msgid "<div class=\"ytube\">Youtube code here</div>"
+msgstr ""
+
+#: functions/custom_editor.php:93
+msgid "Cardlink"
+msgstr ""
+
+#: functions/custom_editor.php:94
+msgid "[clink url=\"Post URL to display\"]"
+msgstr ""
+
+#: functions/custom_editor.php:97
+msgid "2 column"
+msgstr ""
+
+#: functions/custom_editor.php:98
+msgid ""
+"<div class=\"post_row\"><div class=\"post_col post_col-2\">Text and image "
+"tags to display in the left column</div><div class=\"post_col "
+"post_col-2\">Text and image tags to display in the right column</div></div>"
+msgstr ""
+
+#: functions/custom_editor.php:101
+msgid "3 column"
+msgstr ""
+
+#: functions/custom_editor.php:102
+msgid ""
+"<div class=\"post_row\"><div class=\"post_col post_col-3\">Text and image "
+"tags to display in the left column</div><div class=\"post_col "
+"post_col-3\">Text and image tags to display in the center column</div><div "
+"class=\"post_col post_col-3\">Text and image tags to display in the right "
+"column</div></div>"
+msgstr ""
+
+#: functions/custom_editor.php:105
+msgid "Comment out"
+msgstr ""
+
+#: functions/custom_editor.php:106
+msgid "Text entered in this area will not be displayed on the browser"
+msgstr ""
+
+#: functions/custom_editor.php:109
+msgid "Styled h2 tag"
+msgstr ""
+
+#: functions/custom_editor.php:110
+msgid "Heading 2"
+msgstr ""
+
+#: functions/custom_editor.php:113
+msgid "Styled h3 tag"
+msgstr ""
+
+#: functions/custom_editor.php:114
+msgid "Heading 3"
+msgstr ""
+
+#: functions/custom_editor.php:117
+msgid "Styled h4 tag"
+msgstr ""
+
+#: functions/custom_editor.php:118
+msgid "Heading 4"
+msgstr ""
+
+#: functions/custom_editor.php:121
+msgid "Styled h5 tag"
+msgstr ""
+
+#: functions/custom_editor.php:122
+msgid "Heading 5"
+msgstr ""
+
+#: functions/custom_editor.php:125
+msgid "Frame style"
+msgstr ""
+
+#: functions/custom_editor.php:126
+msgid "<p class=\"well2\">Frame style</p>"
+msgstr ""
+
+#: functions/custom_editor.php:141 functions/custom_editor.php:145
+#: functions/custom_editor.php:149
+#, php-format
+msgid "Underline %d"
+msgstr ""
+
+#: functions/custom_editor.php:142
+msgid "Underline1"
+msgstr ""
+
+#: functions/custom_editor.php:146
+msgid "Underline2"
+msgstr ""
+
+#: functions/custom_editor.php:150
+msgid "Underline3"
+msgstr ""
+
+#: functions/custom_editor.php:169
+msgid "advertisement"
+msgstr ""
+
+#: functions/custom_editor.php:173
+msgid "Google map"
+msgstr ""
+
+#: functions/custom_editor.php:174
+msgid "Enter address here"
+msgstr ""
+
+#: functions/custom_page_link.php:19
+msgid "Next page"
+msgstr ""
+
+#: functions/custom_page_link.php:20
+msgid "Previous page"
+msgstr ""
+
+#: functions/custom_script.php:7
+msgid "Custom script for this page"
+msgstr ""
+
+#: functions/featured_cf.php:6 functions/gallery_cf.php:6
+msgid "Additional data"
+msgstr ""
+
+#: functions/featured_cf.php:30
+msgid "Post number"
+msgstr ""
+
+#: functions/featured_cf.php:37 functions/featured_cf.php:46
+msgid "This will be displayed in single page."
+msgstr ""
+
+#: functions/featured_cf.php:44 functions/gallery_cf.php:67
+msgid "Data list"
+msgstr ""
+
+#: functions/gallery_category.php:44
+msgid "Title for front page category sort button"
+msgstr ""
+
+#: functions/gallery_category.php:51
+msgid "Background image for category list"
+msgstr ""
+
+#: functions/gallery_category.php:70
+msgid "Description for category list"
+msgstr ""
+
+#: functions/gallery_category.php:77
+#, php-format
+msgid "Headline of %s post list"
+msgstr ""
+
+#: functions/gallery_category.php:79
+msgid ""
+"This headline and subheadline will be displayed on right top of image area "
+"in single page."
+msgstr ""
+
+#: functions/gallery_category.php:87
+#, php-format
+msgid "Subheadline of %s post list"
+msgstr ""
+
+#: functions/gallery_category.php:96
+msgid "Category page setting"
+msgstr ""
+
+#: functions/gallery_category.php:99
+msgid "Header catchphrase"
+msgstr ""
+
+#: functions/gallery_category.php:106
+msgid "Header background image"
+msgstr ""
+
+#: functions/gallery_category.php:123
+msgid "Header overlay setting"
+msgstr ""
+
+#: functions/gallery_category.php:150
+msgid "Content list"
+msgstr ""
+
+#: functions/gallery_category.php:224
+msgid "Layout of content list"
+msgstr ""
+
+#: functions/gallery_category.php:228
+msgid "Display image first"
+msgstr ""
+
+#: functions/gallery_category.php:232
+msgid "Display description first"
+msgstr ""
+
+#: functions/gallery_cf.php:33
+#, php-format
+msgid "Image for %s list"
+msgstr ""
+
+#: functions/gallery_cf.php:35
+#, php-format
+msgid "This image will be used in %s list in front page and archive page."
+msgstr ""
+
+#: functions/gallery_cf.php:40 functions/page_builder.php:159
+msgid "Image list"
+msgstr ""
+
+#: functions/gallery_cf.php:111
+msgid "Link button"
+msgstr ""
+
+#: functions/next_prev.php:27 functions/next_prev.php:71
+msgid "Prev post"
+msgstr ""
+
+#: functions/next_prev.php:51 functions/next_prev.php:79
+msgid "Next post"
+msgstr ""
+
+#: functions/page_builder.php:70
+msgid "Colmun"
+msgstr ""
+
+#: functions/page_builder.php:83
+msgid "Image position"
+msgstr ""
+
+#: functions/page_builder.php:88
+msgid "Show at top"
+msgstr ""
+
+#: functions/page_builder.php:89
+msgid "Show at bottom"
+msgstr ""
+
+#: functions/page_builder.php:93 functions/page_builder.php:264
+msgid "Link URL for image"
+msgstr ""
+
+#: functions/page_builder.php:98 functions/page_builder.php:269
+msgid "Link target"
+msgstr ""
+
+#: functions/page_builder.php:102 functions/page_builder.php:273
+msgid "Use target blank for this link"
+msgstr ""
+
+#: functions/page_builder.php:111
+msgid "Headline alignment"
+msgstr ""
+
+#: functions/page_builder.php:115
+msgid "Center align headline"
+msgstr ""
+
+#: functions/page_builder.php:131
+msgid "1 column layout"
+msgstr ""
+
+#: functions/page_builder.php:138
+msgid "2 column layout"
+msgstr ""
+
+#: functions/page_builder.php:145
+msgid "3 column layout"
+msgstr ""
+
+#: functions/page_builder.php:152
+msgid "4 column layout"
+msgstr ""
+
+#: functions/page_builder.php:163
+msgid "Image1"
+msgstr ""
+
+#: functions/page_builder.php:168
+msgid "Image2"
+msgstr ""
+
+#: functions/page_builder.php:173
+msgid "Image3"
+msgstr ""
+
+#: functions/page_builder.php:178
+msgid "Image4"
+msgstr ""
+
+#: functions/page_builder.php:183
+msgid "Image5"
+msgstr ""
+
+#: functions/page_builder.php:188
+msgid "Image6"
+msgstr ""
+
+#: functions/page_builder.php:206
+msgid "Font size of catchphrase"
+msgstr ""
+
+#: functions/page_builder.php:212
+msgid "Description under catchphrase"
+msgstr ""
+
+#: functions/page_builder.php:227
+msgid "Google Map"
+msgstr ""
+
+#: functions/page_builder.php:231
+msgid "Google map type"
+msgstr ""
+
+#: functions/page_builder.php:236
+msgid "Use Google map iframe code"
+msgstr ""
+
+#: functions/page_builder.php:237
+msgid "Use TCD Google Maps plugin"
+msgstr ""
+
+#: functions/page_builder.php:241
+msgid "Google map iframe code"
+msgstr ""
+
+#: functions/page_builder.php:246
+msgid "TCD Google Maps plugin short code"
+msgstr ""
+
+#: functions/page_builder.php:255
+msgid "Slider"
+msgstr ""
+
+#: functions/page_builder.php:281
+msgid "Tab"
+msgstr ""
+
+#: functions/page_builder.php:285
+msgid "Name of this tab"
+msgstr ""
+
+#: functions/page_builder.php:616 functions/page_builder.php:654
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: functions/page_builder.php:620 functions/page_builder.php:658
+#: functions/page_builder.php:925
+msgid "Open"
+msgstr ""
+
+#: functions/page_builder.php:866
+msgid "Page builder setting"
+msgstr ""
+
+#: functions/page_builder.php:901
+msgid ""
+"<p>You can use designed HTML content by using this Page Builder function."
+"<br />STEP:1  Click the blue button below.<br />STEP2:  Enter data in input "
+"field.<br />STEP3:  Copy and paste the short code to the post content area.</"
+"p>"
+msgstr ""
+
+#: functions/page_builder.php:930 functions/page_builder.php:985
+msgid "Copy and paste the short code below to the post content area."
+msgstr ""
+
+#: functions/page_cf.php:88
+msgid "Header setting"
+msgstr ""
+
+#: functions/page_cf.php:170
+msgid ""
+"Please use the option below if you want to make this page like Landing page."
+msgstr ""
+
+#: functions/page_cf.php:174
+msgid "Hide header image"
+msgstr ""
+
+#: functions/page_cf.php:176
+msgid "Change content width"
+msgstr ""
+
+#: functions/page_cf.php:196
+msgid "Header image setting"
+msgstr ""
+
+#: functions/page_cf.php:199
+msgid "Header image type"
+msgstr ""
+
+#: functions/page_cf.php:203
+msgid "Normal header image"
+msgstr ""
+
+#: functions/page_cf.php:207
+msgid "Full screen height header image (header will be hidden)"
+msgstr ""
+
+#: functions/page_cf.php:211
+msgid "Simple text"
+msgstr ""
+
+#: functions/page_cf.php:248
+msgid "Display description (mobile)"
+msgstr ""
+
+#: functions/page_cf.php:266
+msgid ""
+"Please use this option if you want to change background image in mobile "
+"device."
+msgstr ""
+
+#: functions/page_cf.php:267
+#, php-format
+msgid ""
+"Recommended size assuming for retina display. Width:%1$spx, Height:%2$spx."
+msgstr ""
+
+#: functions/page_cf.php:273
+msgid ""
+"By using overlay color, you can adjust the brightness of the image or create "
+"a mysterious impression."
+msgstr ""
+
+#: functions/page_cf.php:331
+msgid "Title setting"
+msgstr ""
+
+#: functions/page_lp.php:7
+msgid "LP page setting"
+msgstr ""
+
+#: functions/page_lp.php:31
+msgid ""
+"<p>STEP1: Click add content button.<br />STEP2: Select content from dropdown "
+"menu.<br />STEP3: Input data and save the option.</p><br /><p>You can change "
+"order by dragging MOVE button and you can delete content by clicking DELETE "
+"button.</p>"
+msgstr ""
+
+#: functions/page_lp.php:32
+msgid ""
+"<p>Margins will be automatically adjusted and displayed where the content is "
+"not set. You do not have to enter all the content.</p>"
+msgstr ""
+
+#: functions/page_lp.php:35 functions/page_lp.php:458
+msgid "Image content"
+msgstr ""
+
+#: functions/page_lp.php:37 functions/page_lp.php:551
+msgid "Image carousel"
+msgstr ""
+
+#: functions/page_lp.php:38 functions/page_lp.php:39
+msgid "Complete image"
+msgstr ""
+
+#: functions/page_lp.php:563
+msgid "Layer image content"
+msgstr ""
+
+#: functions/page_lp.php:615
+msgid "FAQ"
+msgstr ""
+
+#: functions/page_lp.php:730 functions/page_lp.php:946
+#: functions/page_lp.php:1187 functions/page_lp.php:1271
+#: functions/page_lp.php:1531 functions/page_lp.php:1666
+#, php-format
+msgid "Display %s"
+msgstr ""
+
+#: functions/page_lp.php:756
+msgid "Description (above image)"
+msgstr ""
+
+#: functions/page_lp.php:763
+msgid "Large image"
+msgstr ""
+
+#: functions/page_lp.php:778
+msgid "Small image"
+msgstr ""
+
+#: functions/page_lp.php:785
+msgid "Left image"
+msgstr ""
+
+#: functions/page_lp.php:798
+msgid "Right image"
+msgstr ""
+
+#: functions/page_lp.php:812
+msgid "Layout of image"
+msgstr ""
+
+#: functions/page_lp.php:816
+msgid "Display large image on top"
+msgstr ""
+
+#: functions/page_lp.php:820
+msgid "Display small image on top"
+msgstr ""
+
+#: functions/page_lp.php:824
+msgid "Description (below image)"
+msgstr ""
+
+#: functions/page_lp.php:925 functions/page_lp.php:1166
+#: functions/page_lp.php:1646 functions/page_lp.php:1712
+msgid "Display border under content"
+msgstr ""
+
+#: functions/page_lp.php:972
+msgid "Description (above content list)"
+msgstr ""
+
+#: functions/page_lp.php:980
+msgid "Content list setting"
+msgstr ""
+
+#: functions/page_lp.php:995 functions/page_lp.php:1032
+msgid "Background and font color will not be applyed in mobile device."
+msgstr ""
+
+#: functions/page_lp.php:1029
+msgid "New content"
+msgstr ""
+
+#: functions/page_lp.php:1065
+msgid "Description (below content list)"
+msgstr ""
+
+#: functions/page_lp.php:1231
+msgid "New image"
+msgstr ""
+
+#: functions/page_lp.php:1317
+msgid "Image blur for background image"
+msgstr ""
+
+#: functions/page_lp.php:1319
+msgid "The higher the number image will be blurry."
+msgstr ""
+
+#: functions/page_lp.php:1325
+msgid "No image blur"
+msgstr ""
+
+#: functions/page_lp.php:1398
+msgid "Display setting for layer image"
+msgstr ""
+
+#: functions/page_lp.php:1419
+msgid "Layer image (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1434
+msgid "Animation for layer image"
+msgstr ""
+
+#: functions/page_lp.php:1438
+msgid "Slide in from left"
+msgstr ""
+
+#: functions/page_lp.php:1439
+msgid "Slide in from right"
+msgstr ""
+
+#: functions/page_lp.php:1444
+msgid "Display position setting"
+msgstr ""
+
+#: functions/page_lp.php:1446
+msgid "Horizontal position of layer image"
+msgstr ""
+
+#: functions/page_lp.php:1453
+msgid "Vertical position of layer image"
+msgstr ""
+
+#: functions/page_lp.php:1460
+msgid "Horizontal position of text content"
+msgstr ""
+
+#: functions/page_lp.php:1467
+msgid "Vertical position of text content"
+msgstr ""
+
+#: functions/page_lp.php:1474
+msgid "Catchphrase alignment"
+msgstr ""
+
+#: functions/page_lp.php:1481
+msgid "Horizontal position of layer image (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1488
+msgid "Vertical position of layer image (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1495
+msgid "Vertical position of text content (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1502
+msgid "Catchphrase alignment (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1511
+msgid "Content size setting"
+msgstr ""
+
+#: functions/page_lp.php:1513
+msgid "Height of content"
+msgstr ""
+
+#: functions/page_lp.php:1514
+msgid "Height of content (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1515
+msgid "Width of text content"
+msgstr ""
+
+#: functions/page_lp.php:1565
+msgid "Question list setting"
+msgstr ""
+
+#: functions/page_lp.php:1567
+msgid ""
+"Click add new question button to add question.<br />You can change order by "
+"dragging question header."
+msgstr ""
+
+#: functions/page_lp.php:1577 functions/page_lp.php:1580
+#: functions/page_lp.php:1604
+msgid "Question"
+msgstr ""
+
+#: functions/page_lp.php:1583 functions/page_lp.php:1607
+msgid "Answer"
+msgstr ""
+
+#: functions/page_lp.php:1588
+msgid "Delete question"
+msgstr ""
+
+#: functions/page_lp.php:1601
+msgid "New question"
+msgstr ""
+
+#: functions/page_lp.php:1612
+msgid "Delete content"
+msgstr ""
+
+#: functions/page_lp.php:1620
+msgid "Add question"
+msgstr ""
+
+#: functions/page_lp.php:1626
+msgid "Color of active question"
+msgstr ""
+
+#: functions/page_lp.php:1637
+msgid "Font size of question"
+msgstr ""
+
+#: functions/page_lp.php:1638
+msgid "Font size of question (mobile)"
+msgstr ""
+
+#: functions/page_lp.php:1639
+msgid "Font size of answer"
+msgstr ""
+
+#: functions/page_lp.php:1640
+msgid "Font size of answer (mobile)"
+msgstr ""
+
+#: functions/password_form.php:44
+msgid "Select a content to encourage member registration."
+msgstr ""
+
+#: functions/password_form.php:167
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: functions/password_form.php:168
+msgid "Password:"
+msgstr ""
+
+#: functions/quick_edit.php:18 functions/seo.php:29
+msgid "Title tag"
+msgstr ""
+
+#: functions/quick_edit.php:22 functions/seo.php:34
+msgid "Meta description tag"
+msgstr ""
+
+#: functions/quick_edit.php:37 functions/recommend.php:26
+msgid "Show this post for recommend post"
+msgstr ""
+
+#: functions/quick_edit.php:38 functions/recommend.php:27
+msgid "Show this post for recommend post2"
+msgstr ""
+
+#: functions/quick_edit.php:39 functions/recommend.php:28
+msgid "Show this post for featured post"
+msgstr ""
+
+#: functions/recommend.php:24
+msgid "This option will be used in recommend post list and featured post list."
+msgstr ""
+
+#: functions/seo.php:6
+msgid "SEO setting"
+msgstr ""
+
+#: functions/seo.php:35
+#, php-format
+msgid "Recommended number of characters is %s."
+msgstr ""
+
+#: functions/seo.php:37
+msgid "Current character is : <span>0</span>"
+msgstr ""
+
+#: functions/seo.php:90 functions/seo.php:92 functions/seo.php:179
+#, php-format
+msgid "Post list for %s"
+msgstr ""
+
+#: functions/seo.php:95 search.php:5
+#, php-format
+msgid "Search result for %s"
+msgstr ""
+
+#: functions/seo.php:100 functions/seo.php:102 functions/seo.php:104
+#: functions/seo.php:169 functions/seo.php:171 functions/seo.php:173
+#: functions/seo.php:177 index.php:120 index.php:124 index.php:128
+#: template-parts/breadcrumb.php:41 template-parts/breadcrumb.php:43
+#: template-parts/breadcrumb.php:45
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: functions/seo.php:113
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions/update_notifier.php:15
+msgid "Theme Update"
+msgstr ""
+
+#: functions/update_notifier.php:39
+msgid "Theme Update Information"
+msgstr ""
+
+#: functions/update_notifier.php:41
+#, php-format
+msgid "The latest version of %s is released."
+msgstr ""
+
+#: functions/update_notifier.php:41
+#, php-format
+msgid "Current version is %s. You can update to the latest version, %s."
+msgstr ""
+
+#: functions/update_notifier.php:44
+msgid ""
+"Note: Please be sure to backup your theme before you update to the latest "
+"version."
+msgstr ""
+
+#: functions/update_notifier.php:45
+msgid "Download the latest version"
+msgstr ""
+
+#: functions/update_notifier.php:47
+msgid "Changelog"
+msgstr ""
+
+#: functions/user-profile.php:6
+msgid "Additional user data"
+msgstr ""
+
+#: functions/user-profile.php:15
+msgid "Show author profile at single page"
+msgstr ""
+
+#: functions/user-profile.php:17
+msgid "Show"
+msgstr ""
+
+#: functions/user-profile.php:45
+msgid "Contact page URL<br>(You can use mailto:)"
+msgstr ""
+
+#: functions/user-profile.php:54
+msgid "Profile image"
+msgstr ""
+
+#: functions/views.php:275 functions/views.php:393 functions/views.php:473
+msgid "Views"
+msgstr ""
+
+#: functions/views.php:295 functions/views.php:397
+msgid "Edit views"
+msgstr ""
+
+#: functions/views.php:314 functions/views.php:316
+msgid "Total views"
+msgstr ""
+
+#: functions/views.php:320
+msgid "Daily views"
+msgstr ""
+
+#: functions/views.php:321
+msgid "Weekly views"
+msgstr ""
+
+#: functions/views.php:322
+msgid "Monthly views"
+msgstr ""
+
+#: functions/views.php:323
+msgid "Yearly views"
+msgstr ""
+
+#: header.php:80
+msgid "menu"
+msgstr ""
+
+#: page-lp.php:5
+msgid "LP page"
+msgstr ""
+
+#: search.php:38
+msgid "Please enter search keyword."
+msgstr ""
+
+#: search.php:73
+msgid "No matching result was found."
+msgstr ""
+
+#: single-featured.php:81 single-featured.php:222 single-news.php:61
+#: single-news.php:126 single.php:73 single.php:143
+msgid "COPIED Title&amp;URL"
+msgstr ""
+
+#: single-featured.php:81 single-featured.php:222 single-news.php:61
+#: single-news.php:126 single.php:73 single.php:143
+msgid "COPY Title&amp;URL"
+msgstr ""
+
+#: single.php:152
+msgid "Author"
+msgstr ""
+
+#: template-parts/breadcrumb.php:11 template-parts/breadcrumb.php:18
+#: template-parts/breadcrumb.php:25 template-parts/breadcrumb.php:31
+#: template-parts/breadcrumb.php:48 template-parts/breadcrumb.php:55
+#: template-parts/breadcrumb.php:62
+msgid "Home"
+msgstr ""
+
+#: widget/ad.php:8
+msgid "AdSense (tcd ver)"
+msgstr ""
+
+#: widget/ad.php:11 widget/banner.php:11
+msgid "Show AdSense at random in front page."
+msgstr ""
+
+#: widget/ad.php:80
+msgid "One out of three AdSense will be displayed at random in front page."
+msgstr ""
+
+#: widget/ad.php:85
+msgid "AdSense"
+msgstr ""
+
+#: widget/ad.php:88
+msgid "Register AdSense code"
+msgstr ""
+
+#: widget/ad.php:89
+msgid ""
+"If you are using Google AdSense or similar kind of AdSense, enter all code "
+"below."
+msgstr ""
+
+#: widget/ad.php:92
+msgid ""
+"If you want to register banner image and affiliate code individually, leave "
+"the field above blank and use the field below."
+msgstr ""
+
+#: widget/ad.php:94
+msgid "Register AdSense image"
+msgstr ""
+
+#: widget/ad.php:105
+msgid "Register affiliate code or link url for registered image"
+msgstr ""
+
+#: widget/archive_list.php:14
+msgid "Displays designed archive dropdown menu."
+msgstr ""
+
+#: widget/archive_list.php:19
+msgid "Archive list (tcd ver)"
+msgstr ""
+
+#: widget/banner.php:8
+msgid "Banner (tcd ver)"
+msgstr ""
+
+#: widget/banner.php:159
+msgid "Banner"
+msgstr ""
+
+#: widget/category_list.php:9
+msgid "Category list (tcd ver)"
+msgstr ""
+
+#: widget/category_list.php:12
+msgid "Displays designed category list."
+msgstr ""
+
+#: widget/category_list.php:72
+msgid "Exclude category"
+msgstr ""
+
+#: widget/category_list.php:73
+msgid ""
+"Enter a comma-seperated list of category ID numbers, example 2,4,10<br /"
+">(Don't enter comma for last number)."
+msgstr ""
+
+#: widget/category_list.php:78
+msgid "Display post count"
+msgstr ""
+
+#: widget/category_list.php:79
+msgid "Show hierarchical menu"
+msgstr ""
+
+#: widget/google_search.php:9
+msgid "Google Custom Search (tcd-w ver)"
+msgstr ""
+
+#: widget/google_search.php:12
+msgid "Displays Google Custom Search form."
+msgstr ""
+
+#: widget/google_search.php:58
+msgid "Search"
+msgstr ""
+
+#: widget/google_search.php:61
+msgid ""
+"If you wan't to use google custom search for your wordpress, enter your "
+"google custom search ID.<br /><a href=\"http://www.google.com/cse/\" target="
+"\"_blank\">Read more about Google custom search page.</a>"
+msgstr ""
+
+#: widget/google_search.php:67
+msgid "Google custom search ID"
+msgstr ""
+
+#: widget/post_slider.php:9
+msgid "Post slider (tcd ver)"
+msgstr ""
+
+#: widget/post_slider.php:12
+msgid "Display post slider."
+msgstr ""
+
+#: widget/post_slider.php:153 widget/styled_post_list1.php:152
+msgid "Number of post"
+msgstr ""
+
+#: widget/post_slider.php:169 widget/styled_post_list1.php:168
+msgid "Post date"
+msgstr ""
+
+#: widget/profile.php:8
+msgid "Profile (tcd ver)"
+msgstr ""
+
+#: widget/profile.php:11
+msgid "Displays user profile."
+msgstr ""
+
+#: widget/profile.php:88
+msgid ""
+"Please set information from user <a target=\"_blank\" href=\"./profile.php"
+"\">profile page</a>."
+msgstr ""
+
+#: widget/profile.php:91
+msgid "User"
+msgstr ""
+
+#: widget/styled_post_list1.php:8
+msgid "Styled post list (tcd ver)"
+msgstr ""
+
+#: widget/styled_post_list1.php:11
+msgid "Displays styled post list."
+msgstr ""
